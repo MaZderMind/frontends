@@ -1,0 +1,21 @@
+%ul
+  - if @item[:title] =~ /[sS]aal/
+    %li.selected
+      %a{ href: '/saal/', } Saal
+  - else
+    %li
+      %a{ href: '/saal/', } Saal
+
+  - if @item[:title] =~ /[kK]onferenz/
+    %li.selected
+      %a{ href: '/konferenz/', } Konferenz
+  - else
+    %li
+      %a{ href: '/konferenz/', } Konferenz
+
+  - if @item[:title] =~ /[vV]ortrag/
+    %li.selected
+      %a{ href: '/vortrag/', } Vortrag
+  - else
+    %li
+      %a{ href: '/vortrag/', } Vortrag
