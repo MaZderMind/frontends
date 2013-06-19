@@ -1,6 +1,5 @@
 !!! 5
-!!! xml
-%html{ xmlns: 'http://www.w3.org/1999/xhtml', lang: :en, 'xml:lang' => :en }
+%html{ html_attrs('en') }
   %head
     %title
       STREAMING - SIGINT 2013 -
@@ -8,6 +7,7 @@
 
     %meta{ charset: 'utf-8' }
     %link{ href: '/css/style.css', type: 'text/css', rel: 'stylesheet' }
+    %link{ href: '//fonts.googleapis.com/css?family=Dosis:400&amp;subset=latin,latin-ext', type: 'text/css', rel: 'stylesheet' }
     %link{ href: '/css/video-js.min.css', type: 'text/css', rel: 'stylesheet' }
 
     %script{ src: '/js/video.js'}
@@ -17,7 +17,7 @@
   %body
     %header
       #logo
-        %img{ src: '/img/logo.png' }
+        %img{ src: '/img/logo.png', alt: 'SIGINT 2013' }
       %h1#header
         July 5
         %small
