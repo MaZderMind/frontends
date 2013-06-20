@@ -1,8 +1,8 @@
-Crashlog created at 2013-06-18 11:37:48 +0200
+Crashlog created at 2013-06-18 15:59:08 +0200
 
 ===== MESSAGE:
 
-Errno::EADDRINUSE: Address already in use - bind(2)
+NameError: uninitialized constant Nanoc::CompilerDSL::Haml
 
 ===== COMPILATION STACK:
 
@@ -10,33 +10,29 @@ Errno::EADDRINUSE: Address already in use - bind(2)
 
 ===== STACK TRACE:
 
-  0. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/webrick/utils.rb:85:in `initialize'
-  1. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/webrick/utils.rb:85:in `new'
-  2. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/webrick/utils.rb:85:in `block in create_listeners'
-  3. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/webrick/utils.rb:82:in `each'
-  4. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/webrick/utils.rb:82:in `create_listeners'
-  5. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:82:in `listen'
-  6. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:70:in `initialize'
-  7. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:45:in `initialize'
-  8. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/handler/webrick.rb:11:in `new'
-  9. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/handler/webrick.rb:11:in `run'
-  10. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib/nanoc/cli/commands/autocompile.rb:64:in `run'
-  11. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib/nanoc/cli/command_runner.rb:14:in `block in call'
-  12. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib/nanoc/cli/error_handler.rb:70:in `handle_while'
-  13. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
-  14. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib/nanoc/cli/command_runner.rb:13:in `call'
-  15. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/cri-2.3.0/lib/cri/command_dsl.rb:185:in `block in runner'
-  16. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/cri-2.3.0/lib/cri/command.rb:296:in `call'
-  17. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/cri-2.3.0/lib/cri/command.rb:296:in `run_this'
-  18. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/cri-2.3.0/lib/cri/command.rb:249:in `run'
-  19. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/cri-2.3.0/lib/cri/command.rb:262:in `run'
-  20. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib/nanoc/cli.rb:52:in `block in run'
-  21. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib/nanoc/cli/error_handler.rb:70:in `handle_while'
-  22. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
-  23. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib/nanoc/cli.rb:50:in `run'
-  24. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/bin/nanoc:19:in `<top (required)>'
-  25. /home/meise/.rbenv/versions/1.9.3-p392/bin/nanoc:23:in `load'
-  ... 28 more lines omitted. See full crash log for details.
+  0. ./Rules:70:in `load'
+  1. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib/nanoc/base/compilation/rules_collection.rb:78:in `instance_eval'
+  2. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib/nanoc/base/compilation/rules_collection.rb:78:in `load'
+  3. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib/nanoc/base/compilation/compiler.rb:120:in `load'
+  4. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib/nanoc/base/source_data/site.rb:250:in `load'
+  5. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib/nanoc/cli/command_runner.rb:63:in `load_site'
+  6. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib/nanoc/cli/commands/compile.rb:358:in `run'
+  7. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib/nanoc/cli/command_runner.rb:14:in `block in call'
+  8. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib/nanoc/cli/error_handler.rb:70:in `handle_while'
+  9. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
+  10. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib/nanoc/cli/command_runner.rb:13:in `call'
+  11. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/cri-2.3.0/lib/cri/command_dsl.rb:185:in `block in runner'
+  12. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/cri-2.3.0/lib/cri/command.rb:296:in `call'
+  13. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/cri-2.3.0/lib/cri/command.rb:296:in `run_this'
+  14. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/cri-2.3.0/lib/cri/command.rb:249:in `run'
+  15. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/cri-2.3.0/lib/cri/command.rb:262:in `run'
+  16. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib/nanoc/cli.rb:52:in `block in run'
+  17. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib/nanoc/cli/error_handler.rb:70:in `handle_while'
+  18. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
+  19. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib/nanoc/cli.rb:50:in `run'
+  20. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/bin/nanoc:19:in `<top (required)>'
+  21. /home/meise/.rbenv/versions/1.9.3-p392/bin/nanoc:23:in `load'
+  ... 24 more lines omitted. See full crash log for details.
 
 ===== VERSION INFORMATION:
 
@@ -294,13 +290,11 @@ XTERM_VERSION => "XTerm(278)"
   2. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/cri-2.3.0/lib
   3. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib
   4. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/bundler-1.3.5/lib
-  5. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib
-  6. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/mime-types-1.23/lib
-  7. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/site_ruby/1.9.1
-  8. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/site_ruby/1.9.1/x86_64-linux
-  9. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/site_ruby
-  10. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/vendor_ruby/1.9.1
-  11. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/vendor_ruby/1.9.1/x86_64-linux
-  12. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/vendor_ruby
-  13. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1
-  14. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/x86_64-linux
+  5. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/site_ruby/1.9.1
+  6. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/site_ruby/1.9.1/x86_64-linux
+  7. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/site_ruby
+  8. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/vendor_ruby/1.9.1
+  9. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/vendor_ruby/1.9.1/x86_64-linux
+  10. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/vendor_ruby
+  11. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1
+  12. /home/meise/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/x86_64-linux

@@ -33,7 +33,7 @@ compile '*' do
     when 'css'
       nil
     when 'haml'
-      filter :haml, { :ugly => true }
+      filter :haml, { :ugly => true, autoclose: ['<source>'], format: :xhtml }
       layout 'default'
       filter :relativize_paths, :type => :html
     when 'js'
@@ -66,4 +66,4 @@ route '*' do
   end
 end
 
-layout '*', :haml, {:ugly => true}
+layout '*', :haml, {:ugly => true, :autoclose => ['<source>'], format: :xhtml}
