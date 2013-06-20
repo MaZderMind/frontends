@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*body {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-size: 62.5%;
+  background: #317ba8 url(images/back.jpg) repeat-x top;
+  text-align:center;
+  margin-top: 30px;
+  color: #fff;
+}
+*/
+body {
+font-size: 62.5%;
+font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+background-color: #1f2d45;   
+background-image: url("images/earth.png");   
+background-repeat: no-repeat;   
+background-attachment: fixed;   
+background-position: -5% 100%;
+margin-top: 30px;
+color: #fff;
+text-align: center;
+}
+
+body a {
+color: white;
+margin: 0 5px;
+padding: 3px;
+text-decoration: none;
+background-color: grey;
+-moz-border-radius:  5px 5px 5px 5px;
+}
+
+#logo {
+  margin-bottom: 10px;
+}
+
+#player {
+  margin-top:20px;
+  margin-bottom:20px;
+  border: 1px solid #fff;
+}
+
+#main {
+  width:730px;
+  margin: 0 auto;
+}
+
+#now {
+ margin-bottom:20px;
+}
+
+
+ul {
+  margin: 0 auto;
+  text-align: center;
+  line-height: 20px;
+}
+
+ul li {
+  display:inline;
+  list-style-type:none;
+  margin:0 2px 0 0;
+  padding:2;
+  white-space:nowrap;
+}
+
+ul li a {
+  color:#fff;
+  font-weight:bold;
+  margin:0;
+  padding:4px 10px;
+  text-decoration:none;
+  width:100px;
+
+}
+
+#topmenu li a {
+font-size: 1.5em;
+}
+
