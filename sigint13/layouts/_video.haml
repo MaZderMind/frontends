@@ -1,3 +1,2 @@
 %video{ id: @item[:title].downcase, class: "video-js vjs-default-skin", width: '640', height: '360', controls: true, preload: 'auto', poster: '/img/rocket.png' }
-  %source{ src: "http://h264.streaming.sigint.ccc.de/#{@item[:title].downcase}.webm", type: 'video/webm' }/
-  %source{ src: "http://theora.streaming.sigint.ccc.de:8000/#{@item[:title].downcase}.ogg", type: 'video/ogg' }/
+  %source{ src: "http://live.streaming.sigint.ccc.de:8000/#{@item[:saal].downcase}.ogg", type: 'video/ogg' }/
