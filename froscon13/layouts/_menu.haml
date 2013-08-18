@@ -1,0 +1,16 @@
+%ul.sections
+  - @config[:rooms].each do |room|
+    - if @item[:title] =~ /#{room}/
+      %li.selected
+    - else
+      %li
+    %a{ href: "/#{room.gsub('/', '').downcase}/", }= room
+    %ul
+      %li.theora
+        %a{ href: "/formats/theora/#{room.gsub('/', '').downcase}/"} theora
+      %li.rtmp
+        %a{ href: "/formats/rtmp/#{room.gsub('/', '').downcase}/"} rtmp
+      %li.hls
+        %a{ href: "/formats/hls/#{room.gsub('/', '').downcase}/"} hls
+      %li.audio
+        %a{ href: "/formats/audio/#{room.gsub('/', '').downcase}/"} audio

@@ -1,3 +1,5 @@
 tmp
 *.log
 .idea
+.sass-cache
+*.scssc

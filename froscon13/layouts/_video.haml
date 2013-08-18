@@ -1,0 +1,15 @@
+- # format switch, theora default
+
+- case @item[:format]
+- when /rtmp/
+  %video{ id: @item[:title].downcase, class: "video-js vjs-default-skin", width: '640', height: '360', controls: true, preload: 'auto', poster: '/img/frog_button.png' }
+    %source{ src: "http://rtmp.streaming.media.ccc.de:8000/#{@item[:saal].downcase}.ogg", type: 'video/ogg' }/
+- when /hls/
+  %video{ id: @item[:title].downcase, class: "video-js vjs-default-skin", width: '640', height: '360', controls: true, preload: 'auto', poster: '/img/frog_button.png' }
+    %source{ src: "http://hls.streaming.media.ccc.de:/#{@item[:saal].downcase}.ogg", type: 'video/ogg' }/
+- when /audio/
+  %audio{ id: @item[:title].downcase, controls: true, preload: 'auto', poster: '/img/frog_button.png' }
+    %source{ src: "http://theora.streaming.media.ccc.de:/#{@item[:saal].downcase}_audio.oga", type: 'audio/ogg' }/
+- else
+  %video{ id: @item[:title].downcase, class: "video-js vjs-default-skin", width: '640', height: '360', controls: true, preload: 'auto', poster: '/img/frog_button.png' }
+    %source{ src: "http://theora.streaming.media.ccc.de:8000/#{@item[:saal].downcase}.ogg", type: 'video/ogg' }/
