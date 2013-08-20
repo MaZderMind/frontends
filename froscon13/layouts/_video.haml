@@ -2,14 +2,23 @@
 
 - case @item[:format]
 - when /rtmp/
-  %video{ id: @item[:title].downcase, class: "video-js vjs-default-skin", width: '640', height: '360', controls: true, preload: 'auto', poster: '/img/frog_button.png' }
-    %source{ src: "http://rtmp.streaming.media.ccc.de:8000/#{@item[:saal].downcase}.ogg", type: 'video/ogg' }/
+  <video  id="video" class="video-js vjs-default-skin" data-setup='{"techOrder": ["html5", "flash"]}' controls autoplay preload="auto" width='640' height='360' poster='/img/frog_button.png'>
+  <source src="rtmp://rtmp.streaming.media.ccc.de:1935/stream/#{@item[:saal].downcase}" type='rtmp/flv' }/>
+  </video>
+  - #%code
+  -# mplayer
+  -# = "rtmp://rtmp.streaming.media.ccc.de:1935/stream/#{@item[:saal].downcase}.mp4"
+
 - when /hls/
-  %video{ id: @item[:title].downcase, class: "video-js vjs-default-skin", width: '640', height: '360', controls: true, preload: 'auto', poster: '/img/frog_button.png' }
-    %source{ src: "http://hls.streaming.media.ccc.de:/#{@item[:saal].downcase}.ogg", type: 'video/ogg' }/
+  <video  id="video" class="video-js vjs-default-skin" data-setup='{"techOrder": ["html5", "flash"]}' width='640' height='360' controls preload="auto" poster='/img/frog_button.png'>
+  <source src="http://hls.streaming.media.ccc.de:1935/hls/#{@item[:saal].downcase}" type='video/mp4' }>
+  </video>
 - when /audio/
-  %audio{ id: @item[:title].downcase, controls: true, preload: 'auto', poster: '/img/frog_button.png' }
-    %source{ src: "http://theora.streaming.media.ccc.de:/#{@item[:saal].downcase}_audio.oga", type: 'audio/ogg' }/
+  <audio  id="audio" controls autoplay preload="auto" >
+  <source src="http://theora.streaming.media.ccc.de:8000/#{@item[:saal].downcase}_audio.oga" type='audio/ogg' }>
+  </audio>
+
 - else
-  %video{ id: @item[:title].downcase, class: "video-js vjs-default-skin", width: '640', height: '360', controls: true, preload: 'auto', poster: '/img/frog_button.png' }
-    %source{ src: "http://theora.streaming.media.ccc.de:8000/#{@item[:saal].downcase}.ogg", type: 'video/ogg' }/
+  <video  id="video" class="video-js vjs-default-skin" data-setup='{"techOrder": ["html5", "flash"]}' width='640' height='360' controls autoplay preload="auto" poster='/img/frog_button.png'>
+  <source src="http://theora.streaming.media.ccc.de:8000/#{@item[:saal].downcase}.ogg" type='video/ogg' }>
+  </video>

@@ -13,6 +13,15 @@ body {
 #header {
   float: center; }
 
+.vjs-control-bar {
+  font-size: 100%; }
+
+#video {
+  float: center;
+  text-align: center;
+  align: center;
+  display: inline-block; }
+
 #menubar {
   float: center;
   text-align: center;
