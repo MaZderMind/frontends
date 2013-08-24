@@ -15,8 +15,13 @@
   </video>
 - when /audio/
   <audio  id="audio" controls autoplay preload="auto" >
-  <source src="http://theora.streaming.media.ccc.de:8000/#{@item[:saal].downcase}_audio.oga" type='audio/ogg' }>
+  <source src="http://theora.streaming.media.ccc.de:8000/#{@item[:saal].downcase}_audio.ogg" type='audio/ogg' }>
   </audio>
+
+- when /winkekatze/
+  <video  id="video" class="video-js vjs-default-skin" data-setup='{"techOrder": ["html5", "flash"]}' width='640' height='360' controls autoplay preload="auto" poster='/img/frog_button.png'>
+  <source src="http://theora.streaming.media.ccc.de:8000/catcontent.ogg" type='video/ogg' }>
+  </video>
 
 - else
   <video  id="video" class="video-js vjs-default-skin" data-setup='{"techOrder": ["html5", "flash"]}' width='640' height='360' controls autoplay preload="auto" poster='/img/frog_button.png'>
