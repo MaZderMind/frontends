@@ -2,28 +2,39 @@
 
 - case @item[:format]
 - when /rtmp/
-  <video  id="video" class="video-js vjs-default-skin" data-setup='{"techOrder": ["html5", "flash"]}' controls autoplay preload="auto" width='640' height='360' poster='/img/rocket.png'>
+  <video  id="video" class="video-js vjs-default-skin" data-setup='{"techOrder": ["html5", "flash"]}' controls autoplay preload="auto" width='640' height='360' poster='/img/mrmcd_flight.png'>
   <source src="rtmp://rtmp.streaming.media.ccc.de:1935/stream/#{@item[:saal].downcase.gsub(' ', '')}" type='rtmp/flv' }/>
   </video>
+  %p
+    %a{ href: 'rtmp://rtmp.streaming.media.ccc.de:1935/stream/#{@item[:saal].downcase.gsub(' ', '')}' } Direktflug
   - #%code
   -# mplayer
   -# = "rtmp://rtmp.streaming.media.ccc.de:1935/stream/#{@item[:saal].downcase}.mp4"
 
 - when /hls/
-  <video  id="video" class="video-js vjs-default-skin" data-setup='{"techOrder": ["html5", "flash"]}' width='640' height='360' controls preload="auto" poster='/img/rocket.png'>
+  <video  id="video" class="video-js vjs-default-skin" data-setup='{"techOrder": ["html5", "flash"]}' width='640' height='360' controls preload="auto" poster='/img/mrmcd_flight.png'>
   <source src="http://hls.streaming.media.ccc.de:1935/hls/#{@item[:saal].downcase}" type='video/mp4' }>
   </video>
+  %p
+    %a{ href: 'http://hls.streaming.media.ccc.de:1935/hls/#{@item[:saal].downcase}' } Direktflug
+
 - when /audio/
   <audio  id="audio" controls autoplay preload="auto" >
   <source src="http://theora.streaming.media.ccc.de:8000/#{@item[:saal].downcase.gsub(' ', '')}_audio.ogg" type='audio/ogg' }>
   </audio>
+  %p
+    %a{ href: 'http://theora.streaming.media.ccc.de:8000/#{@item[:saal].downcase.gsub(' ', '')}_audio.ogg' } Direktflug
 
-- when /winkekatze/
-  <video  id="video" class="video-js vjs-default-skin" data-setup='{"techOrder": ["html5", "flash"]}' width='640' height='360' controls autoplay preload="auto" poster='/img/rocket.png'>
-  <source src="http://theora.streaming.media.ccc.de:8000/catcontent.ogg" type='video/ogg' }>
+- when /theora/
+  <video  id="video" class="video-js vjs-default-skin" data-setup='{"techOrder": ["html5", "flash"]}' width='640' height='360' controls autoplay preload="auto" poster='/img/mrmcd_flight.png'>
+  <source src="http://theora.streaming.media.ccc.de:8000/#{@item[:saal].downcase.gsub(' ', '')}" type='video/ogg'>
   </video>
+  %p
+    %a{ href: 'http://theora.streaming.media.ccc.de:8000/#{@item[:saal].downcase.gsub(' ', '')}' } Direktflug
 
 - else
-  <video  id="video" class="video-js vjs-default-skin" data-setup='{"techOrder": ["html5", "flash"]}' width='640' height='360' controls autoplay preload="auto" poster='/img/rocket.png'>
+  <video  id="video" class="video-js vjs-default-skin" data-setup='{"techOrder": ["html5", "flash"]}' width='640' height='360' controls autoplay preload="auto" poster='/img/mrmcd_flight.png'>
   <source src="http://theora.streaming.media.ccc.de:8000/#{@item[:saal].downcase.gsub(' ', '')}.ogg" type='video/ogg' }>
   </video>
+  %p
+    %a{ href: 'http://theora.streaming.media.ccc.de:8000/#{@item[:saal].downcase.gsub(' ', '')}.ogg' } Direktflug
