@@ -59,6 +59,8 @@ route '/css/*/' do
   else
     if item.identifier.start_with?('/css/font/vjs_')
       item.identifier.chop + '.' + item[:extension]
+    elsif item.identifier.start_with?('/css/font/mingraymono_regular_')
+      item.identifier.chop + '.' + item[:extension]
     else
       item.identifier.gsub(/\/$/, '') + '.css'
     end

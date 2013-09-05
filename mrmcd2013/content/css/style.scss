@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'mingray_mono_regular';
+    src: url('font/mingraymono_regular_eot.eot');
+    src: url('font/mingraymono_regular_eot.eot?#iefix') format('embedded-opentype'),
+         url('font/mingraymono_regular_woff.woff') format('woff'),
+         url('font/mingraymono_regular_ttf.ttf') format('truetype'),
+         url('font/mingraymono_regular_svg.svg#mingray_monoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 *  {
   margin: 0px;
   padding: 0px;
@@ -6,7 +18,7 @@
 body {
   color: black;
   background-color: white;
-  font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+  font-family: 'mingray_mono_regular', 'Consolas', 'Monaco', sans-serif;
   font-size: 20px;
   letter-spacing: .03em;
   line-height: 1.5;
@@ -66,7 +78,7 @@ body {
       margin: 0px 0px 20px 0px;
       border-left: 1px black;
       line-height: 0px;
-      background-color: #00AFEB;
+      background-color: #e5e5e5;
 
       ul {
         float: none;
@@ -116,7 +128,6 @@ body {
     }
 
     a {
-      font-family: arial, sans-serif;
       font-size: 12px;
       font-weight: bold;
       display: block;
