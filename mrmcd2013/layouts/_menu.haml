@@ -4,9 +4,9 @@
       %li.selected
     - else
       %li
-    %a{ href: "/#{room.gsub('/', '').downcase}/", }= room
+    %a{ href: "/#{room.gsub('/', '').gsub(' ', '').downcase}/", }= room
     %ul
       %li.theora
-        %a{ href: "/formats/theora/#{room.gsub('/', '').downcase}/"} theora
+        %a{ href: "/formats/theora/#{room.gsub('/', '').gsub(' ', '').downcase}/"} theora
       %li.audio
-        %a{ href: "/formats/audio/#{room.gsub('/', '').downcase}/"} audio
+        %a{ href: "/formats/audio/#{room.gsub('/', '').gsub(' ', '').downcase}/"} audio
