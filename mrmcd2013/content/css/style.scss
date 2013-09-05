@@ -1,0 +1,156 @@
+*  {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  color: black;
+  background-color: white;
+  font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+  font-size: 20px;
+  letter-spacing: .03em;
+  line-height: 1.5;
+}
+
+#header {
+  float: center;
+}
+
+.vjs-control-bar { font-size: 100% }
+
+
+#video {
+  float: center;
+  text-align: center;
+  align: center;
+  display: inline-block;
+}
+
+#menubar {
+  float: center;
+  text-align: center;
+  display: block;
+  margin-top: 5px;
+
+
+
+  ul {
+    margin: auto;
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;
+
+    li:first-of-type {
+      border-left: none;
+    }
+
+    li.selected {
+      background-color: black;
+      a {
+        color: white;
+      }
+
+      ul {
+        li {
+          a {
+            color: black;
+          }
+        }
+      }
+    }
+
+    li {
+      position: relative;
+      float: left;
+      padding: 0px 0px 0 10px;
+      margin: 0px 0px 20px 0px;
+      border-left: 1px black;
+      line-height: 0px;
+      background-color: #00AFEB;
+
+      ul {
+        float: none;
+        display: none;
+        position: absolute;
+        margin:0;
+        top: 30px;
+        padding:0;
+        white-space: nowrap;
+        font-size:0;
+
+        li:hover {
+          background-color: black;
+
+          a {
+            color: white;
+          }
+        }
+
+        li {
+          position: static;
+          float: none;
+          display: inline-block;
+          padding:0;
+          margin:0px;
+
+          a {
+            display:block;
+            margin: 0 0px 0 0px;
+            padding: 0 10px;
+            line-height:30px;
+            font-weight: normal;
+            -webkit-border-radius: 0;
+            border-radius: 0;
+            color: black;
+          }
+        }
+      }
+
+      ul:hover {
+        display: block;
+      }
+    }
+
+    li:hover ul {
+      display: block;
+    }
+
+    a {
+      font-family: arial, sans-serif;
+      font-size: 12px;
+      font-weight: bold;
+      display: block;
+      color: black;
+      text-decoration: none;
+      padding: 15px 10px 15px 10px;
+    }
+  }
+}
+
+a {
+  color: #00A2E1;
+}
+
+#content {
+  text-align: center;
+  display: block;
+  margin-top: 5px;
+}
+
+p {
+  a {
+    font-style: italic;
+  }
+
+  small {
+    font-size: small;
+  }
+}
+
+.menu_further_information {
+  margin-top: 0px;
+}
+
+#logo {
+  text-align: center;
+}
