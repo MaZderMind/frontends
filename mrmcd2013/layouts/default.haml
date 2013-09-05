@@ -1,0 +1,30 @@
+!!! 5
+%html{ html_attrs('en') }
+  %head
+    %title
+      STREAMING - MRMCD2013 -
+      = @item[:title]
+
+    %meta{ charset: 'utf-8' }
+    %link{ href: '/css/style.css', type: 'text/css', rel: 'stylesheet' }
+    %link{ href: '/css/video-js.css', type: 'text/css', rel: 'stylesheet' }
+
+    %script{ src: '/js/video.js'}
+    %script
+      videojs.options.flash.swf = '/video-js.swf'
+
+  %body
+    #header
+      #logo
+        %a{ href: '/' }
+          %img{ src: '/img/mrmcd_copy-Logo-1.png', alt: 'MRMCD2013' }
+
+    #menubar
+      = render '_menu'
+
+    #content
+      = yield
+
+      %p.menu_further_information
+        %small
+          %a{ href: 'https://frab.cccv.de/de/MRMCD2013/public/schedule/' } Schedule
