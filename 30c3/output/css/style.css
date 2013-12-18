@@ -1,0 +1,52 @@
+/*
+    320px *
+    480px
+    600px
+    768px
+    900px
+    1200px *
+    1900px *
+ */
+@media screen and (min-width: 320px) {
+  body {
+    background-image: url("/img/iPhone_320x480.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    color: yellow; }
+
+  .logo {
+    width: 50%;
+    hight: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; } }
+@media screen and (min-width: 1200px) {
+  body {
+    background-image: url("/img/1280x800-NEW.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-width: 100%;
+    background-hight: 100%;
+    color: red; }
+
+  .logo {
+    width: 15%;
+    hight: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: 20px; } }
+@media screen and (min-width: 1900px) {
+  body {
+    background-image: url("/img/2880x1800-NEW.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-width: 100%;
+    background-hight: 100%;
+    color: green; }
+
+  .logo {
+    width: 10%;
+    hight: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: 20px; } }
