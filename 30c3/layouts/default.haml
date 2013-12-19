@@ -6,16 +6,44 @@
       = @item[:title]
 
     %meta{ charset: 'utf-8' }
+    %script{ type: "text/javascript", src: "/js/jquery.js" }
+    %script{ type: "text/javascript", src: "/js/mediaelement-and-player.min.js" }
     %link{ href: '/css/style.css', type: 'text/css', rel: 'stylesheet' }
+    %link{ href: '/css/mediaelementplayer.css', type: 'text/css', rel: 'stylesheet' }
+
+    :javascript
+      jQuery(document).ready(function($) {
+          $('audio,video').mediaelementplayer({
+              features: [ 'playpause', 'current', 'progress', 'volume', 'fullscreen'],
+              alwaysShowControls: false,
+              videoVolume: 'vertical'
+          });
+
+          var can = document.getElementById('rocket');
+          var ctx = can.getContext('2d');
+
+
+          var img = new Image();
+          img.src = "/img/rocket_png.png"; //transparent png
+          img.onload = function() {
+              ctx.drawImage(img, 0, 0);
+          }
+
+      });
+
+  %canvas#rocket{ width: '579', height: '687' }
   %body
-    #header
+    %header
+      #menu
+        %ul
+          %li Saal 1
+          %li Saal 2
+          %li Saal G
+          %li Saal 6
       #logo
         %img{ class: 'logo', src: '/img/logo.svg' }
 
-
-    #menubar
-      - # = render '_menu'
-      möp
-
     #content
       = yield
+    %footer
+

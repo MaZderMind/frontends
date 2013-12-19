@@ -1,0 +1,7 @@
+%video{ id: 'saalx_$format', width: '640', height: '360', controls: true, preload: 'auto', poster: '/img/' }
+  %source{ src: "http://webm.streaming.voc.media.ccc.de:8000/saal1_native.webm", type: "video/webm; codecs='vp8, vorbis'" }/
+  %source{ src: "http://hls.streaming.voc.media.ccc.d/saal1_native.m3u8", type: "video/mp4; codecs='avc1.42E01E, mp4a.40.2'" }/
+  %source{ src: "rtmp://rtmp.streaming.voc.media.ccc.d:1935/stream/saal1_translated_hq", type: "video/mp4; codecs='avc1.42E01E, mp4a.40.2'" }/
+  %object{ width: '640', height: '480', type: 'application/x-shockwave-flash', data: '/static/flashmediaelement.swf'}
+    %param{ name: "movie", value: "flashmediaelement.swf" }/
+    %param{ name:"flashvars", value: "controls=true&file=myvideo.mp4" }/

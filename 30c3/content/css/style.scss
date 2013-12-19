@@ -8,6 +8,65 @@
     1900px *
  */
 
+
+* {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+}
+
+#rocket {
+  position: fixed;
+  opacity:0.6;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: transparent;
+}
+
+body {
+  font-family: verdana, arial, helvetica, sans-serif;
+}
+
+header {
+  display: block;
+
+
+
+  a {
+
+  }
+}
+
+#content {
+  /*background-color: rgba(#004c55, .7); */
+  /* background-color: rgba(#000, .7); */
+  background-color: rgba(#000,.7);
+  display: block;
+  margin-bottom: auto;
+  margin-top: auto;
+  width: 100%;
+  text-align: center;
+
+  video {
+    background-color: #000;
+    margin-left: auto;
+    margin-right: auto;
+
+    float: center;
+    text-align: center;
+    align: center;
+    vertical-align: baseline;
+    text-align: center ;
+    display: inline-block;
+  }
+}
+
+footer {
+  background-color: rgba(#003339, .7);
+  height: 40px;
+}
+
 @media screen and (min-width: 320px) {
   body {
     background-image: url('/img/iPhone_320x480.jpg');
@@ -23,6 +82,7 @@
     margin-left: auto;
     margin-right: auto;
   }
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -33,14 +93,31 @@
     background-width: 100%;
     background-hight: 100%;
     color: red;
-  }
 
-  .logo {
-    width: 15%;
-    hight: 15%;
-    display: block;
-    margin-left: auto;
-    margin-right: 20px;
+    header {
+      #menu {
+        ul {
+          margin: auto;
+          padding: 0;
+          list-style-type: none;
+          display: inline-block;
+
+          li:first-of-type {
+            border-left: none;
+          }
+
+        }
+      }
+
+
+      .logo {
+        width: 15%;
+        hight: 15%;
+        display: block;
+        margin-left: auto;
+        margin-right: 20px;
+      }
+    }
   }
 }
 
