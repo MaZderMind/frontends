@@ -1,5 +1,55 @@
 ---
-title: Home
+title: Streaming
 ---
 
-= render '_video'
+.text
+
+  %dl
+    %h2
+      %a{ href: '/saal1/'}
+        Saal 1
+    %dd RTMP
+    %dt
+      %a{ href: '/saal1/rtmp/hd/'} HD
+      %a{ href: '/saal1/rtmp/hq/'} HQ
+      %a{ href: '/saal1/rtmp/lq/'} LQ
+    %dd HLS
+    %dt
+      %a{ href: '/saal1/hls/hd/'} HD
+      %a{ href: '/saal1/hls/vb/'} Variable Bitrate
+    %dd WebM
+    %dt
+      %a{ href: '/saal1/webm/hq/'} HQ
+    %dd Audio
+    %dt
+      %a{ href: '/saal1/opus/'} opus
+      %a{ href: '/saal1/mp3/hd/'} mp3
+
+  - ['Saal 2', 'Saal G', 'Saal 6'].each do |room|
+    %dl
+      %h2
+        %a{ href: "/#{room.delete(' ').downcase}/"}
+          = room
+      %dd RTMP
+      %dt
+        %a{ href: "#{room.delete(' ').downcase}/rtmp/hd/"} HQ
+        %a{ href: "/#{room.delete(' ').downcase}/rtmp/lq/"} LQ
+      %dd HLS
+      %dt
+        %a{ href: "/#{room.delete(' ').downcase}/hls/vb/"} Variable Bitrate
+      %dd WebM
+      %dt
+        %a{ href: "/#{room.delete(' ').downcase}/hls/hq/"} HQ
+      %dd Audio
+      %dt
+        %a{ href: "/#{room.delete(' ').downcase}/audio/opus/"} opus
+        %a{ href: "/#{room.delete(' ').downcase}/audio/mp3/"} mp3
+
+
+  %dl
+    %h2
+      %a{ href: '/lounge/' } Lounge
+    %dd Audio
+    %dt
+      %a{ href: '/lounge/mp3/'} MP3
+      %a{ href: '/lounge/opus/'} Opus

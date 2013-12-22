@@ -1,13 +1,7 @@
-/*
-    320px *
-    480px
-    600px
-    768px
-    900px
-    1200px *
-    1900px *
- */
-
+@font-face {
+  font-family: RamseyBook;
+  src: url("/static/ramsey-book.otf") format("opentype");
+}
 
 * {
   margin-left: 0;
@@ -15,58 +9,194 @@
   padding: 0;
 }
 
-#rocket {
-  position: fixed;
-  opacity:0.6;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  background: transparent;
-}
-
 body {
   font-family: verdana, arial, helvetica, sans-serif;
-}
+  background: url("/img/blackhole_drop.jpg") no-repeat -450px -300px;
+  background-attachment: fixed;
+  background-color: #02f0fb;
 
-header {
-  display: block;
+  #header {
+                                   /* 30c3 */
+    .logo {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
 
+      img {
+        width: 283px;
+        height: 108px;
+      }
+    }
 
-
-  a {
-
+    .headline {
+      border-bottom: 2px black;
+      text-align: center;
+      font-family: RamseyBook, verdana, arial, helvetica, sans-serif;
+      font-size: 39px;
+      color: #ffffff;
+      text-shadow: -3px 0 #0099AB, 0 3px #0099AB, 3px 0 #0099AB, 0 -3px #0099AB;
+    }
   }
-}
 
-#content {
-  /*background-color: rgba(#004c55, .7); */
-  /* background-color: rgba(#000, .7); */
-  background-color: rgba(#000,.7);
-  display: block;
-  margin-bottom: auto;
-  margin-top: auto;
-  width: 100%;
-  text-align: center;
+  #content {
+    height: 100%;
 
-  video {
-    background-color: #000;
+    h2 {
+      font-family: RamseyBook, verdana, arial, helvetica, sans-serif;
+      font-size: 24px;
+      color: #0099AB;
+      margin-bottom: 5px;
+      margin-top: 15px;
+
+      font-weight: 500;
+      line-height: 1.1;
+
+      a:link, a:hover, a:visited {
+        font-family: RamseyBook, verdana, arial, helvetica, sans-serif;
+        font-size: 24px;
+        color: #0099AB;
+        text-decoration: none;
+      }
+    }
+
+    .video {
+      background: rgba(255,255,255,0.85);
+      width: 640px ;
+      margin-left: auto ;
+      margin-right: auto ;
+    }
+
+    .text {
+      background: rgba(255,255,255,0.85);
+      width: 640px;
+      height: 360px;
+
+      margin-left: auto;
+      margin-right: auto;
+
+
+      dl {
+        float: left;
+        width: 40%;
+        height: 100px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        padding-left: 15px;
+      }
+
+      dd {
+        float: left;
+        width: 70px;
+        margin: 0;
+        padding: 0;
+      }
+
+      dd:after {
+        content: ':';
+      }
+
+      dt {
+        padding-right: 0px;
+
+        a:link, a:hover, a:visited {
+          font-family: verdana, arial, helvetica, sans-serif;
+          color: #0099AB;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  #footer {
+    /* background: rgba(0, 51, 57, 0.7); */
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 640px;
+    height: 30px;
+
+    padding-top: 5px;
+    margin-bottom: 5px;
+
     margin-left: auto;
     margin-right: auto;
-
-    float: center;
     text-align: center;
-    align: center;
-    vertical-align: baseline;
-    text-align: center ;
-    display: inline-block;
+    position:relative;
+
+
+    .links {
+      display: inline;
+      position: relative;
+
+      a:link, a:hover, a:visited {
+        font-family: RamseyBook, verdana, arial, helvetica, sans-serif;
+        font-size: 23-15px;
+        color: #ffffff;
+        text-decoration: none;
+        text-shadow: -1px 0 #0099AB, 0 1px #0099AB, 1px 0 #0099AB, 0 -1px #0099AB;
+      }
+    }
+
+    .voc_logo {
+      position:absolute;
+      display: inline;
+      float: right;
+      right: 125px;
+
+      img {
+        width: 26px;
+        height: 20px;
+      }
+    }
+
+    .fem_logo {
+      position:absolute;
+      display: inline;
+      float: right;
+      right: 15px;
+      margin-left: 5px;
+
+      img {
+        width: 95px;
+        height: 20px;
+      }
+    }
+  }
+
+  .rocket {
+    z-index: -1;
+    position: fixed;
+    top: 5px;
+    left: 125px;
+    width: 290px;
+    height: 343px;
+    background: url('/img/rocket_png_klein.png') no-repeat;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg);
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+    transition: all 1s ease-in;
+  }
+
+  .logo:hover .rocket {
+    -webkit-transform: translate(800px,-200px) rotate(30deg);
+    -moz-transform: translate(800px,-200px) rotate(30deg);
+    -o-transform: translate(800px,-200px) rotate(30deg);
+    -ms-transform: translate(540px,-200px) rotate(30deg);
+    transform: translate(800px,-200px) rotate(30deg);
+
+      -webkit-transform: translate(800px,-200px) rotate(30deg);
+    -moz-transform: translate(800px,-200px) rotate(30deg);
+    -o-transform: translate(800px,-200px) rotate(30deg);
+    -ms-transform: translate(540px,-200px) rotate(30deg);
+    transform: translate(800px,-200px) rotate(30deg);
   }
 }
 
-footer {
-  background-color: rgba(#003339, .7);
-  height: 40px;
-}
-
+/*
 @media screen and (min-width: 320px) {
   body {
     background-image: url('/img/iPhone_320x480.jpg');
@@ -138,4 +268,4 @@ footer {
     margin-left: auto;
     margin-right: 20px;
   }
-}
+}  */

@@ -1,101 +1,216 @@
-/*
-    320px *
-    480px
-    600px
-    768px
-    900px
-    1200px *
-    1900px *
- */
+@font-face {
+  font-family: RamseyBook;
+  src: url("/static/ramsey-book.otf") format("opentype"); }
+
 * {
   margin-left: 0;
   margin-right: 0;
   padding: 0; }
 
-#rocket {
-  position: fixed;
-  opacity: 0.6;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  background: transparent; }
-
 body {
-  font-family: verdana, arial, helvetica, sans-serif; }
-
-header {
-  display: block; }
-
-#content {
-  /*background-color: rgba(#004c55, .7); */
-  /* background-color: rgba(#000, .7); */
-  background-color: rgba(0, 0, 0, 0.7);
-  display: block;
-  margin-bottom: auto;
-  margin-top: auto;
-  width: 100%;
-  text-align: center; }
-  #content video {
-    background-color: #000;
+  font-family: verdana, arial, helvetica, sans-serif;
+  background: url("/img/blackhole_drop.jpg") no-repeat -450px -300px;
+  background-attachment: fixed;
+  background-color: #02f0fb; }
+  body #header {
+    /* 30c3 */ }
+    body #header .logo {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center; }
+      body #header .logo img {
+        width: 283px;
+        height: 108px; }
+    body #header .headline {
+      border-bottom: 2px black;
+      text-align: center;
+      font-family: RamseyBook, verdana, arial, helvetica, sans-serif;
+      font-size: 39px;
+      color: #ffffff;
+      text-shadow: -3px 0 #0099AB, 0 3px #0099AB, 3px 0 #0099AB, 0 -3px #0099AB; }
+  body #content {
+    height: 100%; }
+    body #content h2 {
+      font-family: RamseyBook, verdana, arial, helvetica, sans-serif;
+      font-size: 24px;
+      color: #0099AB;
+      margin-bottom: 5px;
+      margin-top: 15px;
+      font-weight: 500;
+      line-height: 1.1; }
+      body #content h2 a:link, body #content h2 a:hover, body #content h2 a:visited {
+        font-family: RamseyBook, verdana, arial, helvetica, sans-serif;
+        font-size: 24px;
+        color: #0099AB;
+        text-decoration: none; }
+    body #content .video {
+      background: rgba(255, 255, 255, 0.85);
+      width: 640px;
+      margin-left: auto;
+      margin-right: auto; }
+    body #content .text {
+      background: rgba(255, 255, 255, 0.85);
+      width: 640px;
+      height: 360px;
+      margin-left: auto;
+      margin-right: auto; }
+      body #content .text dl {
+        float: left;
+        width: 40%;
+        height: 100px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        padding-left: 15px; }
+      body #content .text dd {
+        float: left;
+        width: 70px;
+        margin: 0;
+        padding: 0; }
+      body #content .text dd:after {
+        content: ':'; }
+      body #content .text dt {
+        padding-right: 0px; }
+        body #content .text dt a:link, body #content .text dt a:hover, body #content .text dt a:visited {
+          font-family: verdana, arial, helvetica, sans-serif;
+          color: #0099AB;
+          text-decoration: none; }
+  body #footer {
+    /* background: rgba(0, 51, 57, 0.7); */
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 640px;
+    height: 30px;
+    padding-top: 5px;
+    margin-bottom: 5px;
     margin-left: auto;
     margin-right: auto;
-    float: center;
     text-align: center;
-    align: center;
-    vertical-align: baseline;
-    text-align: center;
-    display: inline-block; }
+    position: relative; }
+    body #footer .links {
+      display: inline;
+      position: relative; }
+      body #footer .links a:link, body #footer .links a:hover, body #footer .links a:visited {
+        font-family: RamseyBook, verdana, arial, helvetica, sans-serif;
+        font-size: 23 -15px;
+        color: #ffffff;
+        text-decoration: none;
+        text-shadow: -1px 0 #0099AB, 0 1px #0099AB, 1px 0 #0099AB, 0 -1px #0099AB; }
+    body #footer .voc_logo {
+      position: absolute;
+      display: inline;
+      float: right;
+      right: 125px; }
+      body #footer .voc_logo img {
+        width: 26px;
+        height: 20px; }
+    body #footer .fem_logo {
+      position: absolute;
+      display: inline;
+      float: right;
+      right: 15px;
+      margin-left: 5px; }
+      body #footer .fem_logo img {
+        width: 95px;
+        height: 20px; }
+  body .rocket {
+    z-index: -1;
+    position: fixed;
+    top: 5px;
+    left: 125px;
+    width: 290px;
+    height: 343px;
+    background: url("/img/rocket_png_klein.png") no-repeat;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg);
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+    transition: all 1s ease-in; }
+  body .logo:hover .rocket {
+    -webkit-transform: translate(800px, -200px) rotate(30deg);
+    -moz-transform: translate(800px, -200px) rotate(30deg);
+    -o-transform: translate(800px, -200px) rotate(30deg);
+    -ms-transform: translate(540px, -200px) rotate(30deg);
+    transform: translate(800px, -200px) rotate(30deg);
+    -webkit-transform: translate(800px, -200px) rotate(30deg);
+    -moz-transform: translate(800px, -200px) rotate(30deg);
+    -o-transform: translate(800px, -200px) rotate(30deg);
+    -ms-transform: translate(540px, -200px) rotate(30deg);
+    transform: translate(800px, -200px) rotate(30deg); }
 
-footer {
-  background-color: rgba(0, 51, 57, 0.7);
-  height: 40px; }
-
+/*
 @media screen and (min-width: 320px) {
   body {
-    background-image: url("/img/iPhone_320x480.jpg");
+    background-image: url('/img/iPhone_320x480.jpg');
     background-size: auto;
     background-repeat: no-repeat;
-    color: yellow; }
+    color: yellow;
+  }
 
   .logo {
     width: 50%;
     hight: 50%;
     display: block;
     margin-left: auto;
-    margin-right: auto; } }
+    margin-right: auto;
+  }
+
+}
+
 @media screen and (min-width: 1200px) {
   body {
-    background-image: url("/img/1280x800-NEW.jpg");
+    background-image: url('/img/1280x800-NEW.jpg');
     background-size: auto;
     background-repeat: no-repeat;
     background-width: 100%;
     background-hight: 100%;
-    color: red; }
-    body header #menu ul {
-      margin: auto;
-      padding: 0;
-      list-style-type: none;
-      display: inline-block; }
-      body header #menu ul li:first-of-type {
-        border-left: none; }
-    body header .logo {
-      width: 15%;
-      hight: 15%;
-      display: block;
-      margin-left: auto;
-      margin-right: 20px; } }
+    color: red;
+
+    header {
+      #menu {
+        ul {
+          margin: auto;
+          padding: 0;
+          list-style-type: none;
+          display: inline-block;
+
+          li:first-of-type {
+            border-left: none;
+          }
+
+        }
+      }
+
+
+      .logo {
+        width: 15%;
+        hight: 15%;
+        display: block;
+        margin-left: auto;
+        margin-right: 20px;
+      }
+    }
+  }
+}
+
 @media screen and (min-width: 1900px) {
   body {
-    background-image: url("/img/2880x1800-NEW.jpg");
+    background-image: url('/img/2880x1800-NEW.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-width: 100%;
     background-hight: 100%;
-    color: green; }
+    color: green;
+  }
 
   .logo {
     width: 10%;
     hight: 10%;
     display: block;
     margin-left: auto;
-    margin-right: 20px; } }
+    margin-right: 20px;
+  }
+}  */

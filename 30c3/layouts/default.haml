@@ -6,10 +6,12 @@
       = @item[:title]
 
     %meta{ charset: 'utf-8' }
-    %script{ type: "text/javascript", src: "/js/jquery.js" }
-    %script{ type: "text/javascript", src: "/js/mediaelement-and-player.min.js" }
     %link{ href: '/css/style.css', type: 'text/css', rel: 'stylesheet' }
     %link{ href: '/css/mediaelementplayer.css', type: 'text/css', rel: 'stylesheet' }
+
+
+    %script{ type: "text/javascript", src: "/js/jquery.js" }
+    %script{ type: "text/javascript", src: "/js/mediaelement-and-player.min.js" }
 
     :javascript
       jQuery(document).ready(function($) {
@@ -18,32 +20,35 @@
               alwaysShowControls: false,
               videoVolume: 'vertical'
           });
-
-          var can = document.getElementById('rocket');
-          var ctx = can.getContext('2d');
-
-
-          var img = new Image();
-          img.src = "/img/rocket_png.png"; //transparent png
-          img.onload = function() {
-              ctx.drawImage(img, 0, 0);
-          }
-
       });
 
-  %canvas#rocket{ width: '579', height: '687' }
   %body
-    %header
-      #menu
-        %ul
-          %li Saal 1
-          %li Saal 2
-          %li Saal G
-          %li Saal 6
-      #logo
-        %img{ class: 'logo', src: '/img/logo.svg' }
+    #container
+      .rocket
 
-    #content
-      = yield
-    %footer
+      #header
+        .logo
+          %a{ href: '/'}
+            %img{ src: '/img/logo.svg' }
 
+        .headline
+          - if @item[:room]
+            = "30C3: Streaming - #{@item[:room]}"
+          -else
+            = "30C3: Streaming"
+
+      #content
+        = yield
+
+      #footer
+        .links
+          %a{ href: 'https://events.ccc.de/congress/2013/wiki/Static:Documentation' } Wiki
+          |
+          %a{ href: 'https://twitter.com/c3streaming' } Twitter
+
+        .voc_logo
+          %a{ href: 'http://ccc.de'}
+            %img{ src: '/img/voc_logo.svg', alt: 'CCC Video Operations Center'}
+        .fem_logo
+          %a{ href: 'http://fem.tu-ilmenau.de'}
+            %img{ src: '/img/fem_logo.svg', alt: 'Forschungsgemeinschaft elektronische Medien' }

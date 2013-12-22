@@ -4,12 +4,12 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>
 30C3
-Home
+Streaming
 </title>
 <meta charset="utf-8">
-<script src="js/jquery.js" type="text/javascript"></script><script src="js/mediaelement-and-player.min.js" type="text/javascript"></script><link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
 <link href="css/mediaelementplayer.css" rel="stylesheet" type="text/css">
-<script type="text/javascript">
+<script src="js/jquery.js" type="text/javascript"></script><script src="js/mediaelement-and-player.min.js" type="text/javascript"></script><script type="text/javascript">
   //<![CDATA[
     jQuery(document).ready(function($) {
         $('audio,video').mediaelementplayer({
@@ -17,39 +17,154 @@ Home
             alwaysShowControls: false,
             videoVolume: 'vertical'
         });
-    
-        var can = document.getElementById('rocket');
-        var ctx = can.getContext('2d');
-    
-    
-        var img = new Image();
-        img.src = "/img/rocket_png.png"; //transparent png
-        img.onload = function() {
-            ctx.drawImage(img, 0, 0);
-        }
-    
     });
   //]]>
 </script>
 </head>
 <body>
-<canvas height="687" id="rocket" width="579"></canvas><header><div id="menu">
-<ul>
-<li>Saal 1</li>
-<li>Saal 2</li>
-<li>Saal G</li>
-<li>Saal 6</li>
-</ul>
+<div id="container">
+<div class="rocket"></div>
+<div id="header">
+<div class="logo">
+<a href="./">
+<img src="img/logo.svg"></a>
 </div>
-<div id="logo">
-<img class="logo" src="img/logo.svg">
+<div class="headline">
+30C3: Streaming
 </div>
-</header><div id="content">
-<video controls="controls" height="360" id="saalx_$format" poster="/img/" preload="auto" width="640"><source src="http://webm.streaming.voc.media.ccc.de:8000/saal1_native.webm" type="video/webm; codecs='vp8, vorbis'"></source><source src="http://hls.streaming.voc.media.ccc.d/saal1_native.m3u8" type="video/mp4; codecs='avc1.42E01E, mp4a.40.2'"></source><source src="rtmp://rtmp.streaming.voc.media.ccc.d:1935/stream/saal1_translated_hq" type="video/mp4; codecs='avc1.42E01E, mp4a.40.2'"></source><object data="static/flashmediaelement.swf" height="480" type="application/x-shockwave-flash" width="640">
-<param name="movie" value="flashmediaelement.swf">
-<param name="flashvars" value="controls=true&amp;file=myvideo.mp4"></object>
-</video>
 </div>
-<footer></footer>
+<div id="content">
+<div class="text">
+<dl>
+<h2>
+<a href="saal1/">
+Saal 1
+</a>
+</h2>
+<dd>RTMP</dd>
+<dt>
+<a href="saal1/rtmp/hd/">HD</a>
+<a href="saal1/rtmp/hq/">HQ</a>
+<a href="saal1/rtmp/lq/">LQ</a>
+</dt>
+<dd>HLS</dd>
+<dt>
+<a href="saal1/hls/hd/">HD</a>
+<a href="saal1/hls/vb/">Variable Bitrate</a>
+</dt>
+<dd>WebM</dd>
+<dt>
+<a href="saal1/webm/hq/">HQ</a>
+</dt>
+<dd>Audio</dd>
+<dt>
+<a href="saal1/opus/">opus</a>
+<a href="saal1/mp3/hd/">mp3</a>
+</dt>
+</dl>
+<dl>
+<h2>
+<a href="saal2/">
+Saal 2
+</a>
+</h2>
+<dd>RTMP</dd>
+<dt>
+<a href="saal2/rtmp/hd/">HQ</a>
+<a href="saal2/rtmp/lq/">LQ</a>
+</dt>
+<dd>HLS</dd>
+<dt>
+<a href="saal2/hls/vb/">Variable Bitrate</a>
+</dt>
+<dd>WebM</dd>
+<dt>
+<a href="saal2/hls/hq/">HQ</a>
+</dt>
+<dd>Audio</dd>
+<dt>
+<a href="saal2/audio/opus/">opus</a>
+<a href="saal2/audio/mp3/">mp3</a>
+</dt>
+</dl>
+<dl>
+<h2>
+<a href="saalg/">
+Saal G
+</a>
+</h2>
+<dd>RTMP</dd>
+<dt>
+<a href="saalg/rtmp/hd/">HQ</a>
+<a href="saalg/rtmp/lq/">LQ</a>
+</dt>
+<dd>HLS</dd>
+<dt>
+<a href="saalg/hls/vb/">Variable Bitrate</a>
+</dt>
+<dd>WebM</dd>
+<dt>
+<a href="saalg/hls/hq/">HQ</a>
+</dt>
+<dd>Audio</dd>
+<dt>
+<a href="saalg/audio/opus/">opus</a>
+<a href="saalg/audio/mp3/">mp3</a>
+</dt>
+</dl>
+<dl>
+<h2>
+<a href="saal6/">
+Saal 6
+</a>
+</h2>
+<dd>RTMP</dd>
+<dt>
+<a href="saal6/rtmp/hd/">HQ</a>
+<a href="saal6/rtmp/lq/">LQ</a>
+</dt>
+<dd>HLS</dd>
+<dt>
+<a href="saal6/hls/vb/">Variable Bitrate</a>
+</dt>
+<dd>WebM</dd>
+<dt>
+<a href="saal6/hls/hq/">HQ</a>
+</dt>
+<dd>Audio</dd>
+<dt>
+<a href="saal6/audio/opus/">opus</a>
+<a href="saal6/audio/mp3/">mp3</a>
+</dt>
+</dl>
+<dl>
+<h2>
+<a href="lounge/">Lounge</a>
+</h2>
+<dd>Audio</dd>
+<dt>
+<a href="lounge/mp3/">MP3</a>
+<a href="lounge/opus/">Opus</a>
+</dt>
+</dl>
+</div>
+
+</div>
+<div id="footer">
+<div class="links">
+<a href="https://events.ccc.de/congress/2013/wiki/Static:Documentation">Wiki</a>
+|
+<a href="https://twitter.com/c3streaming">Twitter</a>
+</div>
+<div class="voc_logo">
+<a href="http://ccc.de">
+<img alt="CCC Video Operations Center" src="img/voc_logo.svg"></a>
+</div>
+<div class="fem_logo">
+<a href="http://fem.tu-ilmenau.de">
+<img alt="Forschungsgemeinschaft elektronische Medien" src="img/fem_logo.svg"></a>
+</div>
+</div>
+</div>
 </body>
 </html>
