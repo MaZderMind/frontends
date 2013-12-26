@@ -11,7 +11,8 @@ body {
   font-family: verdana, arial, helvetica, sans-serif;
   background: url("/img/blackhole_drop.jpg") no-repeat -450px -300px;
   background-attachment: fixed;
-  background-color: #02f0fb; }
+  background-color: #02f0fb;
+  margin: 10px; }
   body #header {
     /* 30c3 */ }
     body #header .logo {
@@ -31,6 +32,7 @@ body {
       text-shadow: -3px 0 #0099AB, 0 3px #0099AB, 3px 0 #0099AB, 0 -3px #0099AB; }
   body #container {
     max-width: 640px;
+    min-width: 440px;
     margin: 0px auto; }
   body #content {
     height: 100%; }

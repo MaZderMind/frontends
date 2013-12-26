@@ -16,6 +16,7 @@ body {
   background: url("/img/blackhole_drop.jpg") no-repeat -450px -300px;
   background-attachment: fixed;
   background-color: #02f0fb;
+  margin: 10px;
 
   #header {
                                    /* 30c3 */
@@ -43,6 +44,7 @@ body {
 
   #container {
     max-width: $sidewidth;
+    min-width: 440px;
     margin: 0px auto;
   }
 
