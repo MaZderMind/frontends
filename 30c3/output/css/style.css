@@ -29,6 +29,9 @@ body {
       font-size: 39px;
       color: #ffffff;
       text-shadow: -3px 0 #0099AB, 0 3px #0099AB, 3px 0 #0099AB, 0 -3px #0099AB; }
+  body #container {
+    max-width: 640px;
+    margin: 0px auto; }
   body #content {
     height: 100%; }
     body #content h2 {
@@ -51,13 +54,13 @@ body {
       margin-right: auto; }
     body #content .text {
       background: rgba(255, 255, 255, 0.85);
-      width: 640px;
-      height: 360px;
+      min-height: 360px;
       margin-left: auto;
       margin-right: auto; }
       body #content .text dl {
         float: left;
         width: 40%;
+        min-width: 300px;
         height: 100px;
         margin-top: 5px;
         margin-bottom: 15px;
@@ -78,7 +81,6 @@ body {
   body #footer {
     /* background: rgba(0, 51, 57, 0.7); */
     background-color: rgba(0, 0, 0, 0.6);
-    width: 640px;
     height: 30px;
     padding-top: 5px;
     margin-bottom: 5px;
@@ -140,6 +142,23 @@ body {
     -o-transform: translate(800px, -200px) rotate(30deg);
     -ms-transform: translate(540px, -200px) rotate(30deg);
     transform: translate(800px, -200px) rotate(30deg); }
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0; }
+
+.clearfix {
+  display: inline-block; }
+
+html[xmlns] .clearfix {
+  display: block; }
+
+* html .clearfix {
+  height: 1%; }
 
 /*
 @media screen and (min-width: 320px) {
