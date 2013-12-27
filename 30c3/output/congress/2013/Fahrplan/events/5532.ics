@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T000000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T230000
+DTSTAMP;VALUE=DATE-TIME:20131207T171432Z
+UID:glr14-wGaYxsV63N4TJZDQ@frab.cccv.de
+DESCRIPTION:Die Drohnenkriege sind Ausdruck einer rasanten Entwicklung: v
+ om „Krieg gegen den Terror“ nach 9/11 zur Kriegsführung der Zukunft
+ . Einer Zukunft\, die gelegentlich der Science Fiction der späten Achtz
+ iger zu entstammen scheint\, in der Roboter die schmutzigen Kriege der M
+ enschen kämpfen und sich schließlich gegen ihre Schöpfer erheben. Let
+ zteres liegt noch längst nicht im Bereich des Möglichen\, aber Wege zu
+ r Erschaffung autonomer Kampfroboter werden bereits beschritten. Der Vor
+ trag will das Phänomen des Drohnenkrieges politisch einordnen und einen
+  Ausblick versuchen.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5532.html
+SUMMARY:Die Drohnenkriege
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+END:VCALENDAR

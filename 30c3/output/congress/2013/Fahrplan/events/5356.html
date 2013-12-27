@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type">
+<title>Schedule 30C3</title>
+<link href="/congress/2013/Fahrplan/assets/public_schedule-8bfa1999e089241b551c2ff7023ef7da.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/congress/2013/Fahrplan/style.css" media="all" rel="stylesheet" type="text/css">
+<link href="/congress/2013/Fahrplan/assets/public_schedule_print-233e241f259049e63e89cebef83c15ee.css" media="print" rel="stylesheet" type="text/css">
+<script src="/congress/2013/Fahrplan/assets/application-0cfb43f843b1463a544c25b6bc3f9649.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="wrapper">
+<div id="header">
+<h1>Schedule 30C3</h1>
+</div>
+<div id="horizontal-navigation">
+<ul>
+<li>
+<a href="/congress/2013/Fahrplan/schedule.html">Index</a>
+</li>
+<li>
+<a href="/congress/2013/Fahrplan/schedule/0.html">
+Day 1
+<br><span class="small-font">2013-12-27</span>
+</a>
+</li>
+<li>
+<a href="/congress/2013/Fahrplan/schedule/1.html">
+Day 2
+<br><span class="small-font">2013-12-28</span>
+</a>
+</li>
+<li>
+<a href="/congress/2013/Fahrplan/schedule/2.html">
+Day 3
+<br><span class="small-font">2013-12-29</span>
+</a>
+</li>
+<li>
+<a href="/congress/2013/Fahrplan/schedule/3.html">
+Day 4
+<br><span class="small-font">2013-12-30</span>
+</a>
+</li>
+<li>
+<a href="/congress/2013/Fahrplan/speakers.html">Speakers</a>
+</li>
+<li class="selected">
+<a href="/congress/2013/Fahrplan/events.html">Events</a>
+</li>
+</ul>
+</div>
+<div id="main-content">
+<p class="release">
+Version 1.1b
+</p>
+<h2>lecture: Firmware Fat Camp</h2>
+<h3 class="title">Embedded Security Using Binary Autotomy</h3>
+<div class="column left" id="basic">
+<div class="image large"><img alt="Screen_shot_2013-09-13_at_4.30.36_pm" src="/congress/2013/Fahrplan/system/logos/5356/large/Screen_Shot_2013-09-13_at_4.30.36_PM.png"></div>
+<p class="abstract">We present a collection of techniques which aim to automagically remove significant (and unnecessary) portions of firmware binaries from common embedded devices to drastically reduce the attack surface of these devices. We present a brief theoretical explanation of Firmware Fat Camp, a collection of "before" and "after" photos of graduates of FFC, along with a set of live demonstrations of FFC in action on common embedded devices.</p>
+
+<p class="abstract">Modern embedded systems such as VoIP phones, network printers and routers typically ship with all available features compiled into its firmware image. A small subset of these features is activated at any given time on individual devices based on its specific configuration. An even smaller subset of features is actually used, as some unused and insecure features cannot are typically enabled by default and cannot be disabled. However, all embedded devices still contain a large amount of code and data that should never be executed or read according to its current configuration. This unnecessary binary is not simply a waste of memory; it contains vulnerable code and data that can be used by an attacker to exploit the system. This “dead code” provides an ideal attack surface. Automated minimization of this attack surface will significantly improve the security of the device without any impact to the device’s functionality. </p>
+<p class="description">We propose a set of methods of hardening existing embedded systems against attack by employing Binary Autotomy or the automated removal of unnecessary binaries from each embedded device according to its current configuration. </p>
+
+<p class="description">The configuration of the embedded device to be protected is analyzed. The firmware binary corresponding to the features enabled in the configuration is kept. The firmware corresponding to features not enabled in the configuration is removed from the firmware image. The firmware to be removed is determined by applying static and dynamic binary code analysis on the original firmware image. This analysis maps each configurable feature with a set of binary executable code within the firmware image. When a particular configuration is analyzed, a list of enabled features is built from this file. Using the feature to code mapping created from the original dynamic and static analysis, autotomic binary reduction simply removes all code that belongs to features that are not enabled, or should not be used, in the particular configuration file in question. </p>
+
+<p class="description">We present quantitative analysis of the effectiveness of Binary Autotomy algorithms on a collection of common embedded devices along with several live demonstrations of embedded devices running post FFC firmware images. How much unnecessary binary can be ripped out of XYZ*? Come and find out!</p>
+
+<p class="description">* XYZ = {Home routers | Enterprise routers | VoIP phones | Printers | Web Cams}</p>
+</div>
+<div class="column left" id="details">
+<h3>Info</h3>
+<p>
+<b>Day:</b>
+<a href="/congress/2013/Fahrplan/schedule/0.html">2013-12-27</a>
+<br><b>Start time:</b>
+23:00
+<br><b>Duration:</b>
+01:00
+<br><b><span class="translation_missing" title="translation missing: en.public.schedule.event.room">Room</span>:</b>
+Saal 6
+<br><b>Track:</b>
+Security &amp; Safety
+<br><b>Language:</b>
+en
+</p>
+<h3>Links:</h3>
+<ul>
+<li><a href="/congress/2013/Fahrplan/events/5356.ics">iCalendar</a></li>
+</ul>
+<div class="column left" id="concurrent_events">
+<h3>Concurrent events</h3>
+<dl class="dl-horizontal">
+<dt>Saal G</dt>
+<dd><a href="/congress/2013/Fahrplan/events/5305.html">Breaking Baryons</a></dd>
+<dt>Saal 2</dt>
+<dd><a href="/congress/2013/Fahrplan/events/5398.html">HbbTV Security</a></dd>
+<dt>Saal 1</dt>
+<dd><a href="/congress/2013/Fahrplan/events/5491.html">No Neutral Ground in a Burning World</a></dd>
+</dl>
+</div>
+</div>
+<div class="column right" id="sidebar">
+<h3>Speakers</h3>
+<table class="list"><tbody><tr>
+<td><div class="image small"><img alt="3454" src="/congress/2013/Fahrplan/system/avatars/3103/small/3454.jpg"></div></td>
+<td><a href="/congress/2013/Fahrplan/speakers/3103.html">angcui</a></td>
+</tr></tbody></table>
+</div>
+<div class="span16">
+</div>
+
+<br class="clear">
+</div>
+</div>
+<div class="last_update" style="text-align: right;">Last update: Thu Dec 26 23:05:00 CET 2013</div></body>
+</html>

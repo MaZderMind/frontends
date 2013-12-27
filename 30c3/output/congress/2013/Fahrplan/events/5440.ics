@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T224500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T214500
+DTSTAMP;VALUE=DATE-TIME:20131203T192559Z
+UID:0eXymhGD4B5LSOSwUFnPfg@frab.cccv.de
+DESCRIPTION:In this lecture Julian will introduce projects and interventi
+ ons made by himself and others that foreground Engineering\, rather than
+  Art\, in the creative and critical frame\, offering highly public insig
+ hts into the hidden mechanisms and power struggles within our technical 
+ environment. Projects such as the <i>Transparency Grenade</i>\, <i>Packe
+ tbruecke</i> and <i>Newstweek</i> will be covered in detail.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5440.html
+SUMMARY:Art of the Exploit: An Introduction to Critical Engineering
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+END:VCALENDAR

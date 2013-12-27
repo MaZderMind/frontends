@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T224500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T214500
+DTSTAMP;VALUE=DATE-TIME:20131220T155037Z
+UID:rglYVLzBOIMfYpF873lgjQ@frab.cccv.de
+DESCRIPTION:Substanzen wie MDMA\, Psilocybin\, LSD und Ketamin besitzen e
+ rhebliches therapeutisches Potential\, und die Erforschung ihrer Wirkmec
+ hanismen erlaubt Einblicke in die Funktionsweise der menschlichen Psyche
+ . Der trotz Illegalität relativ einfachen Verfügbarkeit steht ein Mang
+ el an Aufklärung über Risiken\, Effekte und Pharmakologie gegenüber\,
+  dem mit dieser Einführung begegnet werden soll.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5619.html
+SUMMARY:Mind-Hacking mit Psychedelika
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+END:VCALENDAR

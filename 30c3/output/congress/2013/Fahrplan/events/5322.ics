@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T213000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T203000
+DTSTAMP;VALUE=DATE-TIME:20131213T193836Z
+UID:toykIIIHEXC1x8F7xoiYRw@frab.cccv.de
+DESCRIPTION:A year ago in November 2012\, Nintendo released their latest 
+ home video game console: the Wii U. While most video game consoles use c
+ ontrollers that are very basic\, the Wii U took the opposite route with 
+ a very featureful gamepad: wireless with a fairly high range\, touch scr
+ een\, speakers\, accelerometer\, video camera\, and even NFC are support
+ ed by the Wii U gamepad. However\, as of today\, this interesting piece 
+ of hardware can only be used in conjunction with a Wii U: wireless commu
+ nications are encrypted and obfuscated\, and there is no documentation a
+ bout the protocols used for data exchange between the console and its co
+ ntroller. Around december 2012\, I started working with two other hacker
+ s in order to reverse engineer\, document and implement the Wii U gamepa
+ d communication protocols on a PC. This talk will present our findings a
+ nd show the current state of our reverse engineering efforts.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5322.html
+SUMMARY:Reverse engineering the Wii U Gamepad
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T184500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T181500
+DTSTAMP;VALUE=DATE-TIME:20131202T080349Z
+UID:MKUdng2EHp0XtgsBdwCVRQ@frab.cccv.de
+DESCRIPTION:This is a call for participation in a project aimed to build 
+ up an open source based experimental incubator which can be used for var
+ iety of food\, beverage and bio hacking projects allowing for easy contr
+ ol and monitoring of internal condition like temperature and humidity. W
+ orking groups will be established to develop prototypes which can be eas
+ ily and relatively cheaply assembled. Securing funding and establishing 
+ a portal to effectively share the news and knowledge within the groups a
+ nd wider community will be major part of the first phase.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5566.html
+SUMMARY:Open source experimental incubator build up
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+END:VCALENDAR

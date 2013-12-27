@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T224500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T214500
+DTSTAMP;VALUE=DATE-TIME:20131223T145306Z
+UID:DmBpFwREEQWrsaTmW3zVew@frab.cccv.de
+DESCRIPTION:Law enforcement agencies claim they are "going dark". Encrypt
+ ion technologies have finally been deployed by software companies\, and 
+ critically\, enabled by default\, such that emails are flowing over HTTP
+ S\, and disk encryption is now frequently used. Friendly telcos\, who we
+ re once a one-stop-shop for surveillance can no longer meet the needs of
+  our government. What are the FBI and other law enforcement agencies doi
+ ng to preserve their spying capabilities? \n\n
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5478.html
+SUMMARY:Backdoors\, Government Hacking and The Next Crypto Wars
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+END:VCALENDAR

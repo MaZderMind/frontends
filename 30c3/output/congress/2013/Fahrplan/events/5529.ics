@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T193000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T183000
+DTSTAMP;VALUE=DATE-TIME:20131215T215752Z
+UID:QszoY6oJD6rpkbsTRQinRA@frab.cccv.de
+DESCRIPTION:A commodity laptop is analyzed to identify exposed attack sur
+ faces and is then secured on both the hardware and the firmware level ag
+ ainst permanent modifications by malicious software as well as quick dri
+ ve-by hardware attacks by evil maids\, ensuring that the machine always 
+ powers up to a known good state and significantly raising the bar for an
+  attacker who wants to use the machine against its owner.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5529.html
+SUMMARY:Hardening hardware and choosing a #goodBIOS
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+END:VCALENDAR

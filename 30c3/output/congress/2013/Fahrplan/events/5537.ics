@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T134500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T124500
+DTSTAMP;VALUE=DATE-TIME:20131204T054629Z
+UID:BK1ziXHv5du-_NJN24p9lA@frab.cccv.de
+DESCRIPTION:A one hour technical lecture that covers everything from mach
+ ine learning and AI to hardware design and manufacture. Includes demonst
+ rations of applications enabled by an always-on image capturing wearable
+  computer. You'll leave with a clear understanding of the field's status
+  quo\, how we got here\, and insight into what's around the corner.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5537.html
+SUMMARY:Glass Hacks
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+END:VCALENDAR

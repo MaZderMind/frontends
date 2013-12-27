@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T193000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T190000
+DTSTAMP;VALUE=DATE-TIME:20131130T201924Z
+UID:xidDecyvb8dGAXEWacQrRw@frab.cccv.de
+DESCRIPTION:Software-Defined Radio (SDR) has increased in popularity in r
+ ecent years due to the decrease in hardware costs and increase in proces
+ sing power. One example of such a class of devices is the RTL-SDR USB do
+ ngles based on the Realtek RTL2832U demodulator. This talk will discuss 
+ my experience in building a distributed RF scanner array for monitoring 
+ and spectrum mapping using such cheap SDR devices. The goal is to help t
+ he audience understand the what\, why\, and how of building their own RF
+  monitoring array so that they will be able to do it themselves. In this
+  era of increasingly being ``watched''\, we must be prepared to do our o
+ wn ``watching''.\n
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5142.html
+SUMMARY:Monitoring the Spectrum: Building Your Own Distributed RF Scanner
+  Array
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+END:VCALENDAR

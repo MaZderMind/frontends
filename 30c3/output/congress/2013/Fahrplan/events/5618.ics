@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T224500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T214500
+DTSTAMP;VALUE=DATE-TIME:20131207T205346Z
+UID:c3Q-MbMX7FDXWv6rYj2bFw@frab.cccv.de
+DESCRIPTION:Exploitation of baseband vulnerabilities has become significa
+ ntly harder on average. With Qualcomm having grabbed 97% of the market s
+ hare of shipped LTE chipsets in 1Q2013\, you see their chipset in every 
+ single top-of-the-line smartphone\, whether it is an Android\, an iPhone
+ \, a Windows Phone or a Blackberry.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5618.html
+SUMMARY:Baseband Exploitation in 2013
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+END:VCALENDAR

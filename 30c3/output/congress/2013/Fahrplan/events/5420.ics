@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T141500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T134500
+DTSTAMP;VALUE=DATE-TIME:20131224T030350Z
+UID:dIHu8B0QOmvXxUzK3W9dEw@frab.cccv.de
+DESCRIPTION:Bei calc.pw handelt es sich um DIY Hardware\, mit deren Hilfe
+  man Passwörter aus einem Masterpasswort und einfach merkbaren Informat
+ ionen (z. B. "ebay"\, "amazon"\, etc.) generieren kann. Im Vortrag soll 
+ es um die Probleme vorhandener Passwortverfahren (Passwortschemen\, Pass
+ wortdatenbanken) gehen. Es soll die Theorie hinter der Passwortberechnun
+ g erläutert und eine praktische Implementierung dieser Berechnung vorge
+ stellt werden.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5420.html
+SUMMARY:calc.pw
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+END:VCALENDAR

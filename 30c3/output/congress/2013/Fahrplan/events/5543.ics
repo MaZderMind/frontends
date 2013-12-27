@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T134500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T124500
+DTSTAMP;VALUE=DATE-TIME:20131213T040302Z
+UID:z2_SbAXdwSQnezj6oPTuIg@frab.cccv.de
+DESCRIPTION:Imagine getting pulled over for running a stop sign and learn
+ ing for the first time – from the cop – that you are HIV-positive. P
+ eople in China are required to carry electronic\, swipeable ID cards tha
+ t hold their political views\, their HIV status\, their mental health si
+ tuation\, and much more.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5543.html
+SUMMARY:ID Cards in China: Your Worst Nightmare
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+END:VCALENDAR

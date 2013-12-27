@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T123000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T113000
+DTSTAMP;VALUE=DATE-TIME:20131203T113056Z
+UID:BRHpBVii4wmCt1nd94vCYg@frab.cccv.de
+DESCRIPTION:India is currently implementing some of the scariest surveill
+ ance schemes in the world. This lecture will shed light on India's surve
+ illance industry\, its UID scheme which aims at the collection of all bi
+ ometric data and on various controversial surveillance schemes\, such as
+  the Central Monitoring System (CMS).  
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5552.html
+SUMMARY:India's Surveillance State
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+END:VCALENDAR

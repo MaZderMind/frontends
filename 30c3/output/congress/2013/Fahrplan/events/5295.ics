@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T210000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T203000
+DTSTAMP;VALUE=DATE-TIME:20131207T172635Z
+UID:bXlhO9ZYXyqOM_1vcI_WyA@frab.cccv.de
+DESCRIPTION:Based on her own experiences as an Intelligence Officer for M
+ I5 (the UK domestic security service) and a whistleblower\, Annie Machon
+  will talk about the relationships between the wars on 'terror'\, drugs\
+ , whistleblowers\, and the internet\, and suggest some ideas about what 
+ we can do.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5295.html
+SUMMARY:The Four Wars
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+END:VCALENDAR

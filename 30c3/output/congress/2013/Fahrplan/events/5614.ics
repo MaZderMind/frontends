@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T003000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T000000
+DTSTAMP;VALUE=DATE-TIME:20131205T143010Z
+UID:Wb85jYb3IJr8B11bubfibA@frab.cccv.de
+DESCRIPTION:The facial hacking research presented in this lecture/ perfor
+ mance exploits a well known vulnerability of the human nervous system th
+ at it can be easily accessed and controlled by electrodes mounted on the
+  bodies exterior. External digital facial control allows for an unpreced
+ ented exploration of human facial expressiveness and has unveiled an unk
+ nown expressive potential of the human facial hardware. \n
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5614.html
+SUMMARY:Perfect Paul
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+END:VCALENDAR

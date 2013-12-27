@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T124500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T121500
+DTSTAMP;VALUE=DATE-TIME:20131203T110514Z
+UID:jFlUl2VQF7jfm3M4V2Iuiw@frab.cccv.de
+DESCRIPTION:The average movement habits of a clichè hacker are legendary
+ . Cowering for days in front of unergonomic hardware setups\, stoic igno
+ rance of hardly decodeable signs of the body like hunger\, eye- and back
+ pains. Probably due to a general disinterest in non-digitally engineered
+  systems.\n\nShouldn’t a true hacker know at least bits and pieces abo
+ ut the codes and signs of the body? We all know bits and pieces.. but ar
+ e they the correct and helpful ones? We will discuss some technical and 
+ biological details of slipped discs\, posture disservice and pain. I wil
+ l show fundamental “red flags” which have to be serviced by a medica
+ l geek. But not all medical geeks have a good idea about the body's code
+ \, therefore I will also suggest some helpful therapies for the most com
+ mon cases.\nBottom line: how to code your body to prevent pain without r
+ elying on smattering.\n
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5289.html
+SUMMARY:Coding your body
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T224500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T214500
+DTSTAMP;VALUE=DATE-TIME:20131224T220114Z
+UID:wGEf2KpP3_UU4Qm0vrtz1g@frab.cccv.de
+DESCRIPTION:The use of encryption to secure sensitive data from unauthori
+ zed eyes is as old as human communication itself. Before the relatively 
+ new method of computerized encryption software converting data into a fo
+ rmat unintelligible to anyone lacking the necessary key for its decrypti
+ on\, for a long time there was pen and paper and the human brain doing q
+ uite a bit of work. Up until the 20th century encryption had to be done 
+ literally by hand\, to then be transmitted in paper form\, via telegraph
+ y or radio. In this context\, encryption of data has always been of spec
+ ial importance during times of political conflict and war\; subsequently
+ \, it saw its major developments during those times in history. This tal
+ k will examine and explain common hand encryption methods still employed
+  today using the example of one very successful Soviet espionage group o
+ perating in Japan in the 1930s and 1940s: the spy ring centered around R
+ ichard Sorge\, codenamed “Ramsay”.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5474.html
+SUMMARY:World War II Hackers
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+END:VCALENDAR

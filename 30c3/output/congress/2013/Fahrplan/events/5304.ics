@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T000000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T233000
+DTSTAMP;VALUE=DATE-TIME:20131128T160743Z
+UID:il4lmTSfWPAY3ks_KW7SHg@frab.cccv.de
+DESCRIPTION:Lawful Interception is a monitoring access for law enforcemen
+ t agencies\, but also one of the primary data sources of many surveillan
+ ce programs. (Almost?) every Internet service provider needs to provide 
+ LI functionality in its routers. However\, LI exposes a larger attack su
+ rface to the one being surveilled than any router should. Could this be 
+ a mistake?
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5304.html
+SUMMARY:CounterStrike
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+END:VCALENDAR

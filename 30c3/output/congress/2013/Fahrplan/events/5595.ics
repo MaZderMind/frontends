@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T143000
+DTSTAMP;VALUE=DATE-TIME:20131210T204143Z
+UID:T9YItdVO2WSP8VbAczAqjQ@frab.cccv.de
+DESCRIPTION:The <a href="http://www.arduguitar.org">ArduGuitar</a> is an 
+ electric guitar with <i>no physical controls\,</i> i.e. no buttons or kn
+ obs to adjust volume\, tone or to select the pickups. All of these funct
+ ions are performed remotely via a bluetooth device such as an Android ph
+ one\, or via a dedicated Arduino powered blutetooth footpedal. The music
+ ian still plucks the strings\, of course! This talk will give an overvie
+ w of the technology and particularly the voyage that took me from nearly
+  no knowledge about anything electronic to enough know-how to make it al
+ l work.I will explain what I learned by collaborating on forums\, with H
+ ackerspaces and with component providers: "How to ask the right question
+ s." The guitar with its Arduino powered circuit and an Android tablet wi
+ ll be available for demo\; the code is all available on the github <a hr
+ ef="https://github.com/gratefulfrog/ArduGuitar">arduguitar repo</a> with
+  the associated <a href="https://github.com/gratefulfrog/lib">Arduino fo
+ otpedal libraries</a>.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5595.html
+SUMMARY:The ArduGuitar
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+END:VCALENDAR

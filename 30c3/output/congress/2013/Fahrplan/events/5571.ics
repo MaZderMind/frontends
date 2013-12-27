@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T193000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T183000
+DTSTAMP;VALUE=DATE-TIME:20131211T033615Z
+UID:tQIsDXIK4trNIxm5cVv5-Q@frab.cccv.de
+DESCRIPTION:Calafou – the Ecoindustrial Postcapitalist Colony – is a 
+ settlement of around three dozen people in the Catalonian countryside. C
+ oncrete pylons standing 20 meters high hold a highway passing above the 
+ wild forest valley\, where hall after dilapidated hall of industrial rui
+ ns stretch along the banks of a contaminated stream nurturing a twisted 
+ yet lively ecosystem.  Echoes of unseen\, passing cars blend into the or
+ ganic static of wildlife\, punctuated by beats booming from the hacklab 
+ speakers.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5571.html
+SUMMARY:Calafou\, postcapitalist ecoindustrial community
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+END:VCALENDAR

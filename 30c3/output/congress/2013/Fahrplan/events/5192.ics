@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T160000
+DTSTAMP;VALUE=DATE-TIME:20131128T160805Z
+UID:UW-GGUBQz587MFHw9yXl6A@frab.cccv.de
+DESCRIPTION:As application security becomes more important on Android we 
+ need better tools to analyze and understand them. Android applications a
+ re written in Java and a run in the Dalvik VM. Until now most analysis i
+ s done via disassembling and monitored execution in an emulator. This ta
+ lk presents a new technique to instrument Android applications executed 
+ in the DVM. The talk will introduce the new technique in great detail in
+ cluding many small examples and a whole attack based on it. We will go s
+ tep by step to show you what can be achieved using this technique. 
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5192.html
+SUMMARY:Android DDI
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+END:VCALENDAR

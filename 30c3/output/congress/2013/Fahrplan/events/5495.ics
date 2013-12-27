@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T160000
+DTSTAMP;VALUE=DATE-TIME:20131207T011856Z
+UID:iDmPzetx6AuUFOlW1qFWig@frab.cccv.de
+DESCRIPTION:After studying the various levels of activities that come tog
+ ether in BuggedPlanet and realizing the scope and level of implementatio
+ n of NSA´s SIGINT theatre\, it´s propably time to step back\, summariz
+ e the big picture and ask how we handle it properly.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5495.html
+SUMMARY:Concepts for global TSCM
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+END:VCALENDAR

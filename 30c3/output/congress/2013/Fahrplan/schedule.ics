@@ -1,0 +1,3059 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T230000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T200000
+DTSTAMP;VALUE=DATE-TIME:20131219T192338Z
+UID:GkksqskJRTEk0yW_6XqVwA@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5681.html
+SUMMARY: vin cent
+ORGANIZER:30C3
+LOCATION:Villa Straylight
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T223000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T220000
+DTSTAMP;VALUE=DATE-TIME:20131225T230923Z
+UID:G4Q1yBlzrhmX4sNV5F5s4Q@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5706.html
+SUMMARY:!live Frau Malonda
+ORGANIZER:30C3
+LOCATION:Lounge
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T140000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T123000
+DTSTAMP;VALUE=DATE-TIME:20131225T221642Z
+UID:R-ZHbbV802oy2TtP-yzPmQ@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5638.html
+SUMMARY:!live Gongkonzert Klanghaus Media Audionic & Klavier Anka & Etern
+ al Drum
+ORGANIZER:30C3
+LOCATION:Lounge
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T210000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T200000
+DTSTAMP;VALUE=DATE-TIME:20131219T112634Z
+UID:jeTiiZQSoud8mQTnxFE1HQ@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5676.html
+SUMMARY:"Big Data und der Dual Use"
+ORGANIZER:30C3
+LOCATION:Saal 17
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T140000
+DTSTAMP;VALUE=DATE-TIME:20131219T112821Z
+UID:UI3Np-uEbgrAu8r6OHkMQg@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5678.html
+SUMMARY:"Braucht die Informatik Hacker"
+ORGANIZER:30C3
+LOCATION:Saal 17
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T190000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T180000
+DTSTAMP;VALUE=DATE-TIME:20131219T112158Z
+UID:LZ1ieCUN3Gv2S5_WL4CxyA@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5670.html
+SUMMARY:"Datenschutz aus Brüssel - Wer will denn das?"
+ORGANIZER:30C3
+LOCATION:Saal 17
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T210000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T200000
+DTSTAMP;VALUE=DATE-TIME:20131219T113136Z
+UID:I3Uhzd28gn3JJYd1lpx0xQ@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5664.html
+SUMMARY:"Smartes Heim - Glück allein"
+ORGANIZER:30C3
+LOCATION:Saal 17
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T163000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T160000
+DTSTAMP;VALUE=DATE-TIME:20131222T175753Z
+UID:Yag3mXGNWO6pdV6uryzhJA@frab.cccv.de
+DESCRIPTION:The movement against SOPA in the US was the largest protest i
+ n online history\, and as one of the core organizers\, we learned a lot 
+ of lessons on how to build a grassroots movement for internet freedom.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5475.html
+SUMMARY:#SOPA\, #NSA\, and the New Internet "Lobby"
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T160000
+DTSTAMP;VALUE=DATE-TIME:20131209T155902Z
+UID:d7ZRyNoL-Oceu9NYorKzgA@frab.cccv.de
+DESCRIPTION:At Fort George "Orwell" Meade\, home of the NSA and the US De
+ fense Information School\, managing the message of Chelsea Manning's tri
+ al was facilitated by a lack of public access to most of the court filin
+ gs and rulings until 18 months into her legal proceeding.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5634.html
+SUMMARY:07KINGSTON25 JAMAICA: MALARIA UPDATE Dispatches from Fort Meade
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T140000
+DTSTAMP;VALUE=DATE-TIME:20131209T185829Z
+UID:3rqxJH8xZ4waSOXtJbxrDg@frab.cccv.de
+DESCRIPTION:A review of the 10 year history of the OpenWrt project\, curr
+ ent events\, and upcoming developments.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5497.html
+SUMMARY:10 Years of Fun with Embedded Devices
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T184500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T181500
+DTSTAMP;VALUE=DATE-TIME:20131223T104911Z
+UID:Fp5SK2hqNSDN6KeYzLwIRw@frab.cccv.de
+DESCRIPTION:Auf dem 29C3 stellten wir euch die Cultural Commons Collectin
+ g Society (C3S) als Initiative zur Gründung einer GEMA-Alternative vor.
+  Seit dem ist sehr viel passiert: Unter anderem ist mittlerweile eine Eu
+ ropäische Genossenschaft gegründet\, die mit sechsstelligem Kapital au
+ s einer Crowdfunding-Kampagne in das Jahr 2014 geht. Auf Seiten der GEMA
+  sind angesichts der entstehenden Konkurrentin bereits erste Anzeichen f
+ ür eine Kursänderung wahrnehmbar.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5469.html
+SUMMARY:2 Takte später
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T213000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T203000
+DTSTAMP;VALUE=DATE-TIME:20131210T125656Z
+UID:qU7LRRIvEiZBJAvAY5z_Ig@frab.cccv.de
+DESCRIPTION:Eine unterhaltsame\, spannende und lehrreiche Reise durch 25 
+ Jahre Chipkarten-Angriffe mit tiefen Einblicken in Amateur- und Profi-Ha
+ ckerlabore\, inklusive eines Ausblicks in neueste Methoden und zukünfti
+ ge Ansätze.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5548.html
+SUMMARY:25 Jahre Chipkarten-Angriffe
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T203000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T193000
+DTSTAMP;VALUE=DATE-TIME:20131224T010105Z
+UID:47tqlwa7F-wL0kxo11mvgg@frab.cccv.de
+DESCRIPTION:via videolink.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5622.html
+SUMMARY:30c3 Keynote
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T163000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T160000
+DTSTAMP;VALUE=DATE-TIME:20131204T131004Z
+UID:-YZGB3qZIZOBwlhaU_GHrg@frab.cccv.de
+DESCRIPTION:Using case studies of documentary film\, Freedom of Informati
+ on Law document dumps\, soundbanks\, and a hacker conference\, I will de
+ monstrate experiments and results of several years developing open sourc
+ e tools to reorient the idea of documentary around its documents. This i
+ s in opposition to a tendancy towards textual and machine-readable metad
+ ata\, which unduly constrain our wonder\, perception\, and ability to na
+ vigate ambiguous and unknown material.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5453.html
+SUMMARY:Against Metadata
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T160000
+DTSTAMP;VALUE=DATE-TIME:20131225T030102Z
+UID:hAXLUoYo1xQHEzFm6HR_SA@frab.cccv.de
+DESCRIPTION:In dem Vortrag beschäftigt sich der Ex-Bundesdatenschützer 
+ mit der Rolle der Datenschutzbeauftragten: Welche Durchsetzungsmöglichk
+ eiten haben sie? Wie ist ihr Verhältnis zur Zivilgesellschaft? Welchen 
+ Einfluss können sie auf europäischer und internationaler Ebene ausübe
+ n?
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5623.html
+SUMMARY:Amtliche Datenschützer: Kontrolleure oder Papiertiger?
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T134500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T124500
+DTSTAMP;VALUE=DATE-TIME:20131226T143402Z
+UID:IE5aOu8FUaPfpFv5v4rtJg@frab.cccv.de
+DESCRIPTION:This talk gives an introduction to firmware analysis: It star
+ ts with how to retrieve the binary\, e.g. get a plain file from manufact
+ urer\, extract it from an executable or memory device\, or even sniff it
+  out of an update process or internal CPU memory\, which can be really t
+ ricky. After that it introduces the necessary tools\, gives tips on how 
+ to detect the processor architecture\, and explains some more advanced a
+ nalysis techniques\, including how to figure out the offsets where the f
+ irmware is loaded to\, and how to start the investigation.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5477.html
+SUMMARY:An introduction to Firmware Analysis
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T160000
+DTSTAMP;VALUE=DATE-TIME:20131128T160805Z
+UID:UW-GGUBQz587MFHw9yXl6A@frab.cccv.de
+DESCRIPTION:As application security becomes more important on Android we 
+ need better tools to analyze and understand them. Android applications a
+ re written in Java and a run in the Dalvik VM. Until now most analysis i
+ s done via disassembling and monitored execution in an emulator. This ta
+ lk presents a new technique to instrument Android applications executed 
+ in the DVM. The talk will introduce the new technique in great detail in
+ cluding many small examples and a whole attack based on it. We will go s
+ tep by step to show you what can be achieved using this technique. 
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5192.html
+SUMMARY:Android DDI
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T193000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T190000
+DTSTAMP;VALUE=DATE-TIME:20131205T205509Z
+UID:L10c_0Q6XDadTgKo1fzSXQ@frab.cccv.de
+DESCRIPTION:How is it possible to participate in a social event anonymous
+ ly? How can we hide from surveillance in public space? How can we commun
+ icate anonymously in real life? \nHow can we be private in public?\nThis
+  talk will give an overview about existing hacks and techniques that all
+ ow to be private in public\, and compare privacy technologies from the w
+ eb to anonymity techniques that can be used in real life.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5500.html
+SUMMARY:Anonymity and Privacy in Public Space and on the Internet
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T224500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T214500
+DTSTAMP;VALUE=DATE-TIME:20131203T192559Z
+UID:0eXymhGD4B5LSOSwUFnPfg@frab.cccv.de
+DESCRIPTION:In this lecture Julian will introduce projects and interventi
+ ons made by himself and others that foreground Engineering\, rather than
+  Art\, in the creative and critical frame\, offering highly public insig
+ hts into the hidden mechanisms and power struggles within our technical 
+ environment. Projects such as the <i>Transparency Grenade</i>\, <i>Packe
+ tbruecke</i> and <i>Newstweek</i> will be covered in detail.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5440.html
+SUMMARY:Art of the Exploit: An Introduction to Critical Engineering
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T160000
+DTSTAMP;VALUE=DATE-TIME:20131130T205217Z
+UID:VFu55BmcslSk-0RC0SZioA@frab.cccv.de
+DESCRIPTION:HomeMatic is a good working\, inexpensive and quickly spreadi
+ ng home automation system supporting wired as well as (partly AES handsh
+ ake protected) wireless communication. The first part of our talk deals 
+ with security issues of HomeMatic devices and their wireless communicati
+ on protocol called BidCoS (Bidirectional Communication Standard). In the
+  second part we introduce Homegear\, our own interface software to contr
+ ol HomeMatic devices.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5444.html
+SUMMARY:Attacking HomeMatic
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T224500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T214500
+DTSTAMP;VALUE=DATE-TIME:20131223T145306Z
+UID:DmBpFwREEQWrsaTmW3zVew@frab.cccv.de
+DESCRIPTION:Law enforcement agencies claim they are "going dark". Encrypt
+ ion technologies have finally been deployed by software companies\, and 
+ critically\, enabled by default\, such that emails are flowing over HTTP
+ S\, and disk encryption is now frequently used. Friendly telcos\, who we
+ re once a one-stop-shop for surveillance can no longer meet the needs of
+  our government. What are the FBI and other law enforcement agencies doi
+ ng to preserve their spying capabilities? \n\n
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5478.html
+SUMMARY:Backdoors\, Government Hacking and The Next Crypto Wars
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T200000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T120000
+DTSTAMP;VALUE=DATE-TIME:20131223T112601Z
+UID:wUbZt2GFpOghCkCfp3aQWg@frab.cccv.de
+DESCRIPTION:BarbNerdy is not only nerdy in finding great music all over t
+ he places\, she is also writing wonderful stories with them. . In Berlin
+  she is doing since 2009  the very open minded and bass music focussed S
+ upport Your Local Ghetto nights at the lovely Panke with a lot of local 
+ but also international guests. \nShe started DJ'ing in 1990\, worked wit
+ h people from the first techno generation like DJ Hell\, Blake Baxter or
+  Abe Duque but already in 1996 she got bored of the 4/4 and jumped out o
+ f this strict costume and enjoyed even more new music before this hits t
+ he mainstream.\nMusic and bringing music to the people is her biggest pa
+ ssion. Give her a good sound system and she will guide you through a unf
+ orgettable journey of music. 
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5690.html
+SUMMARY:Barbnerdy
+ORGANIZER:30C3
+LOCATION:Villa Straylight
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T224500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T214500
+DTSTAMP;VALUE=DATE-TIME:20131207T205346Z
+UID:c3Q-MbMX7FDXWv6rYj2bFw@frab.cccv.de
+DESCRIPTION:Exploitation of baseband vulnerabilities has become significa
+ ntly harder on average. With Qualcomm having grabbed 97% of the market s
+ hare of shipped LTE chipsets in 1Q2013\, you see their chipset in every 
+ single top-of-the-line smartphone\, whether it is an Android\, an iPhone
+ \, a Windows Phone or a Blackberry.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5618.html
+SUMMARY:Baseband Exploitation in 2013
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T181500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T171500
+DTSTAMP;VALUE=DATE-TIME:20131222T231614Z
+UID:rSMcCR_40Gu8XhIBpMapxQ@frab.cccv.de
+DESCRIPTION:The aim of this talk is to give an understandable insight int
+ o wireless communication\, using existing systems as examples on why the
+ re are different communication systems for different uses.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5527.html
+SUMMARY:Basics of Digital Wireless Communication
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T123000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T113000
+DTSTAMP;VALUE=DATE-TIME:20131125T160807Z
+UID:JP6OE4tOQIpB0EL8ZGaoKg@frab.cccv.de
+DESCRIPTION:Few hackers will disagree that users are not given enough con
+ sideration when building Internet Freedom Tools designed to circumvent c
+ ensorship and surveillance. But how do we do it? This talk will outline 
+ a framework for a user-focused approach to the Development and Impact of
+  Internet Freedom Tools through using ethnography\, human-centered desig
+ n\, and the practice of research-based product definition. This talk is 
+ intended for developers\, researchers\, and journalists who seek to unde
+ rstand how better tools can be developed to protect anonymity and provid
+ e unfettered access to the Internet.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5550.html
+SUMMARY:Beyond the Tech: Building Internet Freedom Tools for Real People
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T123000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T113000
+DTSTAMP;VALUE=DATE-TIME:20131126T160514Z
+UID:-zXtqISaAof8oPTr8SYyTQ@frab.cccv.de
+DESCRIPTION:Software engineering is in a unsustainable state: software is
+  mainly developed in a trial and error fashion\, which always leads to v
+ ulnerable systems. Several decades ago the correspondence between logics
+  and programming (Curry-Howard) was found. This correspondence is now be
+ ing used in modern programming languages using dependent types\, such as
+  Agda\, Coq\, and Idris.\n\nIn this talk I show our development of attac
+ ks and security notions within Agda\, using the recent <a href="https://
+ en.wikipedia.org/wiki/BREACH_%28security_exploit%29">BREACH</a> exploit 
+ as an example. Our development is a constructive step towards verified s
+ oftware and bridges a gap between theory and practice.\nI will explain t
+ he details about the Curry-Howard correspondence.\nThe target audience a
+ re interested people with some programming experience.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5394.html
+SUMMARY:BREACH in Agda
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T000000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T230000
+DTSTAMP;VALUE=DATE-TIME:20131203T110821Z
+UID:n4vgYDc2e8tbtF6g9mZIlA@frab.cccv.de
+DESCRIPTION:A light-hearted presentation about many aspects of particle a
+ ccelerators like the LHC and their particle collision experiments. Aimed
+  at technically interested non-scientists and physics buffs alike.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5305.html
+SUMMARY:Breaking Baryons
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T193000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T183000
+DTSTAMP;VALUE=DATE-TIME:20131128T162135Z
+UID:z7M48Tb_4vtI0BBFVqe_ag@frab.cccv.de
+DESCRIPTION:Violation of memory safety is still a major source of vulnera
+ bilities in everyday systems. This talk presents the state of the art in
+  compiler instrumentation to completely eliminate such vulnerabilities i
+ n C/C++ software.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5412.html
+SUMMARY:Bug class genocide
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T124500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T121500
+DTSTAMP;VALUE=DATE-TIME:20131221T122006Z
+UID:6kqN3bqixV2sIU-x92zuEA@frab.cccv.de
+DESCRIPTION:NFC technology is becoming more and more relevant in our live
+ s. One of its major uses is in ticketing solutions. However\, most of co
+ mpanies use bad implementations of NFC technology. By this talk we will 
+ explain a complete solution\, analyzing security challenges and outlinin
+ g the best practices and implementation choices.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5479.html
+SUMMARY:Building a safe NFC ticketing system
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T213000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T203000
+DTSTAMP;VALUE=DATE-TIME:20131207T150306Z
+UID:3poSeUcpc6woNaI5dhATcQ@frab.cccv.de
+DESCRIPTION:Die technischen Probleme der De-Mail ließen sich juristisch 
+ lösen\, und auch bei der E-Mail setzen deutsche Provider bald Sicherhei
+ tsstandards der Neunziger Jahre um. Auch für "die Cloud" hat das BSI ei
+ nen feinen Standard parat – natürlich ohne Verschlüsselung. Wofür b
+ räuchten wir die auch im Schlandnet?
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5210.html
+SUMMARY:Bullshit made in Germany
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T203000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T193000
+DTSTAMP;VALUE=DATE-TIME:20131222T191934Z
+UID:aknSE1-b1kmLSyKkDJJjJQ@frab.cccv.de
+DESCRIPTION:A Butoh Dance raising from the raw material portraying the mi
+ tology of Mate!
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5382.html
+SUMMARY:Caayari 
+ORGANIZER:30C3
+LOCATION:Villa Straylight
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T193000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T183000
+DTSTAMP;VALUE=DATE-TIME:20131211T033615Z
+UID:tQIsDXIK4trNIxm5cVv5-Q@frab.cccv.de
+DESCRIPTION:Calafou – the Ecoindustrial Postcapitalist Colony – is a 
+ settlement of around three dozen people in the Catalonian countryside. C
+ oncrete pylons standing 20 meters high hold a highway passing above the 
+ wild forest valley\, where hall after dilapidated hall of industrial rui
+ ns stretch along the banks of a contaminated stream nurturing a twisted 
+ yet lively ecosystem.  Echoes of unseen\, passing cars blend into the or
+ ganic static of wildlife\, punctuated by beats booming from the hacklab 
+ speakers.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5571.html
+SUMMARY:Calafou\, postcapitalist ecoindustrial community
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T141500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T134500
+DTSTAMP;VALUE=DATE-TIME:20131224T030350Z
+UID:dIHu8B0QOmvXxUzK3W9dEw@frab.cccv.de
+DESCRIPTION:Bei calc.pw handelt es sich um DIY Hardware\, mit deren Hilfe
+  man Passwörter aus einem Masterpasswort und einfach merkbaren Informat
+ ionen (z. B. "ebay"\, "amazon"\, etc.) generieren kann. Im Vortrag soll 
+ es um die Probleme vorhandener Passwortverfahren (Passwortschemen\, Pass
+ wortdatenbanken) gehen. Es soll die Theorie hinter der Passwortberechnun
+ g erläutert und eine praktische Implementierung dieser Berechnung vorge
+ stellt werden.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5420.html
+SUMMARY:calc.pw
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T030000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T013000
+DTSTAMP;VALUE=DATE-TIME:20131223T171344Z
+UID:XbgIOxhr6w5kd8Y1fT7TOw@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5656.html
+SUMMARY:Carsten Stäcker (Frequenzberater)
+ORGANIZER:30C3
+LOCATION:Lounge
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T213000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T210000
+DTSTAMP;VALUE=DATE-TIME:20131225T230437Z
+UID:vKfarrqkoFfTwiWXOF75dQ@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5685.html
+SUMMARY:Chaos Collective
+ORGANIZER:30C3
+LOCATION:Lounge
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T193000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T183000
+DTSTAMP;VALUE=DATE-TIME:20131130T164754Z
+UID:HsPfR-yh7Zg-N6kQo58UIQ@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5606.html
+SUMMARY:Closing Event
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T124500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T121500
+DTSTAMP;VALUE=DATE-TIME:20131203T110514Z
+UID:jFlUl2VQF7jfm3M4V2Iuiw@frab.cccv.de
+DESCRIPTION:The average movement habits of a clichè hacker are legendary
+ . Cowering for days in front of unergonomic hardware setups\, stoic igno
+ rance of hardly decodeable signs of the body like hunger\, eye- and back
+ pains. Probably due to a general disinterest in non-digitally engineered
+  systems.\n\nShouldn’t a true hacker know at least bits and pieces abo
+ ut the codes and signs of the body? We all know bits and pieces.. but ar
+ e they the correct and helpful ones? We will discuss some technical and 
+ biological details of slipped discs\, posture disservice and pain. I wil
+ l show fundamental “red flags” which have to be serviced by a medica
+ l geek. But not all medical geeks have a good idea about the body's code
+ \, therefore I will also suggest some helpful therapies for the most com
+ mon cases.\nBottom line: how to code your body to prevent pain without r
+ elying on smattering.\n
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5289.html
+SUMMARY:Coding your body
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T160000
+DTSTAMP;VALUE=DATE-TIME:20131207T011856Z
+UID:iDmPzetx6AuUFOlW1qFWig@frab.cccv.de
+DESCRIPTION:After studying the various levels of activities that come tog
+ ether in BuggedPlanet and realizing the scope and level of implementatio
+ n of NSA´s SIGINT theatre\, it´s propably time to step back\, summariz
+ e the big picture and ask how we handle it properly.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5495.html
+SUMMARY:Concepts for global TSCM
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T213000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T203000
+DTSTAMP;VALUE=DATE-TIME:20131128T160703Z
+UID:gL8lRFVpn8NFFfATsOn7Bw@frab.cccv.de
+DESCRIPTION:About a year ago Nintendo released their latest video gaming 
+ console\, the Wii U. Since 2006\, the Wii has led to one of the most act
+ ive homebrew scenes after its security system was completely bypassed. T
+ his talk will discuss the improvements made in Wii U's architecture and 
+ explain how it was broken in less than 31 days. The talk is targeted at 
+ those who hack (or design) embedded system security\, but gamers might a
+ lso find it interesting.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5290.html
+SUMMARY:Console Hacking 2013
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T000000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T233000
+DTSTAMP;VALUE=DATE-TIME:20131128T160743Z
+UID:il4lmTSfWPAY3ks_KW7SHg@frab.cccv.de
+DESCRIPTION:Lawful Interception is a monitoring access for law enforcemen
+ t agencies\, but also one of the primary data sources of many surveillan
+ ce programs. (Almost?) every Internet service provider needs to provide 
+ LI functionality in its routers. However\, LI exposes a larger attack su
+ rface to the one being surveilled than any router should. Could this be 
+ a mistake?
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5304.html
+SUMMARY:CounterStrike
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T000000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T230000
+DTSTAMP;VALUE=DATE-TIME:20131225T222238Z
+UID:T9xtagBQuxQqbYH-xXXA2Q@frab.cccv.de
+DESCRIPTION:Inbetriebnahme alter Flip-Dot-Anzeigemodule eines\nAutobahn-P
+ arkleitsystems zu einer interaktiven Anzeige. Reverse\nEngineering des P
+ rotokolls und Entwicklung einer Steuerplatine auf\nBasis des Raspberry P
+ i.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5426.html
+SUMMARY:Das FlipDot-Projekt
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T180000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T173000
+DTSTAMP;VALUE=DATE-TIME:20131127T015125Z
+UID:seTBwtIxwEedOMpITZG7EQ@frab.cccv.de
+DESCRIPTION:For over thirty years\, human rights groups in Guatemala have
+  carefully documented the killing and disappearance of many people in th
+ e early 1980s. There are tens of thousands of records in many databases\
+ , and over 80 million paper pages of police records available in the Arc
+ hives of the National Police. Most of the prosecutions of the former mil
+ itary and police officials who committed the atrocities depends on eyewi
+ tnesses\, specific documents\, and forensic anthropologists' examination
+  of exhumed bones. However\, data analysis helps to see the big patterns
+  in the violence.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5405.html
+SUMMARY:Data Mining for Good
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T160000
+DTSTAMP;VALUE=DATE-TIME:20131207T121952Z
+UID:DFXp3YBOM-2eU3_D89TSfQ@frab.cccv.de
+DESCRIPTION:Die alarmierenden Zustände beim Abbau der Rohstoffe\, die in
+  den Bauteilen (z. B. dem Tantal-Elektrolytkondensator) eines Computers 
+ stecken\, rufen Menschenrechtler auf den Plan. In den U.S.A. ist es 2010
+  gelungen\, ein umstrittenes Gesetz umzusetzen\, das die Finanzierung vo
+ n Kriegsparteien durch Erzhandel regulieren soll. In der EU soll nun äh
+ nliches geschehen. Der Vortrag klärt über die Geschichte auf\, nennt K
+ onsequenzen und formuliert Forderungen. \n
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5293.html
+SUMMARY:Dead Man Edition
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T224500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T214500
+DTSTAMP;VALUE=DATE-TIME:20131217T082619Z
+UID:u40tVBeaVPehGK39ABNLlQ@frab.cccv.de
+DESCRIPTION:Seit Jahren nur in Fachzirkeln diskutiert gab es 2013 den Dur
+ chbruch für die Debatte um Netzneutralität. Mit der Ankündigung der D
+ eutschen Telekom im Frühjahr\, zukünftig auf Volumentarife umzusteigen
+  und Partnerdienste priorisiert durchzulassen\, wurde Netzneutralität e
+ ines der meistdiskutierten netzpolitischen Debatten des Jahres.\n\nAuf n
+ ationaler Ebene startete das Bundeswirtschaftsminsiterium eine Diskussio
+ n über eine Verordnung und auf EU-Ebene legte die Kommission einen Vero
+ rdnungsvorschlag vor.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5348.html
+SUMMARY:Der Kampf um Netzneutralität
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T134500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T124500
+DTSTAMP;VALUE=DATE-TIME:20131208T224505Z
+UID:qkjXyXK2qXXjRYOUI9nT0Q@frab.cccv.de
+DESCRIPTION:Dieser Vortrag beschreibt Konzept und Idee des tiefen Staates
+  anhand der Geschichte der BRD.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5415.html
+SUMMARY:Der tiefe Staat
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T213000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T203000
+DTSTAMP;VALUE=DATE-TIME:20131129T145530Z
+UID:QGyPcWYIZ_R3gRVEh8-KdQ@frab.cccv.de
+DESCRIPTION:Supersymmetry has been particle theorists' favorite toy for s
+ everal decades. It predicts a yet unobserved symmetry of nature and impl
+ ies that to each known type of elementary particle there exists a partne
+ r particle none of which has been detected up to today. \n\nI will expla
+ in why it is  an attractive idea nevertheless and what is the current si
+ tuation after the large hadron collider (LHC) at CERN has looked at many
+  places where supersymmetric partners were expected and did not find the
+ m. Is it time to give up hope that susy is a property of nature? 
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5416.html
+SUMMARY:Desperately Seeking Susy
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T141500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T140000
+DTSTAMP;VALUE=DATE-TIME:20131219T113902Z
+UID:DWQBygARHCunWPRfxldpTA@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5666.html
+SUMMARY:Deutschlandfunk - Das 30C3-Interview mit ...
+ORGANIZER:30C3
+LOCATION:Saal 17
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T151500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T150000
+DTSTAMP;VALUE=DATE-TIME:20131219T113905Z
+UID:-sMdDikVI1_-vzaeIEbVYg@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5667.html
+SUMMARY:Deutschlandfunk - Das 30C3-Interview mit ...
+ORGANIZER:30C3
+LOCATION:Saal 17
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T174500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T173000
+DTSTAMP;VALUE=DATE-TIME:20131219T113934Z
+UID:k3OMz1miLcDM6BdSbXanKw@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5669.html
+SUMMARY:Deutschlandfunk - Das 30C3-Interview mit ...
+ORGANIZER:30C3
+LOCATION:Saal 17
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T141500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T140000
+DTSTAMP;VALUE=DATE-TIME:20131219T113943Z
+UID:1BZrYRTTKrIDVEHG_dSzbw@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5671.html
+SUMMARY:Deutschlandfunk - Das 30C3-Interview mit ...
+ORGANIZER:30C3
+LOCATION:Saal 17
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T151500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T150000
+DTSTAMP;VALUE=DATE-TIME:20131219T114009Z
+UID:0JPBpy9waskfnel92Mjv3w@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5672.html
+SUMMARY:Deutschlandfunk - Das 30C3-Interview mit ...
+ORGANIZER:30C3
+LOCATION:Saal 17
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T161500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T160000
+DTSTAMP;VALUE=DATE-TIME:20131219T114013Z
+UID:6ORdwxcX72tyfJRNTdUMqw@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5673.html
+SUMMARY:Deutschlandfunk - Das 30C3-Interview mit ...
+ORGANIZER:30C3
+LOCATION:Saal 17
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T171500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T170000
+DTSTAMP;VALUE=DATE-TIME:20131219T114425Z
+UID:0kXj3FxqaV4uDOH9_B6hBA@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5674.html
+SUMMARY:Deutschlandfunk - Das 30C3-Interview mit ...
+ORGANIZER:30C3
+LOCATION:Saal 17
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T154500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T153000
+DTSTAMP;VALUE=DATE-TIME:20131219T112904Z
+UID:O2_DiuCV0VOIMfqFhe4C8A@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5679.html
+SUMMARY:Deutschlandfunk - Das 30C3-Interview mit ...
+ORGANIZER:30C3
+LOCATION:Saal 17
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T163500
+DTSTAMP;VALUE=DATE-TIME:20131219T111444Z
+UID:0vy6dt3E27w6g8QkNzbDzw@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5662.html
+SUMMARY:Deutschlandfunk Live
+ORGANIZER:30C3
+LOCATION:Saal 17
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T163000
+DTSTAMP;VALUE=DATE-TIME:20131219T113029Z
+UID:zVcPAK9RN8QzMMuY4mI68A@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5668.html
+SUMMARY:Deutschlandfunk Live
+ORGANIZER:30C3
+LOCATION:Saal 17
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T163500
+DTSTAMP;VALUE=DATE-TIME:20131219T112942Z
+UID:Dnn-Am8Dr5CXIjTWTdhLMQ@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5680.html
+SUMMARY:Deutschlandfunk Live
+ORGANIZER:30C3
+LOCATION:Saal 17
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T160000
+DTSTAMP;VALUE=DATE-TIME:20131223T184744Z
+UID:2L0wf-R-_u7OqqZHmZyILg@frab.cccv.de
+DESCRIPTION:Seit Monaten hält uns die NS-Affäre in Atem. Immer neue Abh
+ örmaßnahmen und geheimdienstliche Praktiken werden enthüllt. Ein giga
+ ntisches Ausmaß an Überwachung durch die Vereinigten Staaten von Ameri
+ ka tut sich auf\, weltweit. In Europa ist die Bundesrepublik  Deutschlan
+ d das am meisten überwachte Land.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5612.html
+SUMMARY:Die Bundesrepublik – das am meisten überwachte Land in Europa 
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T000000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T230000
+DTSTAMP;VALUE=DATE-TIME:20131207T171432Z
+UID:glr14-wGaYxsV63N4TJZDQ@frab.cccv.de
+DESCRIPTION:Die Drohnenkriege sind Ausdruck einer rasanten Entwicklung: v
+ om „Krieg gegen den Terror“ nach 9/11 zur Kriegsführung der Zukunft
+ . Einer Zukunft\, die gelegentlich der Science Fiction der späten Achtz
+ iger zu entstammen scheint\, in der Roboter die schmutzigen Kriege der M
+ enschen kämpfen und sich schließlich gegen ihre Schöpfer erheben. Let
+ zteres liegt noch längst nicht im Bereich des Möglichen\, aber Wege zu
+ r Erschaffung autonomer Kampfroboter werden bereits beschritten. Der Vor
+ trag will das Phänomen des Drohnenkrieges politisch einordnen und einen
+  Ausblick versuchen.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5532.html
+SUMMARY:Die Drohnenkriege
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T030000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T000000
+DTSTAMP;VALUE=DATE-TIME:20131219T111648Z
+UID:VT2Sk_PTf3tAl1ao0FVoVg@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5665.html
+SUMMARY:Die Lange Nacht der Hacker
+ORGANIZER:30C3
+LOCATION:Saal 17
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T000000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T230000
+DTSTAMP;VALUE=DATE-TIME:20131209T161920Z
+UID:NzP8F_rnRMmXIbb6zl1H8Q@frab.cccv.de
+DESCRIPTION:This talk will focus on responsible disclosure best and worst
+  practices from both legal and practical perspectives. I'll also focus o
+ n usable advice\, both positive and negative\, and answer any questions 
+ the audience has on best practices.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5361.html
+SUMMARY:Disclosure DOs\, Disclosure DON'Ts
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T050000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T030000
+DTSTAMP;VALUE=DATE-TIME:20131221T140307Z
+UID:4tp9zX9UF80INnfOmrynXA@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5657.html
+SUMMARY:Dj Bimmel (U-site\, Fusion\, ROT)
+ORGANIZER:30C3
+LOCATION:Lounge
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T220000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T213000
+DTSTAMP;VALUE=DATE-TIME:20131225T232629Z
+UID:qBss3NwQv155YOgFsrBm-g@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5708.html
+SUMMARY:Dj DeineMaid
+ORGANIZER:30C3
+LOCATION:Lounge
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T233000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T223000
+DTSTAMP;VALUE=DATE-TIME:20131225T232947Z
+UID:Q_TjNR6p4zUQhONyeiaytQ@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5709.html
+SUMMARY:Dj DeineMaid
+ORGANIZER:30C3
+LOCATION:Lounge
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T160000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T140000
+DTSTAMP;VALUE=DATE-TIME:20131221T133242Z
+UID:YlaxKOWifVQbx6UFQDvs-Q@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5645.html
+SUMMARY:DJ Elbe (Elfenmaschine)
+ORGANIZER:30C3
+LOCATION:Lounge
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T153000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T133000
+DTSTAMP;VALUE=DATE-TIME:20131225T224753Z
+UID:r9G_02W5WorOzG0IE82C6g@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5693.html
+SUMMARY:dj-spock
+ORGANIZER:30C3
+LOCATION:Lounge
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T123000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T113000
+DTSTAMP;VALUE=DATE-TIME:20131223T100410Z
+UID:T1NjW3fn1odK53hiQSAFKw@frab.cccv.de
+DESCRIPTION:This lecture shall give a first person account of how circums
+ tances have dramatically changed for actionist art practice over the las
+ t 15 years. I will use examples from my own art practice to show the  im
+ possibility to engange in digital and real-life actionism as they are co
+ nsidered criminal under anti-terrorist laws.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5376.html
+SUMMARY:Do You Think That's Funny?
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T200000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T180000
+DTSTAMP;VALUE=DATE-TIME:20131221T134632Z
+UID:Lgi6zHgsli7-xjUxfScxFA@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5647.html
+SUMMARY:Don Shtone (Sven Dohse)
+ORGANIZER:30C3
+LOCATION:Lounge
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T134500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T124500
+DTSTAMP;VALUE=DATE-TIME:20131125T222433Z
+UID:sh_vDLYCDlmW5sFWsI4KSg@frab.cccv.de
+DESCRIPTION:During the last 10 years the technology that was formerly onl
+ y available to the military\, reached the hands of thousands. Researcher
+ s\, hackers\, enthusiasts and hobbyists helped drive the technology furt
+ her and higher than anyone had imagined just a few years ago. We will re
+ cap what the civilian airborne robot community has achieved in the last 
+ decade and what the next frontiers are that need to be addressed.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5406.html
+SUMMARY:Drones
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T160000
+DTSTAMP;VALUE=DATE-TIME:20131201T130110Z
+UID:w9UU1iDfP18QvWJ5i2VDsg@frab.cccv.de
+DESCRIPTION:This talk will discuss a case in which criminals compromised 
+ and robbed an ATM by infecting it with specially crafted malware. The su
+ ccessful compromise of an ATM can easily result in the loss of several h
+ undred thousand dollars.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5476.html
+SUMMARY:Electronic Bank Robberies
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T230000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T203000
+DTSTAMP;VALUE=DATE-TIME:20131220T221446Z
+UID:EeC2O7AUgtd_O02jxngVxQ@frab.cccv.de
+DESCRIPTION:Die Enki ist ein Raumschiff\, dass ungefähr 15.000 Menschen 
+ fasst und auf der Suche nach einem neuen Planeten ist\, auf dem diese Me
+ nschen wohnen können. Schon seit Generationen ist die Enki unterwegs\, 
+ niemand weiß ob und wann es das Ziel der Reise erreichen wird.\nWähren
+ ddessen leben Generationen nach Generationen von Menschen auf der Enki o
+ hne jemals etwas anderes\, als das innere des Raumschiffs gesehen zu hab
+ en. Aber auch wenn wir uns hier in einer fernen Zukunft auf einer Reise 
+ durch das All befinden: Manche Dinge ändern sich nie.\n\nGestorben wird
+  ja praktisch immer. Aber warum? Warum musste Fabu sterben? Und wer hat 
+ ihn so übel zugerichtet?
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5682.html
+SUMMARY:ENKIs vergessene Kinder
+ORGANIZER:30C3
+LOCATION:Wordlounge
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T140000
+DTSTAMP;VALUE=DATE-TIME:20131207T175726Z
+UID:QF7QyNNX35gm9TZyqlb7_A@frab.cccv.de
+DESCRIPTION:Jan Phillip Albrecht is rapporteur of the European Parliament
+  for the EU's General Data Protection Regulation as well as for the EU-U
+ S data protection framework agreement.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5601.html
+SUMMARY:EUDataP: State of the Union
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T123000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T113000
+DTSTAMP;VALUE=DATE-TIME:20131213T035759Z
+UID:Gj_6_iqjs5qRzO3U2wJgoQ@frab.cccv.de
+DESCRIPTION:Talk introducing NSTIC and COM 238\, i.e. the current digital
+  identity policy proposals in the USA and European discussing their simi
+ larities\, differences and possible conflicts.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5483.html
+SUMMARY:Europe\, the USA and Identity Ecosystems
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T181500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T171500
+DTSTAMP;VALUE=DATE-TIME:20131206T023212Z
+UID:PtMWK4y18s0TL1Dr8L6VGw@frab.cccv.de
+DESCRIPTION:You might remember Tamagotchi virtual pets from the 1990's. T
+ hese toys are still around and just as demanding as ever! At 29C3\, I ta
+ lked about my attempts to reverse engineer the latest Tamagotchis\, and 
+ this presentation covers my progress since then. It includes methods for
+  executing code on and dumping code from a Tamagotchi\, an analysis of t
+ he Tamagotchi code dump and a demonstration of Tamagotchi development to
+ ols that make use of these capabilities. 
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5279.html
+SUMMARY:Even More Tamagotchis Were Harmed in the Making of this Presentat
+ ion
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T134500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T124500
+DTSTAMP;VALUE=DATE-TIME:20131202T171140Z
+UID:hWph2wdjII5XK6nCL_1kWA@frab.cccv.de
+DESCRIPTION:Side-channel analysis (SCA) and related methods exploit physi
+ cal characteristics of a (cryptographic) implementations to bypass secur
+ ity mechanisms and extract secret keys. Yet\, SCA is often considered a 
+ purely academic exercise with no impact on real systems. In this talk\, 
+ we show that this is not the case: Using the example of several wide-spr
+ ead real-world devices\, we demonstrate that even seemingly secure syste
+ ms can be attacked by means of SCA with limited effort.  
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5417.html
+SUMMARY:Extracting keys from FPGAs\, OTP Tokens and Door Locks
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131231T053000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131231T033000
+DTSTAMP;VALUE=DATE-TIME:20131225T232739Z
+UID:ZFzV3jwC9SdFdh__wHgHiw@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5707.html
+SUMMARY:Fannie Mae (Universum Alltona)
+ORGANIZER:30C3
+LOCATION:Lounge
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T134500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T124500
+DTSTAMP;VALUE=DATE-TIME:20131202T003546Z
+UID:RiskSjr33wsyUrC5oX80uw@frab.cccv.de
+DESCRIPTION:Internet-wide network scanning has powerful security applicat
+ ions\, including exposing new vulnerabilities\, tracking their mitigatio
+ n\, and exposing hidden services.  Unfortunately\, probing the entire pu
+ blic address space with standard tools like Nmap requires either months 
+ of time or large clusters of machines.  In this talk\, I'll demonstrate 
+ <a href="https://zmap.io">ZMap</a>\, an open-source network scanner deve
+ loped by my research group that is designed from the ground up to perfor
+ m Internet-wide scans efficiently.  We've used ZMap with a gigabit Ether
+ net uplink to survey the entire IPv4 address space in under 45 minutes f
+ rom a single machine\, more than 1300 times faster than Nmap.  I'll expl
+ ain how ZMap's architecture enables such high performance.  We'll then w
+ ork through a series of practical examples that explore the security app
+ lications of very fast Internet-scale scanning\, both offensive and defe
+ nsive.  I'll talk about results and experiences from conducting more tha
+ n 300 Internet-wide scans over the past 18 months\, including new revela
+ tions about the state of the HTTPS CA ecosystem.  I'll discuss the react
+ ions our scans have generated--on one occasion we were mistaken for an I
+ ranian attack against U.S. banks and we received a visit from the FBI--a
+ nd I'll suggest guidelines and best practices for good Internet citizens
+ hip while scanning.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5533.html
+SUMMARY:Fast Internet-wide Scanning and its Security Applications
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T000000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T230000
+DTSTAMP;VALUE=DATE-TIME:20131130T204915Z
+UID:Veo2ucE-l2cA-V-EaA_ckA@frab.cccv.de
+DESCRIPTION:We present a collection of techniques which aim to automagica
+ lly remove significant (and unnecessary) portions of firmware binaries f
+ rom common embedded devices to drastically reduce the attack surface of 
+ these devices. We present a brief theoretical explanation of Firmware Fa
+ t Camp\, a collection of "before" and "after" photos of graduates of FFC
+ \, along with a set of live demonstrations of FFC in action on common em
+ bedded devices.\n\nModern embedded systems such as VoIP phones\, network
+  printers and routers typically ship with all available features compile
+ d into its firmware image. A small subset of these features is activated
+  at any given time on individual devices based on its specific configura
+ tion. An even smaller subset of features is actually used\, as some unus
+ ed and insecure features cannot are typically enabled by default and can
+ not be disabled. However\, all embedded devices still contain a large am
+ ount of code and data that should never be executed or read according to
+  its current configuration. This unnecessary binary is not simply a wast
+ e of memory\; it contains vulnerable code and data that can be used by a
+ n attacker to exploit the system. This “dead code” provides an ideal
+  attack surface. Automated minimization of this attack surface will sign
+ ificantly improve the security of the device without any impact to the d
+ evice’s functionality. 
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5356.html
+SUMMARY:Firmware Fat Camp
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T010000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T000000
+DTSTAMP;VALUE=DATE-TIME:20131207T121557Z
+UID:SQ8Tgi8YgRRsHy76BWIJ3A@frab.cccv.de
+DESCRIPTION:Im Format einer lockeren Abendshow werden wir die Highlights 
+ des Jahres präsentieren\, die Meldungen zwischen den Meldungen\, die su
+ btilen Sensationen hinter den Schlagzeilen. Kommen Sie\, hören Sie\, se
+ hen Sie! Lassen Sie sich mitreißen!
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5490.html
+SUMMARY:Fnord News Show
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T213000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T203000
+DTSTAMP;VALUE=DATE-TIME:20131225T223034Z
+UID:wX415KPkBVf8zeBPWdqT2Q@frab.cccv.de
+DESCRIPTION:Various dietary restrictions are historically associated with
+  human culture and civilization. In addition\, millions suffer from eati
+ ng disorders that have both pathological and cultural origins.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5613.html
+SUMMARY:Forbidden Fruit
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T181500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T171500
+DTSTAMP;VALUE=DATE-TIME:20131206T220632Z
+UID:Ae-3k2zOoIDF16EaC2uCWA@frab.cccv.de
+DESCRIPTION:In this talk I want to show you around in the mysterious worl
+ d of\nField Programmable Gate Arrays\, or short FPGAs. The aim is to ena
+ ble you to get a rough understanding on what FPGAs are good at and how t
+ hey can be used in areas where conventional CPUs and Microcontrollers ar
+ e failing upon us. FPGAs open up the world of high-speed serial intercon
+ nects\, nano-second event reactions and hardware fuzzing.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5185.html
+SUMMARY:FPGA 101
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T153000
+DTSTAMP;VALUE=DATE-TIME:20131225T002901Z
+UID:GqX9Rs-gj29EhzcuMiuaUQ@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5697.html
+SUMMARY:Fukami
+ORGANIZER:30C3
+LOCATION:Lounge
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T200000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T160000
+DTSTAMP;VALUE=DATE-TIME:20131225T222548Z
+UID:IXZMFSd1Q0-xTbixuOuBPA@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5686.html
+SUMMARY:Gammler und Kundan Lal
+ORGANIZER:30C3
+LOCATION:Lounge
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T190000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T150000
+DTSTAMP;VALUE=DATE-TIME:20131222T192845Z
+UID:hhwgj4-msPD7Q5ss1OD0Fg@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5694.html
+SUMMARY:gaya kloud
+ORGANIZER:30C3
+LOCATION:Villa Straylight
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T020000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T000000
+DTSTAMP;VALUE=DATE-TIME:20131222T192754Z
+UID:jGrR5jBpO7DiYzZHs0E5Yg@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5695.html
+SUMMARY:gaya kloud
+ORGANIZER:30C3
+LOCATION:Villa Straylight
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T134500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T124500
+DTSTAMP;VALUE=DATE-TIME:20131204T054629Z
+UID:BK1ziXHv5du-_NJN24p9lA@frab.cccv.de
+DESCRIPTION:A one hour technical lecture that covers everything from mach
+ ine learning and AI to hardware design and manufacture. Includes demonst
+ rations of applications enabled by an always-on image capturing wearable
+  computer. You'll leave with a clear understanding of the field's status
+  quo\, how we got here\, and insight into what's around the corner.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5537.html
+SUMMARY:Glass Hacks
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T020000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T000000
+DTSTAMP;VALUE=DATE-TIME:20131222T164058Z
+UID:hCp0neTiEqx5vYP5UU3SUw@frab.cccv.de
+DESCRIPTION:Der durchschnittliche User nutzt nur fünf Prozent seines Goo
+ glevermögens. Mit dem Googlequiz lässt sich das ausbauen. Eine gewisse
+  Konkurrenzsituation und Kaltgetränke können hilfreich sein.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5465.html
+SUMMARY:Googlequiz
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T020000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T000000
+DTSTAMP;VALUE=DATE-TIME:20131207T120950Z
+UID:4xOGbMd8E3ezI9zpD6BO4A@frab.cccv.de
+DESCRIPTION:The Hacker Jeopardy is a quiz show.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5577.html
+SUMMARY:Hacker Jeopardy
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T193000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T190000
+DTSTAMP;VALUE=DATE-TIME:20131205T205519Z
+UID:nu_IEETazySR5xcJobNckw@frab.cccv.de
+DESCRIPTION:!Mediengruppe Bitnik are contemporary artists. In their talk 
+ they will show two examples of their work\, illustrating the translation
+  of hacking from the computer field into an artistic practice. Bitnik wi
+ ll show how to hack the opera in ten easy steps and what happens when yo
+ u send a parcel with a hidden live webcam to Julian Assange at the Ecuad
+ orian Embassy in London. \n\nUsing the strategies of hacking\, !Mediengr
+ upppe Bitnik intervenes into settings with the aim of opening them up to
+  re-evaluation and new perspectives.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5425.html
+SUMMARY:Hacking as Artistic Practice
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T123000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T113000
+DTSTAMP;VALUE=DATE-TIME:20131217T221046Z
+UID:shKT8wmGW3LurqOCDmbZyg@frab.cccv.de
+DESCRIPTION:The Czech art collective Ztohoven' project “Moral Reform”
+  was accomplished in collaboration with web security experts. Together t
+ hey created the unique art concept of a mobile phone mass-hack.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5593.html
+SUMMARY:Hacking the Czech Parliament via SMS
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T193000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T183000
+DTSTAMP;VALUE=DATE-TIME:20131215T215752Z
+UID:QszoY6oJD6rpkbsTRQinRA@frab.cccv.de
+DESCRIPTION:A commodity laptop is analyzed to identify exposed attack sur
+ faces and is then secured on both the hardware and the firmware level ag
+ ainst permanent modifications by malicious software as well as quick dri
+ ve-by hardware attacks by evil maids\, ensuring that the machine always 
+ powers up to a known good state and significantly raising the bar for an
+  attacker who wants to use the machine against its owner.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5529.html
+SUMMARY:Hardening hardware and choosing a #goodBIOS
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T181500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T171500
+DTSTAMP;VALUE=DATE-TIME:20131209T165851Z
+UID:I1Wkt7x8Yy2ZnP2kOGAuXA@frab.cccv.de
+DESCRIPTION:In this talk (which in part was delivered at Infiltrate 2013 
+ and NoSuchCon 2013) we will discuss our recent research that is being ro
+ lled into our Practical ARM Exploitation course (sold out at Blackhat th
+ is year and last) on Linux and Android (for embedded applications and mo
+ bile devices). We will also demonstrate these techniques and discuss how
+  we were able to discover them using several ARM hardware development pl
+ atforms that we custom built.  Where relevant we will also discuss ARM e
+ xploitation as it related to Android as we wrote about in the "Android H
+ ackers Handbook" which we co-authored and will be released in October 20
+ 13.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5193.html
+SUMMARY:Hardware Attacks\, Advanced ARM Exploitation\, and Android Hackin
+ g
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T230000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T213000
+DTSTAMP;VALUE=DATE-TIME:20131221T135751Z
+UID:e40N8ZfV5RzVStINswdwZA@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5654.html
+SUMMARY:Harre Künast (click 808)
+ORGANIZER:30C3
+LOCATION:Lounge
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T000000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T230000
+DTSTAMP;VALUE=DATE-TIME:20131128T161409Z
+UID:wJ8usABBu6mJXRNpmhr_SQ@frab.cccv.de
+DESCRIPTION:HbbTV (Hybrid broadband broadcast TV) is an emerging standard
+  that is implemented in a growing number of smart TV devices. The idea i
+ s to bundle broadcast media content with online content which can be ret
+ rieved by the TV set through an Internet connection.\n\nMechanisms that 
+ allow the online content to be accessed by the TV set can be attacked an
+ d might put the TV user’s privacy at stake. The presentation highlight
+ s possible attack vectors of HbbTV-capable TV sets and introduces possib
+ le mitigations.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5398.html
+SUMMARY:HbbTV Security
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T123000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T113000
+DTSTAMP;VALUE=DATE-TIME:20131223T224628Z
+UID:d9mVPvxx94qGILfKtmCAwA@frab.cccv.de
+DESCRIPTION:USB DeadDrops\, IRL map marker in public\, FUCK 3D glasses or
+  How to vacuum form a guy fawkes mask. I will present an extensive overv
+ iew of my art projects from over the last 10 years including the Fake Go
+ ogle car by F.A.T. and moar!! It all started here at the CCC congress! :
+ )) For more info see link --->
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5611.html
+SUMMARY:Hello World!
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T140000
+DTSTAMP;VALUE=DATE-TIME:20131202T194634Z
+UID:-isG7Swsi8DaA62qztr0Kw@frab.cccv.de
+DESCRIPTION:Satellites in Low Earth Orbit have tons of nifty signals\, bu
+ t they move quickly though the sky and are difficult to track with fine 
+ accuracy.  This lecture describes a remotely operable satellite tracking
+  system that the author built from a Navy-surplus Inmarsat dish in South
+ ern Appalachia.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5463.html
+SUMMARY:Hillbilly Tracking of Low Earth Orbit
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T050000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T033000
+DTSTAMP;VALUE=DATE-TIME:20131226T212402Z
+UID:ODWnXmzP1A1TouiEVJtg8Q@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5702.html
+SUMMARY:Holle Lang
+ORGANIZER:30C3
+LOCATION:Lounge
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T160000
+DTSTAMP;VALUE=DATE-TIME:20131125T163134Z
+UID:rP-d3RdgW3DkgejXmeWAeQ@frab.cccv.de
+DESCRIPTION:A foray into the present\, future and ideas of Artificial Int
+ elligence. Are we going to build (beyond) human-level artificial intelli
+ gence one day? Very likely. When? Nobody knows\, because the specs are n
+ ot fully done yet. But let me give you some of those we already know\, j
+ ust to get you started.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5526.html
+SUMMARY:How to Build a Mind
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T141500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T134500
+DTSTAMP;VALUE=DATE-TIME:20131207T171818Z
+UID:tbP0pE8M3Do-9jVyC04sXg@frab.cccv.de
+DESCRIPTION:This talk aims to shed some light on recent human rights viol
+ ations in the context of the use of digital information and communicatio
+ ns technology\, particularly considering the latest disclosures about th
+ e surveillance programmes of Western intelligence services. At the same 
+ time\, it shall provide information about Amnesty International's positi
+ ons and activities in this field and invite anybody interested in our wo
+ rk to get involved.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5539.html
+SUMMARY:Human Rights and Technology
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T134500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T124500
+DTSTAMP;VALUE=DATE-TIME:20131213T040302Z
+UID:z2_SbAXdwSQnezj6oPTuIg@frab.cccv.de
+DESCRIPTION:Imagine getting pulled over for running a stop sign and learn
+ ing for the first time – from the cop – that you are HIV-positive. P
+ eople in China are required to carry electronic\, swipeable ID cards tha
+ t hold their political views\, their HIV status\, their mental health si
+ tuation\, and much more.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5543.html
+SUMMARY:ID Cards in China: Your Worst Nightmare
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T163000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T160000
+DTSTAMP;VALUE=DATE-TIME:20131208T225518Z
+UID:TPk2ElH1ePS-A5CinT_ImA@frab.cccv.de
+DESCRIPTION:Mit Informationsfreiheitsgesetz (IFG) und FragDenStaat.de kan
+ n man als Bürger den Staat einfach zurücküberwachen. Was erfährt man
+ \, wenn man fragt? Wo sind die Probleme\, was sind die Workarounds? Ein 
+ Blick zurück auf 2013\, nach vorn auf 2014 und ein Aufruf das IFG zu nu
+ tzen.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5509.html
+SUMMARY:IFGINT
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T123000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T113000
+DTSTAMP;VALUE=DATE-TIME:20131203T113056Z
+UID:BRHpBVii4wmCt1nd94vCYg@frab.cccv.de
+DESCRIPTION:India is currently implementing some of the scariest surveill
+ ance schemes in the world. This lecture will shed light on India's surve
+ illance industry\, its UID scheme which aims at the collection of all bi
+ ometric data and on various controversial surveillance schemes\, such as
+  the Central Monitoring System (CMS).  
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5552.html
+SUMMARY:India's Surveillance State
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T143000
+DTSTAMP;VALUE=DATE-TIME:20131128T171836Z
+UID:WbqegbTKG5YheKse8X4ZUw@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5609.html
+SUMMARY:Infrastructure Review
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T193000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T183000
+DTSTAMP;VALUE=DATE-TIME:20131130T205255Z
+UID:tnCge6rYmFPy9O0KjvtBAQ@frab.cccv.de
+DESCRIPTION:This lecture gives an introduction to processor design.\nIt i
+ s mostly interesting for people new to processor design and does not cov
+ er high performance pipelined structures.\nSmall knowledge on VHDL progr
+ amming would be great but is not essential. A very small processor core 
+ will described here.\nDemo:\n\nCreate a backdoor in the VHDL Code of a p
+ rocessor core.\nExploit this backdoor to get a root shell in the linux o
+ perating system.\n
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5443.html
+SUMMARY:Introduction to Processor Design
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T020000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T000000
+DTSTAMP;VALUE=DATE-TIME:20131213T043035Z
+UID:H_FrxWgE7lz3DIkh_j8TbA@frab.cccv.de
+DESCRIPTION:Auch das Jahr 2013 geht irgendwann vorbei. Deshalb werfen wir
+  einen Blick zurück auf die für uns besonders relevanten Themen und ve
+ rsuchen abzuschätzen\, was im Jahr 2014 auf uns zukommen könnte.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5608.html
+SUMMARY:Jahresrückblick des CCC
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T003000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T230000
+DTSTAMP;VALUE=DATE-TIME:20131223T170948Z
+UID:XGGRIGvv0CKoMPw9gZ9Cmg@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5655.html
+SUMMARY:Jay Pauli (Grünanlage / Alte Liebe)
+ORGANIZER:30C3
+LOCATION:Lounge
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T180000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T160000
+DTSTAMP;VALUE=DATE-TIME:20131223T171644Z
+UID:Z7SFnasmEZddrPsdkY3Kkw@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5660.html
+SUMMARY:Jonas Wahrlich (e.minor\, Plux\, Der Hut)
+ORGANIZER:30C3
+LOCATION:Lounge
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T140000
+DTSTAMP;VALUE=DATE-TIME:20131226T153939Z
+UID:YYw-34ht9mf83cFWsxTCAw@frab.cccv.de
+DESCRIPTION:Die Enthüllungen Edward Snowdens haben die deutsche Politik 
+ für kurze Zeit in Aufregung gebracht. Für eine Beruhigung reichte es b
+ ereits aus\, die Enthüllungen in sprachlich-logisch cleverer Weise zu v
+ erarbeiten\, sie teilweise in ein anderen Kontext zu stellen und so schl
+ ießlich Entwarnung geben zu können: Die Bundesregierung hat „keine A
+ nhaltspunkte für flächendeckende Überwachung“.\n\nBei diesem Vorgeh
+ en handelt sich um ein Paradebeispiel dafür\, wie mit einfachen sprachl
+ ich-rhetorischen Tricks die politisch Verantwortlichen die Öffentlichke
+ it und sich selbst so weit täuschten\, dass es ihnen nicht mehr nötig 
+ erschien\, sich mit den eigentlichen Problemen auseinanderzusetzen\, und
+  so das leidige Thema aus dem Wahlkampf herausgehalten werden konnte. Ne
+ ben den mittlerweile zum Standard gehörenden „Basta“-Floskeln spiel
+ te das Phänomen der Modalisierung eine besondere Rolle\, wie die genaue
+ re Analyse zeigt. Auch logische Fehler wie Zirkelschlüssel und (zu) str
+ ikte Einschränkung des thematischen Bezugs erlaubten diese „Flucht-na
+ ch-vorne“-Strategie. Die Häufung sprachlicher Tricks und des logisch-
+ inhaltlichen Ausweichens legen eine Inszenierung nahe.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5281.html
+SUMMARY:Keine Anhaltspunkte für flächendeckende Überwachung
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T013000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T203000
+DTSTAMP;VALUE=DATE-TIME:20131224T173406Z
+UID:UGd3_gcJYsDg9PdCGGrp0g@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5689.html
+SUMMARY:Kraftfuttermischwerk
+ORGANIZER:30C3
+LOCATION:Villa Straylight
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T181500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T171500
+DTSTAMP;VALUE=DATE-TIME:20131208T225129Z
+UID:GqBcTbWHQclHwDW_kI9yBQ@frab.cccv.de
+DESCRIPTION:Die Verwendung von mittelmäßiger Kryptographie scheint gege
+ n Angreifer mit Milliarden-Etat komplett versagt zu haben. Namentlich RC
+ 4\, MD5 und SHA1 scheinen praxisrelevant brechbar.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5337.html
+SUMMARY:Kryptographie nach Snowden
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T171500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T164500
+DTSTAMP;VALUE=DATE-TIME:20131224T005624Z
+UID:TTYvRfSgu6wHisdcwpo1VA@frab.cccv.de
+DESCRIPTION:This talk will give an introduction on how to design optical 
+ systems for space applications. As example a high power narrow linewidth
+  laser module will be shown. 
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5311.html
+SUMMARY:lasers in space
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T204500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T203000
+DTSTAMP;VALUE=DATE-TIME:20131223T094354Z
+UID:gDH4QJe6GPtOPDIXWrBOKA@frab.cccv.de
+DESCRIPTION:From the mind of teenager\, this short story briefly recounts
+  the tale of an alien race and how their pride led to their downfall. Ho
+ wever\, with death comes rebirth and the end of their story may just be 
+ the beginning of ours...
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5698.html
+SUMMARY:Life Without Life
+ORGANIZER:30C3
+LOCATION:Wordlounge
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T124500
+DTSTAMP;VALUE=DATE-TIME:20131223T131119Z
+UID:us3pkMq65RbFcZPuAO05MA@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5562.html
+SUMMARY:Lightning Talks\, Day 2
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T124500
+DTSTAMP;VALUE=DATE-TIME:20131223T131122Z
+UID:jPE10mw8D1DDHa7j4gDcWw@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5563.html
+SUMMARY:Lightning Talks\, Day 3
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T124500
+DTSTAMP;VALUE=DATE-TIME:20131223T131147Z
+UID:kqFqStFUznnMxkCkIWynPQ@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5564.html
+SUMMARY:Lightning Talks\, Day 4
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T200000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T190000
+DTSTAMP;VALUE=DATE-TIME:20131221T190658Z
+UID:G8jkQ_GDHyOWqdOXb6Jz3A@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5661.html
+SUMMARY:live! Akustik Nord (Jojo Heizmann)
+ORGANIZER:30C3
+LOCATION:Lounge
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T213000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T200000
+DTSTAMP;VALUE=DATE-TIME:20131221T134720Z
+UID:oPMfajw0CYP1xx1EpiLX0w@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5648.html
+SUMMARY:live! At the space office (Universum Alltona)
+ORGANIZER:30C3
+LOCATION:Lounge
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T210000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T200000
+DTSTAMP;VALUE=DATE-TIME:20131222T164650Z
+UID:dHLJ-4rm6ApFHRwcFP9Hmg@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5687.html
+SUMMARY:live! Ben Con Cello
+ORGANIZER:30C3
+LOCATION:Lounge
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T033000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T020000
+DTSTAMP;VALUE=DATE-TIME:20131226T212410Z
+UID:7egjyuqrtFK6wDS7YwoY8w@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5688.html
+SUMMARY:live! deo&z-man (mafiosibros.)
+ORGANIZER:30C3
+LOCATION:Lounge
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T133000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T130000
+DTSTAMP;VALUE=DATE-TIME:20131225T224045Z
+UID:dJKfjgjxGVF0vz_9A3oeZw@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5644.html
+SUMMARY:live! Gongkonzert Klanghaus Media Audionic
+ORGANIZER:30C3
+LOCATION:Lounge
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T133000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T130000
+DTSTAMP;VALUE=DATE-TIME:20131225T224634Z
+UID:sUrlCDejTfQkpGTJOAha8Q@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5651.html
+SUMMARY:live! Gongkonzert Klanghaus Media Audionic
+ORGANIZER:30C3
+LOCATION:Lounge
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T133000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T130000
+DTSTAMP;VALUE=DATE-TIME:20131225T225446Z
+UID:CM3Sogmvddrp1HT9Y8xEYg@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5658.html
+SUMMARY:live! Gongkonzert Klanghaus Media Audionic & Eternal Drum
+ORGANIZER:30C3
+LOCATION:Lounge
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T013000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T003000
+DTSTAMP;VALUE=DATE-TIME:20131223T171254Z
+UID:dUHZVP09UXxhw04Q-86Jaw@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5704.html
+SUMMARY:live! jɛloʊ // Rotzige Beatz
+ORGANIZER:30C3
+LOCATION:Lounge
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T020000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T003000
+DTSTAMP;VALUE=DATE-TIME:20131226T212401Z
+UID:nDzZwDq-5TVx72GUL2xyMQ@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5650.html
+SUMMARY:live! Neal White
+ORGANIZER:30C3
+LOCATION:Lounge
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T160000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T150000
+DTSTAMP;VALUE=DATE-TIME:20131221T140452Z
+UID:t_TYT1Ml0TjGM-QsgR0LCA@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5659.html
+SUMMARY:live! Tonfang (Universum Alltona)
+ORGANIZER:30C3
+LOCATION:Lounge
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T213000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T200000
+DTSTAMP;VALUE=DATE-TIME:20131221T135352Z
+UID:Ia_yBCUhi8uXR-nSGEW6tQ@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5653.html
+SUMMARY:live! Woodrow Wilson (Krautrock)
+ORGANIZER:30C3
+LOCATION:Lounge
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T193000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T183000
+DTSTAMP;VALUE=DATE-TIME:20131220T205433Z
+UID:U-8wOAtiUft8JjHbW-HAEA@frab.cccv.de
+DESCRIPTION:This talk should introduce the general 30c3 participant with 
+ several components of long distance quantum communication.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5536.html
+SUMMARY:Long Distance Quantum Communication
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T140000
+DTSTAMP;VALUE=DATE-TIME:20131204T172112Z
+UID:juhvY3wvW_i3TTb8KDEyeQ@frab.cccv.de
+DESCRIPTION:We present Magic Lantern\, a free open software add-on for Ca
+ non DSLR cameras\, that offers increased functionality aimed mainly at D
+ SLR pro and power users. It runs alongside Canon's own firmware and intr
+ oduces to consumer-grade DSLRs features usually only found in profession
+ al high-end digital (cinema) cameras.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5554.html
+SUMMARY:Magic Lantern
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T123000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T113000
+DTSTAMP;VALUE=DATE-TIME:20131211T012356Z
+UID:DaPb3a3Rv9sG109k4ZBWEw@frab.cccv.de
+DESCRIPTION:Making a new control system for a machine is often a slow and
+  tedious task. Maybe you already have a 3 axis stage\, and you already k
+ now how to move it around. But what if you want to add a camera and use 
+ it for position feedback? You'd have to redesign the whole hardware laye
+ r. I'll talk about some ways I've built modularity into control systems 
+ for machines so that you can quickly iterate on different kinds of machi
+ ne systems without getting stuck in hardware land forever. This includes
+  connecting synchronized nodes across a network and importing legacy nod
+ es for things like\, say\, an old pressure box you found in the trash an
+ d has rs232 in. Down with gcode! Long live machine control.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5587.html
+SUMMARY:Making machines that make
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131231T013000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T233000
+DTSTAMP;VALUE=DATE-TIME:20131225T233057Z
+UID:h9WDjUQWA37KS3uQWuVAvQ@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5684.html
+SUMMARY:Marc Schneider (Panorama Bar)
+ORGANIZER:30C3
+LOCATION:Lounge
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T133000
+DTSTAMP;VALUE=DATE-TIME:20131225T222301Z
+UID:_ucCm0_N-3lB7yR_wEe4Sw@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5639.html
+SUMMARY:Marco Morelle & Philipp Wolgast
+ORGANIZER:30C3
+LOCATION:Lounge
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T020000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T000000
+DTSTAMP;VALUE=DATE-TIME:20131225T222925Z
+UID:nwDw7W2uJmHcMzVOf7PIpw@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5641.html
+SUMMARY:Maulwolf DJs (Renken&Rothstein)
+ORGANIZER:30C3
+LOCATION:Lounge
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T224500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T214500
+DTSTAMP;VALUE=DATE-TIME:20131220T155037Z
+UID:rglYVLzBOIMfYpF873lgjQ@frab.cccv.de
+DESCRIPTION:Substanzen wie MDMA\, Psilocybin\, LSD und Ketamin besitzen e
+ rhebliches therapeutisches Potential\, und die Erforschung ihrer Wirkmec
+ hanismen erlaubt Einblicke in die Funktionsweise der menschlichen Psyche
+ . Der trotz Illegalität relativ einfachen Verfügbarkeit steht ein Mang
+ el an Aufklärung über Risiken\, Effekte und Pharmakologie gegenüber\,
+  dem mit dieser Einführung begegnet werden soll.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5619.html
+SUMMARY:Mind-Hacking mit Psychedelika
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T181500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T171500
+DTSTAMP;VALUE=DATE-TIME:20131210T153536Z
+UID:xdX27wLbHpeOU_dSgBO4Hg@frab.cccv.de
+DESCRIPTION:Mobile networks should protect users on several fronts: Calls
+  need to be encrypted\, customer data protected\, and SIM cards shielded
+  from malware.\n\nMany networks are still reluctant to implement appropr
+ iate protection measures in legacy systems. But even those who add mitig
+ ations often fail to fully capture attacks: They target symptoms instead
+  of solving the core issue.\n\nThis talks discusses mobile network and S
+ IM card attacks that circumvent common protection techniques to illustra
+ te the ongoing mobile attack evolution.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5449.html
+SUMMARY:Mobile network attack evolution
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T193000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T190000
+DTSTAMP;VALUE=DATE-TIME:20131130T201924Z
+UID:xidDecyvb8dGAXEWacQrRw@frab.cccv.de
+DESCRIPTION:Software-Defined Radio (SDR) has increased in popularity in r
+ ecent years due to the decrease in hardware costs and increase in proces
+ sing power. One example of such a class of devices is the RTL-SDR USB do
+ ngles based on the Realtek RTL2832U demodulator. This talk will discuss 
+ my experience in building a distributed RF scanner array for monitoring 
+ and spectrum mapping using such cheap SDR devices. The goal is to help t
+ he audience understand the what\, why\, and how of building their own RF
+  monitoring array so that they will be able to do it themselves. In this
+  era of increasingly being ``watched''\, we must be prepared to do our o
+ wn ``watching''.\n
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5142.html
+SUMMARY:Monitoring the Spectrum: Building Your Own Distributed RF Scanner
+  Array
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T160000
+DTSTAMP;VALUE=DATE-TIME:20131206T022953Z
+UID:bJDjDUHLd0Y6wLncMd5Unw@frab.cccv.de
+DESCRIPTION:How I discovered mysterious hidden signals on a public radio 
+ channel and eventually found out their meaning through hardware hacking\
+ , reverse engineering and little cryptanalysis.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5588.html
+SUMMARY:My journey into FM-RDS
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T180000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T160000
+DTSTAMP;VALUE=DATE-TIME:20131221T164821Z
+UID:nXaqgx8MXDEdnSsz4_KWnA@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5646.html
+SUMMARY:Na Nu? Ein Gnu!
+ORGANIZER:30C3
+LOCATION:Lounge
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T171500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T164500
+DTSTAMP;VALUE=DATE-TIME:20131203T162652Z
+UID:tEudCvm8e6XS2VQP3BR5yw@frab.cccv.de
+DESCRIPTION:Knight-Mozilla OpenNews sends coders into news organisations 
+ on a ten-month fellowship to make new tools for reporting and measuring 
+ the news. We believe that to remain relevant\, journalism has to smarten
+  up about tech and data. As a global community\, we develop tools to dat
+ amine public data\, news apps to make information accessible\, and visua
+ lisations to break down complex stories. In my talk\, I want to present 
+ the lessons about tech that I've learned in a newsroom and the things th
+ at still need to be built. 
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5494.html
+SUMMARY:Nerds in the news
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T000000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T220000
+DTSTAMP;VALUE=DATE-TIME:20131223T112436Z
+UID:lx2gxy5lPyRQ1tBJOfkgmg@frab.cccv.de
+DESCRIPTION:Hello hello\,\nMein Name ist Niloufar Behradi-Ohnacker und le
+ ge unter den Namen Nie Low auf. Mein Sound kennt wörtlich keine Grenzen
+ . Als Mitgründerin und Autorin der Blogrebellen dig ich Musik die wir i
+ m Blog als 'Don't Call It World' bezeichnen. Denn World Musik\, wie es d
+ ie Majors gerne bezeichnen\, hat ein gewisses Bild in den Köpfen vieler
+  gezeichnet\, was dem aktuellen Globalsound nicht gerecht wird. \nIntern
+ et\, Migration und lokale Musik vermischen sich zu etwas hybriden und la
+ ssen aus dem alten\, bekannten etwas neues entstehen. In jeder Musikrich
+ tung ist dies mittlerweile zu hören. Es ist nicht wirklich was neues\, 
+ nur ist die Zeitspanne\, in der neue hybride Sounds entstehen eine kürz
+ ere. Während Flamenco\, was auch eine hybride Musik Form ist\, Jahrtaus
+ ende gebraucht hat\, sind elektronische Musik\, Hip Hop\, Jazz wesentlic
+ h schneller.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5692.html
+SUMMARY:Nie Low
+ORGANIZER:30C3
+LOCATION:Villa Straylight
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T000000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T230000
+DTSTAMP;VALUE=DATE-TIME:20131226T201458Z
+UID:a-xJCEtToBTndlcjWvCAKQ@frab.cccv.de
+DESCRIPTION:The news of the past few years is one small ripple in what is
+  a great wave of culture and history\, a generational clash of civilizat
+ ions.  If you want to understand why governments are acting and reacting
+  the way they are\, and as importantly\, how to shift their course\, you
+  need to understand what they're reacting to\, how they see and fail to 
+ see the world\, and how power\, money\, and idea of rule of law actually
+  interact.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5491.html
+SUMMARY:No Neutral Ground in a Burning World
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T184500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T181500
+DTSTAMP;VALUE=DATE-TIME:20131202T080349Z
+UID:MKUdng2EHp0XtgsBdwCVRQ@frab.cccv.de
+DESCRIPTION:This is a call for participation in a project aimed to build 
+ up an open source based experimental incubator which can be used for var
+ iety of food\, beverage and bio hacking projects allowing for easy contr
+ ol and monitoring of internal condition like temperature and humidity. W
+ orking groups will be established to develop prototypes which can be eas
+ ily and relatively cheaply assembled. Securing funding and establishing 
+ a portal to effectively share the news and knowledge within the groups a
+ nd wider community will be major part of the first phase.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5566.html
+SUMMARY:Open source experimental incubator build up
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T113000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T110000
+DTSTAMP;VALUE=DATE-TIME:20131204T174408Z
+UID:0i_XOY92eUOxB3jQO_Zj4g@frab.cccv.de
+DESCRIPTION:Introductory event to say hello to everybody\, give a brief o
+ verview of the event's features and look into history and future alike
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5605.html
+SUMMARY:Opening Event
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T200000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T170000
+DTSTAMP;VALUE=DATE-TIME:20131223T170843Z
+UID:H9UerBUbMiZgVzVzcpYRFQ@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5652.html
+SUMMARY:Peer Gregorius (Nation of Gondwana)
+ORGANIZER:30C3
+LOCATION:Lounge
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T003000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T000000
+DTSTAMP;VALUE=DATE-TIME:20131205T143010Z
+UID:Wb85jYb3IJr8B11bubfibA@frab.cccv.de
+DESCRIPTION:The facial hacking research presented in this lecture/ perfor
+ mance exploits a well known vulnerability of the human nervous system th
+ at it can be easily accessed and controlled by electrodes mounted on the
+  bodies exterior. External digital facial control allows for an unpreced
+ ented exploration of human facial expressiveness and has unveiled an unk
+ nown expressive potential of the human facial hardware. \n
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5614.html
+SUMMARY:Perfect Paul
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T193000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T183000
+DTSTAMP;VALUE=DATE-TIME:20131128T160840Z
+UID:bucvwuHzaSgt7x_L06ZcFA@frab.cccv.de
+DESCRIPTION:In this work we present a stealthy malware that exploits dedi
+ cated hardware on the target system and remains persistant across boot c
+ ycles. The malware is capable of gathering valuable information such as 
+ passwords. Because the infected hardware can perform arbitrary main memo
+ ry accesses\, the malware can modify kernel data structures and escalate
+  privileges of processes executed on the system.\n\nThe malware itself i
+ s a DMA malware implementation referred to as DAGGER. DAGGER exploits In
+ tel’s Manageability Engine (ME)\, that executes firmware code such as 
+ Intel’s Active Management Technology (iAMT)\, as well as its OOB netwo
+ rk channel. We have recently improved DAGGER’s capabilites to include 
+ support for 64-bit operating systems and a stealthy update mechanism to 
+ download new attack code.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5380.html
+SUMMARY:Persistent\, Stealthy\, Remote-controlled Dedicated Hardware Malw
+ are
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T231500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T224500
+DTSTAMP;VALUE=DATE-TIME:20131215T220516Z
+UID:d3O96YnMHkiPLhp50TPJAA@frab.cccv.de
+DESCRIPTION:Did you ever feel the need to be in charge of your environmen
+ t? We did . A detailed story of our experience playing with 220VAC and w
+ ater to build an automated\, digitally controlled ecosystem. A place\, w
+ here you can be the climate-change. Double the temperature\, triple the 
+ floods\, let it storm or rain. A Tamagotchi that generates food from ele
+ ctricity. All done with Arduino\, raspberry Pi and Node.js. \n
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5437.html
+SUMMARY:Plants & Machines
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T180000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T173000
+DTSTAMP;VALUE=DATE-TIME:20131203T224104Z
+UID:_PZbf5bEsVNq9q3vTxAazQ@frab.cccv.de
+DESCRIPTION:This talk considers the use of new technology to police large
+  crowds in the Romantic period. We examine ethical aspects of modern sur
+ veillance technologies by looking at debates around crowd control and fa
+ ce recognition in the age that first imagined\, and reflected on\, the s
+ urveillance state.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5447.html
+SUMMARY:Policing the Romantic Crowd
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T224500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T214500
+DTSTAMP;VALUE=DATE-TIME:20131207T012536Z
+UID:0IuyfNlW5fXVnrMIgEXesw@frab.cccv.de
+DESCRIPTION:Learning to program an FPGA is time consuming. Not just do yo
+ u need to download and install 20 GB of vendor tools\, but you also need
+  to wrap your brain around the strange ideas of hardware description lan
+ guages like VHDL. PSHDL aims to ease the learning curve significantly an
+ d provide more people with the ability to program FPGAs.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5186.html
+SUMMARY:Programming FPGAs with PSHDL
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131231T033000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131231T013000
+DTSTAMP;VALUE=DATE-TIME:20131225T233216Z
+UID:T82VavjsUqoXghphKgCOGQ@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5710.html
+SUMMARY:RatKat
+ORGANIZER:30C3
+LOCATION:Lounge
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T181500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T171500
+DTSTAMP;VALUE=DATE-TIME:20131223T160226Z
+UID:JUiVA82LLuRo_Kypnj5OIg@frab.cccv.de
+DESCRIPTION:Wir leben in einem Zeitalter des Remix. Kreativität und Kult
+ ur bauten schon immer auf bereits Bestehendem auf. Internet und digitale
+  Technologien ermöglichen aber die kreative Nutzung existierender Werke
+  in völlig neuen Dimensionen: Nie zuvor war es so vielen möglich\, Wer
+ ke auf so unterschiedliche Arten zu verändern und so einfach anderen zu
+ gänglich zu machen. In dem Maße\, in dem die kreative Kopie Teil des k
+ ommunikativen Alltags breiter Bevölkerungsschichten wird\, ist ein Rech
+ t auf Remix eine grundlegende Voraussetzung für die Kunst- und Meinungs
+ freiheit einer Gesellschaft. Die Gegenwart ist jedoch geprägt von restr
+ iktivem Rechtemanagement und entgrenzter Rechtsdurchsetzung. Die Initiat
+ ive "Recht auf Remix" möchte das ändern.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5433.html
+SUMMARY:Recht auf Remix
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T140000
+DTSTAMP;VALUE=DATE-TIME:20131128T160844Z
+UID:NzaYFnLUYCWw9gjG_KMgsQ@frab.cccv.de
+DESCRIPTION:We reverse-engineered one implementation of the non-public CH
+ IASMUS cipher designed by the German Federal Office for Information Secu
+ rity (Bundesamt für Sicherheit in der Informationstechnik\, short BSI).
+  This did not only give us some insight on the cipher\, but also uncover
+ ed serious implementation issues in GSTOOL which allow attackers to crac
+ k files encrypted with the GSTOOL encryption function with very little e
+ ffort.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5307.html
+SUMMARY:Reverse engineering of CHIASMUS from GSTOOL
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T213000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T203000
+DTSTAMP;VALUE=DATE-TIME:20131213T193836Z
+UID:toykIIIHEXC1x8F7xoiYRw@frab.cccv.de
+DESCRIPTION:A year ago in November 2012\, Nintendo released their latest 
+ home video game console: the Wii U. While most video game consoles use c
+ ontrollers that are very basic\, the Wii U took the opposite route with 
+ a very featureful gamepad: wireless with a fairly high range\, touch scr
+ een\, speakers\, accelerometer\, video camera\, and even NFC are support
+ ed by the Wii U gamepad. However\, as of today\, this interesting piece 
+ of hardware can only be used in conjunction with a Wii U: wireless commu
+ nications are encrypted and obfuscated\, and there is no documentation a
+ bout the protocols used for data exchange between the console and its co
+ ntroller. Around december 2012\, I started working with two other hacker
+ s in order to reverse engineer\, document and implement the Wii U gamepa
+ d communication protocols on a PC. This talk will present our findings a
+ nd show the current state of our reverse engineering efforts.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5322.html
+SUMMARY:Reverse engineering the Wii U Gamepad
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T213000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T203000
+DTSTAMP;VALUE=DATE-TIME:20131202T165157Z
+UID:GjMyYKOlFIvTVBV1gI_1SA@frab.cccv.de
+DESCRIPTION:Ken Thompson's classic "Reflections on Trusting Trust" examin
+ ed the impacts of planted build chain bugs\, from an example of a compil
+ er Trojan to a hypothetical "well-placed microcode bug". Once theoretica
+ l & remote\, such scenarios have lately been revealed as a stark reality
+ .\n\nBut what if we could have every individual piece of software or fir
+ mware in the binary toolchain bug-free\, performing just as their progra
+ mmers intended? Would we be safe from run-away computation if only well-
+ formed inputs to each of the individual tools were allowed? Not so. Pote
+ ntial for malicious computation lurks in a variety of input formats alon
+ g all steps of the binary runtime process construction and execution. Un
+ til the "glue" data of an ABI and the binary toolchains in general is re
+ duced to predictable\, statically analyzable power\, plenty of room for 
+ bug-less Trojans remains.\n\nWe will discuss our latest work in construc
+ ting Turing-complete computation out of different levels of metadata\, p
+ resent tools to normalize and disambiguate these metadata\, and conclude
+  with proposals for criteria to trust binary toolchains beyond "Trusting
+  trust" compilers and planted bugs.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5542.html
+SUMMARY:Revisiting "Trusting Trust" for binary toolchains
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T140000
+DTSTAMP;VALUE=DATE-TIME:20131128T220017Z
+UID:UukuTtIII9uGXGpeCCgKvg@frab.cccv.de
+DESCRIPTION:In this lecture\, we present a black-box analysis of an elect
+ ronic contact-less system that has been steadily\nreplacing a convention
+ al mechanical key on multi-party\nhouses in a big European city. So far\
+ , there are est. 10.000 installations of the electronic system. The mech
+ anical key has been introduced about 40 years ago to allow mail delivery
+  services to access multi-party houses but has since then aggregated man
+ y additional users\, such as garbage collection\, police\, fire brigade 
+ and other emergency services. Over 92% of residential buildings in this 
+ city are equipped with such a solution.  
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5334.html
+SUMMARY:RFID Treehouse of Horror
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T003000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T230000
+DTSTAMP;VALUE=DATE-TIME:20131226T212316Z
+UID:tsET2nyHq7BtmbgrxQ3-7g@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5701.html
+SUMMARY:Roamin'Roman
+ORGANIZER:30C3
+LOCATION:Lounge
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T053000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T033000
+DTSTAMP;VALUE=DATE-TIME:20131225T223739Z
+UID:kL7BHGXv8s9vA4XfPIHFQw@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5643.html
+SUMMARY:Robo Klein & John Ohrt (Universum Alltona)
+ORGANIZER:30C3
+LOCATION:Lounge
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T160000
+DTSTAMP;VALUE=DATE-TIME:20131226T020608Z
+UID:piiLuOpnx-bTwU28WOUQWA@frab.cccv.de
+DESCRIPTION:This talks introduces programming concepts and languages for 
+ parallel programming on accelerator cards. 
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5298.html
+SUMMARY:Rock' em Graphic Cards
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T000000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T230000
+DTSTAMP;VALUE=DATE-TIME:20131128T160916Z
+UID:OT5cFvmp4WvV3cjuoH1gtQ@frab.cccv.de
+DESCRIPTION:SCADA StrangeLove team will present their research on ICS sys
+ tems for the second time on CCC. Last year we showed current situation w
+ ith security of industrial world and disclosed a big number of vulnerabi
+ lities found in Siemens ICS solutions. Part of vulnerabilities\, we can 
+ say most notable one\, wasn’t disclosed due to Responsible Disclosure.
+  This time we already know. We will speak about several industrial proto
+ cols and their weaknesses. During this year we played with new industria
+ l hardware and software – this patitially brings new “We don’t kno
+ w yet” vulnerability details. Moreover\, we’ll mention creepiest bug
+ s undisclosed from last year\, tell you about new ones and build attack 
+ vectors from them. At last\, we will share our experience in pentesting 
+ ICS enviroments.\n\nSpeakers: Gleb Gritsai and Sergey Gordeychik
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5582.html
+SUMMARY:SCADA StrangeLove 2
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T160000
+DTSTAMP;VALUE=DATE-TIME:20131208T183901Z
+UID:7abembel5Nwrd3h_pRjeOQ@frab.cccv.de
+DESCRIPTION:Almost all higher-end cars come with very beefy in-car entert
+ ainment hardware. In this talk\, I'll describe how to take advantage of 
+ an existing hands-free kit to connect your car to the internet and scrip
+ t your dashboard in python.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5360.html
+SUMMARY:Script Your Car!
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T181500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T171500
+DTSTAMP;VALUE=DATE-TIME:20131207T121920Z
+UID:0wIAXwCTvHhMFKucqslNxg@frab.cccv.de
+DESCRIPTION:Was hat sich im letzten Jahr im Bereich IT-Sicherheit getan? 
+ Welche neuen Entwicklungen haben sich ergeben? Welche neuen Buzzwords un
+ d Trends waren zu sehen?
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5413.html
+SUMMARY:Security Nightmares
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T224500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T214500
+DTSTAMP;VALUE=DATE-TIME:20131128T160728Z
+UID:QQSVk4IwhteVQcAB1CKVpA@frab.cccv.de
+DESCRIPTION:In the chain of trust of most secure schemes is an electronic
+  chip that holds secret information. These schemes often employ cryptogr
+ aphically secure protocols. The weakest link of such a scheme is the chi
+ p itself. By attacking the chip directly an attacker can gain access to 
+ the secret data in its unencrypted form. In this presentation we demonst
+ rate the attack class of the future\, backside attacks. This class of at
+ tacks mitigate all device countermeasures and can access all signals of 
+ the device. As opposed to the attacks of today\, these attacks can also 
+ be applied to complex systems such as the ARM SoCs of modern smartphones
+ .
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5459.html
+SUMMARY:Security of the IC Backside
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T000000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T230000
+DTSTAMP;VALUE=DATE-TIME:20131205T143250Z
+UID:3HEv_YYlkY2P_y1pKfU7fA@frab.cccv.de
+DESCRIPTION:Although people around the world are becoming increasingly aw
+ are of the United States' global geography of surveillance\, covert acti
+ on\, and other secret programs\, much of this landscape is invisible in 
+ our everyday lives.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5604.html
+SUMMARY:Seeing The Secret State: Six Landscapes
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T134500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T124500
+DTSTAMP;VALUE=DATE-TIME:20131226T162738Z
+UID:0OMMJkoMY79GCUUx9LULgA@frab.cccv.de
+DESCRIPTION:Auf dem 30C3 wird es\, neben der bisher gewohnten digitalen I
+ nfrastruktur mit Netz\, Telefon etc. dieses Jahr auch erstmalig ein Rohr
+ post-System mit dem schönen Namen Seidenstraße geben. Als Inspiration 
+ dient die auf geschlossenen Drainagerohren und Staubsaugern basierende I
+ nstallation OCTO der Künstlergruppe Telekommunisten\, die einigen von d
+ er letzten transmediale bekannt sein dürfte.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5610.html
+SUMMARY:Seidenstraße
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T013000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T003000
+DTSTAMP;VALUE=DATE-TIME:20131206T141212Z
+UID:Ke3PM9oLXsvxKK450uSAtg@frab.cccv.de
+DESCRIPTION:Sim Gishel is a multimedia robot. He sings and dances on requ
+ est. He will try hard to take part in casting shows to become a popstar.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5544.html
+SUMMARY:Sim Gishel
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T133000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T130000
+DTSTAMP;VALUE=DATE-TIME:20131223T093231Z
+UID:oj6RLVzhV1NHOMbOLvc8yg@frab.cccv.de
+DESCRIPTION:Every successful open hardware project needs a solid organiza
+ tion structure at some point in time\, especially when plan to produce a
+ nd sell your project. In our “i3 Berlin” 3d printer project\, we too
+ k some elements of the PLM (Product Lifecycle Management) concept and im
+ plemented it with open source tools like Github and Blender. 
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5594.html
+SUMMARY:Structuring open hardware projects
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T033000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T020000
+DTSTAMP;VALUE=DATE-TIME:20131225T223714Z
+UID:8BNcwg7T1u5qs2EETm-krw@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5642.html
+SUMMARY:Superdefekt (MFOC)
+ORGANIZER:30C3
+LOCATION:Lounge
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T231500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T224500
+DTSTAMP;VALUE=DATE-TIME:20131204T140338Z
+UID:Lv-uOMbLZH1T17ZxxJ-TEQ@frab.cccv.de
+DESCRIPTION:<p>Finally\, the world is aware of the threat of mass surveil
+ lance and control\, but we still have a fight on our hands\, and that fi
+ ght is both technical and political. Global democracy is not going to pr
+ otect itself. There has never been a higher demand for a politically-eng
+ aged hackerdom. Jacob Appelbaum and Julian Assange discuss what needs to
+  be done if we are going to win.</p>
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5397.html
+SUMMARY:Sysadmins of the world\, unite!
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T020000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T000000
+DTSTAMP;VALUE=DATE-TIME:20131222T193021Z
+UID:PUUpHAp28klRG2xtmLUmSQ@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5696.html
+SUMMARY:Tasmo
+ORGANIZER:30C3
+LOCATION:Villa Straylight
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T000000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T233000
+DTSTAMP;VALUE=DATE-TIME:20131207T145714Z
+UID:4edFJcqsY3ORA5pyBrkthA@frab.cccv.de
+DESCRIPTION:We all know monopolies are bad. We even have laws against the
+ m that sometimes get enforced. However\, today we have new kinds of mono
+ polies that affect us without us even noticing them for what they truly 
+ are. And technology plays a central role.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5319.html
+SUMMARY:Technomonopolies
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T143000
+DTSTAMP;VALUE=DATE-TIME:20131210T204143Z
+UID:T9YItdVO2WSP8VbAczAqjQ@frab.cccv.de
+DESCRIPTION:The <a href="http://www.arduguitar.org">ArduGuitar</a> is an 
+ electric guitar with <i>no physical controls\,</i> i.e. no buttons or kn
+ obs to adjust volume\, tone or to select the pickups. All of these funct
+ ions are performed remotely via a bluetooth device such as an Android ph
+ one\, or via a dedicated Arduino powered blutetooth footpedal. The music
+ ian still plucks the strings\, of course! This talk will give an overvie
+ w of the technology and particularly the voyage that took me from nearly
+  no knowledge about anything electronic to enough know-how to make it al
+ l work.I will explain what I learned by collaborating on forums\, with H
+ ackerspaces and with component providers: "How to ask the right question
+ s." The guitar with its Arduino powered circuit and an Android tablet wi
+ ll be available for demo\; the code is all available on the github <a hr
+ ef="https://github.com/gratefulfrog/ArduGuitar">arduguitar repo</a> with
+  the associated <a href="https://github.com/gratefulfrog/lib">Arduino fo
+ otpedal libraries</a>.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5595.html
+SUMMARY:The ArduGuitar
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T140000
+DTSTAMP;VALUE=DATE-TIME:20131202T220752Z
+UID:wkZOlAmoT5ydaMLNV0xCSw@frab.cccv.de
+DESCRIPTION:23rd of December 2008 was a sad day in India for civil libert
+ ies. On this day\, The Indian Parliament passed the "The Information Tec
+ hnology (Amendment) Act" with no debate in the House\, which effectively
+  means is that the government of India now has the power to monitor all 
+ digital communications in the country without a court order or a warrant
+ . The "world's largest democracy" strongly leaning towards becoming a su
+ rveillance state raises many questions and poses severe challenges for f
+ ree speech and economic justice in India and globally. This talk will ma
+ p and review the current political\, socio-cultural and legal landscape 
+ of mass-surveillance\, data protection and censorship in India and analy
+ se how it ties in to the global landscape of surveillance and censorship
+ . It will also aim to create a discussion space to investigate the deepe
+ r effects of these so called "welfare" projects and how citizen-led move
+ ments can drive the state towards stronger data protection and privacy l
+ aws.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5421.html
+SUMMARY:THE DATABASE NATION\, a.k.a THE STATE OF SURVEILLANCE
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T140000
+DTSTAMP;VALUE=DATE-TIME:20131130T233226Z
+UID:PuDWTZPratvP-gVrrPScWQ@frab.cccv.de
+DESCRIPTION:All “managed FLASH” devices\, such as SD\, microSD\, and 
+ SSD\, contain an embedded controller to assist with the complex tasks ne
+ cessary to create an abstraction of reliable\, contiguous storage out of
+  FLASH silicon that is fundamentally unreliable and unpredictably fragme
+ nted. This controller is an attack surface of interest. First\, the abil
+ ity to modify the block allocation and erasure algorithms introduces the
+  opportunity to perform various MITM attacks in a virtually undetectable
+  fashion. Second\, the controller itself is typically powerful\, with pe
+ rformance around 50MIPS\, yet with a cost of mere pennies\, making it an
+  interesting and possibly useful development target for other non-storag
+ e related purposes. Finally\, understanding the inner workings of the co
+ ntroller enables opportunities for data recovery in cards that are thoug
+ ht to have been erased\, or have been partially damaged.\n\nThis talk de
+ monstrates a method for reverse engineering and loading code into the mi
+ crocontroller within a SD memory card.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5294.html
+SUMMARY:The Exploration and Exploitation of an SD Memory Card
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T210000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T203000
+DTSTAMP;VALUE=DATE-TIME:20131207T172635Z
+UID:bXlhO9ZYXyqOM_1vcI_WyA@frab.cccv.de
+DESCRIPTION:Based on her own experiences as an Intelligence Officer for M
+ I5 (the UK domestic security service) and a whistleblower\, Annie Machon
+  will talk about the relationships between the wars on 'terror'\, drugs\
+ , whistleblowers\, and the internet\, and suggest some ideas about what 
+ we can do.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5295.html
+SUMMARY:The Four Wars
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T224500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T214500
+DTSTAMP;VALUE=DATE-TIME:20131220T180418Z
+UID:mskIn_xqqyN3oJeG11ztXg@frab.cccv.de
+DESCRIPTION:DNS\, DNSSEC and the X.509 CA system leak private information
+  about users to server operators and fail to provide adequate security a
+ gainst modern adversaries.  The fully decentralized GNU Name System prov
+ ides a privacy-enhancing and censorship-resistant alternative.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5212.html
+SUMMARY:The GNU Name System
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T223000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T220000
+DTSTAMP;VALUE=DATE-TIME:20131130T205322Z
+UID:n-OE9MQoWcUq2LFZB2e6DQ@frab.cccv.de
+DESCRIPTION:Companies are often blamed for not working upstream. Surprisi
+ ngly\, the situation is not per se better with community projects. To ch
+ ange the latter for the better\, Wolfram will show some examples regardi
+ ng the Linux Kernel and present ideas to create win-win-win situations.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5446.html
+SUMMARY:The good\, the bad\, and the ugly - Linux Kernel patches
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T123000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T113000
+DTSTAMP;VALUE=DATE-TIME:20131202T072104Z
+UID:CHcRJtYsY2jZ-1HovlXpcQ@frab.cccv.de
+DESCRIPTION:Attribute Based Credentials (ABC) allow users to prove certai
+ n properties about themselves (e.g. age\, race\, license\, etc.) without
+  revealing their full identity. ABC are therefore important to protect t
+ he privacy of the user. The IRMA (I Reveal My Attributes) project of the
+  Radboud University Nijmegen has created the first full and efficient im
+ plementation of this technology on smart cards. This allows ABC technolo
+ gy to be used in practice both on the Internet as well as in the physica
+ l world. We will discuss ABCs in general\, the IRMA system\, it's advant
+ ages and pitfalls\, and future work.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5214.html
+SUMMARY:The Gospel of IRMA 
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T213000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T203000
+DTSTAMP;VALUE=DATE-TIME:20131208T182622Z
+UID:f6NKvCGB1dAhdYpKYouiHw@frab.cccv.de
+DESCRIPTION:As Internet privacy/security professionals and amateur enthus
+ iasts\, we are often asked to give advice about best practices in this f
+ ield. Sometimes this takes the form of one-on-one advice to our friends\
+ , sometimes it's training a room full of people\, and sometimes you may 
+ be asked to write a blog post or a brief guide or an entire curriculum. 
+ This talk will survey the current Internet privacy guide landscape and d
+ iscuss the perils and pitfalls of creating this type of resource\, using
+  the Electronic Frontier Foundation's Surveillance Self Defense project 
+ as a case study.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5538.html
+SUMMARY:The Internet (Doesn't) Need Another Security Guide
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T133000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T130000
+DTSTAMP;VALUE=DATE-TIME:20131204T130722Z
+UID:frveytbMWLT-K_WVy3MUYA@frab.cccv.de
+DESCRIPTION:Modern society's use of technology as an instrument for domin
+ ation is deeply problematic. Are instrumentality and domination inherent
+  to the essence of technology? Can hacking provide an alternative approa
+ ch to technology which can overcome this? How do art and beauty fit into
+  this approach?
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5278.html
+SUMMARY:The philosophy of hacking
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T171500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T164500
+DTSTAMP;VALUE=DATE-TIME:20131207T174357Z
+UID:Ziraj84D16VJmXakvJGNEg@frab.cccv.de
+DESCRIPTION:"The Pirate Cinema" reveals Peer-to-Peer information flows. I
+ t is a composition generated by the activity on file sharing networks. "
+ The Pirate Cinema" immerses the viewer in network flows.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5607.html
+SUMMARY:The Pirate Cinema
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T213000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T203000
+DTSTAMP;VALUE=DATE-TIME:20131223T155011Z
+UID:kkMSS4JoEJtzbF9jc2JJ4A@frab.cccv.de
+DESCRIPTION:Roger Dingledine and Jacob Appelbaum will discuss contemporar
+ y Tor Network issues related to censorship\, security\, privacy and anon
+ ymity online.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5423.html
+SUMMARY:The Tor Network
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T193000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T183000
+DTSTAMP;VALUE=DATE-TIME:20131128T160723Z
+UID:PPVcroSxtnY9RfXjkEmxGA@frab.cccv.de
+DESCRIPTION:This was a busy year for crypto.\n\nTLS was broken.  And then
+  broken again.\n\nDiscrete logs were computed.  And then computed again.
+ \n\nIs the cryptopocalypse nigh?\n\nHas the NSA backdoored everything in
+  sight?\n\nAlso\, answers to last year's exercises will be given.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5339.html
+SUMMARY:The Year in Crypto
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T140000
+DTSTAMP;VALUE=DATE-TIME:20131208T021021Z
+UID:HimAg2Mox6GCcmhbE0NWkQ@frab.cccv.de
+DESCRIPTION:From Stellar Wind to PRISM\, Boundless Informant to EvilOlive
+ \, the NSA spying programs are shrouded in secrecy and rubber-stamped by
+  secret opinions from a court that meets in a faraday cage. The Electron
+ ic Frontier Foundation's Kurt Opsahl explains the known facts about how 
+ the programs operate and the laws and regulations the U.S. government as
+ serts allows the NSA to spy on you.\n
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5255.html
+SUMMARY:Through a PRISM\, Darkly
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T134500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T124500
+DTSTAMP;VALUE=DATE-TIME:20131202T165720Z
+UID:ZYk9lubJJBkqDWJBOZpWyw@frab.cccv.de
+DESCRIPTION: 	Increasingly\, users and their computing hardware are expos
+ ed a range of software and hardware attacks\, ranging from disk imaging 
+ to hardware keylogger installation and beyond. Existing methods are inad
+ equate to fully protect users\, particularly from covert physical hardwa
+ re modifications in the "evil maid" scenario\, and yet are very inconven
+ ient. Victims include governments and corporations traveling internation
+ ally (e.g. China)\, anti-government activists in places like Syria\, and
+  anyone who is a target of a motivated attacker who can gain physical ac
+ cess.\n\nPhysically Unclonable Functions\, combined with a trusted mobil
+ e device and a network service\, can be used to mitigate these risks. We
+  present a novel open-source mobile client and network service which can
+  protect arbitrary hardware from many forms of covert modification and a
+ ttack\, and which when integrated with software\, firmware\, and policy 
+ defenses\, can provide greater protection to users and limit potential a
+ ttack surface.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5600.html
+SUMMARY:Thwarting the Evil Maid Attacks
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T123000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T113000
+DTSTAMP;VALUE=DATE-TIME:20131204T015256Z
+UID:BAKqlbEKHMpBMr22KlDsEg@frab.cccv.de
+DESCRIPTION:2013 will be remembered as the year that the Internet lost it
+ s innocence for nearly everyone as light was shed on the widespread use 
+ of dragnet surveillance by the NSA and intelligence agencies globally. W
+ ith the uprisings of the Arab Spring where people raided the offices of 
+ their regimes to bring evidence to light\, we've seen a tremendous pheno
+ menon: a large numbers of whistleblowers have taken action to inform the
+  public about important details. The WikiLeaks SpyFiles series also show
+ s us important details to corroborate these claims. There is ample evide
+ nce about the use and abuses of a multi-billion dollar industry that hav
+ e now come to light. This evidence includes increasing use of targeted a
+ ttacks to establish even more invasive control over corporate\, governme
+ nt or other so-called legitimate targets.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5439.html
+SUMMARY:To Protect And Infect
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T000000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T210000
+DTSTAMP;VALUE=DATE-TIME:20131222T164742Z
+UID:wWTvrmdPr9IGSwkAvc3JWA@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5640.html
+SUMMARY:Tobi Lampe (Pokerflat) b2b Vinzenco
+ORGANIZER:30C3
+LOCATION:Lounge
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T213000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T203000
+DTSTAMP;VALUE=DATE-TIME:20131213T072708Z
+UID:O-7g6jlu6DmenVdxO6t2Mg@frab.cccv.de
+DESCRIPTION:The talk gives an overview about our work of quantifying know
+ ledge acquisition tasks in real-life environments\, focusing on reading.
+  We combine several pervasive sensing approaches (computer vision\, moti
+ on-based activity recognition etc.) to tackle the problem of recognizing
+  and classifying knowledge acquisition tasks with a special focus on rea
+ ding. We discuss which sensing modalities can be used for digital and of
+ fline reading recognition\, as well as how to combine them dynamically.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5387.html
+SUMMARY:Toward a Cognitive "Quantified Self" 
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T160000
+DTSTAMP;VALUE=DATE-TIME:20131225T231746Z
+UID:D27zQV1jKk88oKyXxGBGPQ@frab.cccv.de
+DESCRIPTION:The brain can be understood as a highly specialized informati
+ on processing device. Because computers basically do the same thing\, it
+ 's not too absurd to try to link these two together. The result is a bra
+ in-computer-interface.\nThis talk explains the core functionality of our
+  brain and how to access the stored data from the outside. Software and 
+ hardware have already reached a somewhat hacker-friendly state\, and we 
+ want to show you how we got there. We're also here to answer all your qu
+ estions about the brain.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5395.html
+SUMMARY:Towards an affordable brain-computer-interface
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T223000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T220000
+DTSTAMP;VALUE=DATE-TIME:20131224T030524Z
+UID:R5Vdbjtyg_hFVmSLcqSJfg@frab.cccv.de
+DESCRIPTION:TREZOR is a hardware wallet for Bitcoin. We identified securi
+ ty of the end users' computer as one of the main problems that block Bit
+ coin mass adoption.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5545.html
+SUMMARY:Trezor: Bitcoin hardware wallet
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T140000
+DTSTAMP;VALUE=DATE-TIME:20131127T014608Z
+UID:SKDne_Zu6SPJc-ADxqiLnA@frab.cccv.de
+DESCRIPTION:Symbolic Execution (SE) is a powerful way to analyze programs
+ . Instead of using concrete data values SE uses symbolic values to evalu
+ ate a large set of parallel program paths at once. A drawback of many sy
+ stems is that they need source code access and only scale to few lines o
+ f code. This talk explains how SE and binary analysis can be used to (i)
+  reverse-engineer components of binary only applications and (ii) constr
+ uct specific concrete input that triggers a given condition deep inside 
+ the application (think of defining an error condition and the SE engine 
+ constructs the input to the application that triggers the error).
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5224.html
+SUMMARY:Triggering Deep Vulnerabilities Using Symbolic Execution
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T180000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T173000
+DTSTAMP;VALUE=DATE-TIME:20131205T210127Z
+UID:zUDh6XccjgDg7g1WP6Kpvw@frab.cccv.de
+DESCRIPTION:With the disappearance of the computer\, something else is si
+ lently becoming invisible as well — the User. Users are disappearing a
+ s both phenomena and term\, and this development is either unnoticed or 
+ accepted as progress — an evolutionary step. Though the Invisible User
+  is more of an issue than an Invisible Computer.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5547.html
+SUMMARY:Turing Complete User
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T134500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T124500
+DTSTAMP;VALUE=DATE-TIME:20131208T224628Z
+UID:8h6abIcZ9FOaWm7N3o3v9g@frab.cccv.de
+DESCRIPTION:Der Vortrag stellt fortgeschrittene linguistische Methoden de
+ s politisch motivierten Internetmonitorings vor. Er gibt keine Anleitung
+ \, wie man sich der Überwachung wirkungsvoll entziehen kann\, denn das 
+ ist ohnehin zwecklos.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5377.html
+SUMMARY:Überwachen und Sprache
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T201000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T183000
+DTSTAMP;VALUE=DATE-TIME:20131220T161530Z
+UID:x4qxBOnhmQ17ypFMhLcdaA@frab.cccv.de
+DESCRIPTION: Wer ist eigentlich dieser "Verfassungsschutz"\, was tut er u
+ nd brauchen wir ihn überhaupt? Laut Angaben des Verfassungsschutzes bea
+ ntworten drei Viertel der deutschen Bundesbürger diese Frage mit "Ja.".
+  Das nö-theater Köln stellt diesem jedoch ein klares "NÖ!" entgegen. 
+ Auf Basis intensiver Interviews\, Beobachtungen und Recherchen entwickel
+ ten sie das politische Satirestück "V wie Verfassungsschutz". Es werden
+  die Verstrickungen des deutschen Inlandsgeheimdienstes mit der NSU bele
+ uchtet\, die "fünf peinlichsten Fälle für den Verfassungsschutz" nebe
+ n den Pannen mit prostitutionsähnlichen V-Mann-Praktiken inszeniert. Da
+ zwischen tanzt fröhlich Leo Lupix\, das Maskottchen des Verfassungsschu
+ tzes. Die Kölner Theatertruppe hebt für uns den Zeigefinger und sagt: 
+ V wie... Vertuschung\, V wie... Verzweiflung - V wie... Versagen.\n
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5591.html
+SUMMARY:V wie Verfassungsschutz
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T224500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T214500
+DTSTAMP;VALUE=DATE-TIME:20131128T160829Z
+UID:OJWon_ecrah6bXHuBY__Vw@frab.cccv.de
+DESCRIPTION:This talk will demonstrate why it is virtually impossible to 
+ secure virtual machines implementations properly. In the talk I will try
+  to give an overview of the basics of hardware virtualization technology
+ \, the existing attack techniques against virtualization and also explai
+ n why it is such a complex problem to create a secure hypervisor. The ta
+ lk will focus on the low level interfaces and how it affects all aspects
+  of computer platform security. I will also try to review a few interest
+ ing Erratas at the end of the talk.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5445.html
+SUMMARY:Virtually Impossible: The Reality Of Virtualization Security
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T213000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T203000
+DTSTAMP;VALUE=DATE-TIME:20131220T154829Z
+UID:uJJPv0R6KJBwRIqiShrwxw@frab.cccv.de
+DESCRIPTION:Memory corruption has been around forever but is still one of
+  the most exploited problems on current systems. This talk looks at the 
+ past 30 years of memory corruption and systematizes the different existi
+ ng exploit and defense techniques in a streamlined way. We evaluate (i) 
+ how the different attacks evolved\, (ii) how researchers came up with de
+ fense mechanisms as an answer to new threats\, and (iii) what we will ha
+ ve to expect in the future.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5223.html
+SUMMARY:WarGames in memory
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T134500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T124500
+DTSTAMP;VALUE=DATE-TIME:20131223T160145Z
+UID:iGUI8vSrFaU8uQiDfjNt2w@frab.cccv.de
+DESCRIPTION:Der digitale Wandel hat uns grandiose Chancen für selbstbest
+ immtes\, kreatives\, kollaboratives\, kritisches und demokratisches Lern
+ en gebracht. Wir haben sie nicht genutzt.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5467.html
+SUMMARY:Warum die Digitale Revolution des Lernens gescheitert ist.
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T123000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T113000
+DTSTAMP;VALUE=DATE-TIME:20131129T185851Z
+UID:iG5wn8T9LzGJFpnHZBjVwg@frab.cccv.de
+DESCRIPTION:An abundant number of existential risks threatens humanity. M
+ any of those planetary by nature. Current science already enables us to 
+ colonize nearby space\, yet nobody bothers to supply the modest financia
+ l resources. Hence this call to action.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5468.html
+SUMMARY:We only have one earth
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T181500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T171500
+DTSTAMP;VALUE=DATE-TIME:20131130T213427Z
+UID:X5bQYDGyUSq8KPoTcyahdw@frab.cccv.de
+DESCRIPTION:The goal of white-box cryptography is to protect cryptographi
+ c keys in a public implementation of encryption algorithms\, primarily i
+ n the context of Pay-TV and tamper-resistant software. I present an over
+ view of the white-box cryptography concept along with the most common ap
+ plications and proposed designs. I discuss the subtle difference between
+  white-box cryptography\, public-key cryptography\, and obfuscation. 
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5590.html
+SUMMARY:White-Box Cryptography
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T190000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T180000
+DTSTAMP;VALUE=DATE-TIME:20131219T114304Z
+UID:-xknB5zUdmHiIlAUw4AdFA@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5663.html
+SUMMARY:Workshop "Hacking Radio"
+ORGANIZER:30C3
+LOCATION:Saal 17
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T190000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T180000
+DTSTAMP;VALUE=DATE-TIME:20131219T113041Z
+UID:8NUcBDoORZwmoAXiQ_LOHQ@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5675.html
+SUMMARY:Workshop "Hacking Radio"
+ORGANIZER:30C3
+LOCATION:Saal 17
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T130000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T120000
+DTSTAMP;VALUE=DATE-TIME:20131219T112708Z
+UID:elA8CBfTVBkNsyIhHiyU3A@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5677.html
+SUMMARY:Workshop "Hacking Radio"
+ORGANIZER:30C3
+LOCATION:Saal 17
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T224500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T214500
+DTSTAMP;VALUE=DATE-TIME:20131224T220114Z
+UID:wGEf2KpP3_UU4Qm0vrtz1g@frab.cccv.de
+DESCRIPTION:The use of encryption to secure sensitive data from unauthori
+ zed eyes is as old as human communication itself. Before the relatively 
+ new method of computerized encryption software converting data into a fo
+ rmat unintelligible to anyone lacking the necessary key for its decrypti
+ on\, for a long time there was pen and paper and the human brain doing q
+ uite a bit of work. Up until the 20th century encryption had to be done 
+ literally by hand\, to then be transmitted in paper form\, via telegraph
+ y or radio. In this context\, encryption of data has always been of spec
+ ial importance during times of political conflict and war\; subsequently
+ \, it saw its major developments during those times in history. This tal
+ k will examine and explain common hand encryption methods still employed
+  today using the example of one very successful Soviet espionage group o
+ perating in Japan in the 1930s and 1940s: the spy ring centered around R
+ ichard Sorge\, codenamed “Ramsay”.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5474.html
+SUMMARY:World War II Hackers
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T193000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T183000
+DTSTAMP;VALUE=DATE-TIME:20131128T160949Z
+UID:is-GStnCnMQnnba7Nu_pVA@frab.cccv.de
+DESCRIPTION:For the past year\, I've been looking at the implementation o
+ f X.org code. both client and server. During this presentation\, I'll gi
+ ve an overview of the good\, the bad and the ugly. 
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5499.html
+SUMMARY:X Security
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T160000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T140000
+DTSTAMP;VALUE=DATE-TIME:20131225T222359Z
+UID:BUYV90ITqvTbYDPns8cbPA@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5700.html
+SUMMARY:X-Dream
+ORGANIZER:30C3
+LOCATION:Lounge
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T120000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T113000
+DTSTAMP;VALUE=DATE-TIME:20131130T205143Z
+UID:hsTftEgTn8vhPMLEZF2DVA@frab.cccv.de
+DESCRIPTION:Building and running an ISP is not that difficult. It's hard 
+ to say how many people are connected to the Internet by such weird struc
+ tures\, but we know that they are more and more each day.\nWhat is at st
+ ake is taking back the control of the Internet infrastructure and showin
+ g that a neutral Internet access is natural.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5391.html
+SUMMARY:Y U NO ISP\, taking back the Net
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T230000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T213000
+DTSTAMP;VALUE=DATE-TIME:20131223T164056Z
+UID:_TVC_yw8tlKMTfCp9ADvFA@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5649.html
+SUMMARY:Zeitgeist
+ORGANIZER:30C3
+LOCATION:Lounge
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T000000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T230000
+DTSTAMP;VALUE=DATE-TIME:20131212T040231Z
+UID:ufJTu-pu8QBUtd-bji9tmw@frab.cccv.de
+DESCRIPTION:»Lange Schlüssel sind sicherer als kurze.«\n»RSA und/oder
+  AES sind einfach zu implementieren.«\n»Für Zufallszahlen reicht es\,
+  java.util.Random zu nehmen.«\nSolche oder ähnliche Aussagen hört man
+  immer mal wieder. Doch was ist da dran? Welche Fehler werden bei der Be
+ nutzung und Implementierung von Kryptografie gern gemacht?
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5502.html
+SUMMARY:Zwischen supersicherer Verschlüsselung und Klartext liegt nur ei
+ n falsches Bit 
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+END:VCALENDAR

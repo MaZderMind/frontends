@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T181500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T171500
+DTSTAMP;VALUE=DATE-TIME:20131209T165851Z
+UID:I1Wkt7x8Yy2ZnP2kOGAuXA@frab.cccv.de
+DESCRIPTION:In this talk (which in part was delivered at Infiltrate 2013 
+ and NoSuchCon 2013) we will discuss our recent research that is being ro
+ lled into our Practical ARM Exploitation course (sold out at Blackhat th
+ is year and last) on Linux and Android (for embedded applications and mo
+ bile devices). We will also demonstrate these techniques and discuss how
+  we were able to discover them using several ARM hardware development pl
+ atforms that we custom built.  Where relevant we will also discuss ARM e
+ xploitation as it related to Android as we wrote about in the "Android H
+ ackers Handbook" which we co-authored and will be released in October 20
+ 13.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5193.html
+SUMMARY:Hardware Attacks\, Advanced ARM Exploitation\, and Android Hackin
+ g
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+END:VCALENDAR

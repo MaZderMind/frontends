@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T181500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T171500
+DTSTAMP;VALUE=DATE-TIME:20131222T231614Z
+UID:rSMcCR_40Gu8XhIBpMapxQ@frab.cccv.de
+DESCRIPTION:The aim of this talk is to give an understandable insight int
+ o wireless communication\, using existing systems as examples on why the
+ re are different communication systems for different uses.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5527.html
+SUMMARY:Basics of Digital Wireless Communication
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+END:VCALENDAR

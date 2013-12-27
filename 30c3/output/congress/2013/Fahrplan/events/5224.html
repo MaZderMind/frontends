@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type">
+<title>Schedule 30C3</title>
+<link href="/congress/2013/Fahrplan/assets/public_schedule-8bfa1999e089241b551c2ff7023ef7da.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/congress/2013/Fahrplan/style.css" media="all" rel="stylesheet" type="text/css">
+<link href="/congress/2013/Fahrplan/assets/public_schedule_print-233e241f259049e63e89cebef83c15ee.css" media="print" rel="stylesheet" type="text/css">
+<script src="/congress/2013/Fahrplan/assets/application-0cfb43f843b1463a544c25b6bc3f9649.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="wrapper">
+<div id="header">
+<h1>Schedule 30C3</h1>
+</div>
+<div id="horizontal-navigation">
+<ul>
+<li>
+<a href="/congress/2013/Fahrplan/schedule.html">Index</a>
+</li>
+<li>
+<a href="/congress/2013/Fahrplan/schedule/0.html">
+Day 1
+<br><span class="small-font">2013-12-27</span>
+</a>
+</li>
+<li>
+<a href="/congress/2013/Fahrplan/schedule/1.html">
+Day 2
+<br><span class="small-font">2013-12-28</span>
+</a>
+</li>
+<li>
+<a href="/congress/2013/Fahrplan/schedule/2.html">
+Day 3
+<br><span class="small-font">2013-12-29</span>
+</a>
+</li>
+<li>
+<a href="/congress/2013/Fahrplan/schedule/3.html">
+Day 4
+<br><span class="small-font">2013-12-30</span>
+</a>
+</li>
+<li>
+<a href="/congress/2013/Fahrplan/speakers.html">Speakers</a>
+</li>
+<li class="selected">
+<a href="/congress/2013/Fahrplan/events.html">Events</a>
+</li>
+</ul>
+</div>
+<div id="main-content">
+<p class="release">
+Version 1.1b
+</p>
+<h2>lecture: Triggering Deep Vulnerabilities Using Symbolic Execution</h2>
+<h3 class="title">Deep program analysis without the headache</h3>
+<div class="column left" id="basic">
+<div class="image large"><img alt="Event_large" src="/congress/2013/Fahrplan/assets/event_large-ea7d3ea7d255bc2b751e4357abfe7484.png"></div>
+<p class="abstract">Symbolic Execution (SE) is a powerful way to analyze programs. Instead of using concrete data values SE uses symbolic values to evaluate a large set of parallel program paths at once. A drawback of many systems is that they need source code access and only scale to few lines of code. This talk explains how SE and binary analysis can be used to (i) reverse-engineer components of binary only applications and (ii) construct specific concrete input that triggers a given condition deep inside the application (think of defining an error condition and the SE engine constructs the input to the application that triggers the error).</p>
+<p class="description">Analysis and reverse engineering of binary programs is cumbersome. Consider the problem that we have a given interesting (error) condition inside the program that we want to trigger. How can we generate a specific input to the program that, during the execution of the program, will trigger the condition. In this talk we use a combination of binary analysis techniques that recover high-level control-flow and data-flow information from a binary-only application and Symbolic Execution (SE) to automate the analysis of such problems. Existing SE tools have often been used to achieve high coverage across all code paths in an application to find implementation bugs. We use SE for a different purpose; given a vulnerability condition hidden deep inside the application what is the input that triggers that condition.</p>
+
+<p class="description">We tackle the given problem in three major steps: (i) gathering information about the binary, (ii) analyzing the information-flow and control-flow of the binary, and (iii) using symbolic execution to generate a specific input example that triggers the specified condition. During the information gathering process we define the interesting condition and use regular analysis techniques to set-up later stages. In the information-flow and control-flow analysis we use a given sample input to collect a complete execution trace of the application that is then parsed into a graph that dissects the computation of the application into individual components. The last steps uses fuzzBall, our open-source SE engine to compute specific vulnerability-triggering inputs for the identified components.</p>
+
+<p class="description">To evaluate our technique we will show several examples using real programs, showing how we can use specific vulnerability conditions to automatically generate input that triggers this condition. In addition, we will show how our SE engine can be used for other interesting analysis on binary only applications. Our tools are available as open-source and we invite other hackers to join in on this project.</p>
+</div>
+<div class="column left" id="details">
+<h3>Info</h3>
+<p>
+<b>Day:</b>
+<a href="/congress/2013/Fahrplan/schedule/0.html">2013-12-27</a>
+<br><b>Start time:</b>
+14:00
+<br><b>Duration:</b>
+01:00
+<br><b><span class="translation_missing" title="translation missing: en.public.schedule.event.room">Room</span>:</b>
+Saal 6
+<br><b>Track:</b>
+Security &amp; Safety
+<br><b>Language:</b>
+en
+</p>
+<h3>Links:</h3>
+<ul>
+<li><a href="/congress/2013/Fahrplan/events/5224.ics">iCalendar</a></li>
+<li><a href="https://github.com/bitblaze-fuzzball/fuzzball">Tools are available as open-source</a></li>
+</ul>
+<div class="column left" id="concurrent_events">
+<h3>Concurrent events</h3>
+<dl class="dl-horizontal">
+<dt>Saal 1</dt>
+<dd><a href="/congress/2013/Fahrplan/events/5281.html">Keine Anhaltspunkte für flächendeckende Überwachung</a></dd>
+<dt>Saal 2</dt>
+<dd><a href="/congress/2013/Fahrplan/events/5307.html">Reverse engineering of CHIASMUS from GSTOOL</a></dd>
+<dt>Saal G</dt>
+<dd><a href="/congress/2013/Fahrplan/events/5497.html">10 Years of Fun with Embedded Devices</a></dd>
+<dt>Lounge</dt>
+<dd><a href="/congress/2013/Fahrplan/events/5700.html">X-Dream</a></dd>
+</dl>
+</div>
+</div>
+<div class="column right" id="sidebar">
+<h3>Speakers</h3>
+<table class="list"><tbody><tr>
+<td><div class="image small"><img alt="2574" src="/congress/2013/Fahrplan/system/avatars/2410/small/2574.jpg"></div></td>
+<td><a href="/congress/2013/Fahrplan/speakers/2410.html">gannimo</a></td>
+</tr></tbody></table>
+</div>
+<div class="span16">
+</div>
+
+<br class="clear">
+</div>
+</div>
+<div class="last_update" style="text-align: right;">Last update: Thu Dec 26 23:05:00 CET 2013</div></body>
+</html>

@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T200000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T120000
+DTSTAMP;VALUE=DATE-TIME:20131223T112601Z
+UID:wUbZt2GFpOghCkCfp3aQWg@frab.cccv.de
+DESCRIPTION:BarbNerdy is not only nerdy in finding great music all over t
+ he places\, she is also writing wonderful stories with them. . In Berlin
+  she is doing since 2009  the very open minded and bass music focussed S
+ upport Your Local Ghetto nights at the lovely Panke with a lot of local 
+ but also international guests. \nShe started DJ'ing in 1990\, worked wit
+ h people from the first techno generation like DJ Hell\, Blake Baxter or
+  Abe Duque but already in 1996 she got bored of the 4/4 and jumped out o
+ f this strict costume and enjoyed even more new music before this hits t
+ he mainstream.\nMusic and bringing music to the people is her biggest pa
+ ssion. Give her a good sound system and she will guide you through a unf
+ orgettable journey of music. 
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5690.html
+SUMMARY:Barbnerdy
+ORGANIZER:30C3
+LOCATION:Villa Straylight
+END:VEVENT
+END:VCALENDAR

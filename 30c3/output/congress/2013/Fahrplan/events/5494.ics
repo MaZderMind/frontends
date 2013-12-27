@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T171500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T164500
+DTSTAMP;VALUE=DATE-TIME:20131203T162652Z
+UID:tEudCvm8e6XS2VQP3BR5yw@frab.cccv.de
+DESCRIPTION:Knight-Mozilla OpenNews sends coders into news organisations 
+ on a ten-month fellowship to make new tools for reporting and measuring 
+ the news. We believe that to remain relevant\, journalism has to smarten
+  up about tech and data. As a global community\, we develop tools to dat
+ amine public data\, news apps to make information accessible\, and visua
+ lisations to break down complex stories. In my talk\, I want to present 
+ the lessons about tech that I've learned in a newsroom and the things th
+ at still need to be built. 
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5494.html
+SUMMARY:Nerds in the news
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+END:VCALENDAR

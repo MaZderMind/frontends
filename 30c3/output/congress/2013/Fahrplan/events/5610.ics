@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T134500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T124500
+DTSTAMP;VALUE=DATE-TIME:20131226T162738Z
+UID:0OMMJkoMY79GCUUx9LULgA@frab.cccv.de
+DESCRIPTION:Auf dem 30C3 wird es\, neben der bisher gewohnten digitalen I
+ nfrastruktur mit Netz\, Telefon etc. dieses Jahr auch erstmalig ein Rohr
+ post-System mit dem schönen Namen Seidenstraße geben. Als Inspiration 
+ dient die auf geschlossenen Drainagerohren und Staubsaugern basierende I
+ nstallation OCTO der Künstlergruppe Telekommunisten\, die einigen von d
+ er letzten transmediale bekannt sein dürfte.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5610.html
+SUMMARY:Seidenstraße
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+END:VCALENDAR

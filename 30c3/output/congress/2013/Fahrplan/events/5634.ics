@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T160000
+DTSTAMP;VALUE=DATE-TIME:20131209T155902Z
+UID:d7ZRyNoL-Oceu9NYorKzgA@frab.cccv.de
+DESCRIPTION:At Fort George "Orwell" Meade\, home of the NSA and the US De
+ fense Information School\, managing the message of Chelsea Manning's tri
+ al was facilitated by a lack of public access to most of the court filin
+ gs and rulings until 18 months into her legal proceeding.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5634.html
+SUMMARY:07KINGSTON25 JAMAICA: MALARIA UPDATE Dispatches from Fort Meade
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+END:VCALENDAR

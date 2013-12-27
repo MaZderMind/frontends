@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T133000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T130000
+DTSTAMP;VALUE=DATE-TIME:20131223T093231Z
+UID:oj6RLVzhV1NHOMbOLvc8yg@frab.cccv.de
+DESCRIPTION:Every successful open hardware project needs a solid organiza
+ tion structure at some point in time\, especially when plan to produce a
+ nd sell your project. In our “i3 Berlin” 3d printer project\, we too
+ k some elements of the PLM (Product Lifecycle Management) concept and im
+ plemented it with open source tools like Github and Blender. 
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5594.html
+SUMMARY:Structuring open hardware projects
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+END:VCALENDAR

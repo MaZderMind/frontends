@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T123000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T113000
+DTSTAMP;VALUE=DATE-TIME:20131129T185851Z
+UID:iG5wn8T9LzGJFpnHZBjVwg@frab.cccv.de
+DESCRIPTION:An abundant number of existential risks threatens humanity. M
+ any of those planetary by nature. Current science already enables us to 
+ colonize nearby space\, yet nobody bothers to supply the modest financia
+ l resources. Hence this call to action.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5468.html
+SUMMARY:We only have one earth
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+END:VCALENDAR

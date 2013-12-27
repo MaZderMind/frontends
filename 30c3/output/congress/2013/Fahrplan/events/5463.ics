@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T140000
+DTSTAMP;VALUE=DATE-TIME:20131202T194634Z
+UID:-isG7Swsi8DaA62qztr0Kw@frab.cccv.de
+DESCRIPTION:Satellites in Low Earth Orbit have tons of nifty signals\, bu
+ t they move quickly though the sky and are difficult to track with fine 
+ accuracy.  This lecture describes a remotely operable satellite tracking
+  system that the author built from a Navy-surplus Inmarsat dish in South
+ ern Appalachia.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5463.html
+SUMMARY:Hillbilly Tracking of Low Earth Orbit
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+END:VCALENDAR

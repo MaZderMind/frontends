@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T184500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T181500
+DTSTAMP;VALUE=DATE-TIME:20131223T104911Z
+UID:Fp5SK2hqNSDN6KeYzLwIRw@frab.cccv.de
+DESCRIPTION:Auf dem 29C3 stellten wir euch die Cultural Commons Collectin
+ g Society (C3S) als Initiative zur Gründung einer GEMA-Alternative vor.
+  Seit dem ist sehr viel passiert: Unter anderem ist mittlerweile eine Eu
+ ropäische Genossenschaft gegründet\, die mit sechsstelligem Kapital au
+ s einer Crowdfunding-Kampagne in das Jahr 2014 geht. Auf Seiten der GEMA
+  sind angesichts der entstehenden Konkurrentin bereits erste Anzeichen f
+ ür eine Kursänderung wahrnehmbar.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5469.html
+SUMMARY:2 Takte später
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+END:VCALENDAR

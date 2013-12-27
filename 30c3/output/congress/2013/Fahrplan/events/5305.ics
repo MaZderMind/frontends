@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T000000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T230000
+DTSTAMP;VALUE=DATE-TIME:20131203T110821Z
+UID:n4vgYDc2e8tbtF6g9mZIlA@frab.cccv.de
+DESCRIPTION:A light-hearted presentation about many aspects of particle a
+ ccelerators like the LHC and their particle collision experiments. Aimed
+  at technically interested non-scientists and physics buffs alike.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5305.html
+SUMMARY:Breaking Baryons
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+END:VCALENDAR

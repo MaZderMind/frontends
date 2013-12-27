@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T193000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T190000
+DTSTAMP;VALUE=DATE-TIME:20131205T205509Z
+UID:L10c_0Q6XDadTgKo1fzSXQ@frab.cccv.de
+DESCRIPTION:How is it possible to participate in a social event anonymous
+ ly? How can we hide from surveillance in public space? How can we commun
+ icate anonymously in real life? \nHow can we be private in public?\nThis
+  talk will give an overview about existing hacks and techniques that all
+ ow to be private in public\, and compare privacy technologies from the w
+ eb to anonymity techniques that can be used in real life.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5500.html
+SUMMARY:Anonymity and Privacy in Public Space and on the Internet
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+END:VCALENDAR

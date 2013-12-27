@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T180000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T173000
+DTSTAMP;VALUE=DATE-TIME:20131203T224104Z
+UID:_PZbf5bEsVNq9q3vTxAazQ@frab.cccv.de
+DESCRIPTION:This talk considers the use of new technology to police large
+  crowds in the Romantic period. We examine ethical aspects of modern sur
+ veillance technologies by looking at debates around crowd control and fa
+ ce recognition in the age that first imagined\, and reflected on\, the s
+ urveillance state.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5447.html
+SUMMARY:Policing the Romantic Crowd
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+END:VCALENDAR

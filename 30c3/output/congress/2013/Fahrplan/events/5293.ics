@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T160000
+DTSTAMP;VALUE=DATE-TIME:20131207T121952Z
+UID:DFXp3YBOM-2eU3_D89TSfQ@frab.cccv.de
+DESCRIPTION:Die alarmierenden Zustände beim Abbau der Rohstoffe\, die in
+  den Bauteilen (z. B. dem Tantal-Elektrolytkondensator) eines Computers 
+ stecken\, rufen Menschenrechtler auf den Plan. In den U.S.A. ist es 2010
+  gelungen\, ein umstrittenes Gesetz umzusetzen\, das die Finanzierung vo
+ n Kriegsparteien durch Erzhandel regulieren soll. In der EU soll nun äh
+ nliches geschehen. Der Vortrag klärt über die Geschichte auf\, nennt K
+ onsequenzen und formuliert Forderungen. \n
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5293.html
+SUMMARY:Dead Man Edition
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+END:VCALENDAR

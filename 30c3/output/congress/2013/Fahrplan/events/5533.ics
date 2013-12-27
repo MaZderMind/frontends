@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T134500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T124500
+DTSTAMP;VALUE=DATE-TIME:20131202T003546Z
+UID:RiskSjr33wsyUrC5oX80uw@frab.cccv.de
+DESCRIPTION:Internet-wide network scanning has powerful security applicat
+ ions\, including exposing new vulnerabilities\, tracking their mitigatio
+ n\, and exposing hidden services.  Unfortunately\, probing the entire pu
+ blic address space with standard tools like Nmap requires either months 
+ of time or large clusters of machines.  In this talk\, I'll demonstrate 
+ <a href="https://zmap.io">ZMap</a>\, an open-source network scanner deve
+ loped by my research group that is designed from the ground up to perfor
+ m Internet-wide scans efficiently.  We've used ZMap with a gigabit Ether
+ net uplink to survey the entire IPv4 address space in under 45 minutes f
+ rom a single machine\, more than 1300 times faster than Nmap.  I'll expl
+ ain how ZMap's architecture enables such high performance.  We'll then w
+ ork through a series of practical examples that explore the security app
+ lications of very fast Internet-scale scanning\, both offensive and defe
+ nsive.  I'll talk about results and experiences from conducting more tha
+ n 300 Internet-wide scans over the past 18 months\, including new revela
+ tions about the state of the HTTPS CA ecosystem.  I'll discuss the react
+ ions our scans have generated--on one occasion we were mistaken for an I
+ ranian attack against U.S. banks and we received a visit from the FBI--a
+ nd I'll suggest guidelines and best practices for good Internet citizens
+ hip while scanning.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5533.html
+SUMMARY:Fast Internet-wide Scanning and its Security Applications
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T120000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T113000
+DTSTAMP;VALUE=DATE-TIME:20131130T205143Z
+UID:hsTftEgTn8vhPMLEZF2DVA@frab.cccv.de
+DESCRIPTION:Building and running an ISP is not that difficult. It's hard 
+ to say how many people are connected to the Internet by such weird struc
+ tures\, but we know that they are more and more each day.\nWhat is at st
+ ake is taking back the control of the Internet infrastructure and showin
+ g that a neutral Internet access is natural.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5391.html
+SUMMARY:Y U NO ISP\, taking back the Net
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+END:VCALENDAR

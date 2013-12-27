@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T231500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T224500
+DTSTAMP;VALUE=DATE-TIME:20131215T220516Z
+UID:d3O96YnMHkiPLhp50TPJAA@frab.cccv.de
+DESCRIPTION:Did you ever feel the need to be in charge of your environmen
+ t? We did . A detailed story of our experience playing with 220VAC and w
+ ater to build an automated\, digitally controlled ecosystem. A place\, w
+ here you can be the climate-change. Double the temperature\, triple the 
+ floods\, let it storm or rain. A Tamagotchi that generates food from ele
+ ctricity. All done with Arduino\, raspberry Pi and Node.js. \n
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5437.html
+SUMMARY:Plants & Machines
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+END:VCALENDAR

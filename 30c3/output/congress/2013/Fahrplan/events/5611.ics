@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T123000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T113000
+DTSTAMP;VALUE=DATE-TIME:20131223T224628Z
+UID:d9mVPvxx94qGILfKtmCAwA@frab.cccv.de
+DESCRIPTION:USB DeadDrops\, IRL map marker in public\, FUCK 3D glasses or
+  How to vacuum form a guy fawkes mask. I will present an extensive overv
+ iew of my art projects from over the last 10 years including the Fake Go
+ ogle car by F.A.T. and moar!! It all started here at the CCC congress! :
+ )) For more info see link --->
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5611.html
+SUMMARY:Hello World!
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+END:VCALENDAR

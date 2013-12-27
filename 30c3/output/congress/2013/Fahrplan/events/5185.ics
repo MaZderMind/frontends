@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T181500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T171500
+DTSTAMP;VALUE=DATE-TIME:20131206T220632Z
+UID:Ae-3k2zOoIDF16EaC2uCWA@frab.cccv.de
+DESCRIPTION:In this talk I want to show you around in the mysterious worl
+ d of\nField Programmable Gate Arrays\, or short FPGAs. The aim is to ena
+ ble you to get a rough understanding on what FPGAs are good at and how t
+ hey can be used in areas where conventional CPUs and Microcontrollers ar
+ e failing upon us. FPGAs open up the world of high-speed serial intercon
+ nects\, nano-second event reactions and hardware fuzzing.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5185.html
+SUMMARY:FPGA 101
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+END:VCALENDAR

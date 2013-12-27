@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T000000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T230000
+DTSTAMP;VALUE=DATE-TIME:20131128T161409Z
+UID:wJ8usABBu6mJXRNpmhr_SQ@frab.cccv.de
+DESCRIPTION:HbbTV (Hybrid broadband broadcast TV) is an emerging standard
+  that is implemented in a growing number of smart TV devices. The idea i
+ s to bundle broadcast media content with online content which can be ret
+ rieved by the TV set through an Internet connection.\n\nMechanisms that 
+ allow the online content to be accessed by the TV set can be attacked an
+ d might put the TV user’s privacy at stake. The presentation highlight
+ s possible attack vectors of HbbTV-capable TV sets and introduces possib
+ le mitigations.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5398.html
+SUMMARY:HbbTV Security
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+END:VCALENDAR

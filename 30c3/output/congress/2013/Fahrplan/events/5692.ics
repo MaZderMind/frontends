@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T000000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T220000
+DTSTAMP;VALUE=DATE-TIME:20131223T112436Z
+UID:lx2gxy5lPyRQ1tBJOfkgmg@frab.cccv.de
+DESCRIPTION:Hello hello\,\nMein Name ist Niloufar Behradi-Ohnacker und le
+ ge unter den Namen Nie Low auf. Mein Sound kennt wörtlich keine Grenzen
+ . Als Mitgründerin und Autorin der Blogrebellen dig ich Musik die wir i
+ m Blog als 'Don't Call It World' bezeichnen. Denn World Musik\, wie es d
+ ie Majors gerne bezeichnen\, hat ein gewisses Bild in den Köpfen vieler
+  gezeichnet\, was dem aktuellen Globalsound nicht gerecht wird. \nIntern
+ et\, Migration und lokale Musik vermischen sich zu etwas hybriden und la
+ ssen aus dem alten\, bekannten etwas neues entstehen. In jeder Musikrich
+ tung ist dies mittlerweile zu hören. Es ist nicht wirklich was neues\, 
+ nur ist die Zeitspanne\, in der neue hybride Sounds entstehen eine kürz
+ ere. Während Flamenco\, was auch eine hybride Musik Form ist\, Jahrtaus
+ ende gebraucht hat\, sind elektronische Musik\, Hip Hop\, Jazz wesentlic
+ h schneller.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5692.html
+SUMMARY:Nie Low
+ORGANIZER:30C3
+LOCATION:Villa Straylight
+END:VEVENT
+END:VCALENDAR

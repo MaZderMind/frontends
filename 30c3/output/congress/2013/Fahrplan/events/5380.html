@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type">
+<title>Schedule 30C3</title>
+<link href="/congress/2013/Fahrplan/assets/public_schedule-8bfa1999e089241b551c2ff7023ef7da.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/congress/2013/Fahrplan/style.css" media="all" rel="stylesheet" type="text/css">
+<link href="/congress/2013/Fahrplan/assets/public_schedule_print-233e241f259049e63e89cebef83c15ee.css" media="print" rel="stylesheet" type="text/css">
+<script src="/congress/2013/Fahrplan/assets/application-0cfb43f843b1463a544c25b6bc3f9649.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="wrapper">
+<div id="header">
+<h1>Schedule 30C3</h1>
+</div>
+<div id="horizontal-navigation">
+<ul>
+<li>
+<a href="/congress/2013/Fahrplan/schedule.html">Index</a>
+</li>
+<li>
+<a href="/congress/2013/Fahrplan/schedule/0.html">
+Day 1
+<br><span class="small-font">2013-12-27</span>
+</a>
+</li>
+<li>
+<a href="/congress/2013/Fahrplan/schedule/1.html">
+Day 2
+<br><span class="small-font">2013-12-28</span>
+</a>
+</li>
+<li>
+<a href="/congress/2013/Fahrplan/schedule/2.html">
+Day 3
+<br><span class="small-font">2013-12-29</span>
+</a>
+</li>
+<li>
+<a href="/congress/2013/Fahrplan/schedule/3.html">
+Day 4
+<br><span class="small-font">2013-12-30</span>
+</a>
+</li>
+<li>
+<a href="/congress/2013/Fahrplan/speakers.html">Speakers</a>
+</li>
+<li class="selected">
+<a href="/congress/2013/Fahrplan/events.html">Events</a>
+</li>
+</ul>
+</div>
+<div id="main-content">
+<p class="release">
+Version 1.1b
+</p>
+<h2>lecture: Persistent, Stealthy, Remote-controlled Dedicated Hardware Malware</h2>
+<h3 class="title"></h3>
+<div class="column left" id="basic">
+<div class="image large"><img alt="Event_large" src="/congress/2013/Fahrplan/assets/event_large-ea7d3ea7d255bc2b751e4357abfe7484.png"></div>
+<p class="abstract">In this work we present a stealthy malware that exploits dedicated hardware on the target system and remains persistant across boot cycles. The malware is capable of gathering valuable information such as passwords. Because the infected hardware can perform arbitrary main memory accesses, the malware can modify kernel data structures and escalate privileges of processes executed on the system.</p>
+
+<p class="abstract">The malware itself is a DMA malware implementation referred to as DAGGER. DAGGER exploits Intel’s Manageability Engine (ME), that executes firmware code such as Intel’s Active Management Technology (iAMT), as well as its OOB network channel. We have recently improved DAGGER’s capabilites to include support for 64-bit operating systems and a stealthy update mechanism to download new attack code.</p>
+<p class="description">Dedicated hardware such as network interface cards and video controllers can be exploited to conduct a direct memory access (DMA) attack. Direct access means main memory access without the involvement of the host CPU, which in turn means that existing host security software cannot detect or prevent the attack.</p>
+
+<p class="description">Our presentation covers a DMA malware that benefits from an isolated network channel to update the attack code and to exfiltrate captured data. To be more precise, we show how to conduct a DMA attack using Intel's Manageability Engine (ME). Our attack environment is dedicated hardware based on a 32-bit RISC processor called ARCtangent-A4 (ARC4, x86-incompatible) implemented in the chipset of modern Intel platforms. Intel's ME executes special firmware such as Intel's Active Management Technology (iAMT). The ME/iAMT environment provides an administrator with an Out-of-Band (OOB) network channel to maintain the computer platform remotely. A prominent iAMT feature is the capability to remotely reinstall an operating system that got corrupted and does not boot anymore. iAMT is also available when the platform is in a standby or powered off state. This can be exploited to implement persistent DMA malware. It is needless to say that such a powerful environment must be well protected. Hence, Intel enforces strong isolation of the ME execution environment that makes it perfect to hide malware. The ME is not only implemented in business platforms, but also in consumer platforms.</p>
+
+<p class="description">Our work does not only show, that an arbitrary attacker is able to perform one of the most dangerous attacks against an iAMT featured platform, but also, that the ME provides a perfect environment for undetectable sensitive data leakage on behalf of the attacker. Our presentation consists of three parts. The first part addresses how to find valuable data in the main memory of the host. The second part exploits the ME's OOB network channel to exfiltrate captured data to an external platform and to inject new attack code to target other interesting data structures available in the host runtime memory. The last part deals with the implementation of a covert network channel based on JitterBug.</p>
+
+<p class="description">In the first part of our presentation we exploit the DMA engine of Intel's ME to find valuable data in the host runtime memory. We have two memory targets. Our first target is the keyboard buffer. We demonstrate how to find the buffer on a Linux as well as on a Windows operating system. Our implementation is called DAGGER - DmA based keyloGGER. We implemented different search strategies for the operating system targets. On Windows we need to find the corresponding CR3 processor register value to get the page directory entries that are needed to map virtual memory addresses into physical ones. We also had to take address randomization into account. The search strategy for the Windows keyboard buffer is mainly based on finding and traversing the so called Object Manager Namespace Directory (OMND). On Linux we implemented a different search strategy. On Linux we have a different starting point for the search phase than on Windows. The implementation to map virtual memory addresses into physical ones is also different. On Linux we can go without page tables. Due to the availability of the Linux source code it was easier to derive a signature for our target structure used by the USB HID driver. </p>
+
+<p class="description">We can permanently monitor the keyboard buffer on both operating system targets. Hence, we can capture all user input (passwords, instant messenger sessions, etc.) done via the associated keyboard. Our second memory target concerns the privilege data of an arbitrary process. Again, we use the DMA engine of the ME to find the appropriate data structure. Then we overwrite the existing privileges with root privileges via DMA.</p>
+
+<p class="description">The privilege escalation attack actually belongs to the second part of our attack scenario. The implementation is based on an updated version of DAGGER that is able to attack 64-bit operation systems. We demonstrate how to remotely load new attack code (to escalate privileges) to be executed on Intel's ME using the isolated OOB channel. To figure out how to exploit the DMA engine to read from the host runtime memory was comparatively easy due to previous work. To figure out how to exploit the ME OOB feature was more challenging. We had to find the ring buffers that iAMT uses to send and receive network packets and the corresponding ring buffer pointers. We also had to find code that is responsible for sending data to an external platform in the 16MB iAMT firmware runtime memory. To get the OOB channel under our control we implemented a breakpoint helper tool. That tool disassembles and displays iAMT code present in the iAMT runtime memory on-the-fly. This enables us to set breakpoints (based on hooks) to check the register content of the ARC4 processor. We were able to identify all necessary OOB channel parts by setting breakpoints and by triggering network events.</p>
+
+<p class="description">The last part of our presentation deals with a covert network channel based on JitterBug. The OOB channel is perfect to hide malicious network packets from the host, but not from other monitors present in the network. The aim of the JitterBug based covert network channel is to demonstrate how far an attacker can go with stealthy data exfiltration when using Intel's ME as attack environment. Using the JitterBug technique the attacker exfiltrates information by introducing seemingly random delays to some outgoing network packets. The delay pattern can be decoded by an external platform that is under the control of the attacker. Since timing is very important to implement a JitterBug, we had to figure out how to exactly measure time in the ME execution environment. Furthermore, we had to determine which network packets are "delayable" and how to delay them. To learn how to use the required ME/iAMT components for a JitterBug implementation we developed a more advanced debug tool. This debug tool is based on ARC4 code emulation and it enabled us to collect a huge amount of firmware trace logs that eventually revealed the required parts of the ME/iAMT inner workings. </p>
+
+<p class="description">In our talk we will present important runtime memory areas and ARC4 disassemblies of the ARC4 based code. Furthermore, we will present demo videos of our attack scenarios. Please note, we do not present a new security vulnerability to exploit Intel's ME.</p>
+</div>
+<div class="column left" id="details">
+<h3>Info</h3>
+<p>
+<b>Day:</b>
+<a href="/congress/2013/Fahrplan/schedule/2.html">2013-12-29</a>
+<br><b>Start time:</b>
+18:30
+<br><b>Duration:</b>
+01:00
+<br><b><span class="translation_missing" title="translation missing: en.public.schedule.event.room">Room</span>:</b>
+Saal 2
+<br><b>Track:</b>
+Security &amp; Safety
+<br><b>Language:</b>
+en
+</p>
+<h3>Links:</h3>
+<ul>
+<li><a href="/congress/2013/Fahrplan/events/5380.ics">iCalendar</a></li>
+</ul>
+<div class="column left" id="concurrent_events">
+<h3>Concurrent events</h3>
+<dl class="dl-horizontal">
+<dt>Saal 1</dt>
+<dd><a href="/congress/2013/Fahrplan/events/5499.html">X Security</a></dd>
+<dt>Saal 6</dt>
+<dd><a href="/congress/2013/Fahrplan/events/5571.html">Calafou, postcapitalist ecoindustrial community</a></dd>
+</dl>
+</div>
+</div>
+<div class="column right" id="sidebar">
+<h3>Speakers</h3>
+<table class="list"><tbody><tr>
+<td><div class="image small"><img alt="Patrick" src="/congress/2013/Fahrplan/system/avatars/4173/small/patrick.jpg"></div></td>
+<td><a href="/congress/2013/Fahrplan/speakers/4173.html">Patrick Stewin</a></td>
+</tr></tbody></table>
+</div>
+<div class="span16">
+</div>
+
+<br class="clear">
+</div>
+</div>
+<div class="last_update" style="text-align: right;">Last update: Thu Dec 26 23:05:00 CET 2013</div></body>
+</html>

@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T201000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T183000
+DTSTAMP;VALUE=DATE-TIME:20131220T161530Z
+UID:x4qxBOnhmQ17ypFMhLcdaA@frab.cccv.de
+DESCRIPTION: Wer ist eigentlich dieser "Verfassungsschutz"\, was tut er u
+ nd brauchen wir ihn überhaupt? Laut Angaben des Verfassungsschutzes bea
+ ntworten drei Viertel der deutschen Bundesbürger diese Frage mit "Ja.".
+  Das nö-theater Köln stellt diesem jedoch ein klares "NÖ!" entgegen. 
+ Auf Basis intensiver Interviews\, Beobachtungen und Recherchen entwickel
+ ten sie das politische Satirestück "V wie Verfassungsschutz". Es werden
+  die Verstrickungen des deutschen Inlandsgeheimdienstes mit der NSU bele
+ uchtet\, die "fünf peinlichsten Fälle für den Verfassungsschutz" nebe
+ n den Pannen mit prostitutionsähnlichen V-Mann-Praktiken inszeniert. Da
+ zwischen tanzt fröhlich Leo Lupix\, das Maskottchen des Verfassungsschu
+ tzes. Die Kölner Theatertruppe hebt für uns den Zeigefinger und sagt: 
+ V wie... Vertuschung\, V wie... Verzweiflung - V wie... Versagen.\n
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5591.html
+SUMMARY:V wie Verfassungsschutz
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+END:VCALENDAR

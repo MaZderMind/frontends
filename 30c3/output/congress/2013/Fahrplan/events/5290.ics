@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T213000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T203000
+DTSTAMP;VALUE=DATE-TIME:20131128T160703Z
+UID:gL8lRFVpn8NFFfATsOn7Bw@frab.cccv.de
+DESCRIPTION:About a year ago Nintendo released their latest video gaming 
+ console\, the Wii U. Since 2006\, the Wii has led to one of the most act
+ ive homebrew scenes after its security system was completely bypassed. T
+ his talk will discuss the improvements made in Wii U's architecture and 
+ explain how it was broken in less than 31 days. The talk is targeted at 
+ those who hack (or design) embedded system security\, but gamers might a
+ lso find it interesting.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5290.html
+SUMMARY:Console Hacking 2013
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+END:VCALENDAR

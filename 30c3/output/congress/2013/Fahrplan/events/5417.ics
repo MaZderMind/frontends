@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T134500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T124500
+DTSTAMP;VALUE=DATE-TIME:20131202T171140Z
+UID:hWph2wdjII5XK6nCL_1kWA@frab.cccv.de
+DESCRIPTION:Side-channel analysis (SCA) and related methods exploit physi
+ cal characteristics of a (cryptographic) implementations to bypass secur
+ ity mechanisms and extract secret keys. Yet\, SCA is often considered a 
+ purely academic exercise with no impact on real systems. In this talk\, 
+ we show that this is not the case: Using the example of several wide-spr
+ ead real-world devices\, we demonstrate that even seemingly secure syste
+ ms can be attacked by means of SCA with limited effort.  
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5417.html
+SUMMARY:Extracting keys from FPGAs\, OTP Tokens and Door Locks
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+END:VCALENDAR

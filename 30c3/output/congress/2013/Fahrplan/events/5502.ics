@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T000000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T230000
+DTSTAMP;VALUE=DATE-TIME:20131212T040231Z
+UID:ufJTu-pu8QBUtd-bji9tmw@frab.cccv.de
+DESCRIPTION:»Lange Schlüssel sind sicherer als kurze.«\n»RSA und/oder
+  AES sind einfach zu implementieren.«\n»Für Zufallszahlen reicht es\,
+  java.util.Random zu nehmen.«\nSolche oder ähnliche Aussagen hört man
+  immer mal wieder. Doch was ist da dran? Welche Fehler werden bei der Be
+ nutzung und Implementierung von Kryptografie gern gemacht?
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5502.html
+SUMMARY:Zwischen supersicherer Verschlüsselung und Klartext liegt nur ei
+ n falsches Bit 
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+END:VCALENDAR

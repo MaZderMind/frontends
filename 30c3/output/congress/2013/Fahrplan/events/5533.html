@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type">
+<title>Schedule 30C3</title>
+<link href="/congress/2013/Fahrplan/assets/public_schedule-8bfa1999e089241b551c2ff7023ef7da.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/congress/2013/Fahrplan/style.css" media="all" rel="stylesheet" type="text/css">
+<link href="/congress/2013/Fahrplan/assets/public_schedule_print-233e241f259049e63e89cebef83c15ee.css" media="print" rel="stylesheet" type="text/css">
+<script src="/congress/2013/Fahrplan/assets/application-0cfb43f843b1463a544c25b6bc3f9649.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="wrapper">
+<div id="header">
+<h1>Schedule 30C3</h1>
+</div>
+<div id="horizontal-navigation">
+<ul>
+<li>
+<a href="/congress/2013/Fahrplan/schedule.html">Index</a>
+</li>
+<li>
+<a href="/congress/2013/Fahrplan/schedule/0.html">
+Day 1
+<br><span class="small-font">2013-12-27</span>
+</a>
+</li>
+<li>
+<a href="/congress/2013/Fahrplan/schedule/1.html">
+Day 2
+<br><span class="small-font">2013-12-28</span>
+</a>
+</li>
+<li>
+<a href="/congress/2013/Fahrplan/schedule/2.html">
+Day 3
+<br><span class="small-font">2013-12-29</span>
+</a>
+</li>
+<li>
+<a href="/congress/2013/Fahrplan/schedule/3.html">
+Day 4
+<br><span class="small-font">2013-12-30</span>
+</a>
+</li>
+<li>
+<a href="/congress/2013/Fahrplan/speakers.html">Speakers</a>
+</li>
+<li class="selected">
+<a href="/congress/2013/Fahrplan/events.html">Events</a>
+</li>
+</ul>
+</div>
+<div id="main-content">
+<p class="release">
+Version 1.1b
+</p>
+<h2>lecture: Fast Internet-wide Scanning and its Security Applications</h2>
+<h3 class="title"></h3>
+<div class="column left" id="basic">
+<div class="image large"><img alt="Zmap" src="/congress/2013/Fahrplan/system/logos/5533/large/zmap.png"></div>
+<p class="abstract">Internet-wide network scanning has powerful security applications, including exposing new vulnerabilities, tracking their mitigation, and exposing hidden services.  Unfortunately, probing the entire public address space with standard tools like Nmap requires either months of time or large clusters of machines.  In this talk, I'll demonstrate <a href="https://zmap.io">ZMap</a>, an open-source network scanner developed by my research group that is designed from the ground up to perform Internet-wide scans efficiently.  We've used ZMap with a gigabit Ethernet uplink to survey the entire IPv4 address space in under 45 minutes from a single machine, more than 1300 times faster than Nmap.  I'll explain how ZMap's architecture enables such high performance.  We'll then work through a series of practical examples that explore the security applications of very fast Internet-scale scanning, both offensive and defensive.  I'll talk about results and experiences from conducting more than 300 Internet-wide scans over the past 18 months, including new revelations about the state of the HTTPS CA ecosystem.  I'll discuss the reactions our scans have generated--on one occasion we were mistaken for an Iranian attack against U.S. banks and we received a visit from the FBI--and I'll suggest guidelines and best practices for good Internet citizenship while scanning.</p>
+<p class="description">Internet-scale network surveys collect data by probing large subsets of the public IP address space.  While such scanning behavior is often associated with botnets and worms, it also has proved to be a powerful methodology for security research.  Recent studies, beginning with the EFF's SSL Observatory, have demonstrated that Internet-wide scanning can help reveal new kinds of vulnerabilities, monitor deployment of mitigations, and shed light on previously opaque distributed ecosystems.  Unfortunately, this methodology has been more accessible to attackers than to researchers without access to botnets or willingness to spread self-replicating code.  Comprehensively scanning the public address space with off-the-shelf tools like Nmap requires weeks of time or many machines.</p>
+
+<p class="description">To make Internet-wide scanning more accessible, my research team recently introduced <a href="https://zmap.io">ZMap</a>, an open-source network scanner that is designed from the ground up to perform Internet-scale port scans.  In our tests using a gigabit Ethernet uplink, ZMap scans the entire IPv4 address space in under 45 minutes from a single machine, more than 1300 times faster than Nmap.  By the time of the talk, we'll have switched to a 10 gigE uplink, which should theoretically support scanning the entire address space in under 5 minutes.  I'll explain how ZMap's architecture enables such high performance by taking advantage of fast modern hardware and recent improvements to the Linux kernel.</p>
+
+<p class="description">We'll work through a series of practical examples that explore the security applications of very fast Internet-scale scanning, both offensive and defensive, and I'll share experiences from conducting more than 300 Internet-wide scans over the past 18 months, totaling well over 1 trillion probes.  I'll describe how we completed hundreds of scans targeting every public HTTPS server (each scan larger than the entire SSL Observatory) in order to shed light on the growth of HTTPS deployments and expose security problems within the HTTPS ecosystem, such as misissued CA certs and widespread server misconfiguration.  I'll show how high-speed scanning can be used to expose vulnerable hosts, using IPMI and UPnP vulnerabilities as recent examples.  Malicious attackers could abuse this capability to exploit 0day vulnerabilities affecting millions of hosts within hours of a problem's discovery, and better defenses are badly needed.  Finally, I'll discuss applications to Internet freedom, including discovering unadvertised services such as hidden Tor bridges (used for censorship resistance) and Bluecoat devices (used for state-sponsored censorship).</p>
+
+<p class="description">High-speed scanning can be a powerful tool in the hands of security researchers, but users must be careful not to cause harm by inadvertently overloading networks or causing unnecessary work for network administrators.  I'll discuss the complaints and other reactions my group's scanning has generated--on one occasion we were mistaken for an Iranian DoS attack on U.S. banks, and we received a visit from the FBI--and I'll suggest several guidelines and best practices for good Internet citizenship while scanning.</p>
+
+<p class="description">We are living in a unique period in the history of the Internet: widely available networks are becoming fast enough to quickly and exhaustively scan the IPv4 address space, yet IPv6 (with its much larger address space) has not yet been widely deployed.  I hope this talk will help researchers make the most of this window of opportunity. 
+</p>
+</div>
+<div class="column left" id="details">
+<h3>Info</h3>
+<p>
+<b>Day:</b>
+<a href="/congress/2013/Fahrplan/schedule/1.html">2013-12-28</a>
+<br><b>Start time:</b>
+12:45
+<br><b>Duration:</b>
+01:00
+<br><b><span class="translation_missing" title="translation missing: en.public.schedule.event.room">Room</span>:</b>
+Saal 2
+<br><b>Track:</b>
+Security &amp; Safety
+<br><b>Language:</b>
+en
+</p>
+<h3>Links:</h3>
+<ul>
+<li><a href="/congress/2013/Fahrplan/events/5533.ics">iCalendar</a></li>
+<li><a href="https://zmap.io">ZMap: The Internet Scanner</a></li>
+<li><a href="https://scans.io">Internet-wide Scan Data Repository</a></li>
+</ul>
+<div class="column left" id="concurrent_events">
+<h3>Concurrent events</h3>
+<dl class="dl-horizontal">
+<dt>Saal 6</dt>
+<dd><a href="/congress/2013/Fahrplan/events/5417.html">Extracting keys from FPGAs, OTP Tokens and Door Locks</a></dd>
+<dt>Saal 1</dt>
+<dd><a href="/congress/2013/Fahrplan/events/5537.html">Glass Hacks</a></dd>
+<dt>Saal G</dt>
+<dd><a href="/congress/2013/Fahrplan/events/5562.html">Lightning Talks, Day 2</a></dd>
+</dl>
+</div>
+</div>
+<div class="column right" id="sidebar">
+<h3>Speakers</h3>
+<table class="list"><tbody><tr>
+<td><div class="image small"><img alt="Person_small" src="/congress/2013/Fahrplan/assets/person_small-6f00a05842ef93f01e648d1c80c3710f.png"></div></td>
+<td><a href="/congress/2013/Fahrplan/speakers/4228.html">J. Alex Halderman</a></td>
+</tr></tbody></table>
+</div>
+<div class="span16">
+</div>
+
+<br class="clear">
+</div>
+</div>
+<div class="last_update" style="text-align: right;">Last update: Thu Dec 26 23:05:00 CET 2013</div></body>
+</html>

@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T160000
+DTSTAMP;VALUE=DATE-TIME:20131223T184744Z
+UID:2L0wf-R-_u7OqqZHmZyILg@frab.cccv.de
+DESCRIPTION:Seit Monaten hält uns die NS-Affäre in Atem. Immer neue Abh
+ örmaßnahmen und geheimdienstliche Praktiken werden enthüllt. Ein giga
+ ntisches Ausmaß an Überwachung durch die Vereinigten Staaten von Ameri
+ ka tut sich auf\, weltweit. In Europa ist die Bundesrepublik  Deutschlan
+ d das am meisten überwachte Land.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5612.html
+SUMMARY:Die Bundesrepublik – das am meisten überwachte Land in Europa 
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+END:VCALENDAR

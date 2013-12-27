@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T204500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T203000
+DTSTAMP;VALUE=DATE-TIME:20131223T094354Z
+UID:gDH4QJe6GPtOPDIXWrBOKA@frab.cccv.de
+DESCRIPTION:From the mind of teenager\, this short story briefly recounts
+  the tale of an alien race and how their pride led to their downfall. Ho
+ wever\, with death comes rebirth and the end of their story may just be 
+ the beginning of ours...
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5698.html
+SUMMARY:Life Without Life
+ORGANIZER:30C3
+LOCATION:Wordlounge
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T193000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T183000
+DTSTAMP;VALUE=DATE-TIME:20131128T160723Z
+UID:PPVcroSxtnY9RfXjkEmxGA@frab.cccv.de
+DESCRIPTION:This was a busy year for crypto.\n\nTLS was broken.  And then
+  broken again.\n\nDiscrete logs were computed.  And then computed again.
+ \n\nIs the cryptopocalypse nigh?\n\nHas the NSA backdoored everything in
+  sight?\n\nAlso\, answers to last year's exercises will be given.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5339.html
+SUMMARY:The Year in Crypto
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+END:VCALENDAR

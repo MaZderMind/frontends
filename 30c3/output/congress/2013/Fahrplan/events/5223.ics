@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T213000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T203000
+DTSTAMP;VALUE=DATE-TIME:20131220T154829Z
+UID:uJJPv0R6KJBwRIqiShrwxw@frab.cccv.de
+DESCRIPTION:Memory corruption has been around forever but is still one of
+  the most exploited problems on current systems. This talk looks at the 
+ past 30 years of memory corruption and systematizes the different existi
+ ng exploit and defense techniques in a streamlined way. We evaluate (i) 
+ how the different attacks evolved\, (ii) how researchers came up with de
+ fense mechanisms as an answer to new threats\, and (iii) what we will ha
+ ve to expect in the future.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5223.html
+SUMMARY:WarGames in memory
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+END:VCALENDAR

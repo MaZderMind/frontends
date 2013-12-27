@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T213000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T203000
+DTSTAMP;VALUE=DATE-TIME:20131213T072708Z
+UID:O-7g6jlu6DmenVdxO6t2Mg@frab.cccv.de
+DESCRIPTION:The talk gives an overview about our work of quantifying know
+ ledge acquisition tasks in real-life environments\, focusing on reading.
+  We combine several pervasive sensing approaches (computer vision\, moti
+ on-based activity recognition etc.) to tackle the problem of recognizing
+  and classifying knowledge acquisition tasks with a special focus on rea
+ ding. We discuss which sensing modalities can be used for digital and of
+ fline reading recognition\, as well as how to combine them dynamically.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5387.html
+SUMMARY:Toward a Cognitive "Quantified Self" 
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+END:VCALENDAR

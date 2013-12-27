@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T000000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T230000
+DTSTAMP;VALUE=DATE-TIME:20131226T201458Z
+UID:a-xJCEtToBTndlcjWvCAKQ@frab.cccv.de
+DESCRIPTION:The news of the past few years is one small ripple in what is
+  a great wave of culture and history\, a generational clash of civilizat
+ ions.  If you want to understand why governments are acting and reacting
+  the way they are\, and as importantly\, how to shift their course\, you
+  need to understand what they're reacting to\, how they see and fail to 
+ see the world\, and how power\, money\, and idea of rule of law actually
+  interact.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5491.html
+SUMMARY:No Neutral Ground in a Burning World
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+END:VCALENDAR

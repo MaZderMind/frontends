@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type">
+<title>Schedule 30C3</title>
+<link href="/congress/2013/Fahrplan/assets/public_schedule-8bfa1999e089241b551c2ff7023ef7da.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/congress/2013/Fahrplan/style.css" media="all" rel="stylesheet" type="text/css">
+<link href="/congress/2013/Fahrplan/assets/public_schedule_print-233e241f259049e63e89cebef83c15ee.css" media="print" rel="stylesheet" type="text/css">
+<script src="/congress/2013/Fahrplan/assets/application-0cfb43f843b1463a544c25b6bc3f9649.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="wrapper">
+<div id="header">
+<h1>Schedule 30C3</h1>
+</div>
+<div id="horizontal-navigation">
+<ul>
+<li>
+<a href="/congress/2013/Fahrplan/schedule.html">Index</a>
+</li>
+<li>
+<a href="/congress/2013/Fahrplan/schedule/0.html">
+Day 1
+<br><span class="small-font">2013-12-27</span>
+</a>
+</li>
+<li>
+<a href="/congress/2013/Fahrplan/schedule/1.html">
+Day 2
+<br><span class="small-font">2013-12-28</span>
+</a>
+</li>
+<li>
+<a href="/congress/2013/Fahrplan/schedule/2.html">
+Day 3
+<br><span class="small-font">2013-12-29</span>
+</a>
+</li>
+<li>
+<a href="/congress/2013/Fahrplan/schedule/3.html">
+Day 4
+<br><span class="small-font">2013-12-30</span>
+</a>
+</li>
+<li>
+<a href="/congress/2013/Fahrplan/speakers.html">Speakers</a>
+</li>
+<li class="selected">
+<a href="/congress/2013/Fahrplan/events.html">Events</a>
+</li>
+</ul>
+</div>
+<div id="main-content">
+<p class="release">
+Version 1.1b
+</p>
+<h2>lecture: Thwarting the Evil Maid Attacks</h2>
+<h3 class="title">Physically Unclonable Functions for Hardware Tamper Detection</h3>
+<div class="column left" id="basic">
+<div class="image large"><img alt="Event_large" src="/congress/2013/Fahrplan/assets/event_large-ea7d3ea7d255bc2b751e4357abfe7484.png"></div>
+<p class="abstract"> 	Increasingly, users and their computing hardware are exposed a range of software and hardware attacks, ranging from disk imaging to hardware keylogger installation and beyond. Existing methods are inadequate to fully protect users, particularly from covert physical hardware modifications in the "evil maid" scenario, and yet are very inconvenient. Victims include governments and corporations traveling internationally (e.g. China), anti-government activists in places like Syria, and anyone who is a target of a motivated attacker who can gain physical access.</p>
+
+<p class="abstract">Physically Unclonable Functions, combined with a trusted mobile device and a network service, can be used to mitigate these risks. We present a novel open-source mobile client and network service which can protect arbitrary hardware from many forms of covert modification and attack, and which when integrated with software, firmware, and policy defenses, can provide greater protection to users and limit potential attack surface.</p>
+<p class="description">Additional Notes for our talk:</p>
+
+<p class="description">1) The attack addressed is an entire class of hardware, firmware, and software attacks around the attacker gaining surreptitious access and modification (of hardware/firmware/software) on one or more occasions, followed by the authorized user making normal use of the device after these modifications.</p>
+
+<p class="description">A software-only attack can be addressed through "trusted boot" or "measured boot" systems (e.g. what TCG does). Firmware attacks are generally not addressed by most measured boot processes, but that's just an implementation problem. The most novel category of attack is defeating the addition of hardware components or modification of hardware components, which becomes a desirable attack once software/firmware are locked down.</p>
+
+<p class="description">One scenario is that an investor flies to China with a laptop and a cellphone and intends to remain in the country for several weeks, conducting business online as well as in person. On several occasions, the investor leaves his laptop in his hotel room, while taking his cellphone with him at all times. Adversary agents, as hotel staff, enter the room and make modifications to hardware, with the intent of circumventing either local software protections (cloning drives, capturing pass phrases, etc.) or subverting network resources later accessed, either while the investor remains in China or after he returns to the home office with the laptop.</p>
+
+<p class="description">In-depth physical analysis of the hardware, conducted at home base, can often discover hardware modifications. Best current practice is to quarantine "travel" machines and never allow them back on high security networks. Unfortunately, this leaves the user exposed for the entire duration of a single trip -- in some situations the entire transaction happens during a trip, so all sensitive information must be protected for that trip.</p>
+
+<p class="description">PUFs and our network verification can be used to effectively "sign" hardware in the field in a way which can be automatically verified and verified interactively with a "home base" network service. This lets network resources be protected continuously; before every access, the client device's integrity can be checked and attested.</p>
+
+<p class="description">An interesting strategy is to not travel with any sensitive hardware (beyond the cellphone) and buy random laptops at the destination, enroll them in the service while at the destination, provision them with services, and ensure no subsequent unauthorized hardware/firmware/software changes can be made, using the same system.</p>
+
+<p class="description">2) PUFs</p>
+
+<p class="description">The PUFs are functions which can't be (tractably) cloned. Unfortunately, virtually none of these can be inspected/verified/attested directly by an unaided human -- anything which is a simple serial number seal or other human-verifiable thing can be fairly trivially counterfeited.</p>
+
+<p class="description">The PUFs make use of large amounts of random and changing data, created through physically random processes which are impossible to (tractably) reproduce. The innovation is to use a user's cellphone and a network service as the verifier -- the phone can remain in the user's physical custody at all times, and by splitting the verification between the phone (on site with the user) and a network service acting as gatekeeper to protected network resources, the system can be protected from various attacks.</p>
+
+<p class="description">The PUFS that we take advatage of are that of the physical systems themselves. When a device is created during manufacture a multitude of processes are utilized to produce the compute device. As it turns out reproducibility on the sub millimetre scale of a identical compenents such as a laptop case is excessively difficult to clone/counterfit/interact with without disturbing the previous state. We take advantage of these flaws to aid the user in detecting modification to their computing devices through photography and other standard low cost tamper evidencing devices which a untrained user can deploy in the field.</p>
+
+<p class="description">Clear technical documentation w/ photos explaining why it is incredibly difficult with current attack methods to perfectly clone manufactured parts which on the surface are indistinguishable from another manufactured assembly.</p>
+</div>
+<div class="column left" id="details">
+<h3>Info</h3>
+<p>
+<b>Day:</b>
+<a href="/congress/2013/Fahrplan/schedule/3.html">2013-12-30</a>
+<br><b>Start time:</b>
+12:45
+<br><b>Duration:</b>
+01:00
+<br><b><span class="translation_missing" title="translation missing: en.public.schedule.event.room">Room</span>:</b>
+Saal 1
+<br><b>Track:</b>
+Security &amp; Safety
+<br><b>Language:</b>
+en
+</p>
+<h3>Links:</h3>
+<ul>
+<li><a href="/congress/2013/Fahrplan/events/5600.ics">iCalendar</a></li>
+</ul>
+<div class="column left" id="concurrent_events">
+<h3>Concurrent events</h3>
+<dl class="dl-horizontal">
+<dt>Saal 2</dt>
+<dd><a href="/congress/2013/Fahrplan/events/5467.html">Warum die Digitale Revolution des Lernens gescheitert ist.</a></dd>
+<dt>Saal G</dt>
+<dd><a href="/congress/2013/Fahrplan/events/5564.html">Lightning Talks, Day 4</a></dd>
+</dl>
+</div>
+</div>
+<div class="column right" id="sidebar">
+<h3>Speakers</h3>
+<table class="list"><tbody>
+<tr>
+<td><div class="image small"><img alt="Person_small" src="/congress/2013/Fahrplan/assets/person_small-6f00a05842ef93f01e648d1c80c3710f.png"></div></td>
+<td><a href="/congress/2013/Fahrplan/speakers/4342.html">Eric Michaud</a></td>
+</tr>
+<tr>
+<td><div class="image small"><img alt="Person_small" src="/congress/2013/Fahrplan/assets/person_small-6f00a05842ef93f01e648d1c80c3710f.png"></div></td>
+<td><a href="/congress/2013/Fahrplan/speakers/4190.html">Ryan Lackey</a></td>
+</tr>
+</tbody></table>
+</div>
+<div class="span16">
+</div>
+
+<br class="clear">
+</div>
+</div>
+<div class="last_update" style="text-align: right;">Last update: Thu Dec 26 23:05:00 CET 2013</div></body>
+</html>

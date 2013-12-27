@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type">
+<title>Schedule 30C3</title>
+<link href="/congress/2013/Fahrplan/assets/public_schedule-8bfa1999e089241b551c2ff7023ef7da.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/congress/2013/Fahrplan/style.css" media="all" rel="stylesheet" type="text/css">
+<link href="/congress/2013/Fahrplan/assets/public_schedule_print-233e241f259049e63e89cebef83c15ee.css" media="print" rel="stylesheet" type="text/css">
+<script src="/congress/2013/Fahrplan/assets/application-0cfb43f843b1463a544c25b6bc3f9649.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="wrapper">
+<div id="header">
+<h1>Schedule 30C3</h1>
+</div>
+<div id="horizontal-navigation">
+<ul>
+<li>
+<a href="/congress/2013/Fahrplan/schedule.html">Index</a>
+</li>
+<li>
+<a href="/congress/2013/Fahrplan/schedule/0.html">
+Day 1
+<br><span class="small-font">2013-12-27</span>
+</a>
+</li>
+<li>
+<a href="/congress/2013/Fahrplan/schedule/1.html">
+Day 2
+<br><span class="small-font">2013-12-28</span>
+</a>
+</li>
+<li>
+<a href="/congress/2013/Fahrplan/schedule/2.html">
+Day 3
+<br><span class="small-font">2013-12-29</span>
+</a>
+</li>
+<li>
+<a href="/congress/2013/Fahrplan/schedule/3.html">
+Day 4
+<br><span class="small-font">2013-12-30</span>
+</a>
+</li>
+<li>
+<a href="/congress/2013/Fahrplan/speakers.html">Speakers</a>
+</li>
+<li class="selected">
+<a href="/congress/2013/Fahrplan/events.html">Events</a>
+</li>
+</ul>
+</div>
+<div id="main-content">
+<p class="release">
+Version 1.1b
+</p>
+<h2>lecture: The Exploration and Exploitation of an SD Memory Card</h2>
+<h3 class="title">by xobs &amp; bunnie</h3>
+<div class="column left" id="basic">
+<div class="image large"><img alt="Event_large" src="/congress/2013/Fahrplan/assets/event_large-ea7d3ea7d255bc2b751e4357abfe7484.png"></div>
+<p class="abstract">All “managed FLASH” devices, such as SD, microSD, and SSD, contain an embedded controller to assist with the complex tasks necessary to create an abstraction of reliable, contiguous storage out of FLASH silicon that is fundamentally unreliable and unpredictably fragmented. This controller is an attack surface of interest. First, the ability to modify the block allocation and erasure algorithms introduces the opportunity to perform various MITM attacks in a virtually undetectable fashion. Second, the controller itself is typically powerful, with performance around 50MIPS, yet with a cost of mere pennies, making it an interesting and possibly useful development target for other non-storage related purposes. Finally, understanding the inner workings of the controller enables opportunities for data recovery in cards that are thought to have been erased, or have been partially damaged.</p>
+
+<p class="abstract">This talk demonstrates a method for reverse engineering and loading code into the microcontroller within a SD memory card.</p>
+<p class="description">TECHNICAL APPROACH</p>
+
+<p class="description">Publicly available documentation on SD card controllers is scarce.  However, based upon tear-down and decap analysis as well as a survey of the publicly available product briefs, most controllers are believed to be either an enhanced 8051, or an ARM derivative.</p>
+
+<p class="description">A further challenge to overcome is the fact that SD card manufacturers typically reserve the right to change the controller IC within a card without updating the external markings to reflect the change. This policy favors the SD card manufacturers, as it allows them to swap out existing controllers for lower-cost devices as new controllers are introduced. However, it is problematic for users as it means that two otherwise identical looking cards can have different performance and/or bugs with which to contend.</p>
+
+<p class="description">To kick off the effort, a survey of available cards was made at an SD card gray market in Shenzhen, China. Each card was dissected and visually inspected for cues, such as the layout of the traces going to the controller glob-top, that would indicate the type of controller within.  About a dozen different controller types were identified, of which one was picked for further investigation due to its use of SLC FLASH memory.  SLC is a good starting point for reverse engineering because no storage-level scrambling is required to prevent the read and write-disturb issues typical of MLC and TLC FLASH.</p>
+
+<p class="description">A simple binary dump of the FLASH memory within the card revealed structure within the first erase block consistent with what we might expect for code storage. Since FLASH memory is inherently unreliable, four CRC + ECC protected copies of code are located within the first sector. This crude duplication scheme allows the card to boot even if bit errors creep into the code storage sector. We also noted the existence of the string “BUILDWIN” within the code storage sector, which indicates that the controller is likely from a series made by a company called Appotech. Product briefs from the Appotech/Buildwin websites indicated that the architecture of the code is likely an 8051-derivative, and the model of the controller is probably an AX211.</p>
+
+<p class="description">At this point, our effort to reverse engineer the controller split into two paths. One path was static analysis, where extracted binaries and manufacturing-related tools were analyzed with IDA to determine key entry points, storage locations, and most importantly a method for injecting code into the card via the SD interface. The other path was dynamic analysis, where the signals going to the SD card bus and to the NAND FLASH were instrumented with logging and stimulus facilities, and the controller's operation could be observed with exquisite resolution, enabling a broad class of fuzzing and other brute-force analysis attacks, as well as the rapid confirmation or rejection of hypotheses generated by static analysis. Dynamic analysis was key in determining features such as the location of the GPIO control registers and the function and format of otherwise undocumented extended instruction opcodes.</p>
+
+<p class="description">The static analysis path was assisted by the availability of official firmware burning routines, scavenged from Chinese language file-sharing websites. These are tools normally used during the production of SD cards, but made available on the gray market to enable (and correct) card capacity expansion fraud. Typically, these tools are used to flash an incorrect version of the firmware onto the SD cards, which would identify the card as having a much higher capacity than the physically available storage.  This would allow unscrupulous dealers to sell, for example, aging 128MiB silicon as devices identifying themselves with 2GiB capacity. These bootleg tools would come with a collection of firmware blobs for loading onto the card, as well as a routine that communicates to a proprietary USB-based burning device. We did not have access to the burner, but static analysis of the communication protocol via code reverse engineering revealed that firmware loading is initiated through the application of a specific “secret knock” sequence during card boot.</p>
+
+<p class="description">The dynamic analysis path was implemented using an embedded platform of our making, known publicly as Novena. It is a quad-core ARM CPU running Linux mated to a Spartan 6 FPGA with a high speed expansion port. The FPGA also has a 256 MiB DDR3 buffer slaved off of it. This buffer + FPGA was used to implement a combination logic analyzer + ROM emulator used to wrap the controller on the SD card. The ROM emulator presents a virtual, dual-ported NAND FLASH device to the SD card controller. The dual-port design allows us to modify and read the contents of the NAND FLASH on the fly, thereby allowing us to stimulate the controller IC with various fault conditions or code loops and measure its effect on the FLASH device. This tight coupling enabled us to rapidly discover, for example, which SFRs (Special Function Registers) are responsible for reading or writing to the Flash controller hardware. Furthermore, each port of the SD card controller is connected to a virtual logic analyzer within the FPGA that can store up to a 16MiB trace of transactions going to and from the controller from both the SD and FLASH buses. This very deep buffer length allowed us to observe behavior of the device from power-on to full operation, as well as observe stimulus-response loops to compound SD bus commands.</p>
+
+<p class="description">SD INTERFACE OVERVIEW</p>
+
+<p class="description">Before diving into the details of our approach, we review a few important aspects of the SD protocol. When an SD card first boots, it is running in SD/MMC mode.  This is a 9-wire protocol, using the following pinout (note: pin 9 is located below and to the side of pin 1):</p>
+
+<p class="description"> 12345678
+<br>9|||||||\- DAT1
+<br>|||||||\-- DAT0
+<br>||||||\--- GND
+<br>|||||\---- Clock
+<br>||||\----- VDD +3.3V
+<br>|||\------ GND
+<br>||\------- Command
+<br>|\-------- DAT3
+<br>\--------- DAT2</p>
+
+<p class="description">SD commands consist of a start bit of 0, a sync bit of 1, a 6-bit command number (referred to as CMDn, where n is between 0 and 63,) four 8-bit arguments, a CRC7 checksum, and a stop-bit of 1. This yields a total of 48-bits (or 6 bytes) per command.</p>
+
+<p class="description">While the card is processing the request, it will keep the Command line high, and will begin its communication with a start bit by bringing the Command line low, indicating "0". This will be followed by 38 bits of data, 7 bits of crc7, and a stop bit of "1", for a total of 48 bits.</p>
+
+<p class="description">Bit values are sampled when the clock line is high, and may change when the clock line is low. Bytes are sent from high to low. For example, hex value 0x80 would be written out as 0b10000000. CMD0 must be sent before any other commands are processed. To send such a command, transmit the following six byes.</p>
+
+<p class="description">{0x40 0x00 0x00 0x00 0x00 0x95}
+<br>    |    |    |    |    |    \----- (CRC7 of ({0x40, 0x00, 0x00, 0x00}))&lt; for uploading code into the controller was found, and through this mechanism we explored the register map and extended opcodes of the microcontroller. Significantly, in this particular device all of the SD protocol-layer commands are implemented in software. This allowed us to redefine the SD protocol set and implement, as a demonstration, a REPL-mode debugger for the SD card.</p>
+</div>
+<div class="column left" id="details">
+<h3>Info</h3>
+<p>
+<b>Day:</b>
+<a href="/congress/2013/Fahrplan/schedule/2.html">2013-12-29</a>
+<br><b>Start time:</b>
+14:00
+<br><b>Duration:</b>
+01:00
+<br><b><span class="translation_missing" title="translation missing: en.public.schedule.event.room">Room</span>:</b>
+Saal 1
+<br><b>Track:</b>
+Hardware &amp; Making
+<br><b>Language:</b>
+en
+</p>
+<h3>Links:</h3>
+<ul>
+<li><a href="/congress/2013/Fahrplan/events/5294.ics">iCalendar</a></li>
+</ul>
+<div class="column left" id="concurrent_events">
+<h3>Concurrent events</h3>
+<dl class="dl-horizontal">
+<dt>Saal 2</dt>
+<dd><a href="/congress/2013/Fahrplan/events/5334.html">RFID Treehouse of Horror</a></dd>
+<dt>Saal 17</dt>
+<dd><a href="/congress/2013/Fahrplan/events/5671.html">Deutschlandfunk - Das 30C3-Interview mit ...</a></dd>
+</dl>
+</div>
+</div>
+<div class="column right" id="sidebar">
+<h3>Speakers</h3>
+<table class="list"><tbody>
+<tr>
+<td><div class="image small"><img alt="Person_small" src="/congress/2013/Fahrplan/assets/person_small-6f00a05842ef93f01e648d1c80c3710f.png"></div></td>
+<td><a href="/congress/2013/Fahrplan/speakers/3155.html">bunnie</a></td>
+</tr>
+<tr>
+<td><div class="image small"><img alt="Person_small" src="/congress/2013/Fahrplan/assets/person_small-6f00a05842ef93f01e648d1c80c3710f.png"></div></td>
+<td><a href="/congress/2013/Fahrplan/speakers/4376.html">Xobs</a></td>
+</tr>
+</tbody></table>
+</div>
+<div class="span16">
+</div>
+
+<br class="clear">
+</div>
+</div>
+<div class="last_update" style="text-align: right;">Last update: Thu Dec 26 23:05:01 CET 2013</div></body>
+</html>

@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T193000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T183000
+DTSTAMP;VALUE=DATE-TIME:20131130T205255Z
+UID:tnCge6rYmFPy9O0KjvtBAQ@frab.cccv.de
+DESCRIPTION:This lecture gives an introduction to processor design.\nIt i
+ s mostly interesting for people new to processor design and does not cov
+ er high performance pipelined structures.\nSmall knowledge on VHDL progr
+ amming would be great but is not essential. A very small processor core 
+ will described here.\nDemo:\n\nCreate a backdoor in the VHDL Code of a p
+ rocessor core.\nExploit this backdoor to get a root shell in the linux o
+ perating system.\n
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5443.html
+SUMMARY:Introduction to Processor Design
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+END:VCALENDAR

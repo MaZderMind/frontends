@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T134500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T124500
+DTSTAMP;VALUE=DATE-TIME:20131226T143402Z
+UID:IE5aOu8FUaPfpFv5v4rtJg@frab.cccv.de
+DESCRIPTION:This talk gives an introduction to firmware analysis: It star
+ ts with how to retrieve the binary\, e.g. get a plain file from manufact
+ urer\, extract it from an executable or memory device\, or even sniff it
+  out of an update process or internal CPU memory\, which can be really t
+ ricky. After that it introduces the necessary tools\, gives tips on how 
+ to detect the processor architecture\, and explains some more advanced a
+ nalysis techniques\, including how to figure out the offsets where the f
+ irmware is loaded to\, and how to start the investigation.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5477.html
+SUMMARY:An introduction to Firmware Analysis
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+END:VCALENDAR

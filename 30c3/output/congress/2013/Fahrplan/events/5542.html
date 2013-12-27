@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type">
+<title>Schedule 30C3</title>
+<link href="/congress/2013/Fahrplan/assets/public_schedule-8bfa1999e089241b551c2ff7023ef7da.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/congress/2013/Fahrplan/style.css" media="all" rel="stylesheet" type="text/css">
+<link href="/congress/2013/Fahrplan/assets/public_schedule_print-233e241f259049e63e89cebef83c15ee.css" media="print" rel="stylesheet" type="text/css">
+<script src="/congress/2013/Fahrplan/assets/application-0cfb43f843b1463a544c25b6bc3f9649.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="wrapper">
+<div id="header">
+<h1>Schedule 30C3</h1>
+</div>
+<div id="horizontal-navigation">
+<ul>
+<li>
+<a href="/congress/2013/Fahrplan/schedule.html">Index</a>
+</li>
+<li>
+<a href="/congress/2013/Fahrplan/schedule/0.html">
+Day 1
+<br><span class="small-font">2013-12-27</span>
+</a>
+</li>
+<li>
+<a href="/congress/2013/Fahrplan/schedule/1.html">
+Day 2
+<br><span class="small-font">2013-12-28</span>
+</a>
+</li>
+<li>
+<a href="/congress/2013/Fahrplan/schedule/2.html">
+Day 3
+<br><span class="small-font">2013-12-29</span>
+</a>
+</li>
+<li>
+<a href="/congress/2013/Fahrplan/schedule/3.html">
+Day 4
+<br><span class="small-font">2013-12-30</span>
+</a>
+</li>
+<li>
+<a href="/congress/2013/Fahrplan/speakers.html">Speakers</a>
+</li>
+<li class="selected">
+<a href="/congress/2013/Fahrplan/events.html">Events</a>
+</li>
+</ul>
+</div>
+<div id="main-content">
+<p class="release">
+Version 1.1b
+</p>
+<h2>lecture: Revisiting "Trusting Trust" for binary toolchains</h2>
+<h3 class="title"></h3>
+<div class="column left" id="basic">
+<div class="image large"><img alt="Event_large" src="/congress/2013/Fahrplan/assets/event_large-ea7d3ea7d255bc2b751e4357abfe7484.png"></div>
+<p class="abstract">Ken Thompson's classic "Reflections on Trusting Trust" examined the impacts of planted build chain bugs, from an example of a compiler Trojan to a hypothetical "well-placed microcode bug". Once theoretical &amp; remote, such scenarios have lately been revealed as a stark reality.</p>
+
+<p class="abstract">But what if we could have every individual piece of software or firmware in the binary toolchain bug-free, performing just as their programmers intended? Would we be safe from run-away computation if only well-formed inputs to each of the individual tools were allowed? Not so. Potential for malicious computation lurks in a variety of input formats along all steps of the binary runtime process construction and execution. Until the "glue" data of an ABI and the binary toolchains in general is reduced to predictable, statically analyzable power, plenty of room for bug-less Trojans remains.</p>
+
+<p class="abstract">We will discuss our latest work in constructing Turing-complete computation out of different levels of metadata, present tools to normalize and disambiguate these metadata, and conclude with proposals for criteria to trust binary toolchains beyond "Trusting trust" compilers and planted bugs.</p>
+<p class="description">This talk develops on our previous "weird machines" work published in WOOT 2013, https://www.usenix.org/system/files/conference/woot13/woot13-shapiro.pdf and 
+<br>https://www.usenix.org/system/files/conference/woot13/woot13-bangert.pdf
+<br>(video &amp; slides at https://www.usenix.org/conference/woot13/tech-schedule/workshop-program) We will look at the elements of runtime that are typically overlooked as "mere engineering", and show that without restricting these to statically predictable computing power no trust in the toolchain is possible, i.e., a computation can be hijacked from a "signed" image even before it starts executing. In particular, we will show how parser differentials between images as verified and as loaded, or as seen by the kernel and the RTLD can result in completely different view of the loadable segments (and, as a result, of the runtime space). </p>
+</div>
+<div class="column left" id="details">
+<h3>Info</h3>
+<p>
+<b>Day:</b>
+<a href="/congress/2013/Fahrplan/schedule/1.html">2013-12-28</a>
+<br><b>Start time:</b>
+20:30
+<br><b>Duration:</b>
+01:00
+<br><b><span class="translation_missing" title="translation missing: en.public.schedule.event.room">Room</span>:</b>
+Saal 2
+<br><b>Track:</b>
+Science &amp; Engineering
+<br><b>Language:</b>
+en
+</p>
+<h3>Links:</h3>
+<ul>
+<li><a href="/congress/2013/Fahrplan/events/5542.ics">iCalendar</a></li>
+</ul>
+<div class="column left" id="concurrent_events">
+<h3>Concurrent events</h3>
+<dl class="dl-horizontal">
+<dt>Saal G</dt>
+<dd><a href="/congress/2013/Fahrplan/events/5210.html">Bullshit made in Germany</a></dd>
+<dt>Saal 6</dt>
+<dd><a href="/congress/2013/Fahrplan/events/5416.html">Desperately Seeking Susy</a></dd>
+<dt>Saal 1</dt>
+<dd><a href="/congress/2013/Fahrplan/events/5548.html">25 Jahre Chipkarten-Angriffe</a></dd>
+<dt>Villa Straylight</dt>
+<dd><a href="/congress/2013/Fahrplan/events/5689.html">Kraftfuttermischwerk</a></dd>
+</dl>
+</div>
+</div>
+<div class="column right" id="sidebar">
+<h3>Speakers</h3>
+<table class="list"><tbody>
+<tr>
+<td><div class="image small"><img alt="3201" src="/congress/2013/Fahrplan/system/avatars/2850/small/3201.jpg"></div></td>
+<td><a href="/congress/2013/Fahrplan/speakers/2850.html">sergeybratus</a></td>
+</tr>
+<tr>
+<td><div class="image small"><img alt="Person_small" src="/congress/2013/Fahrplan/assets/person_small-6f00a05842ef93f01e648d1c80c3710f.png"></div></td>
+<td><a href="/congress/2013/Fahrplan/speakers/4375.html">Julian Bangert</a></td>
+</tr>
+<tr>
+<td><div class="image small"><img alt="3878" src="/congress/2013/Fahrplan/system/avatars/3597/small/3878.jpg"></div></td>
+<td><a href="/congress/2013/Fahrplan/speakers/3597.html">bx</a></td>
+</tr>
+</tbody></table>
+</div>
+<div class="span16">
+</div>
+
+<br class="clear">
+</div>
+</div>
+<div class="last_update" style="text-align: right;">Last update: Thu Dec 26 23:05:00 CET 2013</div></body>
+</html>

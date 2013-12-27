@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T213000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T203000
+DTSTAMP;VALUE=DATE-TIME:20131207T150306Z
+UID:3poSeUcpc6woNaI5dhATcQ@frab.cccv.de
+DESCRIPTION:Die technischen Probleme der De-Mail ließen sich juristisch 
+ lösen\, und auch bei der E-Mail setzen deutsche Provider bald Sicherhei
+ tsstandards der Neunziger Jahre um. Auch für "die Cloud" hat das BSI ei
+ nen feinen Standard parat – natürlich ohne Verschlüsselung. Wofür b
+ räuchten wir die auch im Schlandnet?
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5210.html
+SUMMARY:Bullshit made in Germany
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+END:VCALENDAR

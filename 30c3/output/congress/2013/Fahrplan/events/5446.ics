@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T223000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T220000
+DTSTAMP;VALUE=DATE-TIME:20131130T205322Z
+UID:n-OE9MQoWcUq2LFZB2e6DQ@frab.cccv.de
+DESCRIPTION:Companies are often blamed for not working upstream. Surprisi
+ ngly\, the situation is not per se better with community projects. To ch
+ ange the latter for the better\, Wolfram will show some examples regardi
+ ng the Linux Kernel and present ideas to create win-win-win situations.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5446.html
+SUMMARY:The good\, the bad\, and the ugly - Linux Kernel patches
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+END:VCALENDAR

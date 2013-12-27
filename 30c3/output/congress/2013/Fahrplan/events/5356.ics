@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T000000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T230000
+DTSTAMP;VALUE=DATE-TIME:20131130T204915Z
+UID:Veo2ucE-l2cA-V-EaA_ckA@frab.cccv.de
+DESCRIPTION:We present a collection of techniques which aim to automagica
+ lly remove significant (and unnecessary) portions of firmware binaries f
+ rom common embedded devices to drastically reduce the attack surface of 
+ these devices. We present a brief theoretical explanation of Firmware Fa
+ t Camp\, a collection of "before" and "after" photos of graduates of FFC
+ \, along with a set of live demonstrations of FFC in action on common em
+ bedded devices.\n\nModern embedded systems such as VoIP phones\, network
+  printers and routers typically ship with all available features compile
+ d into its firmware image. A small subset of these features is activated
+  at any given time on individual devices based on its specific configura
+ tion. An even smaller subset of features is actually used\, as some unus
+ ed and insecure features cannot are typically enabled by default and can
+ not be disabled. However\, all embedded devices still contain a large am
+ ount of code and data that should never be executed or read according to
+  its current configuration. This unnecessary binary is not simply a wast
+ e of memory\; it contains vulnerable code and data that can be used by a
+ n attacker to exploit the system. This “dead code” provides an ideal
+  attack surface. Automated minimization of this attack surface will sign
+ ificantly improve the security of the device without any impact to the d
+ evice’s functionality. 
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5356.html
+SUMMARY:Firmware Fat Camp
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+END:VCALENDAR

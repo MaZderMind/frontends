@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T160000
+DTSTAMP;VALUE=DATE-TIME:20131225T231746Z
+UID:D27zQV1jKk88oKyXxGBGPQ@frab.cccv.de
+DESCRIPTION:The brain can be understood as a highly specialized informati
+ on processing device. Because computers basically do the same thing\, it
+ 's not too absurd to try to link these two together. The result is a bra
+ in-computer-interface.\nThis talk explains the core functionality of our
+  brain and how to access the stored data from the outside. Software and 
+ hardware have already reached a somewhat hacker-friendly state\, and we 
+ want to show you how we got there. We're also here to answer all your qu
+ estions about the brain.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5395.html
+SUMMARY:Towards an affordable brain-computer-interface
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+END:VCALENDAR

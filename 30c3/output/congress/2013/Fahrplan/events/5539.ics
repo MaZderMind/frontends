@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T141500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T134500
+DTSTAMP;VALUE=DATE-TIME:20131207T171818Z
+UID:tbP0pE8M3Do-9jVyC04sXg@frab.cccv.de
+DESCRIPTION:This talk aims to shed some light on recent human rights viol
+ ations in the context of the use of digital information and communicatio
+ ns technology\, particularly considering the latest disclosures about th
+ e surveillance programmes of Western intelligence services. At the same 
+ time\, it shall provide information about Amnesty International's positi
+ ons and activities in this field and invite anybody interested in our wo
+ rk to get involved.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5539.html
+SUMMARY:Human Rights and Technology
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+END:VCALENDAR

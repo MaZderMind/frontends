@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T123000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T113000
+DTSTAMP;VALUE=DATE-TIME:20131126T160514Z
+UID:-zXtqISaAof8oPTr8SYyTQ@frab.cccv.de
+DESCRIPTION:Software engineering is in a unsustainable state: software is
+  mainly developed in a trial and error fashion\, which always leads to v
+ ulnerable systems. Several decades ago the correspondence between logics
+  and programming (Curry-Howard) was found. This correspondence is now be
+ ing used in modern programming languages using dependent types\, such as
+  Agda\, Coq\, and Idris.\n\nIn this talk I show our development of attac
+ ks and security notions within Agda\, using the recent <a href="https://
+ en.wikipedia.org/wiki/BREACH_%28security_exploit%29">BREACH</a> exploit 
+ as an example. Our development is a constructive step towards verified s
+ oftware and bridges a gap between theory and practice.\nI will explain t
+ he details about the Curry-Howard correspondence.\nThe target audience a
+ re interested people with some programming experience.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5394.html
+SUMMARY:BREACH in Agda
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+END:VCALENDAR

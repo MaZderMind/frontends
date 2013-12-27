@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T231500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T224500
+DTSTAMP;VALUE=DATE-TIME:20131204T140338Z
+UID:Lv-uOMbLZH1T17ZxxJ-TEQ@frab.cccv.de
+DESCRIPTION:<p>Finally\, the world is aware of the threat of mass surveil
+ lance and control\, but we still have a fight on our hands\, and that fi
+ ght is both technical and political. Global democracy is not going to pr
+ otect itself. There has never been a higher demand for a politically-eng
+ aged hackerdom. Jacob Appelbaum and Julian Assange discuss what needs to
+  be done if we are going to win.</p>
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5397.html
+SUMMARY:Sysadmins of the world\, unite!
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+END:VCALENDAR

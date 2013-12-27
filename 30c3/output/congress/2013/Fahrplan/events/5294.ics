@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T140000
+DTSTAMP;VALUE=DATE-TIME:20131130T233226Z
+UID:PuDWTZPratvP-gVrrPScWQ@frab.cccv.de
+DESCRIPTION:All “managed FLASH” devices\, such as SD\, microSD\, and 
+ SSD\, contain an embedded controller to assist with the complex tasks ne
+ cessary to create an abstraction of reliable\, contiguous storage out of
+  FLASH silicon that is fundamentally unreliable and unpredictably fragme
+ nted. This controller is an attack surface of interest. First\, the abil
+ ity to modify the block allocation and erasure algorithms introduces the
+  opportunity to perform various MITM attacks in a virtually undetectable
+  fashion. Second\, the controller itself is typically powerful\, with pe
+ rformance around 50MIPS\, yet with a cost of mere pennies\, making it an
+  interesting and possibly useful development target for other non-storag
+ e related purposes. Finally\, understanding the inner workings of the co
+ ntroller enables opportunities for data recovery in cards that are thoug
+ ht to have been erased\, or have been partially damaged.\n\nThis talk de
+ monstrates a method for reverse engineering and loading code into the mi
+ crocontroller within a SD memory card.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5294.html
+SUMMARY:The Exploration and Exploitation of an SD Memory Card
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+END:VCALENDAR

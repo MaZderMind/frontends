@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T140000
+DTSTAMP;VALUE=DATE-TIME:20131226T153939Z
+UID:YYw-34ht9mf83cFWsxTCAw@frab.cccv.de
+DESCRIPTION:Die Enthüllungen Edward Snowdens haben die deutsche Politik 
+ für kurze Zeit in Aufregung gebracht. Für eine Beruhigung reichte es b
+ ereits aus\, die Enthüllungen in sprachlich-logisch cleverer Weise zu v
+ erarbeiten\, sie teilweise in ein anderen Kontext zu stellen und so schl
+ ießlich Entwarnung geben zu können: Die Bundesregierung hat „keine A
+ nhaltspunkte für flächendeckende Überwachung“.\n\nBei diesem Vorgeh
+ en handelt sich um ein Paradebeispiel dafür\, wie mit einfachen sprachl
+ ich-rhetorischen Tricks die politisch Verantwortlichen die Öffentlichke
+ it und sich selbst so weit täuschten\, dass es ihnen nicht mehr nötig 
+ erschien\, sich mit den eigentlichen Problemen auseinanderzusetzen\, und
+  so das leidige Thema aus dem Wahlkampf herausgehalten werden konnte. Ne
+ ben den mittlerweile zum Standard gehörenden „Basta“-Floskeln spiel
+ te das Phänomen der Modalisierung eine besondere Rolle\, wie die genaue
+ re Analyse zeigt. Auch logische Fehler wie Zirkelschlüssel und (zu) str
+ ikte Einschränkung des thematischen Bezugs erlaubten diese „Flucht-na
+ ch-vorne“-Strategie. Die Häufung sprachlicher Tricks und des logisch-
+ inhaltlichen Ausweichens legen eine Inszenierung nahe.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5281.html
+SUMMARY:Keine Anhaltspunkte für flächendeckende Überwachung
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+END:VCALENDAR

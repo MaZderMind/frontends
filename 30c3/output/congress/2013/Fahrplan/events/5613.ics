@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T213000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T203000
+DTSTAMP;VALUE=DATE-TIME:20131225T223034Z
+UID:wX415KPkBVf8zeBPWdqT2Q@frab.cccv.de
+DESCRIPTION:Various dietary restrictions are historically associated with
+  human culture and civilization. In addition\, millions suffer from eati
+ ng disorders that have both pathological and cultural origins.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5613.html
+SUMMARY:Forbidden Fruit
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+END:VCALENDAR

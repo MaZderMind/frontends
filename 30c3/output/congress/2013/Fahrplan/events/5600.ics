@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T134500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T124500
+DTSTAMP;VALUE=DATE-TIME:20131202T165720Z
+UID:ZYk9lubJJBkqDWJBOZpWyw@frab.cccv.de
+DESCRIPTION: 	Increasingly\, users and their computing hardware are expos
+ ed a range of software and hardware attacks\, ranging from disk imaging 
+ to hardware keylogger installation and beyond. Existing methods are inad
+ equate to fully protect users\, particularly from covert physical hardwa
+ re modifications in the "evil maid" scenario\, and yet are very inconven
+ ient. Victims include governments and corporations traveling internation
+ ally (e.g. China)\, anti-government activists in places like Syria\, and
+  anyone who is a target of a motivated attacker who can gain physical ac
+ cess.\n\nPhysically Unclonable Functions\, combined with a trusted mobil
+ e device and a network service\, can be used to mitigate these risks. We
+  present a novel open-source mobile client and network service which can
+  protect arbitrary hardware from many forms of covert modification and a
+ ttack\, and which when integrated with software\, firmware\, and policy 
+ defenses\, can provide greater protection to users and limit potential a
+ ttack surface.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5600.html
+SUMMARY:Thwarting the Evil Maid Attacks
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+END:VCALENDAR

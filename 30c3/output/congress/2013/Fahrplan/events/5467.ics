@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T134500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T124500
+DTSTAMP;VALUE=DATE-TIME:20131223T160145Z
+UID:iGUI8vSrFaU8uQiDfjNt2w@frab.cccv.de
+DESCRIPTION:Der digitale Wandel hat uns grandiose Chancen für selbstbest
+ immtes\, kreatives\, kollaboratives\, kritisches und demokratisches Lern
+ en gebracht. Wir haben sie nicht genutzt.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5467.html
+SUMMARY:Warum die Digitale Revolution des Lernens gescheitert ist.
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+END:VCALENDAR

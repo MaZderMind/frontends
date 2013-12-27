@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T181500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T171500
+DTSTAMP;VALUE=DATE-TIME:20131223T160226Z
+UID:JUiVA82LLuRo_Kypnj5OIg@frab.cccv.de
+DESCRIPTION:Wir leben in einem Zeitalter des Remix. Kreativität und Kult
+ ur bauten schon immer auf bereits Bestehendem auf. Internet und digitale
+  Technologien ermöglichen aber die kreative Nutzung existierender Werke
+  in völlig neuen Dimensionen: Nie zuvor war es so vielen möglich\, Wer
+ ke auf so unterschiedliche Arten zu verändern und so einfach anderen zu
+ gänglich zu machen. In dem Maße\, in dem die kreative Kopie Teil des k
+ ommunikativen Alltags breiter Bevölkerungsschichten wird\, ist ein Rech
+ t auf Remix eine grundlegende Voraussetzung für die Kunst- und Meinungs
+ freiheit einer Gesellschaft. Die Gegenwart ist jedoch geprägt von restr
+ iktivem Rechtemanagement und entgrenzter Rechtsdurchsetzung. Die Initiat
+ ive "Recht auf Remix" möchte das ändern.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5433.html
+SUMMARY:Recht auf Remix
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+END:VCALENDAR

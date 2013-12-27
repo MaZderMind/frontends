@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T123000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T113000
+DTSTAMP;VALUE=DATE-TIME:20131204T015256Z
+UID:BAKqlbEKHMpBMr22KlDsEg@frab.cccv.de
+DESCRIPTION:2013 will be remembered as the year that the Internet lost it
+ s innocence for nearly everyone as light was shed on the widespread use 
+ of dragnet surveillance by the NSA and intelligence agencies globally. W
+ ith the uprisings of the Arab Spring where people raided the offices of 
+ their regimes to bring evidence to light\, we've seen a tremendous pheno
+ menon: a large numbers of whistleblowers have taken action to inform the
+  public about important details. The WikiLeaks SpyFiles series also show
+ s us important details to corroborate these claims. There is ample evide
+ nce about the use and abuses of a multi-billion dollar industry that hav
+ e now come to light. This evidence includes increasing use of targeted a
+ ttacks to establish even more invasive control over corporate\, governme
+ nt or other so-called legitimate targets.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5439.html
+SUMMARY:To Protect And Infect
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+END:VCALENDAR

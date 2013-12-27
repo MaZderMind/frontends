@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T170000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T160000
+DTSTAMP;VALUE=DATE-TIME:20131208T183901Z
+UID:7abembel5Nwrd3h_pRjeOQ@frab.cccv.de
+DESCRIPTION:Almost all higher-end cars come with very beefy in-car entert
+ ainment hardware. In this talk\, I'll describe how to take advantage of 
+ an existing hands-free kit to connect your car to the internet and scrip
+ t your dashboard in python.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5360.html
+SUMMARY:Script Your Car!
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+END:VCALENDAR

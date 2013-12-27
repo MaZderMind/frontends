@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T181500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T171500
+DTSTAMP;VALUE=DATE-TIME:20131130T213427Z
+UID:X5bQYDGyUSq8KPoTcyahdw@frab.cccv.de
+DESCRIPTION:The goal of white-box cryptography is to protect cryptographi
+ c keys in a public implementation of encryption algorithms\, primarily i
+ n the context of Pay-TV and tamper-resistant software. I present an over
+ view of the white-box cryptography concept along with the most common ap
+ plications and proposed designs. I discuss the subtle difference between
+  white-box cryptography\, public-key cryptography\, and obfuscation. 
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5590.html
+SUMMARY:White-Box Cryptography
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+END:VCALENDAR

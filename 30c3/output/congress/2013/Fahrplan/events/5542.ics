@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T213000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T203000
+DTSTAMP;VALUE=DATE-TIME:20131202T165157Z
+UID:GjMyYKOlFIvTVBV1gI_1SA@frab.cccv.de
+DESCRIPTION:Ken Thompson's classic "Reflections on Trusting Trust" examin
+ ed the impacts of planted build chain bugs\, from an example of a compil
+ er Trojan to a hypothetical "well-placed microcode bug". Once theoretica
+ l & remote\, such scenarios have lately been revealed as a stark reality
+ .\n\nBut what if we could have every individual piece of software or fir
+ mware in the binary toolchain bug-free\, performing just as their progra
+ mmers intended? Would we be safe from run-away computation if only well-
+ formed inputs to each of the individual tools were allowed? Not so. Pote
+ ntial for malicious computation lurks in a variety of input formats alon
+ g all steps of the binary runtime process construction and execution. Un
+ til the "glue" data of an ABI and the binary toolchains in general is re
+ duced to predictable\, statically analyzable power\, plenty of room for 
+ bug-less Trojans remains.\n\nWe will discuss our latest work in construc
+ ting Turing-complete computation out of different levels of metadata\, p
+ resent tools to normalize and disambiguate these metadata\, and conclude
+  with proposals for criteria to trust binary toolchains beyond "Trusting
+  trust" compilers and planted bugs.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5542.html
+SUMMARY:Revisiting "Trusting Trust" for binary toolchains
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+END:VCALENDAR

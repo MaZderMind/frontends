@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T181500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T171500
+DTSTAMP;VALUE=DATE-TIME:20131210T153536Z
+UID:xdX27wLbHpeOU_dSgBO4Hg@frab.cccv.de
+DESCRIPTION:Mobile networks should protect users on several fronts: Calls
+  need to be encrypted\, customer data protected\, and SIM cards shielded
+  from malware.\n\nMany networks are still reluctant to implement appropr
+ iate protection measures in legacy systems. But even those who add mitig
+ ations often fail to fully capture attacks: They target symptoms instead
+  of solving the core issue.\n\nThis talks discusses mobile network and S
+ IM card attacks that circumvent common protection techniques to illustra
+ te the ongoing mobile attack evolution.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5449.html
+SUMMARY:Mobile network attack evolution
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+END:VCALENDAR

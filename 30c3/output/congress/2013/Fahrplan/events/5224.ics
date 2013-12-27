@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T140000
+DTSTAMP;VALUE=DATE-TIME:20131127T014608Z
+UID:SKDne_Zu6SPJc-ADxqiLnA@frab.cccv.de
+DESCRIPTION:Symbolic Execution (SE) is a powerful way to analyze programs
+ . Instead of using concrete data values SE uses symbolic values to evalu
+ ate a large set of parallel program paths at once. A drawback of many sy
+ stems is that they need source code access and only scale to few lines o
+ f code. This talk explains how SE and binary analysis can be used to (i)
+  reverse-engineer components of binary only applications and (ii) constr
+ uct specific concrete input that triggers a given condition deep inside 
+ the application (think of defining an error condition and the SE engine 
+ constructs the input to the application that triggers the error).
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5224.html
+SUMMARY:Triggering Deep Vulnerabilities Using Symbolic Execution
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+END:VCALENDAR

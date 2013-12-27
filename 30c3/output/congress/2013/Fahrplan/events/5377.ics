@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T134500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T124500
+DTSTAMP;VALUE=DATE-TIME:20131208T224628Z
+UID:8h6abIcZ9FOaWm7N3o3v9g@frab.cccv.de
+DESCRIPTION:Der Vortrag stellt fortgeschrittene linguistische Methoden de
+ s politisch motivierten Internetmonitorings vor. Er gibt keine Anleitung
+ \, wie man sich der Überwachung wirkungsvoll entziehen kann\, denn das 
+ ist ohnehin zwecklos.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5377.html
+SUMMARY:Überwachen und Sprache
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+END:VCALENDAR

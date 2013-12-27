@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T140000
+DTSTAMP;VALUE=DATE-TIME:20131128T220017Z
+UID:UukuTtIII9uGXGpeCCgKvg@frab.cccv.de
+DESCRIPTION:In this lecture\, we present a black-box analysis of an elect
+ ronic contact-less system that has been steadily\nreplacing a convention
+ al mechanical key on multi-party\nhouses in a big European city. So far\
+ , there are est. 10.000 installations of the electronic system. The mech
+ anical key has been introduced about 40 years ago to allow mail delivery
+  services to access multi-party houses but has since then aggregated man
+ y additional users\, such as garbage collection\, police\, fire brigade 
+ and other emergency services. Over 92% of residential buildings in this 
+ city are equipped with such a solution.  
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5334.html
+SUMMARY:RFID Treehouse of Horror
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+END:VCALENDAR

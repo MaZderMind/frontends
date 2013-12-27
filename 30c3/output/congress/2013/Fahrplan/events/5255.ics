@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T150000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T140000
+DTSTAMP;VALUE=DATE-TIME:20131208T021021Z
+UID:HimAg2Mox6GCcmhbE0NWkQ@frab.cccv.de
+DESCRIPTION:From Stellar Wind to PRISM\, Boundless Informant to EvilOlive
+ \, the NSA spying programs are shrouded in secrecy and rubber-stamped by
+  secret opinions from a court that meets in a faraday cage. The Electron
+ ic Frontier Foundation's Kurt Opsahl explains the known facts about how 
+ the programs operate and the laws and regulations the U.S. government as
+ serts allows the NSA to spy on you.\n
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5255.html
+SUMMARY:Through a PRISM\, Darkly
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+END:VCALENDAR

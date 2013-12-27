@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T124500
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T121500
+DTSTAMP;VALUE=DATE-TIME:20131221T122006Z
+UID:6kqN3bqixV2sIU-x92zuEA@frab.cccv.de
+DESCRIPTION:NFC technology is becoming more and more relevant in our live
+ s. One of its major uses is in ticketing solutions. However\, most of co
+ mpanies use bad implementations of NFC technology. By this talk we will 
+ explain a complete solution\, analyzing security challenges and outlinin
+ g the best practices and implementation choices.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5479.html
+SUMMARY:Building a safe NFC ticketing system
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+END:VCALENDAR

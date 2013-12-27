@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type">
+<title>Schedule 30C3</title>
+<link href="/congress/2013/Fahrplan/assets/public_schedule-8bfa1999e089241b551c2ff7023ef7da.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/congress/2013/Fahrplan/style.css" media="all" rel="stylesheet" type="text/css">
+<link href="/congress/2013/Fahrplan/assets/public_schedule_print-233e241f259049e63e89cebef83c15ee.css" media="print" rel="stylesheet" type="text/css">
+<script src="/congress/2013/Fahrplan/assets/application-0cfb43f843b1463a544c25b6bc3f9649.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="wrapper">
+<div id="header">
+<h1>Schedule 30C3</h1>
+</div>
+<div id="horizontal-navigation">
+<ul>
+<li>
+<a href="/congress/2013/Fahrplan/schedule.html">Index</a>
+</li>
+<li>
+<a href="/congress/2013/Fahrplan/schedule/0.html">
+Day 1
+<br><span class="small-font">2013-12-27</span>
+</a>
+</li>
+<li>
+<a href="/congress/2013/Fahrplan/schedule/1.html">
+Day 2
+<br><span class="small-font">2013-12-28</span>
+</a>
+</li>
+<li>
+<a href="/congress/2013/Fahrplan/schedule/2.html">
+Day 3
+<br><span class="small-font">2013-12-29</span>
+</a>
+</li>
+<li>
+<a href="/congress/2013/Fahrplan/schedule/3.html">
+Day 4
+<br><span class="small-font">2013-12-30</span>
+</a>
+</li>
+<li>
+<a href="/congress/2013/Fahrplan/speakers.html">Speakers</a>
+</li>
+<li class="selected">
+<a href="/congress/2013/Fahrplan/events.html">Events</a>
+</li>
+</ul>
+</div>
+<div id="main-content">
+<p class="release">
+Version 1.1b
+</p>
+<h2>lecture: Reverse engineering the Wii U Gamepad</h2>
+<h3 class="title"></h3>
+<div class="column left" id="basic">
+<div class="image large"><img alt="Event_large" src="/congress/2013/Fahrplan/assets/event_large-ea7d3ea7d255bc2b751e4357abfe7484.png"></div>
+<p class="abstract">A year ago in November 2012, Nintendo released their latest home video game console: the Wii U. While most video game consoles use controllers that are very basic, the Wii U took the opposite route with a very featureful gamepad: wireless with a fairly high range, touch screen, speakers, accelerometer, video camera, and even NFC are supported by the Wii U gamepad. However, as of today, this interesting piece of hardware can only be used in conjunction with a Wii U: wireless communications are encrypted and obfuscated, and there is no documentation about the protocols used for data exchange between the console and its controller. Around december 2012, I started working with two other hackers in order to reverse engineer, document and implement the Wii U gamepad communication protocols on a PC. This talk will present our findings and show the current state of our reverse engineering efforts.</p>
+<p class="description">When the Wii U was released, a few console hackers and I were talking about potential uses for the Wii U gamepad. However, before being able to use a Wii U gamepad as a remote controller for a robot or a quadricopter, the first step was to understand how it worked and how to communicate with it. This started our long journey of soldering wires on Flash chips, reading the h.264 specification and complaining about the lack of features in most Wi-Fi drivers and devices (on all platforms, Linux and ath9k devices being the least horrible).</p>
+
+<p class="description">While some “journalists” reported that the Wii U gamepad is using the Miracast™ technology, a Wi-Fi standard, it turned out that this was never the case. Instead, Nintendo decided to reinvent four different protocols (video streaming, audio streaming, input streaming as well as a light request-reply RPC protocol), and embed them in a slightly obfuscated version of WPA2, sent over the air using 5GHz Wi-Fi 802.11n. A small ARM CPU is embedded in the Wii U Gamepad (codenamed DRC) and runs a realtime operating system to handle network communication. In the Wii U, another ARM CPU (codenamed DRH) does the same thing.</p>
+
+<p class="description">In this presentation, we will go into the details of how we went from a 32MB binary blob to a proof of concept of Wii U gamepad “emulation” on a PC, including full documentation of the wireless communications obfuscation layer and partial documentation of the four data exchange protocols used on the gamepad.</p>
+</div>
+<div class="column left" id="details">
+<h3>Info</h3>
+<p>
+<b>Day:</b>
+<a href="/congress/2013/Fahrplan/schedule/2.html">2013-12-29</a>
+<br><b>Start time:</b>
+20:30
+<br><b>Duration:</b>
+01:00
+<br><b><span class="translation_missing" title="translation missing: en.public.schedule.event.room">Room</span>:</b>
+Saal G
+<br><b>Track:</b>
+Hardware &amp; Making
+<br><b>Language:</b>
+en
+</p>
+<h3>Links:</h3>
+<ul>
+<li><a href="/congress/2013/Fahrplan/events/5322.ics">iCalendar</a></li>
+<li><a href="http://www.youtube.com/watch?v=Yt2-IRiWd40">WiiU Gamepad emulation on a PC</a></li>
+</ul>
+<div class="column left" id="concurrent_events">
+<h3>Concurrent events</h3>
+<dl class="dl-horizontal">
+<dt>Saal 6</dt>
+<dd><a href="/congress/2013/Fahrplan/events/5223.html">WarGames in memory</a></dd>
+<dt>Saal 1</dt>
+<dd><a href="/congress/2013/Fahrplan/events/5295.html">The Four Wars</a></dd>
+<dt>Saal 2</dt>
+<dd><a href="/congress/2013/Fahrplan/events/5538.html">The Internet (Doesn't) Need Another Security Guide</a></dd>
+<dt>Wordlounge</dt>
+<dd><a href="/congress/2013/Fahrplan/events/5682.html">ENKIs vergessene Kinder</a></dd>
+</dl>
+</div>
+</div>
+<div class="column right" id="sidebar">
+<h3>Speakers</h3>
+<table class="list"><tbody><tr>
+<td><div class="image small"><img alt="Person_small" src="/congress/2013/Fahrplan/assets/person_small-6f00a05842ef93f01e648d1c80c3710f.png"></div></td>
+<td><a href="/congress/2013/Fahrplan/speakers/4080.html">delroth</a></td>
+</tr></tbody></table>
+</div>
+<div class="span16">
+</div>
+
+<br class="clear">
+</div>
+</div>
+<div class="last_update" style="text-align: right;">Last update: Thu Dec 26 23:05:01 CET 2013</div></body>
+</html>

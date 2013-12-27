@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T123000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T113000
+DTSTAMP;VALUE=DATE-TIME:20131217T221046Z
+UID:shKT8wmGW3LurqOCDmbZyg@frab.cccv.de
+DESCRIPTION:The Czech art collective Ztohoven' project “Moral Reform”
+  was accomplished in collaboration with web security experts. Together t
+ hey created the unique art concept of a mobile phone mass-hack.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5593.html
+SUMMARY:Hacking the Czech Parliament via SMS
+ORGANIZER:30C3
+LOCATION:Saal 1
+END:VEVENT
+END:VCALENDAR

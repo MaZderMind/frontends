@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T193000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T190000
+DTSTAMP;VALUE=DATE-TIME:20131205T205519Z
+UID:nu_IEETazySR5xcJobNckw@frab.cccv.de
+DESCRIPTION:!Mediengruppe Bitnik are contemporary artists. In their talk 
+ they will show two examples of their work\, illustrating the translation
+  of hacking from the computer field into an artistic practice. Bitnik wi
+ ll show how to hack the opera in ten easy steps and what happens when yo
+ u send a parcel with a hidden live webcam to Julian Assange at the Ecuad
+ orian Embassy in London. \n\nUsing the strategies of hacking\, !Mediengr
+ upppe Bitnik intervenes into settings with the aim of opening them up to
+  re-evaluation and new perspectives.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5425.html
+SUMMARY:Hacking as Artistic Practice
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+END:VCALENDAR

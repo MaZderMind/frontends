@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T193000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T183000
+DTSTAMP;VALUE=DATE-TIME:20131128T160840Z
+UID:bucvwuHzaSgt7x_L06ZcFA@frab.cccv.de
+DESCRIPTION:In this work we present a stealthy malware that exploits dedi
+ cated hardware on the target system and remains persistant across boot c
+ ycles. The malware is capable of gathering valuable information such as 
+ passwords. Because the infected hardware can perform arbitrary main memo
+ ry accesses\, the malware can modify kernel data structures and escalate
+  privileges of processes executed on the system.\n\nThe malware itself i
+ s a DMA malware implementation referred to as DAGGER. DAGGER exploits In
+ tel’s Manageability Engine (ME)\, that executes firmware code such as 
+ Intel’s Active Management Technology (iAMT)\, as well as its OOB netwo
+ rk channel. We have recently improved DAGGER’s capabilites to include 
+ support for 64-bit operating systems and a stealthy update mechanism to 
+ download new attack code.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5380.html
+SUMMARY:Persistent\, Stealthy\, Remote-controlled Dedicated Hardware Malw
+ are
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+END:VCALENDAR

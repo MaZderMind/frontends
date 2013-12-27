@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T163000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T160000
+DTSTAMP;VALUE=DATE-TIME:20131222T175753Z
+UID:Yag3mXGNWO6pdV6uryzhJA@frab.cccv.de
+DESCRIPTION:The movement against SOPA in the US was the largest protest i
+ n online history\, and as one of the core organizers\, we learned a lot 
+ of lessons on how to build a grassroots movement for internet freedom.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5475.html
+SUMMARY:#SOPA\, #NSA\, and the New Internet "Lobby"
+ORGANIZER:30C3
+LOCATION:Saal G
+END:VEVENT
+END:VCALENDAR
