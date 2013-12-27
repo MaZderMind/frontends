@@ -10,7 +10,7 @@
            :data => { "plugin-type" => "flash" } }
   %source{ src: "http://live.berlin.voc.media.ccc.de:8000/#{@saal}_#{@lang}.webm", type: "video/ogg",
            title: "WebM", :data => { "plugin-type" => "native" } }
-  %source{ src: "http://hls.streaming.media.ccc.de/#{@saal}_#{@lang}_#{@quality}.m3u8", type: "application/vnd.apple.mpegURL", 
+  %source{ src: "http://hls.streaming.media.ccc.de/hls/#{@saal}_#{@lang}_#{@quality}/index.m3u8", type: "application/vnd.apple.mpegURL", 
            title: "H264 (HLS)", :data => { "plugin-type" => "native" } }
   %object{ width: '640', height: '360', type: 'application/x-shockwave-flash', data: '/static/flashmediaelement.swf' }
     %param{ name: 'allowFullScreen', value: 'true' }
