@@ -9,8 +9,7 @@
 <meta charset="utf-8">
 <link href="../../../css/style.css" rel="stylesheet" type="text/css">
 <link href="../../../css/mediaelementplayer.css" rel="stylesheet" type="text/css">
-<script src="../../../js/jquery.js" type="text/javascript"></script>
-<script src="../../../js/mediaelement-and-player.js" type="text/javascript"></script>
+<script src="../../../js/jquery.js" type="text/javascript"></script><script src="../../../js/mediaelement-and-player.js" type="text/javascript"></script>
 </head>
 <body>
 <div id="container">
@@ -18,23 +17,16 @@
 <div id="header">
 <div class="logo">
 <a href="../../../">
-<img src="../../../img/logo.svg">
-</a>
+<img src="../../../img/logo.svg"></a>
 </div>
 <div class="headline">
 30C3: Streaming - Saal 2
 </div>
 </div>
 <div id="content">
-<video autoplay="autoplay" controls="controls" height="360" id="video-tag" preload="auto" width="640">
-<source data-plugin-type="flash" src="rtmp://rtmp.streaming.media.ccc.de:1935/stream/saal2_native_hq" title="H264 (RTMP)" type="video/rtmp"></source>
-<source data-plugin-type="native" src="http://live.berlin.voc.media.ccc.de:8000/saal2_native.webm" title="WebM" type="video/ogg"></source>
-<source data-plugin-type="native" src="http://hls.streaming.media.ccc.de/saal2_native_hq.m3u8" title="H264 (HLS)" type="application/vnd.apple.mpegURL"></source>
-<object data="../../../static/flashmediaelement.swf" height="360" type="application/x-shockwave-flash" width="640">
-<param name="allowFullScreen" value="true">
-</object>
-</video>
-<div id="chooser">
+<video autoplay="autoplay" controls="controls" height="360" id="video-tag" preload="auto" width="640"><source data-plugin-type="flash" src="rtmp://rtmp.streaming.media.ccc.de:1935/stream/saal2_native_hq" title="H264 (RTMP)" type="video/rtmp"></source><source data-plugin-type="native" src="http://live.berlin.voc.media.ccc.de:8000/saal2_native.webm" title="WebM" type="video/ogg"></source><source data-plugin-type="native" src="http://hls.streaming.media.ccc.de/saal2_native_hq.m3u8" title="H264 (HLS)" type="application/vnd.apple.mpegURL"></source><object data="../../../static/flashmediaelement.swf" height="360" type="application/x-shockwave-flash" width="640">
+<param name="allowFullScreen" value="true"></object>
+</video><div id="chooser">
 <span id="quality">
 Quality ▼
 <ul>
@@ -46,8 +38,7 @@ Quality ▼
 HQ
 </span>
 </li>
-</ul>
-</span>
+</ul></span>
 <span id="language">
 Language ▼
 <ul>
@@ -59,8 +50,7 @@ native
 <li>
 <a href="../../translated/hq">translated</a>
 </li>
-</ul>
-</span>
+</ul></span>
 </div>
 <script type="text/javascript">
   //<![CDATA[
@@ -78,24 +68,20 @@ native
     $("#chooser").appendTo(".mejs-controls");
   //]]>
 </script>
-
-
 </div>
 <div id="footer">
 <div class="links">
-<a href="https://events.ccc.de/congress/2013/wiki/Static:Documentation">Wiki</a>
+<a href="http://streaming.media.ccc.de/wiki/">Wiki-Mirror</a>
 |
 <a href="https://twitter.com/c3streaming">Twitter</a>
 </div>
 <div class="voc_logo">
 <a href="http://ccc.de">
-<img alt="CCC Video Operations Center" src="../../../img/voc_logo.svg">
-</a>
+<img alt="CCC Video Operations Center" src="../../../img/voc_logo.svg"></a>
 </div>
 <div class="fem_logo">
 <a href="http://fem.tu-ilmenau.de">
-<img alt="Forschungsgemeinschaft elektronische Medien" src="../../../img/fem_logo.svg">
-</a>
+<img alt="Forschungsgemeinschaft elektronische Medien" src="../../../img/fem_logo.svg"></a>
 </div>
 </div>
 </div>
