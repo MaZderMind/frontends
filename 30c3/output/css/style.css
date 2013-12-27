@@ -162,6 +162,52 @@ html[xmlns] .clearfix {
 * html .clearfix {
   height: 1%; }
 
+#chooser {
+  float: right;
+  width: auto;
+  color: white;
+  font-size: 11px;
+  height: 17px;
+  padding: 8px 8px 0px 3px; }
+
+#chooser a {
+  color: #02f0fb; }
+
+#chooser .selected {
+  color: #999; }
+
+#language {
+  margin-left: 15px; }
+
+#quality,
+#language {
+  position: relative; }
+
+#quality ul,
+#language ul {
+  display: none;
+  position: absolute;
+  top: 0px;
+  padding: 2px;
+  background-color: rgba(0, 0, 0, 0.7);
+  list-style-type: none;
+  z-index: 999; }
+
+#chooser li a,
+#chooser li .selected {
+  display: block;
+  padding: 5px 15px;
+  text-decoration: none; }
+
+#chooser li a:hover {
+  background-color: #02f0fb;
+  color: black;
+  text-decoration: underline; }
+
+#quality:hover ul,
+#language:hover ul {
+  display: block; }
+
 /*
 @media screen and (min-width: 320px) {
   body {

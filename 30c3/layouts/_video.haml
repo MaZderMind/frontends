@@ -12,24 +12,33 @@
            title: "WebM", :data => { "plugin-type" => "native" } }
   %source{ src: "http://hls.streaming.media.ccc.de/#{@saal}_#{@lang}_#{@quality}.m3u8", type: "application/vnd.apple.mpegURL", 
            title: "H264 (HLS)", :data => { "plugin-type" => "native" } }
--# %object{ width: '640', height: '360', type: 'application/x-shockwave-flash', data: '/static/flashmediaelement.swf' }
-    %param{ name: 'movie', value: '/static/flashmediaelement.swf' }
-    %param{ name: 'flashvars', value: "controls=true&file=http://151.217.25.2:1935/stream/#{@saal}_native_hd" }
+  %object{ width: '640', height: '360', type: 'application/x-shockwave-flash', data: '/static/flashmediaelement.swf' }
+    %param{ name: 'allowFullScreen', value: 'true' }
+    -#%param{ name: 'movie', value: '/static/flashmediaelement.swf' }
+    -#%param{ name: 'flashvars', value: "controls=true&file=http://151.217.25.2:1935/stream/#{@saal}_native_hd" }
 
-%div{ }
-Quality:
-- @qualities.each do | q |
-  - if q == @quality 
-    #{q.upcase}
-  - else
-    %a{ :href => "/#{@saal}/#{@lang}/#{q}" } #{q.upcase}
+%div{ id: "chooser" }
+  %span{ id: "quality" }
+    Quality &#9660;
+    %ul
+      - @qualities.each do | q |
+        %li
+          - if q == @quality
+            %span{ class: "selected" }
+              #{q.upcase}
+          - else
+            %a{ :href => "/#{@saal}/#{@lang}/#{q}" } #{q.upcase}
 
-\:: Languages:
-- @langs.each do | l |
-  - if l == @lang
-    #{l}
-  - else
-    %a{ :href => "/#{@saal}/#{l}/#{@quality}" } #{l}
+  %span{ id: "language" }
+    Language &#9660;
+    %ul
+      - @langs.each do | l |
+        %li
+          - if l == @lang
+            %span{ class: "selected" }
+              #{l}
+          - else
+            %a{ :href => "/#{@saal}/#{l}/#{@quality}" } #{l}
 
 
 :javascript
@@ -44,4 +53,5 @@ Quality:
       features: ['playpause','current','duration','volume', 'fullscreen'],
       enableAutosize: true
     });
+  $("#chooser").appendTo(".mejs-controls");
 

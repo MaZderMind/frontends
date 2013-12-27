@@ -30,14 +30,38 @@
 <source data-plugin-type="flash" src="rtmp://rtmp.streaming.media.ccc.de:1935/stream/saalg_native_lq" title="H264 (RTMP)" type="video/rtmp"></source>
 <source data-plugin-type="native" src="http://live.berlin.voc.media.ccc.de:8000/saalg_native.webm" title="WebM" type="video/ogg"></source>
 <source data-plugin-type="native" src="http://hls.streaming.media.ccc.de/saalg_native_lq.m3u8" title="H264 (HLS)" type="application/vnd.apple.mpegURL"></source>
+<object data="../../../static/flashmediaelement.swf" height="360" type="application/x-shockwave-flash" width="640">
+<param name="allowFullScreen" value="true">
+</object>
 </video>
-<div></div>
-Quality:
+<div id="chooser">
+<span id="quality">
+Quality ▼
+<ul>
+<li>
+<span class="selected">
 LQ
+</span>
+</li>
+<li>
 <a href="../hq">HQ</a>
-:: Languages:
+</li>
+</ul>
+</span>
+<span id="language">
+Language ▼
+<ul>
+<li>
+<span class="selected">
 native
+</span>
+</li>
+<li>
 <a href="../../translated/lq">translated</a>
+</li>
+</ul>
+</span>
+</div>
 <script type="text/javascript">
   //<![CDATA[
     currentPlayer = new MediaElementPlayer('#video-tag', 
@@ -51,6 +75,7 @@ native
         features: ['playpause','current','duration','volume', 'fullscreen'],
         enableAutosize: true
       });
+    $("#chooser").appendTo(".mejs-controls");
   //]]>
 </script>
 
