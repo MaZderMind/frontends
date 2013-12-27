@@ -1,10 +1,26 @@
 - @saal   = @item[:room].gsub(' ', '').downcase
 - @format = @item[:format].downcase if @item[:format]
 
-%video{ id: "#{@saal}_#{@format}", width: '640', height: '360', controls: true, preload: 'auto', poster: '/img/' }
-  %source{ src: "http://live.berlin.voc.media.ccc.de:8000/saal1_native.webm", type: "video/webm; codecs='vp8, vorbis'" }/
-  %source{ src: "http://hls.streaming.voc.media.ccc.de/saal1_native.m3u8", type: "video/mp4; codecs='avc1.42E01E, mp4a.40.2'" }/
-  %source{ src: "rtmp://rtmp.streaming.voc.media.ccc.de:1935/stream/saal1_translated_hq", type: "video/mp4; codecs='avc1.42E01E, mp4a.40.2'" }/
-  %object{ width: '640', height: '480', type: 'application/x-shockwave-flash', data: '/static/flashmediaelement.swf'}
-    %param{ name: "movie", value: "flashmediaelement.swf" }/
-    %param{ name:"flashvars", value: "controls=true&file=myvideo.mp4" }/
+%video{ id: "video-tag", width: '640', height: '360', controls: true, preload: 'auto' }
+  %source{ src: "rtmp://rtmp.streaming.media.ccc.de:1935/stream/#{@saal}_native_hq", title: "H264 (RTMP)", type: "video/rtmp",
+           :data => { "plugin-type" => "flash", "quality" => "high" } }
+  %source{ src: "http://live.berlin.voc.media.ccc.de:8000/#{@saal}_native.webm", type: "video/ogg",
+           title: "WebM (SD)", :data => { "plugin-type" => "native", "quality" => "low" } }
+  %source{ src: "http://hls.streaming.media.ccc.de/#{@saal}_native.m3u8", type: "application/vnd.apple.mpegURL", 
+           title: "H264 (SD)", :data => { "plugin-type" => "native", "quality" => "H264 (HD) via HLS" } } 
+-#  %object{ width: '640', height: '360', type: 'application/x-shockwave-flash', data: '/static/flashmediaelement.swf' }
+    %param{ name: 'movie', value: '/static/flashmediaelement.swf' }
+    %param{ name: 'flashvars', value: "controls=true&file=http://151.217.25.2:1935/stream/#{@saal}_native_hd" }
+
+:javascript
+  currentPlayer = new MediaElementPlayer('#video-tag', 
+    { mode: 'auto_plugin',
+      pluginPath: "/static/",
+      enablePluginDebug: true,
+      usePluginFullScreen: true,
+      thumbnailSelectorUpdateURL: '/update-url',
+      thumbnailSelectorEnabled: true,
+      //features: ["playpause", "current", "progress", "duration", "qualities", "volume", "fullscreen", "thumbnailSelector"]
+      features: ['playpause','progress','current','duration','volume','fullscreen']
+    });
+

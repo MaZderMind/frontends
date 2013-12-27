@@ -11,16 +11,7 @@
 
 
     %script{ type: "text/javascript", src: "/js/jquery.js" }
-    %script{ type: "text/javascript", src: "/js/mediaelement-and-player.min.js" }
-
-    :javascript
-      jQuery(document).ready(function($) {
-          $('audio,video').mediaelementplayer({
-              features: [ 'playpause', 'current', 'progress', 'volume', 'fullscreen'],
-              alwaysShowControls: false,
-              videoVolume: 'vertical'
-          });
-      });
+    %script{ type: "text/javascript", src: "/js/mediaelement-and-player.js" }
 
   %body
     #container

@@ -22,27 +22,30 @@
 </a>
 </div>
 <div class="headline">
-30C3: Streaming - Saal 1
+30C3: Streaming - Lounge
 </div>
 </div>
 <div id="content">
-<video controls="controls" height="360" id="video-tag" preload="auto" width="640">
-<source data-plugin-type="flash" data-quality="high" src="rtmp://rtmp.streaming.media.ccc.de:1935/stream/saal1_native_hq" title="H264 (RTMP)" type="video/rtmp"></source>
-<source data-plugin-type="native" data-quality="low" src="http://live.berlin.voc.media.ccc.de:8000/saal1_native.webm" title="WebM (SD)" type="video/ogg"></source>
-<source data-plugin-type="native" data-quality="H264 (HD) via HLS" src="http://hls.streaming.media.ccc.de/saal1_native.m3u8" title="H264 (SD)" type="application/vnd.apple.mpegURL"></source>
-</video>
+<audio controls="controls" id="lounge_" preload="auto">
+<source src="http://hls.streaming.voc.media.ccc.de/lounge.opus" title="Opus" type="audio/ogg; codecs='opus'"></source>
+<source src="rtmp://rtmp.streaming.voc.media.ccc.de:1935/stream/lounge.mp3" title="MP3" type="audio/mpeg; codecs='mp3'"></source>
+</audio>
+<span id="player-mode"></span>
 <script type="text/javascript">
   //<![CDATA[
-    currentPlayer = new MediaElementPlayer('#video-tag', 
-      { mode: 'auto_plugin',
-        pluginPath: "/static/",
-        enablePluginDebug: true,
-        usePluginFullScreen: true,
-        thumbnailSelectorUpdateURL: '/update-url',
-        thumbnailSelectorEnabled: true,
-        //features: ["playpause", "current", "progress", "duration", "qualities", "volume", "fullscreen", "thumbnailSelector"]
-        features: ['playpause','progress','current','duration','volume','fullscreen']
+    $('audio').mediaelementplayer({
+      // shows debug errors on screen
+      enablePluginDebug: true,
+      //defaultVideoWidth: 1024,
+      //defaultVideoHeight: 576,
+      features: ['playpause','progress','current','duration','tracks','volume', 'sourcechooser'],
+      enableAutosize: false,
+      pauseOtherPlayers: false,
+      success: function(media, node, player) {
+        $('#' + node.id + '-mode').html('mode: ' + media.title);
+      }
       });
+    });
   //]]>
 </script>
 
