@@ -236,7 +236,7 @@ html[xmlns] .clearfix {
   color: #02f0fb; 
 }
 #chooser .selected {
-  color: #999;
+  color: white;
 }
 #language {
   margin-left: 15px;
@@ -263,10 +263,14 @@ html[xmlns] .clearfix {
   text-decoration: none;
 
 }
-#chooser li a:hover {
+#chooser li .selected {
   background-color: #02f0fb;
   color: black;
+}
+#chooser li a:hover {
   text-decoration: underline;
+  background-color: white;
+  color: black;
 }
 #quality:hover ul,
 #language:hover ul

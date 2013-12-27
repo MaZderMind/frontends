@@ -25,9 +25,9 @@
         %li
           - if q == @quality
             %span{ class: "selected" }
-              #{q.upcase}
+              &#9658;#{q.upcase}
           - else
-            %a{ :href => "/#{@saal}/#{@lang}/#{q}" } #{q.upcase}
+            %a{ :href => "/#{@saal}/#{@lang}/#{q}/" } #{q.upcase}
 
   %span{ id: "language" }
     Language &#9660;
@@ -36,9 +36,9 @@
         %li
           - if l == @lang
             %span{ class: "selected" }
-              #{l}
+              &#9658;#{l}
           - else
-            %a{ :href => "/#{@saal}/#{l}/#{@quality}" } #{l}
+            %a{ :href => "/#{@saal}/#{l}/#{@quality}/" } #{l}
 
 
 :javascript
