@@ -87,8 +87,9 @@ body {
     padding-top: 5px;
     margin-bottom: 5px;
     margin-left: auto;
+    padding-left: 10px;
     margin-right: auto;
-    text-align: center;
+    text-align: left;
     position: relative; }
     body #footer .links {
       display: inline;
