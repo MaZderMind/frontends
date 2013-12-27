@@ -1,9 +1,13 @@
 - @saal   = @item[:room].gsub(' ', '').downcase
 - @format = @item[:format].downcase if @item[:format]
+- @lang   = "_#{@item[:lang]}" if @item[:lang]
 
-%audio{ id: "#{@saal}_#{@format}", controls: true, preload: 'auto' }
-  %source{ src: "http://hls.streaming.voc.media.ccc.de/#{@saal}.opus", type: "audio/ogg; codecs='opus'", title: "Opus"}
-  %source{ src: "rtmp://rtmp.streaming.voc.media.ccc.de:1935/stream/#{@saal}.mp3", type: "audio/mpeg; codecs='mp3'", title: "MP3" }
+%audio{ id: "#{@saal}_#{@format}", controls: true, preload: 'auto', width: "480", autoplay: true }
+  - if @format == "audio"
+    %source{ src: "http://audio.streaming.media.ccc.de:8000/#{@saal}#{@lang}.#{@format}", type: "audio/#{@format}"}
+  - else
+    %source{ src: "http://audio.streaming.media.ccc.de:8000/#{@saal}#{@lang}.mp3", type: "audio/mp3"}
+    %source{ src: "http://audio.streaming.media.ccc.de:8000/#{@saal}#{@lang}.opus", type: "audio/opus"}
 
 %span{ id: "player-mode" }
 
@@ -13,12 +17,8 @@
     enablePluginDebug: true,
     //defaultVideoWidth: 1024,
     //defaultVideoHeight: 576,
-    features: ['playpause','progress','current','duration','tracks','volume', 'sourcechooser'],
+    features: ['playpause','progress','current','tracks','volume', 'formatchooser'],
     enableAutosize: false,
     pauseOtherPlayers: false,
-    success: function(media, node, player) {
-      $('#' + node.id + '-mode').html('mode: ' + media.title);
-    }
-    });
   });
 

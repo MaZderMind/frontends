@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>
+30C3
+
+</title>
+<meta charset="utf-8">
+<link href="../../../css/style.css" rel="stylesheet" type="text/css">
+<link href="../../../css/mediaelementplayer.css" rel="stylesheet" type="text/css">
+<script src="../../../js/jquery.js" type="text/javascript"></script>
+<script src="../../../js/mediaelement-and-player.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="container">
+<div class="rocket"></div>
+<div id="header">
+<div class="logo">
+<a href="../../../">
+<img src="../../../img/logo.svg">
+</a>
+</div>
+<div class="headline">
+30C3: Streaming - Saal 1
+</div>
+</div>
+<div id="content">
+<video autoplay="autoplay" controls="controls" height="360" id="video-tag" preload="auto" width="640">
+<source data-plugin-type="flash" src="rtmp://rtmp.streaming.media.ccc.de:1935/stream/saal1_translated_hq" title="H264 (RTMP)" type="video/rtmp"></source>
+<source data-plugin-type="native" src="http://live.berlin.voc.media.ccc.de:8000/saal1_translated.webm" title="WebM" type="video/ogg"></source>
+<source data-plugin-type="native" src="http://hls.streaming.media.ccc.de/saal1_translated_hq.m3u8" title="H264 (HLS)" type="application/vnd.apple.mpegURL"></source>
+</video>
+<div></div>
+Quality:
+<a href=".">LQ</a>
+HQ
+<a href="../hd">HD</a>
+:: Languages:
+<a href="../../native/hq">native</a>
+translated
+<script type="text/javascript">
+  //<![CDATA[
+    currentPlayer = new MediaElementPlayer('#video-tag', 
+      { mode: 'auto_plugin',
+        pluginPath: "/static/",
+        //enablePluginDebug: true,
+        usePluginFullScreen: true,
+        //thumbnailSelectorUpdateURL: '/update-url',
+        //thumbnailSelectorEnabled: true,
+        //features: ["playpause", "current", "progress", "duration", "qualities", "volume", "fullscreen", "thumbnailSelector"]
+        features: ['playpause','current','duration','volume', 'fullscreen'],
+        enableAutosize: true
+      });
+  //]]>
+</script>
+
+
+</div>
+<div id="footer">
+<div class="links">
+<a href="https://events.ccc.de/congress/2013/wiki/Static:Documentation">Wiki</a>
+|
+<a href="https://twitter.com/c3streaming">Twitter</a>
+</div>
+<div class="voc_logo">
+<a href="http://ccc.de">
+<img alt="CCC Video Operations Center" src="../../../img/voc_logo.svg">
+</a>
+</div>
+<div class="fem_logo">
+<a href="http://fem.tu-ilmenau.de">
+<img alt="Forschungsgemeinschaft elektronische Medien" src="../../../img/fem_logo.svg">
+</a>
+</div>
+</div>
+</div>
+</body>
+</html>

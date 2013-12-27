@@ -1,26 +1,47 @@
-- @saal   = @item[:room].gsub(' ', '').downcase
-- @format = @item[:format].downcase if @item[:format]
+- @saal      = @item[:room].gsub(' ', '').downcase
+- @qualities = @item[:qualities]
+- @quality   = @item[:quality]
+- @langs     = @item[:langs]
+- @lang      = @item[:lang]
+- @hdpost    = "-hd" if @quality == "hd"
 
-%video{ id: "video-tag", width: '640', height: '360', controls: true, preload: 'auto' }
-  %source{ src: "rtmp://rtmp.streaming.media.ccc.de:1935/stream/#{@saal}_native_hq", title: "H264 (RTMP)", type: "video/rtmp",
-           :data => { "plugin-type" => "flash", "quality" => "high" } }
-  %source{ src: "http://live.berlin.voc.media.ccc.de:8000/#{@saal}_native.webm", type: "video/ogg",
-           title: "WebM (SD)", :data => { "plugin-type" => "native", "quality" => "low" } }
-  %source{ src: "http://hls.streaming.media.ccc.de/#{@saal}_native.m3u8", type: "application/vnd.apple.mpegURL", 
-           title: "H264 (SD)", :data => { "plugin-type" => "native", "quality" => "H264 (HD) via HLS" } } 
--#  %object{ width: '640', height: '360', type: 'application/x-shockwave-flash', data: '/static/flashmediaelement.swf' }
+%video{ id: "video-tag", width: '640', height: '360', controls: true, preload: 'auto', autoplay: true }
+  %source{ src: "rtmp://rtmp#{@hdpost}.streaming.media.ccc.de:1935/stream/#{@saal}_#{@lang}_#{@quality}", title: "H264 (RTMP)", type: "video/rtmp",
+           :data => { "plugin-type" => "flash" } }
+  %source{ src: "http://live.berlin.voc.media.ccc.de:8000/#{@saal}_#{@lang}.webm", type: "video/ogg",
+           title: "WebM", :data => { "plugin-type" => "native" } }
+  %source{ src: "http://hls.streaming.media.ccc.de/#{@saal}_#{@lang}_#{@quality}.m3u8", type: "application/vnd.apple.mpegURL", 
+           title: "H264 (HLS)", :data => { "plugin-type" => "native" } }
+-# %object{ width: '640', height: '360', type: 'application/x-shockwave-flash', data: '/static/flashmediaelement.swf' }
     %param{ name: 'movie', value: '/static/flashmediaelement.swf' }
     %param{ name: 'flashvars', value: "controls=true&file=http://151.217.25.2:1935/stream/#{@saal}_native_hd" }
+
+%div{ }
+Quality:
+- @qualities.each do | q |
+  - if q == @quality 
+    #{q.upcase}
+  - else
+    %a{ :href => "/#{@saal}/#{@lang}/#{q}" } #{q.upcase}
+
+\:: Languages:
+- @langs.each do | l |
+  - if l == @lang
+    #{l}
+  - else
+    %a{ :href => "/#{@saal}/#{l}/#{@quality}" } #{l}
+
 
 :javascript
   currentPlayer = new MediaElementPlayer('#video-tag', 
     { mode: 'auto_plugin',
       pluginPath: "/static/",
-      enablePluginDebug: true,
+      //enablePluginDebug: true,
       usePluginFullScreen: true,
-      thumbnailSelectorUpdateURL: '/update-url',
-      thumbnailSelectorEnabled: true,
+      //thumbnailSelectorUpdateURL: '/update-url',
+      //thumbnailSelectorEnabled: true,
       //features: ["playpause", "current", "progress", "duration", "qualities", "volume", "fullscreen", "thumbnailSelector"]
-      features: ['playpause','progress','current','duration','volume','fullscreen']
+      features: ['playpause','current','duration','volume', 'fullscreen'],
+      enableAutosize: true
     });
 

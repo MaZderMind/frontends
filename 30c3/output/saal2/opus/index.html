@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>
+30C3
+
+</title>
+<meta charset="utf-8">
+<link href="../../css/style.css" rel="stylesheet" type="text/css">
+<link href="../../css/mediaelementplayer.css" rel="stylesheet" type="text/css">
+<script src="../../js/jquery.js" type="text/javascript"></script>
+<script src="../../js/mediaelement-and-player.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="container">
+<div class="rocket"></div>
+<div id="header">
+<div class="logo">
+<a href="../../">
+<img src="../../img/logo.svg">
+</a>
+</div>
+<div class="headline">
+30C3: Streaming - Saal 2
+</div>
+</div>
+<div id="content">
+<audio autoplay="autoplay" controls="controls" id="saal2_opus" preload="auto" width="480">
+<source src="http://audio.streaming.media.ccc.de:8000/saal2.opus" type="audio/ogg"></source>
+</audio>
+<span id="player-mode"></span>
+<script type="text/javascript">
+  //<![CDATA[
+    $('audio').mediaelementplayer({
+      // shows debug errors on screen
+      enablePluginDebug: true,
+      //defaultVideoWidth: 1024,
+      //defaultVideoHeight: 576,
+      features: ['playpause','progress','current','duration','tracks','volume'],
+      enableAutosize: false,
+      pauseOtherPlayers: false,
+      success: function(media, node, player) {
+        $('#' + node.id + '-mode').html('mode: ' + media.title);
+      }
+      });
+    });
+  //]]>
+</script>
+
+
+</div>
+<div id="footer">
+<div class="links">
+<a href="https://events.ccc.de/congress/2013/wiki/Static:Documentation">Wiki</a>
+|
+<a href="https://twitter.com/c3streaming">Twitter</a>
+</div>
+<div class="voc_logo">
+<a href="http://ccc.de">
+<img alt="CCC Video Operations Center" src="../../img/voc_logo.svg">
+</a>
+</div>
+<div class="fem_logo">
+<a href="http://fem.tu-ilmenau.de">
+<img alt="Forschungsgemeinschaft elektronische Medien" src="../../img/fem_logo.svg">
+</a>
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -6,50 +6,49 @@ title: Streaming
 
   %dl
     %h2
-      %a{ href: '/saal1/'}
+      %a{ href: "/saal1/"}
         Saal 1
-    %dd RTMP
+    %dd Native
     %dt
-      %a{ href: '/saal1/rtmp/hd/'} HD
-      %a{ href: '/saal1/rtmp/hq/'} HQ
-      %a{ href: '/saal1/rtmp/lq/'} LQ
-    %dd HLS
+      %a{ href: "/saal1/native/hd/"} HD
+      %a{ href: "/saal1/native/hq/"} HQ
+      %a{ href: "/saal1/native/lq/"} LQ
+      %a{ href: "/saal1/native/audio/"} Audio 
+    %dd Translated
     %dt
-      %a{ href: '/saal1/hls/hd/'} HD
-      %a{ href: '/saal1/hls/vb/'} Variable Bitrate
-    %dd WebM
-    %dt
-      %a{ href: '/saal1/webm/hq/'} HQ
-    %dd Audio
-    %dt
-      %a{ href: '/saal1/opus/'} opus
-      %a{ href: '/saal1/mp3/hd/'} mp3
+      %a{ href: "/saal1/translated/hd/"} HD
+      %a{ href: "/saal1/translated/hq/"} HQ
+      %a{ href: "/saal1/translated/lq/"} LQ
+      %a{ href: "/saal1/translated/audio/"} Audio 
 
-  - ['Saal 2', 'Saal G', 'Saal 6'].each do |room|
+  - ["Saal 2", "Saal G", "Saal 6"].each do |room|
+    - @roomslug = room.delete(" ").downcase
     %dl
       %h2
-        %a{ href: "/#{room.delete(' ').downcase}/"}
-          = room
-      %dd RTMP
-      %dt
-        %a{ href: "#{room.delete(' ').downcase}/rtmp/hd/"} HQ
-        %a{ href: "/#{room.delete(' ').downcase}/rtmp/lq/"} LQ
-      %dd HLS
-      %dt
-        %a{ href: "/#{room.delete(' ').downcase}/hls/vb/"} Variable Bitrate
-      %dd WebM
-      %dt
-        %a{ href: "/#{room.delete(' ').downcase}/hls/hq/"} HQ
-      %dd Audio
-      %dt
-        %a{ href: "/#{room.delete(' ').downcase}/audio/opus/"} opus
-        %a{ href: "/#{room.delete(' ').downcase}/audio/mp3/"} mp3
+        %a{ href: "/#{@roomslug}/"}
+          #{room}
 
-
+      %dd Native
+      %dt
+        %a{ href: "#{@roomslug}/native/hq/"} HQ
+        %a{ href: "#{@roomslug}/native/lq/"} LQ
+        %a{ href: "#{@roomslug}/native/audio/"} Audio 
+      %dd Translated
+      %dt
+        %a{ href: "#{@roomslug}/translated/hq/"} HQ
+        %a{ href: "#{@roomslug}/translated/lq/"} LQ
+        %a{ href: "#{@roomslug}/translated/audio/"} Audio 
+    
   %dl
     %h2
-      %a{ href: '/lounge/' } Lounge
+      %a{ href: "/lounge/" } Lounge
     %dd Audio
     %dt
-      %a{ href: '/lounge/mp3/'} MP3
-      %a{ href: '/lounge/opus/'} Opus
+      %a{ href: "/lounge/"} Vorbis
+  %dl
+    %h2
+      %a{ href: "/ambient/" } Ambient
+    %dd Audio
+    %dt
+      %a{ href: "/ambient/"} MP3
+

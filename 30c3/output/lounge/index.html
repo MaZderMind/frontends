@@ -26,9 +26,9 @@
 </div>
 </div>
 <div id="content">
-<audio controls="controls" id="lounge_" preload="auto">
-<source src="http://hls.streaming.voc.media.ccc.de/lounge.opus" title="Opus" type="audio/ogg; codecs='opus'"></source>
-<source src="rtmp://rtmp.streaming.voc.media.ccc.de:1935/stream/lounge.mp3" title="MP3" type="audio/mpeg; codecs='mp3'"></source>
+<audio autoplay="autoplay" controls="controls" id="lounge_ogg" preload="auto" width="480">
+<source src="http://audio.streaming.media.ccc.de:8000/lounge.mp3" type="audio/mp3"></source>
+<source src="http://audio.streaming.media.ccc.de:8000/lounge.opus" type="audio/opus"></source>
 </audio>
 <span id="player-mode"></span>
 <script type="text/javascript">
@@ -38,13 +38,9 @@
       enablePluginDebug: true,
       //defaultVideoWidth: 1024,
       //defaultVideoHeight: 576,
-      features: ['playpause','progress','current','duration','tracks','volume', 'sourcechooser'],
+      features: ['playpause','progress','current','tracks','volume', 'formatchooser'],
       enableAutosize: false,
       pauseOtherPlayers: false,
-      success: function(media, node, player) {
-        $('#' + node.id + '-mode').html('mode: ' + media.title);
-      }
-      });
     });
   //]]>
 </script>
