@@ -3,7 +3,7 @@
 - @lang   = "_#{@item[:lang]}" if @item[:lang]
 
 %audio{ id: "#{@saal}_#{@format}", controls: true, preload: 'auto', width: "480", autoplay: true }
-  - if @format == "audio"
+  - if @format =~ /audio|ogg/
     %source{ src: "http://audio.streaming.media.ccc.de:8000/#{@saal}#{@lang}.#{@format}", type: "audio/#{@format}"}
   - else
     %source{ src: "http://audio.streaming.media.ccc.de:8000/#{@saal}#{@lang}.mp3", type: "audio/mp3"}
