@@ -26,9 +26,10 @@
 </div>
 </div>
 <div id="content">
-<audio autoplay="autoplay" controls="controls" id="saalg_audio" preload="auto" width="640">
-<source src="http://audio.streaming.media.ccc.de:8000/saalg_native.mp3" type="audio/mp3"></source>
-<source src="http://audio.streaming.media.ccc.de:8000/saalg_native.opus" type="audio/opus"></source>
+<img height="360" id="slide" src="http://slides.streaming.media.ccc.de/slides/saalg/current.jpg" width="640">
+<audio autoplay="autoplay" controls="controls" id="saalg_" preload="auto" width="640">
+<source src="http://audio.streaming.media.ccc.de:8000/saalg_translated.mp3" type="audio/mp3"></source>
+<source src="http://audio.streaming.media.ccc.de:8000/saalg_translated.opus" type="audio/opus"></source>
 </audio>
 <span id="player-mode"></span>
 <script type="text/javascript">
@@ -38,6 +39,12 @@
       enableAutosize: false,
       pauseOtherPlayers: false,
     });
+    
+    function updateSlide() {
+      $("#slide").attr("src", $('#slide').attr("src"));
+      setTimeout(updateSlide, 2000);
+    }
+    setTimeout(updateSlide, 2000);
   //]]>
 </script>
 

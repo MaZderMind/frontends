@@ -13,12 +13,14 @@ title: Streaming
       %a{ href: "/saal1/native/hd/"} HD
       %a{ href: "/saal1/native/hq/"} HQ
       %a{ href: "/saal1/native/lq/"} LQ
+      %a{ href: "/saal1/native/slides/"} Slides
       %a{ href: "/saal1/native/audio/"} Audio 
     %dd Translated
     %dt
       %a{ href: "/saal1/translated/hd/"} HD
       %a{ href: "/saal1/translated/hq/"} HQ
       %a{ href: "/saal1/translated/lq/"} LQ
+      %a{ href: "/saal1/translated/slides/"} Slides
       %a{ href: "/saal1/translated/audio/"} Audio 
 
   - ["Saal 2", "Saal G", "Saal 6"].each do |room|
@@ -32,11 +34,15 @@ title: Streaming
       %dt
         %a{ href: "#{@roomslug}/native/hq/"} HQ
         %a{ href: "#{@roomslug}/native/lq/"} LQ
+        -if @roomslug == "saalg" #hack, remove once saal2 and 6 work
+          %a{ href: "#{@roomslug}/native/slides/"} Slides
         %a{ href: "#{@roomslug}/native/audio/"} Audio 
       %dd Translated
       %dt
         %a{ href: "#{@roomslug}/translated/hq/"} HQ
         %a{ href: "#{@roomslug}/translated/lq/"} LQ
+        -if @roomslug == "saalg" #hack, remove once saal2 and 6 work
+          %a{ href: "#{@roomslug}/translated/slides/"} Slides
         %a{ href: "#{@roomslug}/translated/audio/"} Audio 
     
   %dl

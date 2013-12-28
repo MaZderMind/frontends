@@ -26,18 +26,14 @@
 </div>
 </div>
 <div id="content">
-<audio autoplay="autoplay" controls="controls" id="lounge_ogg" preload="auto" width="480">
+<audio autoplay="autoplay" controls="controls" id="lounge_ogg" preload="auto" width="640">
 <source src="http://audio.streaming.media.ccc.de:8000/lounge.ogg" type="audio/ogg"></source>
 </audio>
 <span id="player-mode"></span>
 <script type="text/javascript">
   //<![CDATA[
     $('audio').mediaelementplayer({
-      // shows debug errors on screen
-      enablePluginDebug: true,
-      //defaultVideoWidth: 1024,
-      //defaultVideoHeight: 576,
-      features: ['playpause','progress','current','tracks','volume', 'formatchooser'],
+      features: ['playpause','current','tracks','volume', 'formatchooser'],
       enableAutosize: false,
       pauseOtherPlayers: false,
     });

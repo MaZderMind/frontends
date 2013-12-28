@@ -26,19 +26,14 @@
 </div>
 </div>
 <div id="content">
-<audio autoplay="autoplay" controls="controls" id="ambient_mp3" preload="auto" width="480">
+<audio autoplay="autoplay" controls="controls" id="ambient_mp3" preload="auto" width="640">
 <source src="http://audio.streaming.media.ccc.de:8000/ambient.mp3" type="audio/mp3"></source>
-<source src="http://audio.streaming.media.ccc.de:8000/ambient.opus" type="audio/opus"></source>
 </audio>
 <span id="player-mode"></span>
 <script type="text/javascript">
   //<![CDATA[
     $('audio').mediaelementplayer({
-      // shows debug errors on screen
-      enablePluginDebug: true,
-      //defaultVideoWidth: 1024,
-      //defaultVideoHeight: 576,
-      features: ['playpause','progress','current','tracks','volume', 'formatchooser'],
+      features: ['playpause','current','tracks','volume', 'formatchooser'],
       enableAutosize: false,
       pauseOtherPlayers: false,
     });

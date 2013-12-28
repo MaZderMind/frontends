@@ -54,6 +54,8 @@ body {
       width: 640px;
       margin-left: auto;
       margin-right: auto; }
+    body #content #slide {
+      margin-bottom: -3px; }
     body #content .text {
       background: rgba(255, 255, 255, 0.85);
       min-height: 360px;

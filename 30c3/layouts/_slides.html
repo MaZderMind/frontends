@@ -1,0 +1,23 @@
+- @saal   = @item[:room].gsub(' ', '').downcase
+- @lang   = "_#{@item[:lang]}" if @item[:lang]
+
+%img{ id: "slide", src: "http://slides.streaming.media.ccc.de/slides/#{@saal}/current.jpg", width: 640, height: 360 }
+
+%audio{ id: "#{@saal}_#{@format}", controls: true, preload: 'auto', width: 640, autoplay: true }
+  %source{ src: "http://audio.streaming.media.ccc.de:8000/#{@saal}#{@lang}.mp3", type: "audio/mp3"}
+  %source{ src: "http://audio.streaming.media.ccc.de:8000/#{@saal}#{@lang}.opus", type: "audio/opus"}
+
+%span{ id: "player-mode" }
+
+:javascript
+  $('audio').mediaelementplayer({
+    features: ['playpause','current','tracks','volume', 'formatchooser'],
+    enableAutosize: false,
+    pauseOtherPlayers: false,
+  });
+
+  function updateSlide() {
+    $("#slide").attr("src", $('#slide').attr("src"));
+    setTimeout(updateSlide, 2000);
+  }
+  setTimeout(updateSlide, 2000);
