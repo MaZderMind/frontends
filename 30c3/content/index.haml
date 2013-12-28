@@ -34,15 +34,13 @@ title: Streaming
       %dt
         %a{ href: "#{@roomslug}/native/hq/"} HQ
         %a{ href: "#{@roomslug}/native/lq/"} LQ
-        -if @roomslug == "saalg" #hack, remove once saal2 and 6 work
-          %a{ href: "#{@roomslug}/native/slides/"} Slides
+        %a{ href: "#{@roomslug}/native/slides/"} Slides
         %a{ href: "#{@roomslug}/native/audio/"} Audio 
       %dd Translated
       %dt
         %a{ href: "#{@roomslug}/translated/hq/"} HQ
         %a{ href: "#{@roomslug}/translated/lq/"} LQ
-        -if @roomslug == "saalg" #hack, remove once saal2 and 6 work
-          %a{ href: "#{@roomslug}/translated/slides/"} Slides
+        %a{ href: "#{@roomslug}/translated/slides/"} Slides
         %a{ href: "#{@roomslug}/translated/audio/"} Audio 
     
   %dl
