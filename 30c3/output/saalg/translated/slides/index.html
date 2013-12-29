@@ -9,8 +9,7 @@
 <meta charset="utf-8">
 <link href="../../../css/style.css" rel="stylesheet" type="text/css">
 <link href="../../../css/mediaelementplayer.css" rel="stylesheet" type="text/css">
-<script src="../../../js/jquery.js" type="text/javascript"></script>
-<script src="../../../js/mediaelement-and-player.js" type="text/javascript"></script>
+<script src="../../../js/jquery.js" type="text/javascript"></script><script src="../../../js/mediaelement-and-player.js" type="text/javascript"></script>
 </head>
 <body>
 <div id="container">
@@ -18,20 +17,14 @@
 <div id="header">
 <div class="logo">
 <a href="../../../">
-<img src="../../../img/logo.svg">
-</a>
+<img src="../../../img/logo.svg"></a>
 </div>
 <div class="headline">
 30C3: Streaming - Saal G
 </div>
 </div>
 <div id="content">
-<img height="360" id="slide" src="http://slides.streaming.media.ccc.de/slides/saalg/current.jpg" width="640">
-<audio autoplay="autoplay" controls="controls" id="saalg_" preload="auto" width="640">
-<source src="http://audio.streaming.media.ccc.de:8000/saalg_translated.mp3" type="audio/mp3"></source>
-<source src="http://audio.streaming.media.ccc.de:8000/saalg_translated.opus" type="audio/ogg, codec=opus"></source>
-</audio>
-<span id="player-mode"></span>
+<img height="360" id="slide" src="http://slides.streaming.media.ccc.de/slides/saalg/current.jpg" width="640"><audio autoplay="autoplay" controls="controls" id="saalg_" preload="auto" width="640"><source src="http://audio.streaming.media.ccc.de:8000/saalg_translated.mp3" type="audio/mp3"></source><source src="http://audio.streaming.media.ccc.de:8000/saalg_translated.opus" type="audio/opus"></source></audio><span id="player-mode"></span>
 <script type="text/javascript">
   //<![CDATA[
     $('audio').mediaelementplayer({
@@ -41,44 +34,28 @@
     });
     
     function updateSlide() {
-      var oldUrl =  $('#slide').attr("src")
-      // FF doesn't even _try_ to do any cache control, but uses internal caching
-      // Fixes appreciated, for now let's use this hopelessly inefficient hack to
-      // get it to work at all by subverting any cache control
-      if(navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
-        var pos = oldUrl.indexOf('?');
-        if (pos > -1) {
-          oldUrl = oldUrl.substring(0, pos);
-        }
-        $("#slide").attr("src", oldUrl + "?" + Math.random());
-      } else {
-        $("#slide").attr("src", oldUrl);
-      }
+      $("#slide").attr("src", $('#slide').attr("src"));
       setTimeout(updateSlide, 2000);
     }
     setTimeout(updateSlide, 2000);
   //]]>
 </script>
-
-
 </div>
 <div id="footer">
 <div class="links">
 <a href="http://streaming.media.ccc.de/wiki/">Wiki-Mirror</a>
 |
-<a href="http://streaming.media.ccc.de/congress/2013/Fahrplan/schedule.html">Fahrplan-Mirror</a>
+<a href="http://events.ccc.de/congress/2013/Fahrplan/schedule.html">Fahrplan</a>
 |
 <a href="https://twitter.com/c3streaming">Twitter</a>
 </div>
 <div class="voc_logo">
 <a href="http://ccc.de">
-<img alt="CCC Video Operations Center" src="../../../img/voc_logo.svg">
-</a>
+<img alt="CCC Video Operations Center" src="../../../img/voc_logo.svg"></a>
 </div>
 <div class="fem_logo">
 <a href="http://fem.tu-ilmenau.de">
-<img alt="Forschungsgemeinschaft elektronische Medien" src="../../../img/fem_logo.svg">
-</a>
+<img alt="Forschungsgemeinschaft elektronische Medien" src="../../../img/fem_logo.svg"></a>
 </div>
 </div>
 </div>
