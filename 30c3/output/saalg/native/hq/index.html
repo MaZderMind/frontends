@@ -23,13 +23,16 @@ Don't use the f*cking webplayer!!1!
 <img src="../../../img/logo.svg"></a>
 </div>
 <div class="headline">
-Saal G Live
+Saal G HQ
 </div>
 </div>
 <div id="content">
 <video autoplay="autoplay" controls="controls" height="360" id="video-tag" preload="auto" width="640"><source data-plugin-type="flash" src="rtmp://rtmp.streaming.media.ccc.de:1935/stream/saalg_native_hq" title="H264 (RTMP)" type="video/rtmp"></source><source data-plugin-type="native" src="http://hls.streaming.media.ccc.de/hls/saalg_native_hq/index.m3u8" title="H264 (HLS)" type="application/vnd.apple.mpegURL"></source><source data-plugin-type="native" src="http://webm.streaming.media.ccc.de:8000/saalg_native.webm" title="WebM" type="video/ogg"></source><object data="../../../static/flashmediaelement.swf" height="360" type="application/x-shockwave-flash" width="640">
 <param name="allowFullScreen" value="true"></object>
 </video><div id="chooser">
+<span id="url">
+<a href="#" onclick="$('#URLS').css('display', 'block');$('#url').css('display', 'none'); return false;">show URLs</a>
+</span>
 <span id="quality">
 Quality ▼
 <ul>
@@ -55,6 +58,20 @@ Language ▼
 </li>
 </ul></span>
 </div>
+<ul id="URLS" style="display: none">
+<li>
+<label for="rtmp">RTMP:</label>
+<input id="rtmp" value="rtmp://rtmp.streaming.media.ccc.de:1935/stream/saalg_native_hq">
+</li>
+<li>
+<label for="hls">HLS:</label>
+<input id="hls" value="http://hls.streaming.media.ccc.de/hls/saalg_native_hq/index.m3u8">
+</li>
+<li>
+<label for="webm">WebM:</label>
+<input id="webm" value="http://webm.streaming.media.ccc.de:8000/saalg_native.webm">
+</li>
+</ul>
 <script type="text/javascript">
   //<![CDATA[
     currentPlayer = new MediaElementPlayer('#video-tag', 
@@ -69,6 +86,9 @@ Language ▼
         enableAutosize: true
       });
     $("#chooser").appendTo(".mejs-controls");
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+    
+    }
   //]]>
 </script><div class="clearfix" id="footer">
 <div class="links">

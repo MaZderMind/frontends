@@ -28,7 +28,7 @@
 
         .headline
           - if @item[:room]
-            = "#{@item[:room]} Live"
+            = "#{@item[:room]} " + "#{@item[:quality]}".upcase
           -else
             = "Streaming"
 
