@@ -12,7 +12,7 @@
   - else
     %source{ src: "http://audio.streaming.media.ccc.de:8000/#{@saal}#{@lang}.#{@format}", type: "audio/#{@format}"}
 
-- if @item[:room] != 'Lounge'
+- if @item[:room] != 'Lounge' && @item[:room] != 'Ambient'
   %div{ id: "chooser" }
     %span{ id: "language" }
       Language &#9660;
