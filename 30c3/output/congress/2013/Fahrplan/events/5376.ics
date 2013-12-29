@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T123000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T113000
-DTSTAMP;VALUE=DATE-TIME:20131223T100410Z
+DTSTAMP;VALUE=DATE-TIME:20131229T101949Z
 UID:T1NjW3fn1odK53hiQSAFKw@frab.cccv.de
 DESCRIPTION:This lecture shall give a first person account of how circums
  tances have dramatically changed for actionist art practice over the las

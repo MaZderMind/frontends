@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T124500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T121500
-DTSTAMP;VALUE=DATE-TIME:20131221T122006Z
+DTSTAMP;VALUE=DATE-TIME:20131229T114921Z
 UID:6kqN3bqixV2sIU-x92zuEA@frab.cccv.de
 DESCRIPTION:NFC technology is becoming more and more relevant in our live
  s. One of its major uses is in ticketing solutions. However\, most of co

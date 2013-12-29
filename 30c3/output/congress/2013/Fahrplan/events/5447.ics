@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T180000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T173000
-DTSTAMP;VALUE=DATE-TIME:20131203T224104Z
+DTSTAMP;VALUE=DATE-TIME:20131229T111528Z
 UID:_PZbf5bEsVNq9q3vTxAazQ@frab.cccv.de
 DESCRIPTION:This talk considers the use of new technology to police large
   crowds in the Romantic period. We examine ethical aspects of modern sur

@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T123000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T113000
-DTSTAMP;VALUE=DATE-TIME:20131202T072104Z
+DTSTAMP;VALUE=DATE-TIME:20131229T103119Z
 UID:CHcRJtYsY2jZ-1HovlXpcQ@frab.cccv.de
 DESCRIPTION:Attribute Based Credentials (ABC) allow users to prove certai
  n properties about themselves (e.g. age\, race\, license\, etc.) without

@@ -13,9 +13,9 @@ TZNAME:CET
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T003000
-DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T000000
-DTSTAMP;VALUE=DATE-TIME:20131205T143010Z
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T003000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T000000
+DTSTAMP;VALUE=DATE-TIME:20131229T000258Z
 UID:Wb85jYb3IJr8B11bubfibA@frab.cccv.de
 DESCRIPTION:The facial hacking research presented in this lecture/ perfor
  mance exploits a well known vulnerability of the human nervous system th
@@ -26,6 +26,6 @@ DESCRIPTION:The facial hacking research presented in this lecture/ perfor
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5614.html
 SUMMARY:Perfect Paul
 ORGANIZER:30C3
-LOCATION:Saal 2
+LOCATION:Saal 6
 END:VEVENT
 END:VCALENDAR

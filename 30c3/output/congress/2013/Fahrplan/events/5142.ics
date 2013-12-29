@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T193000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T190000
-DTSTAMP;VALUE=DATE-TIME:20131130T201924Z
+DTSTAMP;VALUE=DATE-TIME:20131229T102152Z
 UID:xidDecyvb8dGAXEWacQrRw@frab.cccv.de
 DESCRIPTION:Software-Defined Radio (SDR) has increased in popularity in r
  ecent years due to the decrease in hardware costs and increase in proces

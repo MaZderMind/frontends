@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T181500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T171500
-DTSTAMP;VALUE=DATE-TIME:20131208T225129Z
+DTSTAMP;VALUE=DATE-TIME:20131229T114950Z
 UID:GqBcTbWHQclHwDW_kI9yBQ@frab.cccv.de
 DESCRIPTION:Die Verwendung von mittelmäßiger Kryptographie scheint gege
  n Angreifer mit Milliarden-Etat komplett versagt zu haben. Namentlich RC

@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T224500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T214500
-DTSTAMP;VALUE=DATE-TIME:20131128T160728Z
+DTSTAMP;VALUE=DATE-TIME:20131229T130319Z
 UID:QQSVk4IwhteVQcAB1CKVpA@frab.cccv.de
 DESCRIPTION:In the chain of trust of most secure schemes is an electronic
   chip that holds secret information. These schemes often employ cryptogr

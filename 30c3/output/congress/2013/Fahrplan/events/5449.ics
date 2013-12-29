@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T181500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T171500
-DTSTAMP;VALUE=DATE-TIME:20131210T153536Z
+DTSTAMP;VALUE=DATE-TIME:20131229T102127Z
 UID:xdX27wLbHpeOU_dSgBO4Hg@frab.cccv.de
 DESCRIPTION:Mobile networks should protect users on several fronts: Calls
   need to be encrypted\, customer data protected\, and SIM cards shielded

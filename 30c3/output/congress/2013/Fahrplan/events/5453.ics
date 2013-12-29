@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T163000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T160000
-DTSTAMP;VALUE=DATE-TIME:20131204T131004Z
+DTSTAMP;VALUE=DATE-TIME:20131228T212448Z
 UID:-YZGB3qZIZOBwlhaU_GHrg@frab.cccv.de
 DESCRIPTION:Using case studies of documentary film\, Freedom of Informati
  on Law document dumps\, soundbanks\, and a hacker conference\, I will de

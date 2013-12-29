@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T193000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T183000
-DTSTAMP;VALUE=DATE-TIME:20131220T205433Z
+DTSTAMP;VALUE=DATE-TIME:20131228T230632Z
 UID:U-8wOAtiUft8JjHbW-HAEA@frab.cccv.de
 DESCRIPTION:This talk should introduce the general 30c3 participant with 
  several components of long distance quantum communication.

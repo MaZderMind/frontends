@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T224500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T214500
-DTSTAMP;VALUE=DATE-TIME:20131207T205346Z
+DTSTAMP;VALUE=DATE-TIME:20131229T113748Z
 UID:c3Q-MbMX7FDXWv6rYj2bFw@frab.cccv.de
 DESCRIPTION:Exploitation of baseband vulnerabilities has become significa
  ntly harder on average. With Qualcomm having grabbed 97% of the market s

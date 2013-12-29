@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T213000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T203000
-DTSTAMP;VALUE=DATE-TIME:20131207T150306Z
+DTSTAMP;VALUE=DATE-TIME:20131229T115128Z
 UID:3poSeUcpc6woNaI5dhATcQ@frab.cccv.de
 DESCRIPTION:Die technischen Probleme der De-Mail ließen sich juristisch 
  lösen\, und auch bei der E-Mail setzen deutsche Provider bald Sicherhei

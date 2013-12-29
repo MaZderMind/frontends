@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T000000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T230000
-DTSTAMP;VALUE=DATE-TIME:20131226T201458Z
+DTSTAMP;VALUE=DATE-TIME:20131228T225932Z
 UID:a-xJCEtToBTndlcjWvCAKQ@frab.cccv.de
 DESCRIPTION:The news of the past few years is one small ripple in what is
   a great wave of culture and history\, a generational clash of civilizat

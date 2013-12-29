@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T020000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T000000
-DTSTAMP;VALUE=DATE-TIME:20131222T164058Z
+DTSTAMP;VALUE=DATE-TIME:20131229T003708Z
 UID:hCp0neTiEqx5vYP5UU3SUw@frab.cccv.de
 DESCRIPTION:Der durchschnittliche User nutzt nur fünf Prozent seines Goo
  glevermögens. Mit dem Googlequiz lässt sich das ausbauen. Eine gewisse

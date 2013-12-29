@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T170000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T160000
-DTSTAMP;VALUE=DATE-TIME:20131206T022953Z
+DTSTAMP;VALUE=DATE-TIME:20131229T115110Z
 UID:bJDjDUHLd0Y6wLncMd5Unw@frab.cccv.de
 DESCRIPTION:How I discovered mysterious hidden signals on a public radio 
  channel and eventually found out their meaning through hardware hacking\

@@ -13,9 +13,9 @@ TZNAME:CET
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T123000
-DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T113000
-DTSTAMP;VALUE=DATE-TIME:20131204T015256Z
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T215000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T210500
+DTSTAMP;VALUE=DATE-TIME:20131228T142204Z
 UID:BAKqlbEKHMpBMr22KlDsEg@frab.cccv.de
 DESCRIPTION:2013 will be remembered as the year that the Internet lost it
  s innocence for nearly everyone as light was shed on the widespread use 
@@ -32,6 +32,6 @@ DESCRIPTION:2013 will be remembered as the year that the Internet lost it
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5439.html
 SUMMARY:To Protect And Infect
 ORGANIZER:30C3
-LOCATION:Saal 2
+LOCATION:Saal 1
 END:VEVENT
 END:VCALENDAR

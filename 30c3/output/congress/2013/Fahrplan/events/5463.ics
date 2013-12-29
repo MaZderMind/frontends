@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T150000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T140000
-DTSTAMP;VALUE=DATE-TIME:20131202T194634Z
+DTSTAMP;VALUE=DATE-TIME:20131229T114553Z
 UID:-isG7Swsi8DaA62qztr0Kw@frab.cccv.de
 DESCRIPTION:Satellites in Low Earth Orbit have tons of nifty signals\, bu
  t they move quickly though the sky and are difficult to track with fine 

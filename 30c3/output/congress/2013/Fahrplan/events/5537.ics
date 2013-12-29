@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T134500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T124500
-DTSTAMP;VALUE=DATE-TIME:20131204T054629Z
+DTSTAMP;VALUE=DATE-TIME:20131229T115057Z
 UID:BK1ziXHv5du-_NJN24p9lA@frab.cccv.de
 DESCRIPTION:A one hour technical lecture that covers everything from mach
  ine learning and AI to hardware design and manufacture. Includes demonst

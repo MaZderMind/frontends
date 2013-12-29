@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T150000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T140000
-DTSTAMP;VALUE=DATE-TIME:20131204T172112Z
+DTSTAMP;VALUE=DATE-TIME:20131229T104621Z
 UID:juhvY3wvW_i3TTb8KDEyeQ@frab.cccv.de
 DESCRIPTION:We present Magic Lantern\, a free open software add-on for Ca
  non DSLR cameras\, that offers increased functionality aimed mainly at D

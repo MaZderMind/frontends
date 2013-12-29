@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T134500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T124500
-DTSTAMP;VALUE=DATE-TIME:20131213T040302Z
+DTSTAMP;VALUE=DATE-TIME:20131229T130213Z
 UID:z2_SbAXdwSQnezj6oPTuIg@frab.cccv.de
 DESCRIPTION:Imagine getting pulled over for running a stop sign and learn
  ing for the first time – from the cop – that you are HIV-positive. P

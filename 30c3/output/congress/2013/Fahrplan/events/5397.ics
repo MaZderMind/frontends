@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T231500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T224500
-DTSTAMP;VALUE=DATE-TIME:20131204T140338Z
+DTSTAMP;VALUE=DATE-TIME:20131228T205743Z
 UID:Lv-uOMbLZH1T17ZxxJ-TEQ@frab.cccv.de
 DESCRIPTION:<p>Finally\, the world is aware of the threat of mass surveil
  lance and control\, but we still have a fight on our hands\, and that fi

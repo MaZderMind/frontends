@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T000000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T233000
-DTSTAMP;VALUE=DATE-TIME:20131207T145714Z
+DTSTAMP;VALUE=DATE-TIME:20131229T114804Z
 UID:4edFJcqsY3ORA5pyBrkthA@frab.cccv.de
 DESCRIPTION:We all know monopolies are bad. We even have laws against the
  m that sometimes get enforced. However\, today we have new kinds of mono

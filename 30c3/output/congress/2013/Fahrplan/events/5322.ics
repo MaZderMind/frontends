@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T213000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T203000
-DTSTAMP;VALUE=DATE-TIME:20131213T193836Z
+DTSTAMP;VALUE=DATE-TIME:20131227T144618Z
 UID:toykIIIHEXC1x8F7xoiYRw@frab.cccv.de
 DESCRIPTION:A year ago in November 2012\, Nintendo released their latest 
  home video game console: the Wii U. While most video game consoles use c

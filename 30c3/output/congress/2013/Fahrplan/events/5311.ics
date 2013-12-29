@@ -15,11 +15,10 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T171500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T164500
-DTSTAMP;VALUE=DATE-TIME:20131224T005624Z
+DTSTAMP;VALUE=DATE-TIME:20131228T230543Z
 UID:TTYvRfSgu6wHisdcwpo1VA@frab.cccv.de
-DESCRIPTION:This talk will give an introduction on how to design optical 
- systems for space applications. As example a high power narrow linewidth
-  laser module will be shown. 
+DESCRIPTION:This talk will give an introduction on lasers and space and i
+ t will show the huge diversity of applications for lasers in space.
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5311.html
 SUMMARY:lasers in space
 ORGANIZER:30C3

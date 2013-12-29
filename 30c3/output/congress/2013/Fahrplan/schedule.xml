@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <schedule>
-<version>1.1b</version>
+<version>1.5.7</version>
 <conference>
 <acronym>30C3</acronym>
 <title>30C3</title>
@@ -403,6 +403,11 @@ We invite you to enjoy this thriller full of historic backgrounds, non-public pu
 <person id='3929'>Jan Schejbal</person>
 </persons>
 <links>
+<link href='http://www.mitternachtshacking.de/blog/727-snake-oil-alarm-chiasmus-im-gstool'>Blogpost pointing out ECB issue</link>
+<link href='http://prezi.com/bzyvzzdsxtkm/ubicrypt-chm/'>UbiCrypt Summer School talk about CHIASMUS and GSTOOL by Felix Schuster</link>
+<link href='https://fragdenstaat.de/anfrage/ifg-anfrage-gstool/'>FOIA request (IFG-Anfrage)</link>
+<link href='http://janschejbal.wordpress.com/2013/09/11/advisory-unsichere-verschluesselung-bei-gstool/'>Advisory</link>
+<link href='http://janschejbal.wordpress.com/2013/09/11/wie-das-bsi-deutsche-unternehmen-schuetzt-ein-rant/'>Rant</link>
 </links>
 </event>
 <event guid='w9UU1iDfP18QvWJ5i2VDsg' id='5476'>
@@ -487,6 +492,30 @@ In closing the presentation starts a discussion about what we can do to address 
 <links>
 </links>
 </event>
+<event guid='f1HiaqTQ2IC0SD2QCIQudg' id='5711'>
+<date>2013-12-27T19:30:00+01:00</date>
+<start>19:30</start>
+<duration>01:00</duration>
+<room>Saal 2</room>
+<slug>30C3_-_5711_-_de_-_saal_2_-_201312271930_-_30c3_keynote_-_glenn_greenwald_-_frank</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>30c3 Keynote</title>
+<subtitle></subtitle>
+<track>CCC</track>
+<type>lecture</type>
+<language>de</language>
+<abstract></abstract>
+<description></description>
+<persons>
+<person id='4428'>Glenn Greenwald</person>
+<person id='1633'>frank</person>
+</persons>
+<links>
+</links>
+</event>
 <event guid='gL8lRFVpn8NFFfATsOn7Bw' id='5290'>
 <date>2013-12-27T20:30:00+01:00</date>
 <start>20:30</start>
@@ -519,6 +548,7 @@ Before and after the talk we will also be available in the hackcenter for those 
 </persons>
 <links>
 <link href='http://fail0verflow.com'>fail0verflow</link>
+<link href='http://fail0verflow.com/media/30c3-slides/'>Slides (online)</link>
 </links>
 </event>
 <event guid='u40tVBeaVPehGK39ABNLlQ' id='5348'>
@@ -577,35 +607,7 @@ This new standard in the entertainment industry is currently rolled out in an in
 <links>
 <link href='http://mherfurt.wordpress.com/2013/06/01/security-concerns-with-hbbtv/'>Security concerns with HbbTV</link>
 <link href='http://mherfurt.wordpress.com/2013/11/18/hal-to_serve_and_protect/'>Meet HAL – Your new Best Friend</link>
-</links>
-</event>
-<event guid='Wb85jYb3IJr8B11bubfibA' id='5614'>
-<date>2013-12-28T00:00:00+01:00</date>
-<start>00:00</start>
-<duration>00:30</duration>
-<room>Saal 2</room>
-<slug>30C3_-_5614_-_en_-_saal_2_-_201312280000_-_perfect_paul_-_artelse</slug>
-<recording>
-<license></license>
-<optout>false</optout>
-</recording>
-<title>Perfect Paul</title>
-<subtitle>On Freedom of Facial Expression</subtitle>
-<track>Art &amp; Beauty</track>
-<type>lecture</type>
-<language>en</language>
-<abstract>The facial hacking research presented in this lecture/ performance exploits a well known vulnerability of the human nervous system that it can be easily accessed and controlled by electrodes mounted on the bodies exterior. External digital facial control allows for an unprecedented exploration of human facial expressiveness and has unveiled an unknown expressive potential of the human facial hardware. 
-</abstract>
-<description>Perfect Paul is a sequel to my (in)famous Huge Harry lecture/ performance in which a digital persona lectures on computer to human communication. This new lecture/ performance, in a highly condensed fashion, will present the results of my recently completed doctoral artistic research entitled: “Facial Hacking: The Twisted Logic of Electro-Facial Choreography.” Perfect Paul will demonstrate in a live computer versus human showdown the superior qualities of digital versus neural facial control. Perfect Paul, when performed for the first time in Bilbao, Spain won the Technarte 2012 Best Speaker Award.
-
-- Perfect Paul: http://artifacial.org/perfect_paul
-- Transcript: http://artifacial.org/perfect_paul_transcript
-- Website: http://artifacial.org
-- Vimeo channel: http://vimeo.com/artelse </description>
-<persons>
-<person id='3588'>artelse</person>
-</persons>
-<links>
+<link href='http://mherfurt.wordpress.com/2013/12/27/spooofticker-spoofing-newstickers-with-hbbtv/'>Spooofticker - Spoofing Newstickers with HbbTV</link>
 </links>
 </event>
 <event guid='Ke3PM9oLXsvxKK450uSAtg' id='5544'>
@@ -964,11 +966,11 @@ Der Vortrag stellt die schönsten IFG-Geschichten 2013 und die Workarounds vor, 
 <optout>false</optout>
 </recording>
 <title>lasers in space</title>
-<subtitle>how to prepare complex science experiments for operation in space</subtitle>
+<subtitle>more than just pew pew!</subtitle>
 <track>Science &amp; Engineering</track>
 <type>lecture</type>
 <language>en</language>
-<abstract>This talk will give an introduction on how to design optical systems for space applications. As example a high power narrow linewidth laser module will be shown. </abstract>
+<abstract>This talk will give an introduction on lasers and space and it will show the huge diversity of applications for lasers in space.</abstract>
 <description>For various fields, like fundamental physics, inertial navigation, geophysics, and precision time keeping, a deployment of experiments in outer space is highly desirable or even necessary in order to meet the stringent requirements on stability and precision. 
 An approach of building ultra-stable and precise measurement setups includes the usage optical systems as in quantum optical sensors or optical clocks. 
 In addition optical circuitry is as well used in communication systems in space. 
@@ -1308,13 +1310,13 @@ Ausstrahlung: 28.12.2013 um 00:05-03:00 bei Deutschlandradio Kultur bzw. 23:05-0
 </links>
 </event>
 </room>
-<room name='Lounge'>
+<room name='Revolution #9'>
 <event guid='R-ZHbbV802oy2TtP-yzPmQ' id='5638'>
 <date>2013-12-27T12:30:00+01:00</date>
 <start>12:30</start>
 <duration>01:30</duration>
-<room>Lounge</room>
-<slug>30C3_-_5638_-__-_lounge_-_201312271230_-_live_gongkonzert_klanghaus_media_audionic_klavier_anka_eternal_drum</slug>
+<room>Revolution #9</room>
+<slug>30C3_-_5638_-__-_revolution_9_-_201312271230_-_live_gongkonzert_klanghaus_media_audionic_klavier_anka_eternal_drum</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -1338,8 +1340,8 @@ Ausstrahlung: 28.12.2013 um 00:05-03:00 bei Deutschlandradio Kultur bzw. 23:05-0
 <date>2013-12-27T14:00:00+01:00</date>
 <start>14:00</start>
 <duration>02:00</duration>
-<room>Lounge</room>
-<slug>30C3_-_5700_-__-_lounge_-_201312271400_-_x-dream</slug>
+<room>Revolution #9</room>
+<slug>30C3_-_5700_-__-_revolution_9_-_201312271400_-_x-dream</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -1361,8 +1363,8 @@ Ausstrahlung: 28.12.2013 um 00:05-03:00 bei Deutschlandradio Kultur bzw. 23:05-0
 <date>2013-12-27T16:00:00+01:00</date>
 <start>16:00</start>
 <duration>04:00</duration>
-<room>Lounge</room>
-<slug>30C3_-_5686_-__-_lounge_-_201312271600_-_gammler_und_kundan_lal</slug>
+<room>Revolution #9</room>
+<slug>30C3_-_5686_-__-_revolution_9_-_201312271600_-_gammler_und_kundan_lal</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -1384,8 +1386,8 @@ Ausstrahlung: 28.12.2013 um 00:05-03:00 bei Deutschlandradio Kultur bzw. 23:05-0
 <date>2013-12-27T20:00:00+01:00</date>
 <start>20:00</start>
 <duration>01:00</duration>
-<room>Lounge</room>
-<slug>30C3_-_5687_-__-_lounge_-_201312272000_-_live_ben_con_cello</slug>
+<room>Revolution #9</room>
+<slug>30C3_-_5687_-__-_revolution_9_-_201312272000_-_live_ben_con_cello</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -1407,8 +1409,8 @@ Ausstrahlung: 28.12.2013 um 00:05-03:00 bei Deutschlandradio Kultur bzw. 23:05-0
 <date>2013-12-27T21:00:00+01:00</date>
 <start>21:00</start>
 <duration>03:00</duration>
-<room>Lounge</room>
-<slug>30C3_-_5640_-__-_lounge_-_201312272100_-_tobi_lampe_pokerflat_b2b_vinzenco</slug>
+<room>Revolution #9</room>
+<slug>30C3_-_5640_-__-_revolution_9_-_201312272100_-_tobi_lampe_pokerflat_b2b_vinzenco</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -1431,8 +1433,8 @@ Ausstrahlung: 28.12.2013 um 00:05-03:00 bei Deutschlandradio Kultur bzw. 23:05-0
 <date>2013-12-28T00:00:00+01:00</date>
 <start>00:00</start>
 <duration>02:00</duration>
-<room>Lounge</room>
-<slug>30C3_-_5641_-__-_lounge_-_201312280000_-_maulwolf_djs_renken_rothstein</slug>
+<room>Revolution #9</room>
+<slug>30C3_-_5641_-__-_revolution_9_-_201312280000_-_maulwolf_djs_renken_rothstein</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -1453,8 +1455,8 @@ Ausstrahlung: 28.12.2013 um 00:05-03:00 bei Deutschlandradio Kultur bzw. 23:05-0
 <date>2013-12-28T02:00:00+01:00</date>
 <start>02:00</start>
 <duration>01:30</duration>
-<room>Lounge</room>
-<slug>30C3_-_5642_-__-_lounge_-_201312280200_-_superdefekt_mfoc</slug>
+<room>Revolution #9</room>
+<slug>30C3_-_5642_-__-_revolution_9_-_201312280200_-_superdefekt_mfoc</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -1476,8 +1478,8 @@ Ausstrahlung: 28.12.2013 um 00:05-03:00 bei Deutschlandradio Kultur bzw. 23:05-0
 <date>2013-12-28T03:30:00+01:00</date>
 <start>03:30</start>
 <duration>02:00</duration>
-<room>Lounge</room>
-<slug>30C3_-_5643_-__-_lounge_-_201312280330_-_robo_klein_john_ohrt_universum_alltona</slug>
+<room>Revolution #9</room>
+<slug>30C3_-_5643_-__-_revolution_9_-_201312280330_-_robo_klein_john_ohrt_universum_alltona</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -1592,7 +1594,7 @@ The entire system is controlled through a Postgres database, fed by various daem
 <slug>30C3_-_5612_-_de_-_saal_1_-_201312281600_-_die_bundesrepublik_das_am_meisten_uberwachte_land_in_europa_-_josef_foschepoth</slug>
 <recording>
 <license></license>
-<optout>false</optout>
+<optout>true</optout>
 </recording>
 <title>Die Bundesrepublik – das am meisten überwachte Land in Europa </title>
 <subtitle>Historische Grundlagen und notwendige Konsequenzen </subtitle>
@@ -2049,6 +2051,32 @@ c. Why we eat what we eat
 <link href='http://scadastrangelove.blogspot.ru/search/label/Releases'>Releases</link>
 </links>
 </event>
+<event guid='gaiQNX-_9hRMZy28VIzw6g' id='5715'>
+<date>2013-12-29T00:00:00+01:00</date>
+<start>00:00</start>
+<duration>02:00</duration>
+<room>Saal 2</room>
+<slug>30C3_-_5715_-_de_-_saal_2_-_201312290000_-_jahresruckblick_des_ccc_-_constanze_kurz_-_frank_-_linus_neumann</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Jahresrückblick des CCC</title>
+<subtitle></subtitle>
+<track>CCC</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Auch das Jahr 2013 geht irgendwann vorbei. Deshalb werfen wir einen Blick zurück auf die für uns besonders relevanten Themen und versuchen abzuschätzen, was im Jahr 2014 auf uns zukommen könnte.
+</abstract>
+<description></description>
+<persons>
+<person id='1630'>Constanze Kurz</person>
+<person id='1633'>frank</person>
+<person id='3995'>Linus Neumann</person>
+</persons>
+<links>
+</links>
+</event>
 </room>
 <room name='Saal G'>
 <event guid='-zXtqISaAof8oPTr8SYyTQ' id='5394'>
@@ -2062,7 +2090,7 @@ c. Why we eat what we eat
 <optout>false</optout>
 </recording>
 <title>BREACH in Agda</title>
-<subtitle></subtitle>
+<subtitle>Security notions, proofs and attacks using dependently typed functional programming</subtitle>
 <track>Science &amp; Engineering</track>
 <type>lecture</type>
 <language>en</language>
@@ -2287,12 +2315,15 @@ Wolfram will share his experiences wearing the hats of a Kernel maintainer, a co
 <language>en</language>
 <abstract>Did you ever feel the need to be in charge of your environment? We did . A detailed story of our experience playing with 220VAC and water to build an automated, digitally controlled ecosystem. A place, where you can be the climate-change. Double the temperature, triple the floods, let it storm or rain. A Tamagotchi that generates food from electricity. All done with Arduino, raspberry Pi and Node.js. 
 </abstract>
-<description>Show and tell of our food replicator project, filled with experiences and lessons learned about Node.js controlled Arduinos on a raspberry Pi. From a web app down to controlling environmental conditions in an ecosystem, by talking JSON. A quantified environment that automatically adapts itself to the needs of its flora and fauna, driven by machine learning. Aquaponics in combination with robotics. Fish and plants inside a machine and the Implications for future food production.    </description>
+<description>Show and tell of our food replicator project, filled with experiences and lessons learned about Node.js controlled Arduinos on a raspberry Pi. From a web app down to controlling environmental conditions in an ecosystem, by talking JSON. A quantified environment that automatically adapts itself to the needs of its flora and fauna, driven by machine learning. Aquaponics in combination with robotics. Fish and plants inside a machine and the Implications for future food production. 
+
+For more information, visit www.plantsandmachines.com   </description>
 <persons>
 <person id='4013'>mrv</person>
 <person id='4407'>bbuegler</person>
 </persons>
 <links>
+<link href='www.plantsandmachines.com'>our website</link>
 </links>
 </event>
 <event guid='4edFJcqsY3ORA5pyBrkthA' id='5319'>
@@ -2443,12 +2474,15 @@ In conclusion, we summarize possible countermeasures against the presented attac
 
 Apart from giving an introduction of the project and it's collaborative structure, the talk will present a live demonstration of Magic Lantern, focusing mainly on DSLR video work, it's challenges, and practical day-to-day use of the unique functionality offered by Magic Lantern, like RAW 2.5k 14 bit video recording and workflow, live audio monitoring, as well as display enhancements like focus peaking, zebras, histogram and waveform assist tools.
 
-Although the talk will focus on compatible Canon cameras, it will present a solid, practical overview for any user interested in both the positive and negative aspects of using modern DSLR cameras for professional video and cinematography work.</description>
+Although the talk will focus on compatible Canon cameras, it will present a solid, practical overview for any user interested in both the positive and negative aspects of using modern DSLR cameras for professional video and cinematography work.
+
+&lt;b&gt;WORKSHOP:&lt;/b&gt; There will be a hands-on workshop on Dec. 29 at 15:00. We will meet at &quot;Speaker's Corner&quot; and find our way from there. See you there!</description>
 <persons>
 <person id='3915'>Michael Zöller</person>
 </persons>
 <links>
 <link href='http://magiclantern.fm'>Magic Lantern</link>
+<link href='http://vimeo.com/77580463'>Example RAW Video</link>
 </links>
 </event>
 <event guid='-YZGB3qZIZOBwlhaU_GHrg' id='5453'>
@@ -2560,7 +2594,7 @@ This talk will be “officially” launching this project announcing it to the w
 <start>19:00</start>
 <duration>00:30</duration>
 <room>Saal 6</room>
-<slug>30C3_-_5425_-_en_-_saal_6_-_201312281900_-_hacking_as_artistic_practice_-_mediengruppe_bitnik</slug>
+<slug>30C3_-_5425_-_en_-_saal_6_-_201312281900_-_hacking_as_artistic_practice_-_mediengruppe_bitnik_-_mediengruppe_bitnik</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -2578,6 +2612,7 @@ Using the strategies of hacking, !Mediengrupppe Bitnik intervenes into settings 
 «Delivery for Mr. Assange» is a live mail art piece. In January 2013 !Mediengruppe Bitnik sent Wikileaks-Founder Julian Assange a parcel containing a camera. Julian Assange has been living in the center of a diplomatic crisis at the Ecuadorian embassy in London since June 2012. Through a hole in the parcel, the camera documented and live-tweeted its journey through the postal system, letting anyone online follow the parcel's status in real-time. !Mediengruppe Bitnik regard this work as a SYSTEM_TEST. Would the parcel reach its intended destination? Or would it be removed from the postal system?</description>
 <persons>
 <person id='4209'>!Mediengruppe Bitnik</person>
+<person id='4437'>!Mediengruppe Bitnik</person>
 </persons>
 <links>
 </links>
@@ -2605,6 +2640,7 @@ I will explain why it is  an attractive idea nevertheless and what is the curren
 <person id='2233'>atdotde</person>
 </persons>
 <links>
+<link href='https://www.dropbox.com/s/5qwuj970rc0dfn2/susytalk.pdf'>PDF slides</link>
 </links>
 </event>
 <event guid='0IuyfNlW5fXVnrMIgEXesw' id='5186'>
@@ -2661,6 +2697,35 @@ There is no one-size-fits-all approach responsible disclosure; every situation i
 Instead of announcing rules that you must follow, I'll focus on a number of practical DOs and DON'Ts to help you minimize the risks involved.</description>
 <persons>
 <person id='4149'>Nate Cardozo</person>
+</persons>
+<links>
+</links>
+</event>
+<event guid='Wb85jYb3IJr8B11bubfibA' id='5614'>
+<date>2013-12-29T00:00:00+01:00</date>
+<start>00:00</start>
+<duration>00:30</duration>
+<room>Saal 6</room>
+<slug>30C3_-_5614_-_en_-_saal_6_-_201312290000_-_perfect_paul_-_artelse</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Perfect Paul</title>
+<subtitle>On Freedom of Facial Expression</subtitle>
+<track>Art &amp; Beauty</track>
+<type>lecture</type>
+<language>en</language>
+<abstract>The facial hacking research presented in this lecture/ performance exploits a well known vulnerability of the human nervous system that it can be easily accessed and controlled by electrodes mounted on the bodies exterior. External digital facial control allows for an unprecedented exploration of human facial expressiveness and has unveiled an unknown expressive potential of the human facial hardware. 
+</abstract>
+<description>Perfect Paul is a sequel to my (in)famous Huge Harry lecture/ performance in which a digital persona lectures on computer to human communication. This new lecture/ performance, in a highly condensed fashion, will present the results of my recently completed doctoral artistic research entitled: “Facial Hacking: The Twisted Logic of Electro-Facial Choreography.” Perfect Paul will demonstrate in a live computer versus human showdown the superior qualities of digital versus neural facial control. Perfect Paul, when performed for the first time in Bilbao, Spain won the Technarte 2012 Best Speaker Award.
+
+- Perfect Paul: http://artifacial.org/perfect_paul
+- Transcript: http://artifacial.org/perfect_paul_transcript
+- Website: http://artifacial.org
+- Vimeo channel: http://vimeo.com/artelse </description>
+<persons>
+<person id='3588'>artelse</person>
 </persons>
 <links>
 </links>
@@ -2889,13 +2954,13 @@ Raven and Fabricio do Canto have performed the Caayari mythology for audiences i
 </links>
 </event>
 </room>
-<room name='Lounge'>
+<room name='Revolution #9'>
 <event guid='dJKfjgjxGVF0vz_9A3oeZw' id='5644'>
 <date>2013-12-28T13:00:00+01:00</date>
 <start>13:00</start>
 <duration>00:30</duration>
-<room>Lounge</room>
-<slug>30C3_-_5644_-__-_lounge_-_201312281300_-_live_gongkonzert_klanghaus_media_audionic</slug>
+<room>Revolution #9</room>
+<slug>30C3_-_5644_-__-_revolution_9_-_201312281300_-_live_gongkonzert_klanghaus_media_audionic</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -2917,8 +2982,8 @@ Raven and Fabricio do Canto have performed the Caayari mythology for audiences i
 <date>2013-12-28T14:00:00+01:00</date>
 <start>14:00</start>
 <duration>02:00</duration>
-<room>Lounge</room>
-<slug>30C3_-_5645_-__-_lounge_-_201312281400_-_dj_elbe_elfenmaschine</slug>
+<room>Revolution #9</room>
+<slug>30C3_-_5645_-__-_revolution_9_-_201312281400_-_dj_elbe_elfenmaschine</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -2940,8 +3005,8 @@ Raven and Fabricio do Canto have performed the Caayari mythology for audiences i
 <date>2013-12-28T16:00:00+01:00</date>
 <start>16:00</start>
 <duration>02:00</duration>
-<room>Lounge</room>
-<slug>30C3_-_5646_-__-_lounge_-_201312281600_-_na_nu_ein_gnu</slug>
+<room>Revolution #9</room>
+<slug>30C3_-_5646_-__-_revolution_9_-_201312281600_-_na_nu_ein_gnu</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -2962,8 +3027,8 @@ Raven and Fabricio do Canto have performed the Caayari mythology for audiences i
 <date>2013-12-28T18:00:00+01:00</date>
 <start>18:00</start>
 <duration>02:00</duration>
-<room>Lounge</room>
-<slug>30C3_-_5647_-__-_lounge_-_201312281800_-_don_shtone_sven_dohse</slug>
+<room>Revolution #9</room>
+<slug>30C3_-_5647_-__-_revolution_9_-_201312281800_-_don_shtone_sven_dohse</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -2985,8 +3050,8 @@ Raven and Fabricio do Canto have performed the Caayari mythology for audiences i
 <date>2013-12-28T20:00:00+01:00</date>
 <start>20:00</start>
 <duration>01:30</duration>
-<room>Lounge</room>
-<slug>30C3_-_5648_-__-_lounge_-_201312282000_-_live_at_the_space_office_universum_alltona</slug>
+<room>Revolution #9</room>
+<slug>30C3_-_5648_-__-_revolution_9_-_201312282000_-_live_at_the_space_office_universum_alltona</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -3008,8 +3073,8 @@ Raven and Fabricio do Canto have performed the Caayari mythology for audiences i
 <date>2013-12-28T21:30:00+01:00</date>
 <start>21:30</start>
 <duration>01:30</duration>
-<room>Lounge</room>
-<slug>30C3_-_5649_-__-_lounge_-_201312282130_-_zeitgeist</slug>
+<room>Revolution #9</room>
+<slug>30C3_-_5649_-__-_revolution_9_-_201312282130_-_zeitgeist</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -3030,8 +3095,8 @@ Raven and Fabricio do Canto have performed the Caayari mythology for audiences i
 <date>2013-12-28T23:00:00+01:00</date>
 <start>23:00</start>
 <duration>01:30</duration>
-<room>Lounge</room>
-<slug>30C3_-_5701_-__-_lounge_-_201312282300_-_roamin_roman</slug>
+<room>Revolution #9</room>
+<slug>30C3_-_5701_-__-_revolution_9_-_201312282300_-_roamin_roman</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -3052,8 +3117,8 @@ Raven and Fabricio do Canto have performed the Caayari mythology for audiences i
 <date>2013-12-29T00:30:00+01:00</date>
 <start>00:30</start>
 <duration>01:30</duration>
-<room>Lounge</room>
-<slug>30C3_-_5650_-__-_lounge_-_201312290030_-_live_neal_white</slug>
+<room>Revolution #9</room>
+<slug>30C3_-_5650_-__-_revolution_9_-_201312290030_-_live_neal_white</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -3075,13 +3140,13 @@ Raven and Fabricio do Canto have performed the Caayari mythology for audiences i
 <date>2013-12-29T02:00:00+01:00</date>
 <start>02:00</start>
 <duration>01:30</duration>
-<room>Lounge</room>
-<slug>30C3_-_5688_-__-_lounge_-_201312290200_-_live_deo_z-man_mafiosibros</slug>
+<room>Revolution #9</room>
+<slug>30C3_-_5688_-__-_revolution_9_-_201312290200_-_deo_z-man_mafiosibros</slug>
 <recording>
 <license></license>
 <optout>false</optout>
 </recording>
-<title>live! deo&amp;z-man (mafiosibros.)</title>
+<title>deo&amp;z-man (mafiosibros.)</title>
 <subtitle></subtitle>
 <track>Music</track>
 <type>other</type>
@@ -3098,8 +3163,8 @@ Raven and Fabricio do Canto have performed the Caayari mythology for audiences i
 <date>2013-12-29T03:30:00+01:00</date>
 <start>03:30</start>
 <duration>01:30</duration>
-<room>Lounge</room>
-<slug>30C3_-_5702_-__-_lounge_-_201312290330_-_holle_lang_-_dj-spock</slug>
+<room>Revolution #9</room>
+<slug>30C3_-_5702_-__-_revolution_9_-_201312290330_-_holle_lang</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -3112,7 +3177,6 @@ Raven and Fabricio do Canto have performed the Caayari mythology for audiences i
 <abstract></abstract>
 <description></description>
 <persons>
-<person id='2734'>dj-spock</person>
 </persons>
 <links>
 <link href='https://soundcloud.com/hollelang'>https://soundcloud.com/hollelang</link>
@@ -3602,6 +3666,38 @@ What can we do about it?
 <link href='http://www.leap.cc'>Law Enforcement Against Prohibition</link>
 </links>
 </event>
+<event guid='BAKqlbEKHMpBMr22KlDsEg' id='5439'>
+<date>2013-12-29T21:05:00+01:00</date>
+<start>21:05</start>
+<duration>00:45</duration>
+<room>Saal 1</room>
+<slug>30C3_-_5439_-_en_-_saal_1_-_201312292105_-_to_protect_and_infect_-_claudio_guarnieri_-_morgan_marquis-boire</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>To Protect And Infect</title>
+<subtitle>The militarization of the Internet</subtitle>
+<track>Security &amp; Safety</track>
+<type>lecture</type>
+<language>en</language>
+<abstract>2013 will be remembered as the year that the Internet lost its innocence for nearly everyone as light was shed on the widespread use of dragnet surveillance by the NSA and intelligence agencies globally. With the uprisings of the Arab Spring where people raided the offices of their regimes to bring evidence to light, we've seen a tremendous phenomenon: a large numbers of whistleblowers have taken action to inform the public about important details. The WikiLeaks SpyFiles series also shows us important details to corroborate these claims. There is ample evidence about the use and abuses of a multi-billion dollar industry that have now come to light. This evidence includes increasing use of targeted attacks to establish even more invasive control over corporate, government or other so-called legitimate targets.</abstract>
+<description>2013 will be remembered as the year that the Internet lost its innocence for nearly everyone as light was shed on the widespread use of dragnet surveillance by the NSA and intelligence agencies globally. With the uprisings of the Arab Spring where people raided the offices of their regimes to bring evidence to light, we've seen a tremendous phenomenon: a large numbers of whistleblowers have taken action to inform the public about important details. The WikiLeaks SpyFiles series also shows us important details to corroborate these claims. There is ample evidence about the use and abuses of a multi-billion dollar industry that have now come to light. This evidence includes increasing use of targeted attacks to establish even more invasive control over corporate, government or other so-called legitimate targets.
+
+Everything transiting our network connections is under surveillance to some degree. It's also common for law enforcement and intelligence agencies to use exploits and malware to infect and monitor computers, mobile devices and to spy on networks. They're able to bug our rooms with our own telephones, read encrypted emails, log keystrokes - they invade the most personal spaces in the very core of a person's life with minimal economic impact to their budget.
+
+In this talk we'll discuss the nature of targeted and untargeted surveillance, exploitation and intelligence gathering. This active surveillance is produced and operated not only by governments but by corporations and mercenaries that provide their intrusion services to the highest bidders who often have the lowest respect for human rights.
+
+We'll introduce you to the players in the business of active, passive, tactical and strategic surveillance and the products they provide. We'll also discuss examples of specific attacks on journalists and human rights activists worldwide in the last couple of years. Surprises won't be missing.</description>
+<persons>
+<person id='3568'>Claudio Guarnieri</person>
+<person id='4404'>Morgan Marquis-Boire</person>
+</persons>
+<links>
+<link href='http://wikileaks.org/spyfiles3.html'>WikiLeaks SpyFiles</link>
+<link href='https://citizenlab.org/2013/04/for-their-eyes-only-2/'>CitizenLab - For Their Eyes Only</link>
+</links>
+</event>
 <event guid='R5Vdbjtyg_hFVmSLcqSJfg' id='5545'>
 <date>2013-12-29T22:00:00+01:00</date>
 <start>22:00</start>
@@ -3715,7 +3811,7 @@ The question is approached in this talk from a purely technical point of view, l
 <start>11:30</start>
 <duration>01:00</duration>
 <room>Saal 2</room>
-<slug>30C3_-_5483_-_en_-_saal_2_-_201312291130_-_europe_the_usa_and_identity_ecosystems_-_noisynarrowbanddevice</slug>
+<slug>30C3_-_5483_-_en_-_saal_2_-_201312291130_-_europe_the_usa_and_identity_ecosystems_-_christoph_engemann</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -3743,7 +3839,7 @@ The goal of the talk is to raise awareness to the importance of these programs, 
 Duration 40 mins + 20 min discussion, presentation style will be slides and accompanying talk, discussion afterwards.
 </description>
 <persons>
-<person id='3160'>NoisyNarrowBandDevice</person>
+<person id='3160'>Christoph Engemann</person>
 </persons>
 <links>
 </links>
@@ -3984,6 +4080,30 @@ Der Vortrag zeigt einige Fehler bei der Benutzung oder Implementierung von Krypt
 <links>
 </links>
 </event>
+<event guid='MYZrnAH0-qE1fLeB32DOkw' id='5714'>
+<date>2013-12-30T00:00:00+01:00</date>
+<start>00:00</start>
+<duration>01:00</duration>
+<room>Saal 2</room>
+<slug>30C3_-_5714_-_de_-_saal_2_-_201312300000_-_fnord_news_show_-_fefe_-_frank</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Fnord News Show</title>
+<subtitle>Der schonungslose Realitätsabgleich mit Birzarrometer-Rekalibrierung [The harsh reality check and recalibration of the bizarre-o-meter]</subtitle>
+<track>Entertainment</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Im Format einer lockeren Abendshow werden wir die Highlights des Jahres präsentieren, die Meldungen zwischen den Meldungen, die subtilen Sensationen hinter den Schlagzeilen. Kommen Sie, hören Sie, sehen Sie! Lassen Sie sich mitreißen!</abstract>
+<description></description>
+<persons>
+<person id='1621'>Fefe</person>
+<person id='1633'>frank</person>
+</persons>
+<links>
+</links>
+</event>
 </room>
 <room name='Saal G'>
 <event guid='BRHpBVii4wmCt1nd94vCYg' id='5552'>
@@ -4176,7 +4296,7 @@ This talk will give an overview about tools that allow anonymity in real life, a
 <start>20:30</start>
 <duration>01:00</duration>
 <room>Saal G</room>
-<slug>30C3_-_5322_-_en_-_saal_g_-_201312292030_-_reverse_engineering_the_wii_u_gamepad_-_delroth</slug>
+<slug>30C3_-_5322_-_en_-_saal_g_-_201312292030_-_reverse_engineering_the_wii_u_gamepad_-_delroth_-_shuffle2</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -4194,6 +4314,7 @@ While some “journalists” reported that the Wii U gamepad is using the Miraca
 In this presentation, we will go into the details of how we went from a 32MB binary blob to a proof of concept of Wii U gamepad “emulation” on a PC, including full documentation of the wireless communications obfuscation layer and partial documentation of the four data exchange protocols used on the gamepad.</description>
 <persons>
 <person id='4080'>delroth</person>
+<person id='4072'>shuffle2</person>
 </persons>
 <links>
 <link href='http://www.youtube.com/watch?v=Yt2-IRiWd40'>WiiU Gamepad emulation on a PC</link>
@@ -4447,6 +4568,8 @@ Im Vortrag soll die Idee hinter calc.pw erklärt, es soll der Grund für die Ver
 </persons>
 <links>
 <link href='http://www.arduguitar.org'>ArduGuitar Homepage</link>
+<link href='http://vimeo.com/8022406'>Ballad of Marshall McLuhan</link>
+<link href='http://www.giyf.com/'>Have a (dumb) question?</link>
 </links>
 </event>
 <event guid='D27zQV1jKk88oKyXxGBGPQ' id='5395'>
@@ -4655,6 +4778,31 @@ erwünscht.</description>
 <links>
 </links>
 </event>
+<event guid='0gItE4HE_zSaVFUTCu0Elw' id='5712'>
+<date>2013-12-30T00:00:00+01:00</date>
+<start>00:00</start>
+<duration>02:00</duration>
+<room>Saal 6</room>
+<slug>30C3_-_5712_-_en_-_saal_6_-_201312300000_-_decoder_-_klaus_maeck</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Decoder</title>
+<subtitle></subtitle>
+<track>Entertainment</track>
+<type>other</type>
+<language>en</language>
+<abstract>DATE TBC!
+
+DECODER is a legendary German film from 1984, based on the themes of William S. Burroughs. Burroughs himself acts in a key scene in the film, along with F.M. Einheit, Christiane F., Genesis P. Orridge a.o.</abstract>
+<description>The story of urban chaos and intrigue focuses on the sonic experiments of the disillusioned ‚noise-freak’ FM, who is experimenting with music and infra-sound. In search of new and extreme sounds he stumbles into a kind of black mass being celebrated by urban pirates. He is able to convince them to join him in his search for an antidote to muzak, as he discovers that the musical tranquilizer can become a brain poison. After distributing multiple copies of their anti-tape the urban pirates successfully induce nausea in H-Burger-restaurants, not to the liking of their multinational headquarters who promptly dispatch a special agent to stop the tape-terrorism which spreads rapidly, leading to mass civil disobedience and street fighting. </description>
+<persons>
+<person id='686'>Klaus Maeck</person>
+</persons>
+<links>
+</links>
+</event>
 </room>
 <room name='Saal 17'>
 <event guid='1BZrYRTTKrIDVEHG_dSzbw' id='5671'>
@@ -4830,14 +4978,64 @@ Gestorben wird ja praktisch immer. Aber warum? Warum musste Fabu sterben? Und we
 <links>
 </links>
 </event>
+<event guid='xfOZaHR-T-GzIM-FecmZhA' id='5313'>
+<date>2013-12-29T23:00:00+01:00</date>
+<start>23:00</start>
+<duration>01:00</duration>
+<room>Wordlounge</room>
+<slug>30C3_-_5313_-_en_-_wordlounge_-_201312292300_-_when_words_dance_-_sara_sibai</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>When Words Dance</title>
+<subtitle>A spoken word poetry performance</subtitle>
+<track>Entertainment</track>
+<type>other</type>
+<language>en</language>
+<abstract>Held at the end of the conference, this performance will embody my personal experience of the conference and with the participants. I bring into the poem the people, topics and interactions from the conference, diffuse them into words, and let them explode on stage for others to relate to. </abstract>
+<description>I make sense of the people and world around me through art, particularly poetry. It humanises our interactions and experiences. It turns ideas back into thoughts and actions back into intentions.
+
+After days of discussing important and serious issues around different themes, I seek to create closure and a summary through poetry at the closing ceremony. </description>
+<persons>
+<person id='4118'>Sara Sibai</person>
+</persons>
+<links>
+<link href='http://www.youtube.com/watch?v=2ynWk-fhBEo&amp;feature=youtu.be'>My performance at OHM 2013</link>
+<link href='http://www.silentsaranade.com'>Past Performances</link>
+</links>
+</event>
 </room>
 <room name='Villa Straylight'>
-<event guid='wUbZt2GFpOghCkCfp3aQWg' id='5690'>
-<date>2013-12-29T12:00:00+01:00</date>
-<start>12:00</start>
-<duration>08:00</duration>
+<event guid='PUUpHAp28klRG2xtmLUmSQ' id='5696'>
+<date>2013-12-29T14:00:00+01:00</date>
+<start>14:00</start>
+<duration>04:00</duration>
 <room>Villa Straylight</room>
-<slug>30C3_-_5690_-__-_villa_straylight_-_201312291200_-_barbnerdy</slug>
+<slug>30C3_-_5696_-__-_villa_straylight_-_201312291400_-_tasmo</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Tasmo</title>
+<subtitle>DJ Set:</subtitle>
+<track>Entertainment</track>
+<type>other</type>
+<language></language>
+<abstract></abstract>
+<description></description>
+<persons>
+</persons>
+<links>
+<link href='http://tasmo.de/'>Tasmo</link>
+</links>
+</event>
+<event guid='wUbZt2GFpOghCkCfp3aQWg' id='5690'>
+<date>2013-12-29T18:00:00+01:00</date>
+<start>18:00</start>
+<duration>04:00</duration>
+<room>Villa Straylight</room>
+<slug>30C3_-_5690_-__-_villa_straylight_-_201312291800_-_barbnerdy</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -4882,37 +5080,14 @@ Internet, Migration und lokale Musik vermischen sich zu etwas hybriden und lasse
 <link href='http://blog.rebellen.info/'>Blogrebellen</link>
 </links>
 </event>
-<event guid='PUUpHAp28klRG2xtmLUmSQ' id='5696'>
-<date>2013-12-30T00:00:00+01:00</date>
-<start>00:00</start>
-<duration>02:00</duration>
-<room>Villa Straylight</room>
-<slug>30C3_-_5696_-__-_villa_straylight_-_201312300000_-_tasmo</slug>
-<recording>
-<license></license>
-<optout>false</optout>
-</recording>
-<title>Tasmo</title>
-<subtitle>DJ Set:</subtitle>
-<track>Entertainment</track>
-<type>other</type>
-<language></language>
-<abstract></abstract>
-<description></description>
-<persons>
-</persons>
-<links>
-<link href='http://tasmo.de/'>Tasmo</link>
-</links>
-</event>
 </room>
-<room name='Lounge'>
+<room name='Revolution #9'>
 <event guid='sUrlCDejTfQkpGTJOAha8Q' id='5651'>
 <date>2013-12-29T13:00:00+01:00</date>
 <start>13:00</start>
 <duration>00:30</duration>
-<room>Lounge</room>
-<slug>30C3_-_5651_-__-_lounge_-_201312291300_-_live_gongkonzert_klanghaus_media_audionic</slug>
+<room>Revolution #9</room>
+<slug>30C3_-_5651_-__-_revolution_9_-_201312291300_-_live_gongkonzert_klanghaus_media_audionic</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -4934,8 +5109,8 @@ Internet, Migration und lokale Musik vermischen sich zu etwas hybriden und lasse
 <date>2013-12-29T13:30:00+01:00</date>
 <start>13:30</start>
 <duration>02:00</duration>
-<room>Lounge</room>
-<slug>30C3_-_5693_-__-_lounge_-_201312291330_-_dj-spock</slug>
+<room>Revolution #9</room>
+<slug>30C3_-_5693_-__-_revolution_9_-_201312291330_-_dj-spock</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -4957,8 +5132,8 @@ Internet, Migration und lokale Musik vermischen sich zu etwas hybriden und lasse
 <date>2013-12-29T15:30:00+01:00</date>
 <start>15:30</start>
 <duration>01:30</duration>
-<room>Lounge</room>
-<slug>30C3_-_5697_-__-_lounge_-_201312291530_-_fukami</slug>
+<room>Revolution #9</room>
+<slug>30C3_-_5697_-__-_revolution_9_-_201312291530_-_fukami</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -4979,8 +5154,8 @@ Internet, Migration und lokale Musik vermischen sich zu etwas hybriden und lasse
 <date>2013-12-29T17:00:00+01:00</date>
 <start>17:00</start>
 <duration>03:00</duration>
-<room>Lounge</room>
-<slug>30C3_-_5652_-__-_lounge_-_201312291700_-_peer_gregorius_nation_of_gondwana</slug>
+<room>Revolution #9</room>
+<slug>30C3_-_5652_-__-_revolution_9_-_201312291700_-_peer_gregorius_nation_of_gondwana</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -5001,8 +5176,8 @@ Internet, Migration und lokale Musik vermischen sich zu etwas hybriden und lasse
 <date>2013-12-29T20:00:00+01:00</date>
 <start>20:00</start>
 <duration>01:30</duration>
-<room>Lounge</room>
-<slug>30C3_-_5653_-__-_lounge_-_201312292000_-_live_woodrow_wilson_krautrock</slug>
+<room>Revolution #9</room>
+<slug>30C3_-_5653_-__-_revolution_9_-_201312292000_-_live_woodrow_wilson_krautrock</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -5024,8 +5199,8 @@ Internet, Migration und lokale Musik vermischen sich zu etwas hybriden und lasse
 <date>2013-12-29T21:30:00+01:00</date>
 <start>21:30</start>
 <duration>01:30</duration>
-<room>Lounge</room>
-<slug>30C3_-_5654_-__-_lounge_-_201312292130_-_harre_kunast_click_808</slug>
+<room>Revolution #9</room>
+<slug>30C3_-_5654_-__-_revolution_9_-_201312292130_-_harre_kunast_click_808</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -5046,8 +5221,8 @@ Internet, Migration und lokale Musik vermischen sich zu etwas hybriden und lasse
 <date>2013-12-29T23:00:00+01:00</date>
 <start>23:00</start>
 <duration>01:30</duration>
-<room>Lounge</room>
-<slug>30C3_-_5655_-__-_lounge_-_201312292300_-_jay_pauli_grunanlage_alte_liebe</slug>
+<room>Revolution #9</room>
+<slug>30C3_-_5655_-__-_revolution_9_-_201312292300_-_jay_pauli_grunanlage_alte_liebe</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -5068,8 +5243,8 @@ Internet, Migration und lokale Musik vermischen sich zu etwas hybriden und lasse
 <date>2013-12-30T00:30:00+01:00</date>
 <start>00:30</start>
 <duration>01:00</duration>
-<room>Lounge</room>
-<slug>30C3_-_5704_-__-_lounge_-_201312300030_-_live_j_lo_rotzige_beatz</slug>
+<room>Revolution #9</room>
+<slug>30C3_-_5704_-__-_revolution_9_-_201312300030_-_live_j_lo_rotzige_beatz</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -5090,8 +5265,8 @@ Internet, Migration und lokale Musik vermischen sich zu etwas hybriden und lasse
 <date>2013-12-30T01:30:00+01:00</date>
 <start>01:30</start>
 <duration>01:30</duration>
-<room>Lounge</room>
-<slug>30C3_-_5656_-__-_lounge_-_201312300130_-_carsten_stacker_frequenzberater</slug>
+<room>Revolution #9</room>
+<slug>30C3_-_5656_-__-_revolution_9_-_201312300130_-_carsten_stacker_frequenzberater</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -5113,8 +5288,8 @@ Internet, Migration und lokale Musik vermischen sich zu etwas hybriden und lasse
 <date>2013-12-30T03:00:00+01:00</date>
 <start>03:00</start>
 <duration>02:00</duration>
-<room>Lounge</room>
-<slug>30C3_-_5657_-__-_lounge_-_201312300300_-_dj_bimmel_u-site_fusion_rot</slug>
+<room>Revolution #9</room>
+<slug>30C3_-_5657_-__-_revolution_9_-_201312300300_-_dj_bimmel_u-site_fusion_rot</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -5166,19 +5341,19 @@ Messages like these were received by Ministers from their government fellows.</d
 <start>12:45</start>
 <duration>01:00</duration>
 <room>Saal 1</room>
-<slug>30C3_-_5600_-_en_-_saal_1_-_201312301245_-_thwarting_the_evil_maid_attacks_-_eric_michaud_-_ryan_lackey</slug>
+<slug>30C3_-_5600_-_en_-_saal_1_-_201312301245_-_thwarting_evil_maid_attacks_-_eric_michaud_-_ryan_lackey</slug>
 <recording>
 <license></license>
 <optout>false</optout>
 </recording>
-<title>Thwarting the Evil Maid Attacks</title>
+<title>Thwarting Evil Maid Attacks</title>
 <subtitle>Physically Unclonable Functions for Hardware Tamper Detection</subtitle>
 <track>Security &amp; Safety</track>
 <type>lecture</type>
 <language>en</language>
 <abstract> 	Increasingly, users and their computing hardware are exposed a range of software and hardware attacks, ranging from disk imaging to hardware keylogger installation and beyond. Existing methods are inadequate to fully protect users, particularly from covert physical hardware modifications in the &quot;evil maid&quot; scenario, and yet are very inconvenient. Victims include governments and corporations traveling internationally (e.g. China), anti-government activists in places like Syria, and anyone who is a target of a motivated attacker who can gain physical access.
 
-Physically Unclonable Functions, combined with a trusted mobile device and a network service, can be used to mitigate these risks. We present a novel open-source mobile client and network service which can protect arbitrary hardware from many forms of covert modification and attack, and which when integrated with software, firmware, and policy defenses, can provide greater protection to users and limit potential attack surface.</abstract>
+Physically Unclonable Functions, combined with a trusted mobile device and a network service, can be used to mitigate these risks. We present a novel open-source mobile client and network service which can protect arbitrary hardware from many forms of covert modification and attack, and which when integrated with software, firmware, and policy defenses, can provide greater protection to users and limit potential attack surface. We'll also be showing video of an unreleased tool to the public utilized by surveillance teams.</abstract>
 <description>Additional Notes for our talk:
 
 1) The attack addressed is an entire class of hardware, firmware, and software attacks around the attacker gaining surreptitious access and modification (of hardware/firmware/software) on one or more occasions, followed by the authorized user making normal use of the device after these modifications.
@@ -5311,39 +5486,6 @@ After summarizing the programs, technologies, and legal/policy framework in the 
 </event>
 </room>
 <room name='Saal 2'>
-<event guid='BAKqlbEKHMpBMr22KlDsEg' id='5439'>
-<date>2013-12-30T11:30:00+01:00</date>
-<start>11:30</start>
-<duration>01:00</duration>
-<room>Saal 2</room>
-<slug>30C3_-_5439_-_en_-_saal_2_-_201312301130_-_to_protect_and_infect_-_claudio_guarnieri_-_jacob_-_morgan_marquis-boire</slug>
-<recording>
-<license></license>
-<optout>false</optout>
-</recording>
-<title>To Protect And Infect</title>
-<subtitle>The militarization of the Internet</subtitle>
-<track>Security &amp; Safety</track>
-<type>lecture</type>
-<language>en</language>
-<abstract>2013 will be remembered as the year that the Internet lost its innocence for nearly everyone as light was shed on the widespread use of dragnet surveillance by the NSA and intelligence agencies globally. With the uprisings of the Arab Spring where people raided the offices of their regimes to bring evidence to light, we've seen a tremendous phenomenon: a large numbers of whistleblowers have taken action to inform the public about important details. The WikiLeaks SpyFiles series also shows us important details to corroborate these claims. There is ample evidence about the use and abuses of a multi-billion dollar industry that have now come to light. This evidence includes increasing use of targeted attacks to establish even more invasive control over corporate, government or other so-called legitimate targets.</abstract>
-<description>2013 will be remembered as the year that the Internet lost its innocence for nearly everyone as light was shed on the widespread use of dragnet surveillance by the NSA and intelligence agencies globally. With the uprisings of the Arab Spring where people raided the offices of their regimes to bring evidence to light, we've seen a tremendous phenomenon: a large numbers of whistleblowers have taken action to inform the public about important details. The WikiLeaks SpyFiles series also shows us important details to corroborate these claims. There is ample evidence about the use and abuses of a multi-billion dollar industry that have now come to light. This evidence includes increasing use of targeted attacks to establish even more invasive control over corporate, government or other so-called legitimate targets.
-
-Everything transiting our network connections is under surveillance to some degree. It's also common for law enforcement and intelligence agencies to use exploits and malware to infect and monitor computers, mobile devices and to spy on networks. They're able to bug our rooms with our own telephones, read encrypted emails, log keystrokes - they invade the most personal spaces in the very core of a person's life with minimal economic impact to their budget.
-
-In this talk we'll discuss the nature of targeted and untargeted surveillance, exploitation and intelligence gathering. This active surveillance is produced and operated not only by governments but by corporations and mercenaries that provide their intrusion services to the highest bidders who often have the lowest respect for human rights.
-
-We'll introduce you to the players in the business of active, passive, tactical and strategic surveillance and the products they provide. We'll also discuss examples of specific attacks on journalists and human rights activists worldwide in the last couple of years. Surprises won't be missing.</description>
-<persons>
-<person id='3568'>Claudio Guarnieri</person>
-<person id='1083'>Jacob</person>
-<person id='4404'>Morgan Marquis-Boire</person>
-</persons>
-<links>
-<link href='http://wikileaks.org/spyfiles3.html'>WikiLeaks SpyFiles</link>
-<link href='https://citizenlab.org/2013/04/for-their-eyes-only-2/'>CitizenLab - For Their Eyes Only</link>
-</links>
-</event>
 <event guid='iGUI8vSrFaU8uQiDfjNt2w' id='5467'>
 <date>2013-12-30T12:45:00+01:00</date>
 <start>12:45</start>
@@ -5365,6 +5507,8 @@ We'll introduce you to the players in the business of active, passive, tactical 
 <person id='3584'>Jöran Muuß-Merholz</person>
 </persons>
 <links>
+<link href='http://www.joeran.de/lernen-digitaler-wandel-shifts-happen/'>iPad-Klassen machen noch keine moderne Schule - Essay in &quot;Das Netz 2013&quot; by iRights</link>
+<link href='https://twitter.com/jmm_hamburg'>Jöran twittert als @jmm_hamburg</link>
 </links>
 </event>
 <event guid='wkZOlAmoT5ydaMLNV0xCSw' id='5421'>
@@ -5626,9 +5770,9 @@ This talk will present some aspects of our work, the position Amnesty takes on r
 <event guid='WbqegbTKG5YheKse8X4ZUw' id='5609'>
 <date>2013-12-30T14:30:00+01:00</date>
 <start>14:30</start>
-<duration>00:30</duration>
+<duration>01:00</duration>
 <room>Saal 6</room>
-<slug>30C3_-_5609_-_en_-_saal_6_-_201312301430_-_infrastructure_review_-_kay_-_peter_stuge_-_derpeter</slug>
+<slug>30C3_-_5609_-_en_-_saal_6_-_201312301430_-_infrastructure_review_-_kay_-_peter_stuge_-_florolf</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -5643,7 +5787,7 @@ This talk will present some aspects of our work, the position Amnesty takes on r
 <persons>
 <person id='2200'>kay</person>
 <person id='2142'>Peter Stuge</person>
-<person id='2804'>derpeter</person>
+<person id='3276'>florolf</person>
 </persons>
 <links>
 </links>
@@ -5790,13 +5934,13 @@ Moderation: Peter Welchering</description>
 </room>
 <room name='Villa Straylight'>
 </room>
-<room name='Lounge'>
+<room name='Revolution #9'>
 <event guid='CM3Sogmvddrp1HT9Y8xEYg' id='5658'>
 <date>2013-12-30T13:00:00+01:00</date>
 <start>13:00</start>
 <duration>00:30</duration>
-<room>Lounge</room>
-<slug>30C3_-_5658_-__-_lounge_-_201312301300_-_live_gongkonzert_klanghaus_media_audionic_eternal_drum</slug>
+<room>Revolution #9</room>
+<slug>30C3_-_5658_-__-_revolution_9_-_201312301300_-_live_gongkonzert_klanghaus_media_audionic_eternal_drum</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -5819,8 +5963,8 @@ Moderation: Peter Welchering</description>
 <date>2013-12-30T13:30:00+01:00</date>
 <start>13:30</start>
 <duration>01:30</duration>
-<room>Lounge</room>
-<slug>30C3_-_5639_-__-_lounge_-_201312301330_-_marco_morelle_philipp_wolgast</slug>
+<room>Revolution #9</room>
+<slug>30C3_-_5639_-__-_revolution_9_-_201312301330_-_marco_morelle_philipp_wolgast</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -5843,8 +5987,8 @@ Moderation: Peter Welchering</description>
 <date>2013-12-30T15:00:00+01:00</date>
 <start>15:00</start>
 <duration>01:00</duration>
-<room>Lounge</room>
-<slug>30C3_-_5659_-__-_lounge_-_201312301500_-_live_tonfang_universum_alltona</slug>
+<room>Revolution #9</room>
+<slug>30C3_-_5659_-__-_revolution_9_-_201312301500_-_live_tonfang_universum_alltona</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -5866,8 +6010,8 @@ Moderation: Peter Welchering</description>
 <date>2013-12-30T16:00:00+01:00</date>
 <start>16:00</start>
 <duration>02:00</duration>
-<room>Lounge</room>
-<slug>30C3_-_5660_-__-_lounge_-_201312301600_-_jonas_wahrlich_e_minor_plux_der_hut</slug>
+<room>Revolution #9</room>
+<slug>30C3_-_5660_-__-_revolution_9_-_201312301600_-_jonas_wahrlich_e_minor_plux_der_hut</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -5889,8 +6033,8 @@ Moderation: Peter Welchering</description>
 <date>2013-12-30T19:00:00+01:00</date>
 <start>19:00</start>
 <duration>01:00</duration>
-<room>Lounge</room>
-<slug>30C3_-_5661_-__-_lounge_-_201312301900_-_live_akustik_nord_jojo_heizmann</slug>
+<room>Revolution #9</room>
+<slug>30C3_-_5661_-__-_revolution_9_-_201312301900_-_live_akustik_nord_jojo_heizmann</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -5912,8 +6056,8 @@ Moderation: Peter Welchering</description>
 <date>2013-12-30T21:00:00+01:00</date>
 <start>21:00</start>
 <duration>00:30</duration>
-<room>Lounge</room>
-<slug>30C3_-_5685_-__-_lounge_-_201312302100_-_chaos_collective</slug>
+<room>Revolution #9</room>
+<slug>30C3_-_5685_-__-_revolution_9_-_201312302100_-_chaos_collective</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -5934,8 +6078,8 @@ Moderation: Peter Welchering</description>
 <date>2013-12-30T21:30:00+01:00</date>
 <start>21:30</start>
 <duration>00:30</duration>
-<room>Lounge</room>
-<slug>30C3_-_5708_-__-_lounge_-_201312302130_-_dj_deinemaid</slug>
+<room>Revolution #9</room>
+<slug>30C3_-_5708_-__-_revolution_9_-_201312302130_-_dj_deinemaid</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -5957,8 +6101,8 @@ Moderation: Peter Welchering</description>
 <date>2013-12-30T22:00:00+01:00</date>
 <start>22:00</start>
 <duration>00:30</duration>
-<room>Lounge</room>
-<slug>30C3_-_5706_-__-_lounge_-_201312302200_-_live_frau_malonda</slug>
+<room>Revolution #9</room>
+<slug>30C3_-_5706_-__-_revolution_9_-_201312302200_-_live_frau_malonda</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -5980,8 +6124,8 @@ Moderation: Peter Welchering</description>
 <date>2013-12-30T22:30:00+01:00</date>
 <start>22:30</start>
 <duration>01:00</duration>
-<room>Lounge</room>
-<slug>30C3_-_5709_-__-_lounge_-_201312302230_-_dj_deinemaid</slug>
+<room>Revolution #9</room>
+<slug>30C3_-_5709_-__-_revolution_9_-_201312302230_-_dj_deinemaid</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -6003,8 +6147,8 @@ Moderation: Peter Welchering</description>
 <date>2013-12-30T23:30:00+01:00</date>
 <start>23:30</start>
 <duration>02:00</duration>
-<room>Lounge</room>
-<slug>30C3_-_5684_-__-_lounge_-_201312302330_-_marc_schneider_panorama_bar</slug>
+<room>Revolution #9</room>
+<slug>30C3_-_5684_-__-_revolution_9_-_201312302330_-_marc_schneider_panorama_bar</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -6026,8 +6170,8 @@ Moderation: Peter Welchering</description>
 <date>2013-12-31T01:30:00+01:00</date>
 <start>01:30</start>
 <duration>02:00</duration>
-<room>Lounge</room>
-<slug>30C3_-_5710_-__-_lounge_-_201312310130_-_ratkat</slug>
+<room>Revolution #9</room>
+<slug>30C3_-_5710_-__-_revolution_9_-_201312310130_-_ratkat</slug>
 <recording>
 <license></license>
 <optout>false</optout>
@@ -6048,8 +6192,8 @@ Moderation: Peter Welchering</description>
 <date>2013-12-31T03:30:00+01:00</date>
 <start>03:30</start>
 <duration>02:00</duration>
-<room>Lounge</room>
-<slug>30C3_-_5707_-__-_lounge_-_201312310330_-_fannie_mae_universum_alltona</slug>
+<room>Revolution #9</room>
+<slug>30C3_-_5707_-__-_revolution_9_-_201312310330_-_fannie_mae_universum_alltona</slug>
 <recording>
 <license></license>
 <optout>false</optout>

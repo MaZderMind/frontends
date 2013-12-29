@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T213000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T203000
-DTSTAMP;VALUE=DATE-TIME:20131129T145530Z
+DTSTAMP;VALUE=DATE-TIME:20131228T225048Z
 UID:QGyPcWYIZ_R3gRVEh8-KdQ@frab.cccv.de
 DESCRIPTION:Supersymmetry has been particle theorists' favorite toy for s
  everal decades. It predicts a yet unobserved symmetry of nature and impl

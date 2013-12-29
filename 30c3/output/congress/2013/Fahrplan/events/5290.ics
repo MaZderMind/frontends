@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T213000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T203000
-DTSTAMP;VALUE=DATE-TIME:20131128T160703Z
+DTSTAMP;VALUE=DATE-TIME:20131229T094707Z
 UID:gL8lRFVpn8NFFfATsOn7Bw@frab.cccv.de
 DESCRIPTION:About a year ago Nintendo released their latest video gaming 
  console\, the Wii U. Since 2006\, the Wii has led to one of the most act

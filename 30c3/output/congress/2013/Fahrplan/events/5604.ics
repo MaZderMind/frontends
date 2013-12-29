@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T000000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T230000
-DTSTAMP;VALUE=DATE-TIME:20131205T143250Z
+DTSTAMP;VALUE=DATE-TIME:20131229T132739Z
 UID:3HEv_YYlkY2P_y1pKfU7fA@frab.cccv.de
 DESCRIPTION:Although people around the world are becoming increasingly aw
  are of the United States' global geography of surveillance\, covert acti

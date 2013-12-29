@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T180000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T173000
-DTSTAMP;VALUE=DATE-TIME:20131205T210127Z
+DTSTAMP;VALUE=DATE-TIME:20131229T114844Z
 UID:zUDh6XccjgDg7g1WP6Kpvw@frab.cccv.de
 DESCRIPTION:With the disappearance of the computer\, something else is si
  lently becoming invisible as well — the User. Users are disappearing a

@@ -32,7 +32,7 @@ DESCRIPTION:
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5706.html
 SUMMARY:!live Frau Malonda
 ORGANIZER:30C3
-LOCATION:Lounge
+LOCATION:Revolution #9
 END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T140000
@@ -44,7 +44,7 @@ URL:https://events.ccc.de/congress/2013/Fahrplan/events/5638.html
 SUMMARY:!live Gongkonzert Klanghaus Media Audionic & Klavier Anka & Etern
  al Drum
 ORGANIZER:30C3
-LOCATION:Lounge
+LOCATION:Revolution #9
 END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T210000
@@ -106,7 +106,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T170000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T160000
-DTSTAMP;VALUE=DATE-TIME:20131209T155902Z
+DTSTAMP;VALUE=DATE-TIME:20131228T215920Z
 UID:d7ZRyNoL-Oceu9NYorKzgA@frab.cccv.de
 DESCRIPTION:At Fort George "Orwell" Meade\, home of the NSA and the US De
  fense Information School\, managing the message of Chelsea Manning's tri
@@ -120,7 +120,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T150000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T140000
-DTSTAMP;VALUE=DATE-TIME:20131209T185829Z
+DTSTAMP;VALUE=DATE-TIME:20131228T194418Z
 UID:3rqxJH8xZ4waSOXtJbxrDg@frab.cccv.de
 DESCRIPTION:A review of the 10 year history of the OpenWrt project\, curr
  ent events\, and upcoming developments.
@@ -149,7 +149,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T213000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T203000
-DTSTAMP;VALUE=DATE-TIME:20131210T125656Z
+DTSTAMP;VALUE=DATE-TIME:20131229T024355Z
 UID:qU7LRRIvEiZBJAvAY5z_Ig@frab.cccv.de
 DESCRIPTION:Eine unterhaltsame\, spannende und lehrreiche Reise durch 25 
  Jahre Chipkarten-Angriffe mit tiefen Einblicken in Amateur- und Profi-Ha
@@ -163,7 +163,18 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T203000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T193000
-DTSTAMP;VALUE=DATE-TIME:20131224T010105Z
+DTSTAMP;VALUE=DATE-TIME:20131228T194716Z
+UID:f1HiaqTQ2IC0SD2QCIQudg@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5711.html
+SUMMARY:30c3 Keynote
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T203000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T193000
+DTSTAMP;VALUE=DATE-TIME:20131228T203717Z
 UID:47tqlwa7F-wL0kxo11mvgg@frab.cccv.de
 DESCRIPTION:via videolink.
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5622.html
@@ -174,7 +185,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T163000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T160000
-DTSTAMP;VALUE=DATE-TIME:20131204T131004Z
+DTSTAMP;VALUE=DATE-TIME:20131228T212448Z
 UID:-YZGB3qZIZOBwlhaU_GHrg@frab.cccv.de
 DESCRIPTION:Using case studies of documentary film\, Freedom of Informati
  on Law document dumps\, soundbanks\, and a hacker conference\, I will de
@@ -206,7 +217,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T134500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T124500
-DTSTAMP;VALUE=DATE-TIME:20131226T143402Z
+DTSTAMP;VALUE=DATE-TIME:20131229T092235Z
 UID:IE5aOu8FUaPfpFv5v4rtJg@frab.cccv.de
 DESCRIPTION:This talk gives an introduction to firmware analysis: It star
  ts with how to retrieve the binary\, e.g. get a plain file from manufact
@@ -258,7 +269,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T224500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T214500
-DTSTAMP;VALUE=DATE-TIME:20131203T192559Z
+DTSTAMP;VALUE=DATE-TIME:20131228T225909Z
 UID:0eXymhGD4B5LSOSwUFnPfg@frab.cccv.de
 DESCRIPTION:In this lecture Julian will introduce projects and interventi
  ons made by himself and others that foreground Engineering\, rather than
@@ -306,9 +317,9 @@ ORGANIZER:30C3
 LOCATION:Saal G
 END:VEVENT
 BEGIN:VEVENT
-DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T200000
-DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T120000
-DTSTAMP;VALUE=DATE-TIME:20131223T112601Z
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T220000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T180000
+DTSTAMP;VALUE=DATE-TIME:20131229T010759Z
 UID:wUbZt2GFpOghCkCfp3aQWg@frab.cccv.de
 DESCRIPTION:BarbNerdy is not only nerdy in finding great music all over t
  he places\, she is also writing wonderful stories with them. . In Berlin
@@ -329,7 +340,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T224500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T214500
-DTSTAMP;VALUE=DATE-TIME:20131207T205346Z
+DTSTAMP;VALUE=DATE-TIME:20131229T113748Z
 UID:c3Q-MbMX7FDXWv6rYj2bFw@frab.cccv.de
 DESCRIPTION:Exploitation of baseband vulnerabilities has become significa
  ntly harder on average. With Qualcomm having grabbed 97% of the market s
@@ -344,7 +355,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T181500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T171500
-DTSTAMP;VALUE=DATE-TIME:20131222T231614Z
+DTSTAMP;VALUE=DATE-TIME:20131228T204236Z
 UID:rSMcCR_40Gu8XhIBpMapxQ@frab.cccv.de
 DESCRIPTION:The aim of this talk is to give an understandable insight int
  o wireless communication\, using existing systems as examples on why the
@@ -376,7 +387,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T123000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T113000
-DTSTAMP;VALUE=DATE-TIME:20131126T160514Z
+DTSTAMP;VALUE=DATE-TIME:20131229T001706Z
 UID:-zXtqISaAof8oPTr8SYyTQ@frab.cccv.de
 DESCRIPTION:Software engineering is in a unsustainable state: software is
   mainly developed in a trial and error fashion\, which always leads to v
@@ -398,7 +409,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T000000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T230000
-DTSTAMP;VALUE=DATE-TIME:20131203T110821Z
+DTSTAMP;VALUE=DATE-TIME:20131229T122157Z
 UID:n4vgYDc2e8tbtF6g9mZIlA@frab.cccv.de
 DESCRIPTION:A light-hearted presentation about many aspects of particle a
  ccelerators like the LHC and their particle collision experiments. Aimed
@@ -411,7 +422,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T193000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T183000
-DTSTAMP;VALUE=DATE-TIME:20131128T162135Z
+DTSTAMP;VALUE=DATE-TIME:20131228T210821Z
 UID:z7M48Tb_4vtI0BBFVqe_ag@frab.cccv.de
 DESCRIPTION:Violation of memory safety is still a major source of vulnera
  bilities in everyday systems. This talk presents the state of the art in
@@ -425,7 +436,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T124500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T121500
-DTSTAMP;VALUE=DATE-TIME:20131221T122006Z
+DTSTAMP;VALUE=DATE-TIME:20131229T114921Z
 UID:6kqN3bqixV2sIU-x92zuEA@frab.cccv.de
 DESCRIPTION:NFC technology is becoming more and more relevant in our live
  s. One of its major uses is in ticketing solutions. However\, most of co
@@ -440,7 +451,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T213000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T203000
-DTSTAMP;VALUE=DATE-TIME:20131207T150306Z
+DTSTAMP;VALUE=DATE-TIME:20131229T115128Z
 UID:3poSeUcpc6woNaI5dhATcQ@frab.cccv.de
 DESCRIPTION:Die technischen Probleme der De-Mail ließen sich juristisch 
  lösen\, und auch bei der E-Mail setzen deutsche Provider bald Sicherhei
@@ -508,7 +519,7 @@ DESCRIPTION:
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5656.html
 SUMMARY:Carsten Stäcker (Frequenzberater)
 ORGANIZER:30C3
-LOCATION:Lounge
+LOCATION:Revolution #9
 END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T213000
@@ -519,7 +530,7 @@ DESCRIPTION:
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5685.html
 SUMMARY:Chaos Collective
 ORGANIZER:30C3
-LOCATION:Lounge
+LOCATION:Revolution #9
 END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T193000
@@ -572,7 +583,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T213000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T203000
-DTSTAMP;VALUE=DATE-TIME:20131128T160703Z
+DTSTAMP;VALUE=DATE-TIME:20131229T094707Z
 UID:gL8lRFVpn8NFFfATsOn7Bw@frab.cccv.de
 DESCRIPTION:About a year ago Nintendo released their latest video gaming 
  console\, the Wii U. Since 2006\, the Wii has led to one of the most act
@@ -653,9 +664,34 @@ ORGANIZER:30C3
 LOCATION:Saal 6
 END:VEVENT
 BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T020000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T000000
+DTSTAMP;VALUE=DATE-TIME:20131228T225929Z
+UID:0gItE4HE_zSaVFUTCu0Elw@frab.cccv.de
+DESCRIPTION:DATE TBC!\n\nDECODER is a legendary German film from 1984\, b
+ ased on the themes of William S. Burroughs. Burroughs himself acts in a 
+ key scene in the film\, along with F.M. Einheit\, Christiane F.\, Genesi
+ s P. Orridge a.o.
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5712.html
+SUMMARY:Decoder
+ORGANIZER:30C3
+LOCATION:Saal 6
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T033000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T020000
+DTSTAMP;VALUE=DATE-TIME:20131229T001236Z
+UID:7egjyuqrtFK6wDS7YwoY8w@frab.cccv.de
+DESCRIPTION:
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5688.html
+SUMMARY:deo&z-man (mafiosibros.)
+ORGANIZER:30C3
+LOCATION:Revolution #9
+END:VEVENT
+BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T224500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T214500
-DTSTAMP;VALUE=DATE-TIME:20131217T082619Z
+DTSTAMP;VALUE=DATE-TIME:20131229T015626Z
 UID:u40tVBeaVPehGK39ABNLlQ@frab.cccv.de
 DESCRIPTION:Seit Jahren nur in Fachzirkeln diskutiert gab es 2013 den Dur
  chbruch für die Debatte um Netzneutralität. Mit der Ankündigung der D
@@ -673,7 +709,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T134500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T124500
-DTSTAMP;VALUE=DATE-TIME:20131208T224505Z
+DTSTAMP;VALUE=DATE-TIME:20131228T174647Z
 UID:qkjXyXK2qXXjRYOUI9nT0Q@frab.cccv.de
 DESCRIPTION:Dieser Vortrag beschreibt Konzept und Idee des tiefen Staates
   anhand der Geschichte der BRD.
@@ -685,7 +721,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T213000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T203000
-DTSTAMP;VALUE=DATE-TIME:20131129T145530Z
+DTSTAMP;VALUE=DATE-TIME:20131228T225048Z
 UID:QGyPcWYIZ_R3gRVEh8-KdQ@frab.cccv.de
 DESCRIPTION:Supersymmetry has been particle theorists' favorite toy for s
  everal decades. It predicts a yet unobserved symmetry of nature and impl
@@ -824,7 +860,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T170000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T160000
-DTSTAMP;VALUE=DATE-TIME:20131223T184744Z
+DTSTAMP;VALUE=DATE-TIME:20131229T124608Z
 UID:2L0wf-R-_u7OqqZHmZyILg@frab.cccv.de
 DESCRIPTION:Seit Monaten hält uns die NS-Affäre in Atem. Immer neue Abh
  örmaßnahmen und geheimdienstliche Praktiken werden enthüllt. Ein giga
@@ -889,7 +925,7 @@ DESCRIPTION:
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5657.html
 SUMMARY:Dj Bimmel (U-site\, Fusion\, ROT)
 ORGANIZER:30C3
-LOCATION:Lounge
+LOCATION:Revolution #9
 END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T220000
@@ -900,7 +936,7 @@ DESCRIPTION:
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5708.html
 SUMMARY:Dj DeineMaid
 ORGANIZER:30C3
-LOCATION:Lounge
+LOCATION:Revolution #9
 END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T233000
@@ -911,7 +947,7 @@ DESCRIPTION:
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5709.html
 SUMMARY:Dj DeineMaid
 ORGANIZER:30C3
-LOCATION:Lounge
+LOCATION:Revolution #9
 END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T160000
@@ -922,7 +958,7 @@ DESCRIPTION:
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5645.html
 SUMMARY:DJ Elbe (Elfenmaschine)
 ORGANIZER:30C3
-LOCATION:Lounge
+LOCATION:Revolution #9
 END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T153000
@@ -933,12 +969,12 @@ DESCRIPTION:
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5693.html
 SUMMARY:dj-spock
 ORGANIZER:30C3
-LOCATION:Lounge
+LOCATION:Revolution #9
 END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T123000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T113000
-DTSTAMP;VALUE=DATE-TIME:20131223T100410Z
+DTSTAMP;VALUE=DATE-TIME:20131229T101949Z
 UID:T1NjW3fn1odK53hiQSAFKw@frab.cccv.de
 DESCRIPTION:This lecture shall give a first person account of how circums
  tances have dramatically changed for actionist art practice over the las
@@ -959,12 +995,12 @@ DESCRIPTION:
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5647.html
 SUMMARY:Don Shtone (Sven Dohse)
 ORGANIZER:30C3
-LOCATION:Lounge
+LOCATION:Revolution #9
 END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T134500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T124500
-DTSTAMP;VALUE=DATE-TIME:20131125T222433Z
+DTSTAMP;VALUE=DATE-TIME:20131229T130001Z
 UID:sh_vDLYCDlmW5sFWsI4KSg@frab.cccv.de
 DESCRIPTION:During the last 10 years the technology that was formerly onl
  y available to the military\, reached the hands of thousands. Researcher
@@ -980,7 +1016,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T170000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T160000
-DTSTAMP;VALUE=DATE-TIME:20131201T130110Z
+DTSTAMP;VALUE=DATE-TIME:20131229T114937Z
 UID:w9UU1iDfP18QvWJ5i2VDsg@frab.cccv.de
 DESCRIPTION:This talk will discuss a case in which criminals compromised 
  and robbed an ATM by infecting it with specially crafted malware. The su
@@ -1014,7 +1050,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T150000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T140000
-DTSTAMP;VALUE=DATE-TIME:20131207T175726Z
+DTSTAMP;VALUE=DATE-TIME:20131229T111347Z
 UID:QF7QyNNX35gm9TZyqlb7_A@frab.cccv.de
 DESCRIPTION:Jan Phillip Albrecht is rapporteur of the European Parliament
   for the EU's General Data Protection Regulation as well as for the EU-U
@@ -1027,7 +1063,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T123000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T113000
-DTSTAMP;VALUE=DATE-TIME:20131213T035759Z
+DTSTAMP;VALUE=DATE-TIME:20131229T113515Z
 UID:Gj_6_iqjs5qRzO3U2wJgoQ@frab.cccv.de
 DESCRIPTION:Talk introducing NSTIC and COM 238\, i.e. the current digital
   identity policy proposals in the USA and European discussing their simi
@@ -1058,7 +1094,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T134500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T124500
-DTSTAMP;VALUE=DATE-TIME:20131202T171140Z
+DTSTAMP;VALUE=DATE-TIME:20131229T102442Z
 UID:hWph2wdjII5XK6nCL_1kWA@frab.cccv.de
 DESCRIPTION:Side-channel analysis (SCA) and related methods exploit physi
  cal characteristics of a (cryptographic) implementations to bypass secur
@@ -1081,12 +1117,12 @@ DESCRIPTION:
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5707.html
 SUMMARY:Fannie Mae (Universum Alltona)
 ORGANIZER:30C3
-LOCATION:Lounge
+LOCATION:Revolution #9
 END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T134500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T124500
-DTSTAMP;VALUE=DATE-TIME:20131202T003546Z
+DTSTAMP;VALUE=DATE-TIME:20131229T104539Z
 UID:RiskSjr33wsyUrC5oX80uw@frab.cccv.de
 DESCRIPTION:Internet-wide network scanning has powerful security applicat
  ions\, including exposing new vulnerabilities\, tracking their mitigatio
@@ -1116,7 +1152,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T000000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T230000
-DTSTAMP;VALUE=DATE-TIME:20131130T204915Z
+DTSTAMP;VALUE=DATE-TIME:20131228T222622Z
 UID:Veo2ucE-l2cA-V-EaA_ckA@frab.cccv.de
 DESCRIPTION:We present a collection of techniques which aim to automagica
  lly remove significant (and unnecessary) portions of firmware binaries f
@@ -1146,7 +1182,21 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T010000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T000000
-DTSTAMP;VALUE=DATE-TIME:20131207T121557Z
+DTSTAMP;VALUE=DATE-TIME:20131228T155436Z
+UID:MYZrnAH0-qE1fLeB32DOkw@frab.cccv.de
+DESCRIPTION:Im Format einer lockeren Abendshow werden wir die Highlights 
+ des Jahres präsentieren\, die Meldungen zwischen den Meldungen\, die su
+ btilen Sensationen hinter den Schlagzeilen. Kommen Sie\, hören Sie\, se
+ hen Sie! Lassen Sie sich mitreißen!
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5714.html
+SUMMARY:Fnord News Show
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T010000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T000000
+DTSTAMP;VALUE=DATE-TIME:20131228T143017Z
 UID:SQ8Tgi8YgRRsHy76BWIJ3A@frab.cccv.de
 DESCRIPTION:Im Format einer lockeren Abendshow werden wir die Highlights 
  des Jahres präsentieren\, die Meldungen zwischen den Meldungen\, die su
@@ -1173,7 +1223,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T181500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T171500
-DTSTAMP;VALUE=DATE-TIME:20131206T220632Z
+DTSTAMP;VALUE=DATE-TIME:20131229T114710Z
 UID:Ae-3k2zOoIDF16EaC2uCWA@frab.cccv.de
 DESCRIPTION:In this talk I want to show you around in the mysterious worl
  d of\nField Programmable Gate Arrays\, or short FPGAs. The aim is to ena
@@ -1195,7 +1245,7 @@ DESCRIPTION:
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5697.html
 SUMMARY:Fukami
 ORGANIZER:30C3
-LOCATION:Lounge
+LOCATION:Revolution #9
 END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T200000
@@ -1206,7 +1256,7 @@ DESCRIPTION:
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5686.html
 SUMMARY:Gammler und Kundan Lal
 ORGANIZER:30C3
-LOCATION:Lounge
+LOCATION:Revolution #9
 END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T190000
@@ -1233,7 +1283,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T134500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T124500
-DTSTAMP;VALUE=DATE-TIME:20131204T054629Z
+DTSTAMP;VALUE=DATE-TIME:20131229T115057Z
 UID:BK1ziXHv5du-_NJN24p9lA@frab.cccv.de
 DESCRIPTION:A one hour technical lecture that covers everything from mach
  ine learning and AI to hardware design and manufacture. Includes demonst
@@ -1248,7 +1298,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T020000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T000000
-DTSTAMP;VALUE=DATE-TIME:20131222T164058Z
+DTSTAMP;VALUE=DATE-TIME:20131229T003708Z
 UID:hCp0neTiEqx5vYP5UU3SUw@frab.cccv.de
 DESCRIPTION:Der durchschnittliche User nutzt nur fünf Prozent seines Goo
  glevermögens. Mit dem Googlequiz lässt sich das ausbauen. Eine gewisse
@@ -1261,7 +1311,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T020000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T000000
-DTSTAMP;VALUE=DATE-TIME:20131207T120950Z
+DTSTAMP;VALUE=DATE-TIME:20131229T093212Z
 UID:4xOGbMd8E3ezI9zpD6BO4A@frab.cccv.de
 DESCRIPTION:The Hacker Jeopardy is a quiz show.
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5577.html
@@ -1272,7 +1322,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T193000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T190000
-DTSTAMP;VALUE=DATE-TIME:20131205T205519Z
+DTSTAMP;VALUE=DATE-TIME:20131228T215752Z
 UID:nu_IEETazySR5xcJobNckw@frab.cccv.de
 DESCRIPTION:!Mediengruppe Bitnik are contemporary artists. In their talk 
  they will show two examples of their work\, illustrating the translation
@@ -1303,7 +1353,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T193000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T183000
-DTSTAMP;VALUE=DATE-TIME:20131215T215752Z
+DTSTAMP;VALUE=DATE-TIME:20131228T214939Z
 UID:QszoY6oJD6rpkbsTRQinRA@frab.cccv.de
 DESCRIPTION:A commodity laptop is analyzed to identify exposed attack sur
  faces and is then secured on both the hardware and the firmware level ag
@@ -1319,7 +1369,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T181500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T171500
-DTSTAMP;VALUE=DATE-TIME:20131209T165851Z
+DTSTAMP;VALUE=DATE-TIME:20131229T134119Z
 UID:I1Wkt7x8Yy2ZnP2kOGAuXA@frab.cccv.de
 DESCRIPTION:In this talk (which in part was delivered at Infiltrate 2013 
  and NoSuchCon 2013) we will discuss our recent research that is being ro
@@ -1346,12 +1396,12 @@ DESCRIPTION:
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5654.html
 SUMMARY:Harre Künast (click 808)
 ORGANIZER:30C3
-LOCATION:Lounge
+LOCATION:Revolution #9
 END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T000000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T230000
-DTSTAMP;VALUE=DATE-TIME:20131128T161409Z
+DTSTAMP;VALUE=DATE-TIME:20131228T203844Z
 UID:wJ8usABBu6mJXRNpmhr_SQ@frab.cccv.de
 DESCRIPTION:HbbTV (Hybrid broadband broadcast TV) is an emerging standard
   that is implemented in a growing number of smart TV devices. The idea i
@@ -1369,7 +1419,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T123000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T113000
-DTSTAMP;VALUE=DATE-TIME:20131223T224628Z
+DTSTAMP;VALUE=DATE-TIME:20131229T111219Z
 UID:d9mVPvxx94qGILfKtmCAwA@frab.cccv.de
 DESCRIPTION:USB DeadDrops\, IRL map marker in public\, FUCK 3D glasses or
   How to vacuum form a guy fawkes mask. I will present an extensive overv
@@ -1384,7 +1434,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T150000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T140000
-DTSTAMP;VALUE=DATE-TIME:20131202T194634Z
+DTSTAMP;VALUE=DATE-TIME:20131229T114553Z
 UID:-isG7Swsi8DaA62qztr0Kw@frab.cccv.de
 DESCRIPTION:Satellites in Low Earth Orbit have tons of nifty signals\, bu
  t they move quickly though the sky and are difficult to track with fine 
@@ -1399,13 +1449,13 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T050000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T033000
-DTSTAMP;VALUE=DATE-TIME:20131226T212402Z
+DTSTAMP;VALUE=DATE-TIME:20131229T000842Z
 UID:ODWnXmzP1A1TouiEVJtg8Q@frab.cccv.de
 DESCRIPTION:
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5702.html
 SUMMARY:Holle Lang
 ORGANIZER:30C3
-LOCATION:Lounge
+LOCATION:Revolution #9
 END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T170000
@@ -1442,7 +1492,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T134500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T124500
-DTSTAMP;VALUE=DATE-TIME:20131213T040302Z
+DTSTAMP;VALUE=DATE-TIME:20131229T130213Z
 UID:z2_SbAXdwSQnezj6oPTuIg@frab.cccv.de
 DESCRIPTION:Imagine getting pulled over for running a stop sign and learn
  ing for the first time – from the cop – that you are HIV-positive. P
@@ -1472,7 +1522,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T123000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T113000
-DTSTAMP;VALUE=DATE-TIME:20131203T113056Z
+DTSTAMP;VALUE=DATE-TIME:20131229T131151Z
 UID:BRHpBVii4wmCt1nd94vCYg@frab.cccv.de
 DESCRIPTION:India is currently implementing some of the scariest surveill
  ance schemes in the world. This lecture will shed light on India's surve
@@ -1485,9 +1535,9 @@ ORGANIZER:30C3
 LOCATION:Saal G
 END:VEVENT
 BEGIN:VEVENT
-DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T150000
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T153000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T143000
-DTSTAMP;VALUE=DATE-TIME:20131128T171836Z
+DTSTAMP;VALUE=DATE-TIME:20131228T165803Z
 UID:WbqegbTKG5YheKse8X4ZUw@frab.cccv.de
 DESCRIPTION:
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5609.html
@@ -1498,7 +1548,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T193000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T183000
-DTSTAMP;VALUE=DATE-TIME:20131130T205255Z
+DTSTAMP;VALUE=DATE-TIME:20131229T105233Z
 UID:tnCge6rYmFPy9O0KjvtBAQ@frab.cccv.de
 DESCRIPTION:This lecture gives an introduction to processor design.\nIt i
  s mostly interesting for people new to processor design and does not cov
@@ -1515,7 +1565,20 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T020000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T000000
-DTSTAMP;VALUE=DATE-TIME:20131213T043035Z
+DTSTAMP;VALUE=DATE-TIME:20131229T022507Z
+UID:gaiQNX-_9hRMZy28VIzw6g@frab.cccv.de
+DESCRIPTION:Auch das Jahr 2013 geht irgendwann vorbei. Deshalb werfen wir
+  einen Blick zurück auf die für uns besonders relevanten Themen und ve
+ rsuchen abzuschätzen\, was im Jahr 2014 auf uns zukommen könnte.\n
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5715.html
+SUMMARY:Jahresrückblick des CCC
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T020000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T000000
+DTSTAMP;VALUE=DATE-TIME:20131229T020640Z
 UID:H_FrxWgE7lz3DIkh_j8TbA@frab.cccv.de
 DESCRIPTION:Auch das Jahr 2013 geht irgendwann vorbei. Deshalb werfen wir
   einen Blick zurück auf die für uns besonders relevanten Themen und ve
@@ -1534,7 +1597,7 @@ DESCRIPTION:
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5655.html
 SUMMARY:Jay Pauli (Grünanlage / Alte Liebe)
 ORGANIZER:30C3
-LOCATION:Lounge
+LOCATION:Revolution #9
 END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T180000
@@ -1545,12 +1608,12 @@ DESCRIPTION:
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5660.html
 SUMMARY:Jonas Wahrlich (e.minor\, Plux\, Der Hut)
 ORGANIZER:30C3
-LOCATION:Lounge
+LOCATION:Revolution #9
 END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T150000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T140000
-DTSTAMP;VALUE=DATE-TIME:20131226T153939Z
+DTSTAMP;VALUE=DATE-TIME:20131229T130133Z
 UID:YYw-34ht9mf83cFWsxTCAw@frab.cccv.de
 DESCRIPTION:Die Enthüllungen Edward Snowdens haben die deutsche Politik 
  für kurze Zeit in Aufregung gebracht. Für eine Beruhigung reichte es b
@@ -1577,7 +1640,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T013000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T203000
-DTSTAMP;VALUE=DATE-TIME:20131224T173406Z
+DTSTAMP;VALUE=DATE-TIME:20131228T230352Z
 UID:UGd3_gcJYsDg9PdCGGrp0g@frab.cccv.de
 DESCRIPTION:
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5689.html
@@ -1588,7 +1651,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T181500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T171500
-DTSTAMP;VALUE=DATE-TIME:20131208T225129Z
+DTSTAMP;VALUE=DATE-TIME:20131229T114950Z
 UID:GqBcTbWHQclHwDW_kI9yBQ@frab.cccv.de
 DESCRIPTION:Die Verwendung von mittelmäßiger Kryptographie scheint gege
  n Angreifer mit Milliarden-Etat komplett versagt zu haben. Namentlich RC
@@ -1601,11 +1664,10 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T171500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T164500
-DTSTAMP;VALUE=DATE-TIME:20131224T005624Z
+DTSTAMP;VALUE=DATE-TIME:20131228T230543Z
 UID:TTYvRfSgu6wHisdcwpo1VA@frab.cccv.de
-DESCRIPTION:This talk will give an introduction on how to design optical 
- systems for space applications. As example a high power narrow linewidth
-  laser module will be shown. 
+DESCRIPTION:This talk will give an introduction on lasers and space and i
+ t will show the huge diversity of applications for lasers in space.
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5311.html
 SUMMARY:lasers in space
 ORGANIZER:30C3
@@ -1628,7 +1690,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T150000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T124500
-DTSTAMP;VALUE=DATE-TIME:20131223T131119Z
+DTSTAMP;VALUE=DATE-TIME:20131228T223446Z
 UID:us3pkMq65RbFcZPuAO05MA@frab.cccv.de
 DESCRIPTION:
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5562.html
@@ -1667,7 +1729,7 @@ DESCRIPTION:
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5661.html
 SUMMARY:live! Akustik Nord (Jojo Heizmann)
 ORGANIZER:30C3
-LOCATION:Lounge
+LOCATION:Revolution #9
 END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T213000
@@ -1678,7 +1740,7 @@ DESCRIPTION:
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5648.html
 SUMMARY:live! At the space office (Universum Alltona)
 ORGANIZER:30C3
-LOCATION:Lounge
+LOCATION:Revolution #9
 END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T210000
@@ -1689,18 +1751,7 @@ DESCRIPTION:
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5687.html
 SUMMARY:live! Ben Con Cello
 ORGANIZER:30C3
-LOCATION:Lounge
-END:VEVENT
-BEGIN:VEVENT
-DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T033000
-DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T020000
-DTSTAMP;VALUE=DATE-TIME:20131226T212410Z
-UID:7egjyuqrtFK6wDS7YwoY8w@frab.cccv.de
-DESCRIPTION:
-URL:https://events.ccc.de/congress/2013/Fahrplan/events/5688.html
-SUMMARY:live! deo&z-man (mafiosibros.)
-ORGANIZER:30C3
-LOCATION:Lounge
+LOCATION:Revolution #9
 END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T133000
@@ -1711,7 +1762,7 @@ DESCRIPTION:
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5644.html
 SUMMARY:live! Gongkonzert Klanghaus Media Audionic
 ORGANIZER:30C3
-LOCATION:Lounge
+LOCATION:Revolution #9
 END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T133000
@@ -1722,7 +1773,7 @@ DESCRIPTION:
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5651.html
 SUMMARY:live! Gongkonzert Klanghaus Media Audionic
 ORGANIZER:30C3
-LOCATION:Lounge
+LOCATION:Revolution #9
 END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T133000
@@ -1733,7 +1784,7 @@ DESCRIPTION:
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5658.html
 SUMMARY:live! Gongkonzert Klanghaus Media Audionic & Eternal Drum
 ORGANIZER:30C3
-LOCATION:Lounge
+LOCATION:Revolution #9
 END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T013000
@@ -1744,7 +1795,7 @@ DESCRIPTION:
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5704.html
 SUMMARY:live! jɛloʊ // Rotzige Beatz
 ORGANIZER:30C3
-LOCATION:Lounge
+LOCATION:Revolution #9
 END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T020000
@@ -1755,7 +1806,7 @@ DESCRIPTION:
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5650.html
 SUMMARY:live! Neal White
 ORGANIZER:30C3
-LOCATION:Lounge
+LOCATION:Revolution #9
 END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T160000
@@ -1766,7 +1817,7 @@ DESCRIPTION:
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5659.html
 SUMMARY:live! Tonfang (Universum Alltona)
 ORGANIZER:30C3
-LOCATION:Lounge
+LOCATION:Revolution #9
 END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T213000
@@ -1777,12 +1828,12 @@ DESCRIPTION:
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5653.html
 SUMMARY:live! Woodrow Wilson (Krautrock)
 ORGANIZER:30C3
-LOCATION:Lounge
+LOCATION:Revolution #9
 END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T193000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T183000
-DTSTAMP;VALUE=DATE-TIME:20131220T205433Z
+DTSTAMP;VALUE=DATE-TIME:20131228T230632Z
 UID:U-8wOAtiUft8JjHbW-HAEA@frab.cccv.de
 DESCRIPTION:This talk should introduce the general 30c3 participant with 
  several components of long distance quantum communication.
@@ -1794,7 +1845,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T150000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T140000
-DTSTAMP;VALUE=DATE-TIME:20131204T172112Z
+DTSTAMP;VALUE=DATE-TIME:20131229T104621Z
 UID:juhvY3wvW_i3TTb8KDEyeQ@frab.cccv.de
 DESCRIPTION:We present Magic Lantern\, a free open software add-on for Ca
  non DSLR cameras\, that offers increased functionality aimed mainly at D
@@ -1809,7 +1860,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T123000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T113000
-DTSTAMP;VALUE=DATE-TIME:20131211T012356Z
+DTSTAMP;VALUE=DATE-TIME:20131229T114409Z
 UID:DaPb3a3Rv9sG109k4ZBWEw@frab.cccv.de
 DESCRIPTION:Making a new control system for a machine is often a slow and
   tedious task. Maybe you already have a 3 axis stage\, and you already k
@@ -1835,7 +1886,7 @@ DESCRIPTION:
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5684.html
 SUMMARY:Marc Schneider (Panorama Bar)
 ORGANIZER:30C3
-LOCATION:Lounge
+LOCATION:Revolution #9
 END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T150000
@@ -1846,7 +1897,7 @@ DESCRIPTION:
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5639.html
 SUMMARY:Marco Morelle & Philipp Wolgast
 ORGANIZER:30C3
-LOCATION:Lounge
+LOCATION:Revolution #9
 END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T020000
@@ -1857,7 +1908,7 @@ DESCRIPTION:
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5641.html
 SUMMARY:Maulwolf DJs (Renken&Rothstein)
 ORGANIZER:30C3
-LOCATION:Lounge
+LOCATION:Revolution #9
 END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T224500
@@ -1878,7 +1929,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T181500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T171500
-DTSTAMP;VALUE=DATE-TIME:20131210T153536Z
+DTSTAMP;VALUE=DATE-TIME:20131229T102127Z
 UID:xdX27wLbHpeOU_dSgBO4Hg@frab.cccv.de
 DESCRIPTION:Mobile networks should protect users on several fronts: Calls
   need to be encrypted\, customer data protected\, and SIM cards shielded
@@ -1896,7 +1947,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T193000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T190000
-DTSTAMP;VALUE=DATE-TIME:20131130T201924Z
+DTSTAMP;VALUE=DATE-TIME:20131229T102152Z
 UID:xidDecyvb8dGAXEWacQrRw@frab.cccv.de
 DESCRIPTION:Software-Defined Radio (SDR) has increased in popularity in r
  ecent years due to the decrease in hardware costs and increase in proces
@@ -1917,7 +1968,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T170000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T160000
-DTSTAMP;VALUE=DATE-TIME:20131206T022953Z
+DTSTAMP;VALUE=DATE-TIME:20131229T115110Z
 UID:bJDjDUHLd0Y6wLncMd5Unw@frab.cccv.de
 DESCRIPTION:How I discovered mysterious hidden signals on a public radio 
  channel and eventually found out their meaning through hardware hacking\
@@ -1936,7 +1987,7 @@ DESCRIPTION:
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5646.html
 SUMMARY:Na Nu? Ein Gnu!
 ORGANIZER:30C3
-LOCATION:Lounge
+LOCATION:Revolution #9
 END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T171500
@@ -1982,7 +2033,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T000000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T230000
-DTSTAMP;VALUE=DATE-TIME:20131226T201458Z
+DTSTAMP;VALUE=DATE-TIME:20131228T225932Z
 UID:a-xJCEtToBTndlcjWvCAKQ@frab.cccv.de
 DESCRIPTION:The news of the past few years is one small ripple in what is
   a great wave of culture and history\, a generational clash of civilizat
@@ -1999,7 +2050,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T184500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T181500
-DTSTAMP;VALUE=DATE-TIME:20131202T080349Z
+DTSTAMP;VALUE=DATE-TIME:20131228T195339Z
 UID:MKUdng2EHp0XtgsBdwCVRQ@frab.cccv.de
 DESCRIPTION:This is a call for participation in a project aimed to build 
  up an open source based experimental incubator which can be used for var
@@ -2017,7 +2068,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T113000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T110000
-DTSTAMP;VALUE=DATE-TIME:20131204T174408Z
+DTSTAMP;VALUE=DATE-TIME:20131229T125951Z
 UID:0i_XOY92eUOxB3jQO_Zj4g@frab.cccv.de
 DESCRIPTION:Introductory event to say hello to everybody\, give a brief o
  verview of the event's features and look into history and future alike
@@ -2035,12 +2086,12 @@ DESCRIPTION:
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5652.html
 SUMMARY:Peer Gregorius (Nation of Gondwana)
 ORGANIZER:30C3
-LOCATION:Lounge
+LOCATION:Revolution #9
 END:VEVENT
 BEGIN:VEVENT
-DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T003000
-DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T000000
-DTSTAMP;VALUE=DATE-TIME:20131205T143010Z
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T003000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T000000
+DTSTAMP;VALUE=DATE-TIME:20131229T000258Z
 UID:Wb85jYb3IJr8B11bubfibA@frab.cccv.de
 DESCRIPTION:The facial hacking research presented in this lecture/ perfor
  mance exploits a well known vulnerability of the human nervous system th
@@ -2051,7 +2102,7 @@ DESCRIPTION:The facial hacking research presented in this lecture/ perfor
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5614.html
 SUMMARY:Perfect Paul
 ORGANIZER:30C3
-LOCATION:Saal 2
+LOCATION:Saal 6
 END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T193000
@@ -2079,7 +2130,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T231500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T224500
-DTSTAMP;VALUE=DATE-TIME:20131215T220516Z
+DTSTAMP;VALUE=DATE-TIME:20131228T225611Z
 UID:d3O96YnMHkiPLhp50TPJAA@frab.cccv.de
 DESCRIPTION:Did you ever feel the need to be in charge of your environmen
  t? We did . A detailed story of our experience playing with 220VAC and w
@@ -2095,7 +2146,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T180000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T173000
-DTSTAMP;VALUE=DATE-TIME:20131203T224104Z
+DTSTAMP;VALUE=DATE-TIME:20131229T111528Z
 UID:_PZbf5bEsVNq9q3vTxAazQ@frab.cccv.de
 DESCRIPTION:This talk considers the use of new technology to police large
   crowds in the Romantic period. We examine ethical aspects of modern sur
@@ -2131,7 +2182,7 @@ DESCRIPTION:
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5710.html
 SUMMARY:RatKat
 ORGANIZER:30C3
-LOCATION:Lounge
+LOCATION:Revolution #9
 END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T181500
@@ -2157,7 +2208,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T150000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T140000
-DTSTAMP;VALUE=DATE-TIME:20131128T160844Z
+DTSTAMP;VALUE=DATE-TIME:20131228T192323Z
 UID:NzaYFnLUYCWw9gjG_KMgsQ@frab.cccv.de
 DESCRIPTION:We reverse-engineered one implementation of the non-public CH
  IASMUS cipher designed by the German Federal Office for Information Secu
@@ -2174,7 +2225,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T213000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T203000
-DTSTAMP;VALUE=DATE-TIME:20131213T193836Z
+DTSTAMP;VALUE=DATE-TIME:20131227T144618Z
 UID:toykIIIHEXC1x8F7xoiYRw@frab.cccv.de
 DESCRIPTION:A year ago in November 2012\, Nintendo released their latest 
  home video game console: the Wii U. While most video game consoles use c
@@ -2197,7 +2248,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T213000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T203000
-DTSTAMP;VALUE=DATE-TIME:20131202T165157Z
+DTSTAMP;VALUE=DATE-TIME:20131228T203745Z
 UID:GjMyYKOlFIvTVBV1gI_1SA@frab.cccv.de
 DESCRIPTION:Ken Thompson's classic "Reflections on Trusting Trust" examin
  ed the impacts of planted build chain bugs\, from an example of a compil
@@ -2249,7 +2300,7 @@ DESCRIPTION:
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5701.html
 SUMMARY:Roamin'Roman
 ORGANIZER:30C3
-LOCATION:Lounge
+LOCATION:Revolution #9
 END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T053000
@@ -2260,12 +2311,12 @@ DESCRIPTION:
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5643.html
 SUMMARY:Robo Klein & John Ohrt (Universum Alltona)
 ORGANIZER:30C3
-LOCATION:Lounge
+LOCATION:Revolution #9
 END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T170000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T160000
-DTSTAMP;VALUE=DATE-TIME:20131226T020608Z
+DTSTAMP;VALUE=DATE-TIME:20131229T102058Z
 UID:piiLuOpnx-bTwU28WOUQWA@frab.cccv.de
 DESCRIPTION:This talks introduces programming concepts and languages for 
  parallel programming on accelerator cards. 
@@ -2277,7 +2328,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T000000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T230000
-DTSTAMP;VALUE=DATE-TIME:20131128T160916Z
+DTSTAMP;VALUE=DATE-TIME:20131229T120016Z
 UID:OT5cFvmp4WvV3cjuoH1gtQ@frab.cccv.de
 DESCRIPTION:SCADA StrangeLove team will present their research on ICS sys
  tems for the second time on CCC. Last year we showed current situation w
@@ -2299,7 +2350,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T170000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T160000
-DTSTAMP;VALUE=DATE-TIME:20131208T183901Z
+DTSTAMP;VALUE=DATE-TIME:20131229T130516Z
 UID:7abembel5Nwrd3h_pRjeOQ@frab.cccv.de
 DESCRIPTION:Almost all higher-end cars come with very beefy in-car entert
  ainment hardware. In this talk\, I'll describe how to take advantage of 
@@ -2326,7 +2377,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T224500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T214500
-DTSTAMP;VALUE=DATE-TIME:20131128T160728Z
+DTSTAMP;VALUE=DATE-TIME:20131229T130319Z
 UID:QQSVk4IwhteVQcAB1CKVpA@frab.cccv.de
 DESCRIPTION:In the chain of trust of most secure schemes is an electronic
   chip that holds secret information. These schemes often employ cryptogr
@@ -2346,7 +2397,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T000000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T230000
-DTSTAMP;VALUE=DATE-TIME:20131205T143250Z
+DTSTAMP;VALUE=DATE-TIME:20131229T132739Z
 UID:3HEv_YYlkY2P_y1pKfU7fA@frab.cccv.de
 DESCRIPTION:Although people around the world are becoming increasingly aw
  are of the United States' global geography of surveillance\, covert acti
@@ -2360,7 +2411,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T134500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T124500
-DTSTAMP;VALUE=DATE-TIME:20131226T162738Z
+DTSTAMP;VALUE=DATE-TIME:20131229T130050Z
 UID:0OMMJkoMY79GCUUx9LULgA@frab.cccv.de
 DESCRIPTION:Auf dem 30C3 wird es\, neben der bisher gewohnten digitalen I
  nfrastruktur mit Netz\, Telefon etc. dieses Jahr auch erstmalig ein Rohr
@@ -2409,12 +2460,12 @@ DESCRIPTION:
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5642.html
 SUMMARY:Superdefekt (MFOC)
 ORGANIZER:30C3
-LOCATION:Lounge
+LOCATION:Revolution #9
 END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T231500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T224500
-DTSTAMP;VALUE=DATE-TIME:20131204T140338Z
+DTSTAMP;VALUE=DATE-TIME:20131228T205743Z
 UID:Lv-uOMbLZH1T17ZxxJ-TEQ@frab.cccv.de
 DESCRIPTION:<p>Finally\, the world is aware of the threat of mass surveil
  lance and control\, but we still have a fight on our hands\, and that fi
@@ -2428,9 +2479,9 @@ ORGANIZER:30C3
 LOCATION:Saal 1
 END:VEVENT
 BEGIN:VEVENT
-DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T020000
-DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T000000
-DTSTAMP;VALUE=DATE-TIME:20131222T193021Z
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T180000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T140000
+DTSTAMP;VALUE=DATE-TIME:20131229T010702Z
 UID:PUUpHAp28klRG2xtmLUmSQ@frab.cccv.de
 DESCRIPTION:
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5696.html
@@ -2441,7 +2492,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T000000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T233000
-DTSTAMP;VALUE=DATE-TIME:20131207T145714Z
+DTSTAMP;VALUE=DATE-TIME:20131229T114804Z
 UID:4edFJcqsY3ORA5pyBrkthA@frab.cccv.de
 DESCRIPTION:We all know monopolies are bad. We even have laws against the
  m that sometimes get enforced. However\, today we have new kinds of mono
@@ -2455,7 +2506,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T150000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T143000
-DTSTAMP;VALUE=DATE-TIME:20131210T204143Z
+DTSTAMP;VALUE=DATE-TIME:20131229T085708Z
 UID:T9YItdVO2WSP8VbAczAqjQ@frab.cccv.de
 DESCRIPTION:The <a href="http://www.arduguitar.org">ArduGuitar</a> is an 
  electric guitar with <i>no physical controls\,</i> i.e. no buttons or kn
@@ -2545,7 +2596,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T224500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T214500
-DTSTAMP;VALUE=DATE-TIME:20131220T180418Z
+DTSTAMP;VALUE=DATE-TIME:20131228T210944Z
 UID:mskIn_xqqyN3oJeG11ztXg@frab.cccv.de
 DESCRIPTION:DNS\, DNSSEC and the X.509 CA system leak private information
   about users to server operators and fail to provide adequate security a
@@ -2559,7 +2610,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T223000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T220000
-DTSTAMP;VALUE=DATE-TIME:20131130T205322Z
+DTSTAMP;VALUE=DATE-TIME:20131228T230332Z
 UID:n-OE9MQoWcUq2LFZB2e6DQ@frab.cccv.de
 DESCRIPTION:Companies are often blamed for not working upstream. Surprisi
  ngly\, the situation is not per se better with community projects. To ch
@@ -2573,7 +2624,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T123000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T113000
-DTSTAMP;VALUE=DATE-TIME:20131202T072104Z
+DTSTAMP;VALUE=DATE-TIME:20131229T103119Z
 UID:CHcRJtYsY2jZ-1HovlXpcQ@frab.cccv.de
 DESCRIPTION:Attribute Based Credentials (ABC) allow users to prove certai
  n properties about themselves (e.g. age\, race\, license\, etc.) without
@@ -2626,7 +2677,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T171500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T164500
-DTSTAMP;VALUE=DATE-TIME:20131207T174357Z
+DTSTAMP;VALUE=DATE-TIME:20131229T020017Z
 UID:Ziraj84D16VJmXakvJGNEg@frab.cccv.de
 DESCRIPTION:"The Pirate Cinema" reveals Peer-to-Peer information flows. I
  t is a composition generated by the activity on file sharing networks. "
@@ -2639,7 +2690,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T213000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T203000
-DTSTAMP;VALUE=DATE-TIME:20131223T155011Z
+DTSTAMP;VALUE=DATE-TIME:20131228T214321Z
 UID:kkMSS4JoEJtzbF9jc2JJ4A@frab.cccv.de
 DESCRIPTION:Roger Dingledine and Jacob Appelbaum will discuss contemporar
  y Tor Network issues related to censorship\, security\, privacy and anon
@@ -2652,7 +2703,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T193000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T183000
-DTSTAMP;VALUE=DATE-TIME:20131128T160723Z
+DTSTAMP;VALUE=DATE-TIME:20131229T114559Z
 UID:PPVcroSxtnY9RfXjkEmxGA@frab.cccv.de
 DESCRIPTION:This was a busy year for crypto.\n\nTLS was broken.  And then
   broken again.\n\nDiscrete logs were computed.  And then computed again.
@@ -2682,7 +2733,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T134500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T124500
-DTSTAMP;VALUE=DATE-TIME:20131202T165720Z
+DTSTAMP;VALUE=DATE-TIME:20131229T115906Z
 UID:ZYk9lubJJBkqDWJBOZpWyw@frab.cccv.de
 DESCRIPTION: 	Increasingly\, users and their computing hardware are expos
  ed a range of software and hardware attacks\, ranging from disk imaging 
@@ -2698,16 +2749,17 @@ DESCRIPTION: 	Increasingly\, users and their computing hardware are expos
   protect arbitrary hardware from many forms of covert modification and a
  ttack\, and which when integrated with software\, firmware\, and policy 
  defenses\, can provide greater protection to users and limit potential a
- ttack surface.
+ ttack surface. We'll also be showing video of an unreleased tool to the 
+ public utilized by surveillance teams.
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5600.html
-SUMMARY:Thwarting the Evil Maid Attacks
+SUMMARY:Thwarting Evil Maid Attacks
 ORGANIZER:30C3
 LOCATION:Saal 1
 END:VEVENT
 BEGIN:VEVENT
-DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T123000
-DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T113000
-DTSTAMP;VALUE=DATE-TIME:20131204T015256Z
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T215000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T210500
+DTSTAMP;VALUE=DATE-TIME:20131228T142204Z
 UID:BAKqlbEKHMpBMr22KlDsEg@frab.cccv.de
 DESCRIPTION:2013 will be remembered as the year that the Internet lost it
  s innocence for nearly everyone as light was shed on the widespread use 
@@ -2724,7 +2776,7 @@ DESCRIPTION:2013 will be remembered as the year that the Internet lost it
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5439.html
 SUMMARY:To Protect And Infect
 ORGANIZER:30C3
-LOCATION:Saal 2
+LOCATION:Saal 1
 END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T000000
@@ -2735,12 +2787,12 @@ DESCRIPTION:
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5640.html
 SUMMARY:Tobi Lampe (Pokerflat) b2b Vinzenco
 ORGANIZER:30C3
-LOCATION:Lounge
+LOCATION:Revolution #9
 END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T213000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T203000
-DTSTAMP;VALUE=DATE-TIME:20131213T072708Z
+DTSTAMP;VALUE=DATE-TIME:20131228T210936Z
 UID:O-7g6jlu6DmenVdxO6t2Mg@frab.cccv.de
 DESCRIPTION:The talk gives an overview about our work of quantifying know
  ledge acquisition tasks in real-life environments\, focusing on reading.
@@ -2788,7 +2840,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T150000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T140000
-DTSTAMP;VALUE=DATE-TIME:20131127T014608Z
+DTSTAMP;VALUE=DATE-TIME:20131228T203518Z
 UID:SKDne_Zu6SPJc-ADxqiLnA@frab.cccv.de
 DESCRIPTION:Symbolic Execution (SE) is a powerful way to analyze programs
  . Instead of using concrete data values SE uses symbolic values to evalu
@@ -2807,7 +2859,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T180000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T173000
-DTSTAMP;VALUE=DATE-TIME:20131205T210127Z
+DTSTAMP;VALUE=DATE-TIME:20131229T114844Z
 UID:zUDh6XccjgDg7g1WP6Kpvw@frab.cccv.de
 DESCRIPTION:With the disappearance of the computer\, something else is si
  lently becoming invisible as well — the User. Users are disappearing a
@@ -2822,7 +2874,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T134500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T124500
-DTSTAMP;VALUE=DATE-TIME:20131208T224628Z
+DTSTAMP;VALUE=DATE-TIME:20131229T040912Z
 UID:8h6abIcZ9FOaWm7N3o3v9g@frab.cccv.de
 DESCRIPTION:Der Vortrag stellt fortgeschrittene linguistische Methoden de
  s politisch motivierten Internetmonitorings vor. Er gibt keine Anleitung
@@ -2836,7 +2888,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T201000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T183000
-DTSTAMP;VALUE=DATE-TIME:20131220T161530Z
+DTSTAMP;VALUE=DATE-TIME:20131229T130700Z
 UID:x4qxBOnhmQ17ypFMhLcdaA@frab.cccv.de
 DESCRIPTION: Wer ist eigentlich dieser "Verfassungsschutz"\, was tut er u
  nd brauchen wir ihn überhaupt? Laut Angaben des Verfassungsschutzes bea
@@ -2906,7 +2958,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T123000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T113000
-DTSTAMP;VALUE=DATE-TIME:20131129T185851Z
+DTSTAMP;VALUE=DATE-TIME:20131229T001717Z
 UID:iG5wn8T9LzGJFpnHZBjVwg@frab.cccv.de
 DESCRIPTION:An abundant number of existential risks threatens humanity. M
  any of those planetary by nature. Current science already enables us to 
@@ -2916,6 +2968,21 @@ URL:https://events.ccc.de/congress/2013/Fahrplan/events/5468.html
 SUMMARY:We only have one earth
 ORGANIZER:30C3
 LOCATION:Saal 6
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T000000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T230000
+DTSTAMP;VALUE=DATE-TIME:20131227T184756Z
+UID:xfOZaHR-T-GzIM-FecmZhA@frab.cccv.de
+DESCRIPTION:Held at the end of the conference\, this performance will emb
+ ody my personal experience of the conference and with the participants. 
+ I bring into the poem the people\, topics and interactions from the conf
+ erence\, diffuse them into words\, and let them explode on stage for oth
+ ers to relate to. 
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5313.html
+SUMMARY:When Words Dance
+ORGANIZER:30C3
+LOCATION:Wordlounge
 END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T181500
@@ -2969,7 +3036,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T224500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T214500
-DTSTAMP;VALUE=DATE-TIME:20131224T220114Z
+DTSTAMP;VALUE=DATE-TIME:20131228T230645Z
 UID:wGEf2KpP3_UU4Qm0vrtz1g@frab.cccv.de
 DESCRIPTION:The use of encryption to secure sensitive data from unauthori
  zed eyes is as old as human communication itself. Before the relatively 
@@ -3012,7 +3079,7 @@ DESCRIPTION:
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5700.html
 SUMMARY:X-Dream
 ORGANIZER:30C3
-LOCATION:Lounge
+LOCATION:Revolution #9
 END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T120000
@@ -3038,7 +3105,7 @@ DESCRIPTION:
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5649.html
 SUMMARY:Zeitgeist
 ORGANIZER:30C3
-LOCATION:Lounge
+LOCATION:Revolution #9
 END:VEVENT
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T000000

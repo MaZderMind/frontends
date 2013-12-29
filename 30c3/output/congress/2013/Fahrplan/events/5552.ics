@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T123000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T113000
-DTSTAMP;VALUE=DATE-TIME:20131203T113056Z
+DTSTAMP;VALUE=DATE-TIME:20131229T131151Z
 UID:BRHpBVii4wmCt1nd94vCYg@frab.cccv.de
 DESCRIPTION:India is currently implementing some of the scariest surveill
  ance schemes in the world. This lecture will shed light on India's surve

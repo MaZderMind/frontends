@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T134500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T124500
-DTSTAMP;VALUE=DATE-TIME:20131208T224628Z
+DTSTAMP;VALUE=DATE-TIME:20131229T040912Z
 UID:8h6abIcZ9FOaWm7N3o3v9g@frab.cccv.de
 DESCRIPTION:Der Vortrag stellt fortgeschrittene linguistische Methoden de
  s politisch motivierten Internetmonitorings vor. Er gibt keine Anleitung

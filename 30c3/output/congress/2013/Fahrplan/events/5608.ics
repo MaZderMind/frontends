@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T020000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T000000
-DTSTAMP;VALUE=DATE-TIME:20131213T043035Z
+DTSTAMP;VALUE=DATE-TIME:20131229T020640Z
 UID:H_FrxWgE7lz3DIkh_j8TbA@frab.cccv.de
 DESCRIPTION:Auch das Jahr 2013 geht irgendwann vorbei. Deshalb werfen wir
   einen Blick zurück auf die für uns besonders relevanten Themen und ve

@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T134500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T124500
-DTSTAMP;VALUE=DATE-TIME:20131125T222433Z
+DTSTAMP;VALUE=DATE-TIME:20131229T130001Z
 UID:sh_vDLYCDlmW5sFWsI4KSg@frab.cccv.de
 DESCRIPTION:During the last 10 years the technology that was formerly onl
  y available to the military\, reached the hands of thousands. Researcher

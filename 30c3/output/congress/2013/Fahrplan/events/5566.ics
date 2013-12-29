@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T184500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T181500
-DTSTAMP;VALUE=DATE-TIME:20131202T080349Z
+DTSTAMP;VALUE=DATE-TIME:20131228T195339Z
 UID:MKUdng2EHp0XtgsBdwCVRQ@frab.cccv.de
 DESCRIPTION:This is a call for participation in a project aimed to build 
  up an open source based experimental incubator which can be used for var

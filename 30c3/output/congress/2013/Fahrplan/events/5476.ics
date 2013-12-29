@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T170000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T160000
-DTSTAMP;VALUE=DATE-TIME:20131201T130110Z
+DTSTAMP;VALUE=DATE-TIME:20131229T114937Z
 UID:w9UU1iDfP18QvWJ5i2VDsg@frab.cccv.de
 DESCRIPTION:This talk will discuss a case in which criminals compromised 
  and robbed an ATM by infecting it with specially crafted malware. The su

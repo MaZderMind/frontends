@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T123000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T113000
-DTSTAMP;VALUE=DATE-TIME:20131126T160514Z
+DTSTAMP;VALUE=DATE-TIME:20131229T001706Z
 UID:-zXtqISaAof8oPTr8SYyTQ@frab.cccv.de
 DESCRIPTION:Software engineering is in a unsustainable state: software is
   mainly developed in a trial and error fashion\, which always leads to v

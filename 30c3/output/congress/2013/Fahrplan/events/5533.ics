@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T134500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T124500
-DTSTAMP;VALUE=DATE-TIME:20131202T003546Z
+DTSTAMP;VALUE=DATE-TIME:20131229T104539Z
 UID:RiskSjr33wsyUrC5oX80uw@frab.cccv.de
 DESCRIPTION:Internet-wide network scanning has powerful security applicat
  ions\, including exposing new vulnerabilities\, tracking their mitigatio

@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T224500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T214500
-DTSTAMP;VALUE=DATE-TIME:20131203T192559Z
+DTSTAMP;VALUE=DATE-TIME:20131228T225909Z
 UID:0eXymhGD4B5LSOSwUFnPfg@frab.cccv.de
 DESCRIPTION:In this lecture Julian will introduce projects and interventi
  ons made by himself and others that foreground Engineering\, rather than

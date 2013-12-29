@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T000000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T230000
-DTSTAMP;VALUE=DATE-TIME:20131203T110821Z
+DTSTAMP;VALUE=DATE-TIME:20131229T122157Z
 UID:n4vgYDc2e8tbtF6g9mZIlA@frab.cccv.de
 DESCRIPTION:A light-hearted presentation about many aspects of particle a
  ccelerators like the LHC and their particle collision experiments. Aimed

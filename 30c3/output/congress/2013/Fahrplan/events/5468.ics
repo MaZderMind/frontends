@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T123000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T113000
-DTSTAMP;VALUE=DATE-TIME:20131129T185851Z
+DTSTAMP;VALUE=DATE-TIME:20131229T001717Z
 UID:iG5wn8T9LzGJFpnHZBjVwg@frab.cccv.de
 DESCRIPTION:An abundant number of existential risks threatens humanity. M
  any of those planetary by nature. Current science already enables us to 

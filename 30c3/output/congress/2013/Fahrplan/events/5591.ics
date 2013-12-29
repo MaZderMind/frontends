@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T201000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T183000
-DTSTAMP;VALUE=DATE-TIME:20131220T161530Z
+DTSTAMP;VALUE=DATE-TIME:20131229T130700Z
 UID:x4qxBOnhmQ17ypFMhLcdaA@frab.cccv.de
 DESCRIPTION: Wer ist eigentlich dieser "Verfassungsschutz"\, was tut er u
  nd brauchen wir ihn überhaupt? Laut Angaben des Verfassungsschutzes bea

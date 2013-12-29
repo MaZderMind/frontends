@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T193000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T183000
-DTSTAMP;VALUE=DATE-TIME:20131215T215752Z
+DTSTAMP;VALUE=DATE-TIME:20131228T214939Z
 UID:QszoY6oJD6rpkbsTRQinRA@frab.cccv.de
 DESCRIPTION:A commodity laptop is analyzed to identify exposed attack sur
  faces and is then secured on both the hardware and the firmware level ag

@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:20131027T030000
+RDATE:20131027T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T010000
+DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T000000
+DTSTAMP;VALUE=DATE-TIME:20131228T155436Z
+UID:MYZrnAH0-qE1fLeB32DOkw@frab.cccv.de
+DESCRIPTION:Im Format einer lockeren Abendshow werden wir die Highlights 
+ des Jahres präsentieren\, die Meldungen zwischen den Meldungen\, die su
+ btilen Sensationen hinter den Schlagzeilen. Kommen Sie\, hören Sie\, se
+ hen Sie! Lassen Sie sich mitreißen!
+URL:https://events.ccc.de/congress/2013/Fahrplan/events/5714.html
+SUMMARY:Fnord News Show
+ORGANIZER:30C3
+LOCATION:Saal 2
+END:VEVENT
+END:VCALENDAR

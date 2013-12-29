@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T181500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T171500
-DTSTAMP;VALUE=DATE-TIME:20131222T231614Z
+DTSTAMP;VALUE=DATE-TIME:20131228T204236Z
 UID:rSMcCR_40Gu8XhIBpMapxQ@frab.cccv.de
 DESCRIPTION:The aim of this talk is to give an understandable insight int
  o wireless communication\, using existing systems as examples on why the

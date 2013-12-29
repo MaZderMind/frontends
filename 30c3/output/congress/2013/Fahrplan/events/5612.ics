@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T170000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T160000
-DTSTAMP;VALUE=DATE-TIME:20131223T184744Z
+DTSTAMP;VALUE=DATE-TIME:20131229T124608Z
 UID:2L0wf-R-_u7OqqZHmZyILg@frab.cccv.de
 DESCRIPTION:Seit Monaten hält uns die NS-Affäre in Atem. Immer neue Abh
  örmaßnahmen und geheimdienstliche Praktiken werden enthüllt. Ein giga

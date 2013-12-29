@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T000000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T230000
-DTSTAMP;VALUE=DATE-TIME:20131128T161409Z
+DTSTAMP;VALUE=DATE-TIME:20131228T203844Z
 UID:wJ8usABBu6mJXRNpmhr_SQ@frab.cccv.de
 DESCRIPTION:HbbTV (Hybrid broadband broadcast TV) is an emerging standard
   that is implemented in a growing number of smart TV devices. The idea i

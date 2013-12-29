@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T010000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T000000
-DTSTAMP;VALUE=DATE-TIME:20131207T121557Z
+DTSTAMP;VALUE=DATE-TIME:20131228T143017Z
 UID:SQ8Tgi8YgRRsHy76BWIJ3A@frab.cccv.de
 DESCRIPTION:Im Format einer lockeren Abendshow werden wir die Highlights 
  des Jahres präsentieren\, die Meldungen zwischen den Meldungen\, die su

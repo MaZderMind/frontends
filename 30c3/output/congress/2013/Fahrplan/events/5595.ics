@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T150000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T143000
-DTSTAMP;VALUE=DATE-TIME:20131210T204143Z
+DTSTAMP;VALUE=DATE-TIME:20131229T085708Z
 UID:T9YItdVO2WSP8VbAczAqjQ@frab.cccv.de
 DESCRIPTION:The <a href="http://www.arduguitar.org">ArduGuitar</a> is an 
  electric guitar with <i>no physical controls\,</i> i.e. no buttons or kn

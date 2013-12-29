@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T134500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T124500
-DTSTAMP;VALUE=DATE-TIME:20131202T171140Z
+DTSTAMP;VALUE=DATE-TIME:20131229T102442Z
 UID:hWph2wdjII5XK6nCL_1kWA@frab.cccv.de
 DESCRIPTION:Side-channel analysis (SCA) and related methods exploit physi
  cal characteristics of a (cryptographic) implementations to bypass secur

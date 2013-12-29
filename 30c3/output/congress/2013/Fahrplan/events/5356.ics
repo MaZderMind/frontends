@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T000000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T230000
-DTSTAMP;VALUE=DATE-TIME:20131130T204915Z
+DTSTAMP;VALUE=DATE-TIME:20131228T222622Z
 UID:Veo2ucE-l2cA-V-EaA_ckA@frab.cccv.de
 DESCRIPTION:We present a collection of techniques which aim to automagica
  lly remove significant (and unnecessary) portions of firmware binaries f

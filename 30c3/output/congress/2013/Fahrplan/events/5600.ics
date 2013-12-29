@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T134500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131230T124500
-DTSTAMP;VALUE=DATE-TIME:20131202T165720Z
+DTSTAMP;VALUE=DATE-TIME:20131229T115906Z
 UID:ZYk9lubJJBkqDWJBOZpWyw@frab.cccv.de
 DESCRIPTION: 	Increasingly\, users and their computing hardware are expos
  ed a range of software and hardware attacks\, ranging from disk imaging 
@@ -31,9 +31,10 @@ DESCRIPTION: 	Increasingly\, users and their computing hardware are expos
   protect arbitrary hardware from many forms of covert modification and a
  ttack\, and which when integrated with software\, firmware\, and policy 
  defenses\, can provide greater protection to users and limit potential a
- ttack surface.
+ ttack surface. We'll also be showing video of an unreleased tool to the 
+ public utilized by surveillance teams.
 URL:https://events.ccc.de/congress/2013/Fahrplan/events/5600.html
-SUMMARY:Thwarting the Evil Maid Attacks
+SUMMARY:Thwarting Evil Maid Attacks
 ORGANIZER:30C3
 LOCATION:Saal 1
 END:VEVENT

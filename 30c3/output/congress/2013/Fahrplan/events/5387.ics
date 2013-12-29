@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T213000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T203000
-DTSTAMP;VALUE=DATE-TIME:20131213T072708Z
+DTSTAMP;VALUE=DATE-TIME:20131228T210936Z
 UID:O-7g6jlu6DmenVdxO6t2Mg@frab.cccv.de
 DESCRIPTION:The talk gives an overview about our work of quantifying know
  ledge acquisition tasks in real-life environments\, focusing on reading.

@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T123000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131229T113000
-DTSTAMP;VALUE=DATE-TIME:20131211T012356Z
+DTSTAMP;VALUE=DATE-TIME:20131229T114409Z
 UID:DaPb3a3Rv9sG109k4ZBWEw@frab.cccv.de
 DESCRIPTION:Making a new control system for a machine is often a slow and
   tedious task. Maybe you already have a 3 axis stage\, and you already k

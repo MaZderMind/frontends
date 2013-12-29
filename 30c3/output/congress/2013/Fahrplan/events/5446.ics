@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T223000
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131228T220000
-DTSTAMP;VALUE=DATE-TIME:20131130T205322Z
+DTSTAMP;VALUE=DATE-TIME:20131228T230332Z
 UID:n-OE9MQoWcUq2LFZB2e6DQ@frab.cccv.de
 DESCRIPTION:Companies are often blamed for not working upstream. Surprisi
  ngly\, the situation is not per se better with community projects. To ch

@@ -15,7 +15,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTEND;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T224500
 DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME:20131227T214500
-DTSTAMP;VALUE=DATE-TIME:20131224T220114Z
+DTSTAMP;VALUE=DATE-TIME:20131228T230645Z
 UID:wGEf2KpP3_UU4Qm0vrtz1g@frab.cccv.de
 DESCRIPTION:The use of encryption to secure sensitive data from unauthori
  zed eyes is as old as human communication itself. Before the relatively 
