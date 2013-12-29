@@ -27,7 +27,21 @@ Saal 6 Live
 </div>
 </div>
 <div id="content">
-<img height="360" id="slide" src="http://slides.streaming.media.ccc.de/slides/saal6/current.jpg" width="640"><audio autoplay="autoplay" controls="controls" id="saal6_" preload="auto" width="640"><source src="http://audio.streaming.media.ccc.de:8000/saal6_native.mp3" type="audio/mp3"></source><source src="http://audio.streaming.media.ccc.de:8000/saal6_native.opus" type="audio/opus"></source></audio><span id="player-mode"></span>
+<img height="360" id="slide" src="http://slides.streaming.media.ccc.de/slides/saal6/current.jpg" width="640"><audio autoplay="autoplay" controls="controls" id="saal6_" preload="auto" width="640"><source src="http://audio.streaming.media.ccc.de:8000/saal6_native.mp3" type="audio/mp3"></source><source src="http://audio.streaming.media.ccc.de:8000/saal6_native.opus" type="audio/opus"></source></audio><div id="chooser">
+<span id="language">
+Language ▼
+<ul>
+<li>
+<span class="selected">
+►native
+</span>
+</li>
+<li>
+<a href="../../translated/slides/">translated</a>
+</li>
+</ul></span>
+</div>
+<span id="player-mode"></span>
 <script type="text/javascript">
   //<![CDATA[
     $('audio').mediaelementplayer({
@@ -35,6 +49,7 @@ Saal 6 Live
       enableAutosize: false,
       pauseOtherPlayers: false,
     });
+    $("#chooser").appendTo(".mejs-controls");
     
     function updateSlide() {
       $("#slide").attr("src", $('#slide').attr("src"));

@@ -1,5 +1,7 @@
 - @saal   = @item[:room].gsub(' ', '').downcase
 - @lang   = "_#{@item[:lang]}" if @item[:lang]
+- @langs  = ['native', 'translated']
+- @sellang   = @item[:lang]
 
 %img{ id: "slide", src: "http://slides.streaming.media.ccc.de/slides/#{@saal}/current.jpg", width: 640, height: 360 }
 
@@ -7,6 +9,17 @@
   %source{ src: "http://audio.streaming.media.ccc.de:8000/#{@saal}#{@lang}.mp3", type: "audio/mp3"}
   %source{ src: "http://audio.streaming.media.ccc.de:8000/#{@saal}#{@lang}.opus", type: "audio/opus"}
 
+%div{ id: "chooser" }
+  %span{ id: "language" }
+    Language &#9660;
+    %ul
+      - @langs.each do | l |
+        %li
+          - if l == @sellang
+            %span{ class: "selected" }
+              &#9658;#{l}
+          - else
+            %a{ :href => "/#{@saal}/#{l}/slides/" } #{l}
 %span{ id: "player-mode" }
 
 :javascript
@@ -15,6 +28,7 @@
     enableAutosize: false,
     pauseOtherPlayers: false,
   });
+  $("#chooser").appendTo(".mejs-controls");
 
   function updateSlide() {
     $("#slide").attr("src", $('#slide').attr("src"));

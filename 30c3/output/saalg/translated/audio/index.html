@@ -27,7 +27,21 @@ Saal G Live
 </div>
 </div>
 <div id="content">
-<audio autoplay="autoplay" controls="controls" id="saalg_audio" preload="auto" width="640"><source src="http://audio.streaming.media.ccc.de:8000/saalg_translated.mp3" type="audio/mp3"></source><source src="http://audio.streaming.media.ccc.de:8000/saalg_translated.opus" type="audio/ogg"></source></audio><span id="player-mode"></span>
+<audio autoplay="autoplay" controls="controls" id="saalg_audio" preload="auto" width="640"><source src="http://audio.streaming.media.ccc.de:8000/saalg_translated.mp3" type="audio/mp3"></source><source src="http://audio.streaming.media.ccc.de:8000/saalg_translated.opus" type="audio/ogg"></source></audio><div id="chooser">
+<span id="language">
+Language ▼
+<ul>
+<li>
+<a href="../../native/audio/">native</a>
+</li>
+<li>
+<span class="selected">
+►translated
+</span>
+</li>
+</ul></span>
+</div>
+<span id="player-mode"></span>
 <script type="text/javascript">
   //<![CDATA[
     $('audio').mediaelementplayer({
@@ -35,6 +49,10 @@ Saal G Live
       enableAutosize: false,
       pauseOtherPlayers: false,
     });
+  //]]>
+</script><script type="text/javascript">
+  //<![CDATA[
+    $("#chooser").appendTo(".mejs-controls");
   //]]>
 </script>
 </div>

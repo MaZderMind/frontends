@@ -27,7 +27,21 @@ Saal 1 Live
 </div>
 </div>
 <div id="content">
-<audio autoplay="autoplay" controls="controls" id="saal1_audio" preload="auto" width="640"><source src="http://audio.streaming.media.ccc.de:8000/saal1_native.mp3" type="audio/mp3"></source><source src="http://audio.streaming.media.ccc.de:8000/saal1_native.opus" type="audio/ogg"></source></audio><span id="player-mode"></span>
+<audio autoplay="autoplay" controls="controls" id="saal1_audio" preload="auto" width="640"><source src="http://audio.streaming.media.ccc.de:8000/saal1_native.mp3" type="audio/mp3"></source><source src="http://audio.streaming.media.ccc.de:8000/saal1_native.opus" type="audio/ogg"></source></audio><div id="chooser">
+<span id="language">
+Language ▼
+<ul>
+<li>
+<span class="selected">
+►native
+</span>
+</li>
+<li>
+<a href="../../translated/audio/">translated</a>
+</li>
+</ul></span>
+</div>
+<span id="player-mode"></span>
 <script type="text/javascript">
   //<![CDATA[
     $('audio').mediaelementplayer({
@@ -35,6 +49,10 @@ Saal 1 Live
       enableAutosize: false,
       pauseOtherPlayers: false,
     });
+  //]]>
+</script><script type="text/javascript">
+  //<![CDATA[
+    $("#chooser").appendTo(".mejs-controls");
   //]]>
 </script>
 </div>

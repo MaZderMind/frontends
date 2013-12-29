@@ -1,6 +1,9 @@
 - @saal   = @item[:room].gsub(' ', '').downcase
 - @format = @item[:format].downcase
 - @lang   = "_#{@item[:lang]}" if @item[:lang]
+- @langs  = ['native', 'translated']
+
+- @sellang   = @item[:lang]
 
 %audio{ id: "#{@saal}_#{@format}", controls: true, preload: 'auto', width: "640", autoplay: true }
   - if @format == "audio"
@@ -9,6 +12,18 @@
   - else
     %source{ src: "http://audio.streaming.media.ccc.de:8000/#{@saal}#{@lang}.#{@format}", type: "audio/#{@format}"}
 
+- if @item[:room] != 'Lounge'
+  %div{ id: "chooser" }
+    %span{ id: "language" }
+      Language &#9660;
+      %ul
+        - @langs.each do | l |
+          %li
+            - if l == @sellang
+              %span{ class: "selected" }
+                &#9658;#{l}
+            - else
+              %a{ :href => "/#{@saal}/#{l}/audio/" } #{l}
 %span{ id: "player-mode" }
 
 :javascript
@@ -17,4 +32,8 @@
     enableAutosize: false,
     pauseOtherPlayers: false,
   });
+- if @item[:room] != 'Lounge' && @item[:room] != 'Ambient'
+  :javascript
+    $("#chooser").appendTo(".mejs-controls");
+
 
