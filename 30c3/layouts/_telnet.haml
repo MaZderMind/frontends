@@ -1,0 +1,23 @@
+#flash
+%div{ style: "background-color: black;color: #ccc;font-size:0.9em;padding:2px;text-align:center;"}
+  telnet ascii.streaming.media.ccc.de 23
+  %span{ style: "color: #666;" } # use 1,2,g,6 & l,h,f to switch hall and quality (preferable in real terminal))
+  %ul
+    %li f - Full HD (320x96))
+    %li h - Full HD (160x48))
+    %li l - Full HD ( 80x24))
+    %li l - Full HD ( 60x23))
+%script{ type: "text/javascript", src: "/js/swfobject.js" }
+:javascript
+  var flashvars = {};
+  flashvars.settings = "/static/settings.xml";
+  var params = {};
+  params.menu = "false";
+  params.bgcolor = "000000";
+  swfobject.embedSWF("/static/flashterm.swf", "flash", "640", "440", "9.0.115", "/static/expressInstall.swf", flashvars, params, {});
+
+  function setFocusOnFlash() {
+    var fl = document.getElementById("flash");
+    fl.focus();
+  }
+  swfobject.addLoadEvent(setFocusOnFlash);
