@@ -27,7 +27,7 @@ Saal 1 Live
 </div>
 </div>
 <div id="content">
-<video autoplay="autoplay" controls="controls" height="360" id="video-tag" preload="auto" width="640"><source data-plugin-type="flash" src="rtmp://rtmp-hd.streaming.media.ccc.de:1935/stream/saal1_native_hd" title="H264 (RTMP)" type="video/rtmp"></source><source data-plugin-type="native" src="http://hls-hd.streaming.media.ccc.de/hls/saal1_native_hd/index.m3u8" title="H264 (HLS)" type="application/vnd.apple.mpegURL"></source><object data="../../../static/flashmediaelement.swf" height="360" type="application/x-shockwave-flash" width="640">
+<video autoplay="autoplay" controls="controls" height="405" id="video-tag" preload="auto" width="720"><source data-plugin-type="flash" src="rtmp://rtmp-hd.streaming.media.ccc.de:1935/stream/saal1_native_hd" title="H264 (RTMP)" type="video/rtmp"></source><source data-plugin-type="native" src="http://hls-hd.streaming.media.ccc.de/hls/saal1_native_hd/index.m3u8" title="H264 (HLS)" type="application/vnd.apple.mpegURL"></source><object data="../../../static/flashmediaelement.swf" height="405" type="application/x-shockwave-flash" width="720">
 <param name="allowFullScreen" value="true"></object>
 </video><div id="chooser">
 <span id="quality">
@@ -73,9 +73,11 @@ Language ▼
       });
     $("#chooser").appendTo(".mejs-controls");
   //]]>
-</script>
-</div>
-<div class="clearfix" id="footer">
+</script><script type="text/javascript">
+  //<![CDATA[
+    $("#container").css('max-width', "720px");
+  //]]>
+</script><div class="clearfix" id="footer">
 <div class="links">
 <a href="http://streaming.media.ccc.de/wiki/">Wiki-Mirror</a>
 |
@@ -93,6 +95,7 @@ Language ▼
 <img alt="Forschungsgemeinschaft elektronische Medien" src="../../../img/fem_logo.svg"></a>
 </div>
 <br class="clearfix">
+</div>
 </div>
 </div>
 </div>

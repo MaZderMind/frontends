@@ -1,9 +1,11 @@
 $sidewidth: 640px;
 
+/*
 @font-face {
   font-family: RamseyBook;
   src: url("/static/ramsey-book.otf") format("opentype");
 }
+*/
 
 * {
   margin-left: 0;
@@ -90,7 +92,7 @@ body {
       dl {
         float: left;
         width: 40%;
-        min-width: 300px;
+        min-width: ($sidewidth - 40)/2;
         height: 100px;
         margin-top: 5px;
         margin-bottom: 15px;
@@ -151,7 +153,6 @@ body {
     .logos {
       float: right;
       display: inline;
-      height: 30px;
 
       padding-top: 5px;
 

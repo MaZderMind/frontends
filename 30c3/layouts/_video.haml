@@ -5,7 +5,14 @@
 - @lang      = @item[:lang]
 - @hdpost    = "-hd" if @quality == "hd"
 
-%video{ id: "video-tag", width: '640', height: '360', controls: true, preload: 'auto', autoplay: true }
+- if @quality == "hd"
+  - @vidwidth  = "720"
+  - @vidheight = "405"
+- else
+  - @vidwidth  = "640"
+  - @vidheight = "360"
+
+%video{ id: "video-tag", width: "#{@vidwidth}", height: "#{@vidheight}", controls: true, preload: 'auto', autoplay: true }
   %source{ src: "rtmp://rtmp#{@hdpost}.streaming.media.ccc.de:1935/stream/#{@saal}_#{@lang}_#{@quality}", title: "H264 (RTMP)", type: "video/rtmp",
            :data => { "plugin-type" => "flash" } }
   %source{ src: "http://hls#{@hdpost}.streaming.media.ccc.de/hls/#{@saal}_#{@lang}_#{@quality}/index.m3u8", type: "application/vnd.apple.mpegURL",
@@ -13,7 +20,7 @@
   - if "hd" != @quality
     %source{ src: "http://webm.streaming.media.ccc.de:8000/#{@saal}_#{@lang}.webm", type: "video/ogg",
            title: "WebM", :data => { "plugin-type" => "native" } }
-  %object{ width: '640', height: '360', type: 'application/x-shockwave-flash', data: '/static/flashmediaelement.swf' }
+  %object{ width: "#{@vidwidth}", height: "#{@vidheight}", type: 'application/x-shockwave-flash', data: '/static/flashmediaelement.swf' }
     %param{ name: 'allowFullScreen', value: 'true' }
     -#%param{ name: 'movie', value: '/static/flashmediaelement.swf' }
     -#%param{ name: 'flashvars', value: "controls=true&file=http://151.217.25.2:1935/stream/#{@saal}_native_hd" }
@@ -55,4 +62,6 @@
       enableAutosize: true
     });
   $("#chooser").appendTo(".mejs-controls");
-
+- if @quality == "hd"
+  :javascript
+    $("#container").css('max-width', "720px");

@@ -1,7 +1,9 @@
+/*
 @font-face {
   font-family: RamseyBook;
-  src: url("/static/ramsey-book.otf") format("opentype"); }
-
+  src: url("/static/ramsey-book.otf") format("opentype");
+}
+*/
 * {
   margin-left: 0;
   margin-right: 0;
@@ -105,7 +107,6 @@ body {
     body #footer .logos {
       float: right;
       display: inline;
-      height: 30px;
       padding-top: 5px; }
       body #footer .logos .voc_logo {
         display: inline;
