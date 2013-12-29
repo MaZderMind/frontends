@@ -32,7 +32,7 @@ body {
       text-shadow: -3px 0 #0099AB, 0 3px #0099AB, 3px 0 #0099AB, 0 -3px #0099AB; }
   body #container {
     max-width: 640px;
-    min-width: 440px;
+    min-width: 300px;
     margin: 0px auto; }
   body #content {
     height: 100%; }
@@ -85,40 +85,41 @@ body {
   body #footer {
     /* background: rgba(0, 51, 57, 0.7); */
     background-color: rgba(0, 0, 0, 0.6);
-    height: 30px;
-    padding-top: 5px;
-    margin-bottom: 5px;
     margin-left: auto;
     padding-left: 10px;
     margin-right: auto;
+    margin-bottom: 5px;
     text-align: left;
     position: relative; }
     body #footer .links {
       display: inline;
-      position: relative; }
+      position: relative;
+      height: 30px;
+      padding-top: 5px; }
       body #footer .links a:link, body #footer .links a:hover, body #footer .links a:visited {
         font-family: RamseyBook, verdana, arial, helvetica, sans-serif;
         font-size: 23 -15px;
         color: #ffffff;
         text-decoration: none;
         text-shadow: -1px 0 #0099AB, 0 1px #0099AB, 1px 0 #0099AB, 0 -1px #0099AB; }
-    body #footer .voc_logo {
-      position: absolute;
-      display: inline;
+    body #footer .logos {
       float: right;
-      right: 125px; }
-      body #footer .voc_logo img {
-        width: 26px;
-        height: 20px; }
-    body #footer .fem_logo {
-      position: absolute;
       display: inline;
-      float: right;
-      right: 15px;
-      margin-left: 5px; }
-      body #footer .fem_logo img {
-        width: 95px;
-        height: 20px; }
+      height: 30px;
+      padding-top: 5px; }
+      body #footer .logos .voc_logo {
+        display: inline;
+        right: 125px; }
+        body #footer .logos .voc_logo img {
+          width: 26px;
+          height: 20px; }
+      body #footer .logos .fem_logo {
+        display: inline;
+        right: 15px;
+        margin-left: 5px; }
+        body #footer .logos .fem_logo img {
+          width: 95px;
+          height: 20px; }
   body .rocket {
     z-index: -1;
     position: fixed;

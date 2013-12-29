@@ -9,6 +9,7 @@
       = @item[:title]
 
     %meta{ charset: 'utf-8' }
+    %meta{ name: "viewport", content: "width=340"}
     %link{ href: '/css/style.css', type: 'text/css', rel: 'stylesheet' }
     %link{ href: '/css/mediaelementplayer.css', type: 'text/css', rel: 'stylesheet' }
 
@@ -27,14 +28,14 @@
 
         .headline
           - if @item[:room]
-            = "30C3: Streaming - #{@item[:room]}"
+            = "Streaming - #{@item[:room]}"
           -else
-            = "30C3: Streaming"
+            = "Streaming"
 
       #content
         = yield
 
-      #footer
+      #footer.clearfix
         .links
           %a{ href: 'http://streaming.media.ccc.de/wiki/' } Wiki-Mirror
           |
@@ -42,9 +43,11 @@
           |
           %a{ href: 'https://twitter.com/c3streaming' } Twitter
 
-        .voc_logo
-          %a{ href: 'http://ccc.de'}
-            %img{ src: '/img/voc_logo.svg', alt: 'CCC Video Operations Center'}
-        .fem_logo
-          %a{ href: 'http://fem.tu-ilmenau.de'}
-            %img{ src: '/img/fem_logo.svg', alt: 'Forschungsgemeinschaft elektronische Medien' }
+        .logos
+          .voc_logo
+            %a{ href: 'http://ccc.de'}
+              %img{ src: '/img/voc_logo.svg', alt: 'CCC Video Operations Center'}
+          .fem_logo
+            %a{ href: 'http://fem.tu-ilmenau.de'}
+              %img{ src: '/img/fem_logo.svg', alt: 'Forschungsgemeinschaft elektronische Medien' }
+          %br.clearfix

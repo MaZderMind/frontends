@@ -44,7 +44,7 @@ body {
 
   #container {
     max-width: $sidewidth;
-    min-width: 440px;
+    min-width: 300px;
     margin: 0px auto;
   }
 
@@ -123,14 +123,11 @@ body {
   #footer {
     /* background: rgba(0, 51, 57, 0.7); */
     background-color: rgba(0, 0, 0, 0.6);
-    height: 30px;
-
-    padding-top: 5px;
-    margin-bottom: 5px;
 
     margin-left: auto;
     padding-left: 10px;
     margin-right: auto;
+    margin-bottom: 5px;
     text-align: left;
     position:relative;
 
@@ -138,6 +135,9 @@ body {
     .links {
       display: inline;
       position: relative;
+      height: 30px;
+
+      padding-top: 5px;
 
       a:link, a:hover, a:visited {
         font-family: RamseyBook, verdana, arial, helvetica, sans-serif;
@@ -148,28 +148,33 @@ body {
       }
     }
 
-    .voc_logo {
-      position:absolute;
-      display: inline;
+    .logos {
       float: right;
-      right: 125px;
+      display: inline;
+      height: 30px;
 
-      img {
-        width: 26px;
-        height: 20px;
+      padding-top: 5px;
+
+
+      .voc_logo {
+        display: inline;
+        right: 125px;
+
+        img {
+          width: 26px;
+          height: 20px;
+        }
       }
-    }
 
-    .fem_logo {
-      position:absolute;
-      display: inline;
-      float: right;
-      right: 15px;
-      margin-left: 5px;
+      .fem_logo {
+        display: inline;
+        right: 15px;
+        margin-left: 5px;
 
-      img {
-        width: 95px;
-        height: 20px;
+        img {
+          width: 95px;
+          height: 20px;
+        }
       }
     }
   }
