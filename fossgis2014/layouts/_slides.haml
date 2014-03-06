@@ -1,0 +1,49 @@
+- @saal   = @item[:room].gsub(' ', '').downcase
+- @lang   = "_#{@item[:lang]}" if @item[:lang]
+- @langs  = ['native', 'translated']
+- @sellang   = @item[:lang]
+
+%img{ id: "slide", src: "http://slides.streaming.media.ccc.de/slides/#{@saal}/current.jpg", width: 640, height: 360 }
+
+%audio{ id: "#{@saal}_#{@format}", controls: true, preload: 'auto', width: 640, autoplay: true }
+  %source{ src: "http://audio.streaming.media.ccc.de:8000/#{@saal}#{@lang}.mp3", type: "audio/mp3"}
+  %source{ src: "http://audio.streaming.media.ccc.de:8000/#{@saal}#{@lang}.opus", type: "audio/opus"}
+
+%div{ id: "chooser" }
+  %span{ id: "language" }
+    Language &#9660;
+    %ul
+      - @langs.each do | l |
+        %li
+          - if l == @sellang
+            %span{ class: "selected" }
+              &#9658;#{l}
+          - else
+            %a{ :href => "/#{@saal}/#{l}/slides/" } #{l}
+%span{ id: "player-mode" }
+
+:javascript
+  $('audio').mediaelementplayer({
+    features: ['playpause','current','tracks','volume', 'formatchooser'],
+    enableAutosize: false,
+    pauseOtherPlayers: false,
+  });
+  $("#chooser").appendTo(".mejs-controls");
+
+  function updateSlide() {
+    var oldUrl =  $('#slide').attr("src")
+    // FF doesn't even _try_ to do any cache control, but uses internal caching
+    // Fixes appreciated, for now let's use this hopelessly inefficient hack to
+    // get it to work at all by subverting any cache control
+    if(navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
+      var pos = oldUrl.indexOf('?');
+      if (pos > -1) {
+        oldUrl = oldUrl.substring(0, pos);
+      }
+      $("#slide").attr("src", oldUrl + "?" + Math.random());
+    } else {
+      $("#slide").attr("src", oldUrl);
+    }
+    setTimeout(updateSlide, 2000);
+  }
+  setTimeout(updateSlide, 2000);
