@@ -89,7 +89,7 @@ body {
       margin-left: auto;
       margin-right: auto;
 
-      dl {
+      section {
         float: left;
         width: 40%;
         min-width: ($sidewidth - 40)/2;
@@ -99,25 +99,11 @@ body {
         padding-left: 15px;
       }
 
-      dd {
-        float: left;
-        width: 100px;
-        margin: 0;
-        padding: 0;
-      }
-
-      dd:after {
-        content: ':';
-      }
-
-      dt {
-        padding-right: 0px;
-
-        a:link, a:hover, a:visited {
-          font-family: verdana, arial, helvetica, sans-serif;
-          color: #0099AB;
-          text-decoration: none;
-        }
+      a:link, a:hover, a:visited {
+        font-family: verdana, arial, helvetica, sans-serif;
+        color: #0099AB;
+        text-decoration: none;
+        display: block;
       }
     }
   }
