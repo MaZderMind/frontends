@@ -6,8 +6,10 @@
   %head
     %title
       FOSSGIS 2014 -
-      = @item[:title]
-      = @item[:room]
+      - if @item[:room]
+        = "#{@item[:room]} " + "#{@item[:quality]}".upcase
+      -else
+        = "Streaming"
 
     %meta{ charset: 'utf-8' }
     %meta{ name: "viewport", content: "width=340"}
