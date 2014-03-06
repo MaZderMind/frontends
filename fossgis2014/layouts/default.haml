@@ -1,5 +1,5 @@
 !!! 5
-%html{ html_attrs('en') }
+%html{ html_attrs('de') }
   /
     Don't use the f*cking webplayer!!1!
 
@@ -9,7 +9,7 @@
       - if @item[:room]
         = "#{@item[:room]} " + "#{@item[:quality]}".upcase
       -else
-        = "Streaming"
+        = "Streams"
 
     %meta{ charset: 'utf-8' }
     %meta{ name: "viewport", content: "width=340"}
@@ -22,18 +22,19 @@
 
   %body
     #container
-      .rocket
 
-      #header
-        .logo
-          %a{ href: '/'}
-            %img{ src: '/img/logo.svg' }
+      %h1
+        FOSSGIS Konferenz 2014
+        .venue
+          Berlin
+        .date
+          19. - 21. März 2014
 
-        .headline
-          - if @item[:room]
-            = "#{@item[:room]} " + "#{@item[:quality]}".upcase
-          -else
-            = "Streaming"
+      %h2
+        - if @item[:room]
+          = "#{@item[:room]} " + "#{@item[:quality]}".upcase
+        -else
+          = "Übersicht der Streams"
 
       #content
         = yield
@@ -45,12 +46,3 @@
             %a{ href: 'http://streaming.media.ccc.de/congress/2013/Fahrplan/schedule.html' } Fahrplan-Mirror
             |
             %a{ href: 'https://twitter.com/c3streaming' } Twitter
-
-          .logos
-            .voc_logo
-              %a{ href: 'http://ccc.de'}
-                %img{ src: '/img/voc_logo.svg', alt: 'CCC Video Operations Center'}
-            .fem_logo
-              %a{ href: 'http://fem.tu-ilmenau.de'}
-                %img{ src: '/img/fem_logo.svg', alt: 'Forschungsgemeinschaft elektronische Medien' }
-            %br.clearfix
