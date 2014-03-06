@@ -4,65 +4,14 @@ title: Streaming
 
 .text.clearfix
 
-  %dl
-    %h2
-      %a{ href: "/saal1/"}
-        Saal 1
-    %dd Native
-    %dt
-      %a{ href: "/saal1/native/hd/"} HD
-      %a{ href: "/saal1/native/hq/"} HQ
-      %a{ href: "/saal1/native/lq/"} LQ
-      %a{ href: "/saal1/native/slides/"} Slides
-      %a{ href: "/saal1/native/audio/"} Audio 
-    %dd Translated
-    %dt
-      %a{ href: "/saal1/translated/hd/"} HD
-      %a{ href: "/saal1/translated/hq/"} HQ
-      %a{ href: "/saal1/translated/lq/"} LQ
-      %a{ href: "/saal1/translated/slides/"} Slides
-      %a{ href: "/saal1/translated/audio/"} Audio 
-
-  - ["Saal 2", "Saal G", "Saal 6"].each do |room|
+  - ["Meising Saal", "Saal H1", "Saal H2", "Saal H3"].each do |room|
     - @roomslug = room.delete(" ").downcase
-    %dl
+    %section
       %h2
         %a{ href: "/#{@roomslug}/"}
           #{room}
 
-      %dd Native
-      %dt
-        %a{ href: "#{@roomslug}/native/hq/"} HQ
-        %a{ href: "#{@roomslug}/native/lq/"} LQ
-        %a{ href: "#{@roomslug}/native/slides/"} Slides
-        %a{ href: "#{@roomslug}/native/audio/"} Audio 
-      %dd Translated
-      %dt
-        %a{ href: "#{@roomslug}/translated/hq/"} HQ
-        %a{ href: "#{@roomslug}/translated/lq/"} LQ
-        %a{ href: "#{@roomslug}/translated/slides/"} Slides
-        %a{ href: "#{@roomslug}/translated/audio/"} Audio 
-    
-  %dl
-    %h2
-      %a{ href: "/lounge/" } Live DJ Sets
-    %dd Lounge
-    %dt
-      %a{ href: "/lounge/"} Vorbis
-    %dd Ambient
-    %dt
-      %a{ href: "/ambient/"} MP3
-
-  %dl
-    %h2
-      %a{ href: "/telnet/" } Misc
-    %dd Telnet
-    %dt
-      %a{ href: "/telnet/"} ASCii
-  -#%dl
-    -# %h2
-      -#%a{ href: "/cat/" } Cat Content
-    -#%dd Winkekatze
-    -#%dt
-    -#  %a{ href: "/lounge/"} HQ Stream
-
+      %a{ href: "#{@roomslug}/hq/"} HQ
+      %a{ href: "#{@roomslug}/lq/"} LQ
+      %a{ href: "#{@roomslug}/slides/"} Slides
+      %a{ href: "#{@roomslug}/audio/"} Audio 
