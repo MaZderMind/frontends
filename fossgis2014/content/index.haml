@@ -1,13 +1,11 @@
-.text.clearfix
+- ["Meising Saal", "Saal H1", "Saal H2", "Saal H3"].each do |room|
+  - @roomslug = room.tr(" ", "-").downcase
+  %section
+    %h3
+      %a{ href: "/#{@roomslug}/"}
+        #{room}
 
-  - ["Meising Saal", "Saal H1", "Saal H2", "Saal H3"].each do |room|
-    - @roomslug = room.tr(" ", "-").downcase
-    %section
-      %h2
-        %a{ href: "/#{@roomslug}/"}
-          #{room}
-
-      %a{ href: "#{@roomslug}/hq/"} HQ
-      %a{ href: "#{@roomslug}/lq/"} LQ
-      %a{ href: "#{@roomslug}/slides/"} Slides
-      %a{ href: "#{@roomslug}/audio/"} Audio 
+    %a{ href: "#{@roomslug}/hq/"} HQ
+    %a{ href: "#{@roomslug}/lq/"} LQ
+    %a{ href: "#{@roomslug}/slides/"} Slides
+    %a{ href: "#{@roomslug}/audio/"} Audio 

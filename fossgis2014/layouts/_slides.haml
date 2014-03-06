@@ -1,38 +1,52 @@
-- @saal   = @item[:room].gsub(' ', '').downcase
-- @lang   = "_#{@item[:lang]}" if @item[:lang]
+- @saal      = @item[:room].gsub(' ', '').downcase
+- @lang      = "native"
 - @sellang   = @item[:lang]
+- @imgwidth  = "640"
+- @imgheight = "360"
 
-%img{ id: "slide", src: "http://slides.streaming.media.ccc.de/slides/#{@saal}/current.jpg", width: 640, height: 360 }
+.player.slides{ style: "width: #{@imgwidth}px" }
+  %img{ id: "slide", src: "http://slides.streaming.media.ccc.de/slides/#{@saal}/current.jpg", width: @imgwidth, height: @imgheight }
 
-%audio{ id: "#{@saal}_#{@format}", controls: true, preload: 'auto', width: 640, autoplay: true }
-  %source{ src: "http://audio.streaming.media.ccc.de:8000/#{@saal}#{@lang}.mp3", type: "audio/mp3"}
-  %source{ src: "http://audio.streaming.media.ccc.de:8000/#{@saal}#{@lang}.opus", type: "audio/opus"}
+  %audio{ id: "#{@saal}_#{@format}", controls: true, preload: 'auto', width: 640, autoplay: true }
+    %source{ src: "http://audio.streaming.media.ccc.de:8000/#{@saal}_#{@lang}.mp3", type: "audio/mp3"}
+    %source{ src: "http://audio.streaming.media.ccc.de:8000/#{@saal}_#{@lang}.opus", type: "audio/opus"}
 
-%div{ id: "chooser" }
-%span{ id: "player-mode" }
+  %div{ id: "chooser" }
+    %span{ id: "url" }
+      %a{ href: "#", onclick: "$('#URLS').css('display', 'block');$('#url').css('display', 'none'); return false;"} show URLs
 
-:javascript
-  $('audio').mediaelementplayer({
-    features: ['playpause','current','tracks','volume', 'formatchooser'],
-    enableAutosize: false,
-    pauseOtherPlayers: false,
-  });
-  $("#chooser").appendTo(".mejs-controls");
+  %ul{ id: "URLS", style: "display: none" }
+    %li
+      %label{for: "mp3"} MP3:
+      %input#mp3{ value: "http://audio.streaming.media.ccc.de:8000/#{@saal}_#{@lang}.mp3" }
+    %li
+      %label{for: "opus"} OPUS:
+      %input#hls{ value: "http://audio.streaming.media.ccc.de:8000/#{@saal}_#{@lang}.opus" }
 
-  function updateSlide() {
-    var oldUrl =  $('#slide').attr("src")
-    // FF doesn't even _try_ to do any cache control, but uses internal caching
-    // Fixes appreciated, for now let's use this hopelessly inefficient hack to
-    // get it to work at all by subverting any cache control
-    if(navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
-      var pos = oldUrl.indexOf('?');
-      if (pos > -1) {
-        oldUrl = oldUrl.substring(0, pos);
+  %span{ id: "player-mode" }
+
+  :javascript
+    $('audio').mediaelementplayer({
+      features: ['playpause','current','tracks','volume', 'formatchooser'],
+      enableAutosize: false,
+      pauseOtherPlayers: false,
+    });
+    $("#chooser").appendTo(".mejs-controls");
+
+    function updateSlide() {
+      var oldUrl =  $('#slide').attr("src")
+      // FF doesn't even _try_ to do any cache control, but uses internal caching
+      // Fixes appreciated, for now let's use this hopelessly inefficient hack to
+      // get it to work at all by subverting any cache control
+      if(navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
+        var pos = oldUrl.indexOf('?');
+        if (pos > -1) {
+          oldUrl = oldUrl.substring(0, pos);
+        }
+        $("#slide").attr("src", oldUrl + "?" + Math.random());
+      } else {
+        $("#slide").attr("src", oldUrl);
       }
-      $("#slide").attr("src", oldUrl + "?" + Math.random());
-    } else {
-      $("#slide").attr("src", oldUrl);
+      setTimeout(updateSlide, 2000);
     }
     setTimeout(updateSlide, 2000);
-  }
-  setTimeout(updateSlide, 2000);
