@@ -1,8 +1,7 @@
 - @saal      = @item[:room].gsub(' ', '').downcase
 - @qualities = @item[:qualities]
 - @quality   = @item[:quality]
-- @langs     = @item[:langs]
-- @lang      = @item[:lang]
+- @lang      = 'native'
 - @hdpost    = "-hd" if @quality == "hd"
 
 - if @quality == "hd"
@@ -38,18 +37,8 @@
             %span{ class: "selected" }
               &#9658;#{q.upcase}
           - else
-            %a{ :href => "/#{@saal}/#{@lang}/#{q}/" } #{q.upcase}
+            %a{ :href => "/#{@saal}/#{q}/" } #{q.upcase}
 
-  %span{ id: "language" }
-    Language &#9660;
-    %ul
-      - @langs.each do | l |
-        %li
-          - if l == @lang
-            %span{ class: "selected" }
-              &#9658;#{l}
-          - else
-            %a{ :href => "/#{@saal}/#{l}/#{@quality}/" } #{l}
 %ul{ id: "URLS", style: "display: none" }
   %li
     %label{for: "rtmp"} RTMP:

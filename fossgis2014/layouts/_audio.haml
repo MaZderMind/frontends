@@ -1,7 +1,6 @@
 - @saal   = @item[:room].gsub(' ', '').downcase
 - @format = @item[:format].downcase
-- @lang   = "_#{@item[:lang]}" if @item[:lang]
-- @langs  = ['native', 'translated']
+- @lang   = 'native'
 
 - @sellang   = @item[:lang]
 
@@ -12,18 +11,18 @@
   - else
     %source{ src: "http://audio.streaming.media.ccc.de:8000/#{@saal}#{@lang}.#{@format}", type: "audio/#{@format}"}
 
-- if @item[:room] != 'Lounge' && @item[:room] != 'Ambient'
-  %div{ id: "chooser" }
-    %span{ id: "language" }
-      Language &#9660;
-      %ul
-        - @langs.each do | l |
-          %li
-            - if l == @sellang
-              %span{ class: "selected" }
-                &#9658;#{l}
-            - else
-              %a{ :href => "/#{@saal}/#{l}/audio/" } #{l}
+%div{ id: "chooser" }
+  %span{ id: "url" }
+    %a{ href: "#", onclick: "$('#URLS').css('display', 'block');$('#url').css('display', 'none'); return false;"} show URLs
+
+%ul{ id: "URLS", style: "display: none" }
+  %li
+    %label{for: "mp3"} MP3:
+    %input#mp3{ value: "http://audio.streaming.media.ccc.de:8000/#{@saal}#{@lang}.mp3" }
+  %li
+    %label{for: "opus"} OPUS:
+    %input#hls{ value: "http://audio.streaming.media.ccc.de:8000/#{@saal}#{@lang}.opus" }
+
 %span{ id: "player-mode" }
 
 :javascript
