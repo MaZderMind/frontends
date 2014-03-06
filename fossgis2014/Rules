@@ -37,9 +37,10 @@ compile '*' do
   unless item.binary?
     case item[:extension]
       when 'css'
-        nil
+        filter :relativize_paths, :type => :css
       when 'scss'
         filter :sass, syntax: :scss
+        filter :relativize_paths, :type => :css
       when 'haml'
         filter :haml, { :ugly => true, autoclose: ['<source>'], format: :xhtml }
         layout 'default'
