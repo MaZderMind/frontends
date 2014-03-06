@@ -1,11 +1,7 @@
----
-title: Streaming
----
-
 .text.clearfix
 
   - ["Meising Saal", "Saal H1", "Saal H2", "Saal H3"].each do |room|
-    - @roomslug = room.delete(" ").downcase
+    - @roomslug = room.tr(" ", "-").downcase
     %section
       %h2
         %a{ href: "/#{@roomslug}/"}
