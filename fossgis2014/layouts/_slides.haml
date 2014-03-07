@@ -4,7 +4,7 @@
 - @imgwidth  = "640"
 - @imgheight = "360"
 
-.player.slides{ style: "width: #{@imgwidth}px" }
+.player.slides{ style: "max-width: #{@imgwidth}px" }
   %img{ id: "slide", src: "http://slides.streaming.media.ccc.de/slides/#{@saal}/current.jpg", width: @imgwidth, height: @imgheight }
 
   %audio{ id: "#{@saal}_#{@format}", controls: true, preload: 'auto', width: 640, autoplay: true }

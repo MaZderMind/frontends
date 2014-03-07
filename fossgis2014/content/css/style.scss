@@ -1,6 +1,6 @@
 $sidewidth: 900px;
-$break-phone: 600px;
-$break-tablet: 750px;
+$break-phone: 768px;
+$break-tablet: 992px;
 
 * {
   margin: 0;
@@ -32,8 +32,19 @@ h1 {
   color: rgba(123,145,153,0.1);
   min-height: 250px;
 
-  @media screen and (max-width: $break-tablet) {
+  @media screen and (max-width: $break-phone) {
+    font-size: 1.9em;
+    letter-spacing: -3px;
+    line-height: 0.85;
+
+    background-size: 140px;
+    min-height: 140px;
+    padding-left: 145px;
+  }
+
+  @media screen and (min-width: $break-phone) and (max-width: $break-tablet) {
     font-size: 3.5em;
+
     background-size: 150px;
     min-height: 150px;
     padding-left: 155px;
@@ -44,6 +55,10 @@ h1 {
     margin-top: -15px;
     margin-left: 35 px;
     letter-spacing: -6px;
+
+    @media screen and (max-width: $break-phone) {
+      letter-spacing: -3px;
+    }
     
     text-shadow: 1px 1px 3px #DDD;
     filter: dropshadow(color=#DDD, offx=1, offy=1);
@@ -139,6 +154,22 @@ article {
 
   .player {
     margin: 0 auto 40px auto;
+
+    /* enforce mobile scaling */
+    @media screen and (max-width: $break-phone) {
+      .mejs-container,
+      .mejs-layer,
+      video { width: 100% !important; }
+
+      .mejs-overlay-loading {
+        display: none;
+      }
+
+      &.slides > img {
+        width: 100% !important;
+        height: auto !important;
+      }
+    }
   }
 }
 

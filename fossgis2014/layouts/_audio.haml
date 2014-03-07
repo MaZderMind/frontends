@@ -4,7 +4,7 @@
 - @sellang   = @item[:lang]
 - @playwidth = "640"
   
-.player.audio{ style: "width: #{@playwidth}px" }
+.player.audio{ style: "max-width: #{@playwidth}px" }
   %audio{ id: "#{@saal}_#{@format}", controls: true, preload: 'auto', width: @playwidth, autoplay: true }
     - if @format == "audio"
       %source{ src: "http://audio.streaming.media.ccc.de:8000/#{@saal}_#{@lang}.mp3", type: "audio/mp3"}
