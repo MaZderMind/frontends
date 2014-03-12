@@ -13,6 +13,9 @@
 #   item, use the pattern “/about/*/”; “/about/*” will also select the parent,
 #   because “*” matches zero or more characters.
 
+require 'compass'
+Compass.add_project_configuration 'lib/compass.rb'
+
 compile '/css/' do
   # don’t filter or layout
 end
@@ -39,7 +42,7 @@ compile '*' do
       when 'css'
         filter :relativize_paths, :type => :css
       when 'scss'
-        filter :sass, syntax: :scss
+        filter :sass, Compass.sass_engine_options
         filter :relativize_paths, :type => :css
       when 'haml'
         filter :haml, { :ugly => true, autoclose: ['<source>'], format: :xhtml }

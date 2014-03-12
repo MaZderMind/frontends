@@ -1,3 +1,5 @@
+@import "compass";
+
 $sidewidth: 900px;
 $break-phone: 768px;
 $break-tablet: 992px;
@@ -37,7 +39,7 @@ h1 {
     letter-spacing: -3px;
     line-height: 0.85;
 
-    background-size: 140px;
+    @include background-size(140px);
     min-height: 140px;
     padding-left: 145px;
   }
@@ -45,7 +47,7 @@ h1 {
   @media screen and (min-width: $break-phone) and (max-width: $break-tablet) {
     font-size: 3.5em;
 
-    background-size: 150px;
+    @include background-size(150px);
     min-height: 150px;
     padding-left: 155px;
   }
@@ -59,8 +61,9 @@ h1 {
     @media screen and (max-width: $break-phone) {
       letter-spacing: -3px;
     }
-    
-    text-shadow: 1px 1px 3px #DDD;
+
+    @include background-size(150px);
+    @include text-shadow(1px 1px 3px #DDD);
     filter: dropshadow(color=#DDD, offx=1, offy=1);
   }
 }
@@ -93,8 +96,6 @@ nav {
 }
 
 section {
-  // 4*10px margin + 4*1 px border
-  //width: ($sidewidth - 4*10 - 4*1)/2;
   width: 46%;
   float: left;
 
@@ -107,18 +108,11 @@ section {
     float: none;
   }
 
-  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-  box-sizing: border-box;         /* Opera/IE 8+ */
-
+  @include box-sizing(border-box);
 
   border: 1px solid #e6eeef;
-  border-radius: 10px;
-
-  transition: border 0.2s ease;
-  -moz-transition: border 0.2s ease; /* Firefox 4 */
-  -webkit-transition: border 0.2s ease; /* Safari and Chrome */
-  -o-transition: border 0.2s ease;
+  @include border-radius(10px);
+  @include transition(border 0.2s ease);
 
   &:hover {
     border-color: #abc6c8;
@@ -174,7 +168,6 @@ article {
 }
 
 footer {
-  /* background: rgba(0, 51, 57, 0.7); */
   background-color: #eb7f00;
   padding-left: 2%;
 
