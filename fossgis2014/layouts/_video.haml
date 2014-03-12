@@ -57,10 +57,12 @@
   :javascript
     currentPlayer = new MediaElementPlayer('#video-tag', 
       {
-        //mode: 'auto_plugin',
+        // priorize flash because of WebM Steaming Problems
+        mode: 'auto_plugin',
+        usePluginFullScreen: true,
+
         pluginPath: "/static/",
         //enablePluginDebug: true,
-        //usePluginFullScreen: true,
         //thumbnailSelectorUpdateURL: '/update-url',
         //thumbnailSelectorEnabled: true,
         //features: ["playpause", "current", "progress", "duration", "qualities", "volume", "fullscreen", "thumbnailSelector"]
