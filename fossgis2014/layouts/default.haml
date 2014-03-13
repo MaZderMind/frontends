@@ -46,6 +46,10 @@
       %article
         = yield
 
+      %section.wide
+        %h3 Veranstaltungs-Chat
+        %iframe.chat{ src: "http://webchat.freenode.net?channels=%23fossgis", width: '100%', height: 400 }
+
       %footer
         %a{ href: 'http://www.fossgis.de/konferenz/2014/programm/' } Programm
         |

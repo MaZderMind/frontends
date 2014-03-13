@@ -127,6 +127,17 @@ section {
   > a {
     margin-right: 10px;
   }
+
+  &.wide {
+    width: 89%;
+    float: none;
+    overflow: hidden;
+  }
+
+  iframe.chat {
+    width: 100%;
+    border: 1px solid #e6eeef;
+  }
 }
 
 article {
