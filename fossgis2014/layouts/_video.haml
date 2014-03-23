@@ -14,13 +14,10 @@
 
 .player.video{ style: "max-width: #{@vidwidth}px" }
   %video{ id: "video-tag", width: "#{@vidwidth}", height: "#{@vidheight}", controls: true, preload: 'auto', autoplay: true }
-    %source{ src: "rtmp://rtmp#{@hdpost}.streaming.media.ccc.de:1935/stream/#{@saal}_#{@lang}_#{@quality}", title: "H264 (RTMP)", type: "video/rtmp",
+    %source{ src: "rtmp://live.dus.c3voc.de:1935/stream/#{@saal.tr('h', '')}_native_#{@quality}", title: "H264 (RTMP)", type: "video/rtmp",
              :data => { "plugin-type" => "flash" } }
-    %source{ src: "http://hls#{@hdpost}.streaming.media.ccc.de/hls/#{@saal}_#{@lang}_#{@quality}/index.m3u8", type: "application/vnd.apple.mpegURL",
-             title: "H264 (HLS)", :data => { "plugin-type" => "native" } }
-    - if "hd" != @quality
-      %source{ src: "http://webm.streaming.media.ccc.de:8000/#{@saal}_#{@lang}.webm", type: "video/ogg",
-             title: "WebM", :data => { "plugin-type" => "native" } }
+    %source{ src: "http://live.dus.c3voc.de/hls/#{@saal.tr('h', '')}_native_#{@quality}/index.m3u8", type: 'video/mp4; codecs="avc1.42E01E, mp4a.40.2"',
+             title: "H264 (HLS)", :data => { "plugin-type" => "flash" } }
     %object{ width: "#{@vidwidth}", height: "#{@vidheight}", type: 'application/x-shockwave-flash', data: '/static/flashmediaelement.swf' }
       %param{ name: 'allowFullScreen', value: 'true' }
       -#%param{ name: 'movie', value: '/static/flashmediaelement.swf' }
@@ -44,11 +41,10 @@
   %ul{ id: "URLS", style: "display: none" }
     %li
       %label{for: "hls"} HLS:
-      %input#hls{ value: "http://hls#{@hdpost}.streaming.media.ccc.de/hls/#{@saal}_#{@lang}_#{@quality}/index.m3u8" }
-    - if @quality != 'hd'
-      %li
-        %label{for: "webm"} WebM:
-        %input#webm{ value: "http://webm.streaming.media.ccc.de:8000/#{@saal}_#{@lang}.webm" }
+      %input#hls{ value: "http://live.dus.c3voc.de/hls/#{@saal.tr('h', '')}_native_#{@quality}/index.m3u8" }
+    %li
+      %label{for: "rtmp"} RTMP:
+      %input#rtmp{ value: "rtmp://live.dus.c3voc.de:1935/stream/#{@saal.tr('h', '')}_native_#{@quality}" }
 
 
   :javascript
