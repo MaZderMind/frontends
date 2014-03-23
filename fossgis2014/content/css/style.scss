@@ -159,6 +159,7 @@ article {
 
   .player {
     margin: 0 auto 40px auto;
+    display: block;
 
     /* enforce mobile scaling */
     @media screen and (max-width: $break-phone) {
