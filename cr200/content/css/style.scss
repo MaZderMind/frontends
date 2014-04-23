@@ -1,12 +1,5 @@
 $sidewidth: 640px;
 
-/*
-@font-face {
-  font-family: RamseyBook;
-  src: url("/static/ramsey-book.otf") format("opentype");
-}
-*/
-
 * {
   margin-left: 0;
   margin-right: 0;
@@ -15,13 +8,11 @@ $sidewidth: 640px;
 
 body {
   font-family: verdana, arial, helvetica, sans-serif;
-  background: url("/img/blackhole_drop.jpg") no-repeat -450px -300px;
   background-attachment: fixed;
   background-color: #000;
   margin: 10px;
 
   #header {
-                                   /* 30c3 */
     .logo {
       width: 100%;
       margin-left: auto;
@@ -37,8 +28,9 @@ body {
     .headline {
       border-bottom: 2px black;
       text-align: center;
-      font-family: RamseyBook, verdana, arial, helvetica, sans-serif;
-      font-size: 39px;
+      font-family: verdana, arial, helvetica, sans-serif;
+      font-size: 30px;
+      margin: 6px;
       color: #ffffff;
     }
   }
@@ -53,7 +45,7 @@ body {
     height: 100%;
 
     h2 {
-      font-family: RamseyBook, verdana, arial, helvetica, sans-serif;
+      font-family: verdana, arial, helvetica, sans-serif;
       font-size: 24px;
       color: #0099AB;
       margin-bottom: 5px;
@@ -63,7 +55,7 @@ body {
       line-height: 1.1;
 
       a:link, a:hover, a:visited {
-        font-family: RamseyBook, verdana, arial, helvetica, sans-serif;
+        font-family: verdana, arial, helvetica, sans-serif;
         font-size: 24px;
         color: #0099AB;
         text-decoration: none;
@@ -123,7 +115,7 @@ body {
 
   #footer {
     /* background: rgba(0, 51, 57, 0.7); */
-    background-color: linear-gradient(rgba(50, 50, 50, 0.7), rgba(0, 0, 0, 0.7)); 
+    background: linear-gradient(rgba(50, 50, 50, 0.7), rgba(0, 0, 0, 0.7));
 
     margin-left: auto;
     padding-left: 10px;
@@ -134,6 +126,7 @@ body {
 
 
     .links {
+      color: #ffffff;
       display: inline;
       position: relative;
       height: 30px;
@@ -141,10 +134,13 @@ body {
       padding-top: 5px;
 
       a:link, a:hover, a:visited {
-        font-family: RamseyBook, verdana, arial, helvetica, sans-serif;
-        font-size: 23-15px;
         color: #ffffff;
+        font-family: verdana, arial, helvetica, sans-serif;
+        font-size: 23-15px;
         text-decoration: none;
+      }
+      a:hover {
+        text-shadow: 0px 0px 6px #ffffff;
       }
     }
 
@@ -283,76 +279,3 @@ html[xmlns] .clearfix {
   min-width: 295px;
 }
 
-/*
-@media screen and (min-width: 320px) {
-  body {
-    background-image: url('/img/iPhone_320x480.jpg');
-    background-size: auto;
-    background-repeat: no-repeat;
-    color: yellow;
-  }
-
-  .logo {
-    width: 50%;
-    hight: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-}
-
-@media screen and (min-width: 1200px) {
-  body {
-    background-image: url('/img/1280x800-NEW.jpg');
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-width: 100%;
-    background-hight: 100%;
-    color: red;
-
-    header {
-      #menu {
-        ul {
-          margin: auto;
-          padding: 0;
-          list-style-type: none;
-          display: inline-block;
-
-          li:first-of-type {
-            border-left: none;
-          }
-
-        }
-      }
-
-
-      .logo {
-        width: 15%;
-        hight: 15%;
-        display: block;
-        margin-left: auto;
-        margin-right: 20px;
-      }
-    }
-  }
-}
-
-@media screen and (min-width: 1900px) {
-  body {
-    background-image: url('/img/2880x1800-NEW.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-width: 100%;
-    background-hight: 100%;
-    color: green;
-  }
-
-  .logo {
-    width: 10%;
-    hight: 10%;
-    display: block;
-    margin-left: auto;
-    margin-right: 20px;
-  }
-}  */

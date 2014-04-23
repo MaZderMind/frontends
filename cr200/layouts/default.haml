@@ -5,7 +5,7 @@
 
   %head
     %title
-      30C3
+      Chaosradio 200 - Live aus dem CCCB in Berlin
       = @item[:title]
 
     %meta{ charset: 'utf-8' }
@@ -28,9 +28,7 @@
 
         .headline
           - if @item[:room]
-            = "#{@item[:room]} " + "#{@item[:quality]}".upcase
-          -else
-            = "Streaming"
+            = "#{@item[:room]} (" + "#{@item[:quality]}".upcase() + ") &mdash; Live"
 
       #content
         = yield
@@ -45,4 +43,4 @@
             .voc_logo
               %a{ href: 'http://ccc.de'}
                 %img{ src: '/img/voc_logo.svg', alt: 'CCC Video Operations Center'}
-            %br.clearfix
+            %span.clearfix
