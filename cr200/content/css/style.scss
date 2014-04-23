@@ -177,39 +177,6 @@ body {
       }
     }
   }
-
-  .rocket {
-    z-index: -1;
-    position: fixed;
-    top: 5px;
-    left: 125px;
-    width: 290px;
-    height: 343px;
-    background: url('/img/rocket_png_klein.png') no-repeat;
-    -webkit-transform: rotate(5deg);
-    -moz-transform: rotate(5deg);
-    -ms-transform: rotate(5deg);
-    -o-transform: rotate(5deg);
-    transform: rotate(5deg);
-    -webkit-transition: all 1s ease-in;
-    -moz-transition: all 1s ease-in;
-    -o-transition: all 1s ease-in;
-    transition: all 1s ease-in;
-  }
-
-  .logo:hover .rocket {
-    -webkit-transform: translate(800px,-200px) rotate(30deg);
-    -moz-transform: translate(800px,-200px) rotate(30deg);
-    -o-transform: translate(800px,-200px) rotate(30deg);
-    -ms-transform: translate(540px,-200px) rotate(30deg);
-    transform: translate(800px,-200px) rotate(30deg);
-
-      -webkit-transform: translate(800px,-200px) rotate(30deg);
-    -moz-transform: translate(800px,-200px) rotate(30deg);
-    -o-transform: translate(800px,-200px) rotate(30deg);
-    -ms-transform: translate(540px,-200px) rotate(30deg);
-    transform: translate(800px,-200px) rotate(30deg);
-  }
 }
 
 .clearfix:after {
