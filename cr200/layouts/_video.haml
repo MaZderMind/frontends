@@ -46,10 +46,6 @@
   %li
     %label{for: "hls"} HLS:
     %input#hls{ value: "http://hls#{@hdpost}.streaming.media.ccc.de/hls/#{@saal}_#{@quality}/index.m3u8" }
-  - if @quality != 'hd'
-    %li
-      %label{for: "webm"} WebM:
-      %input#webm{ value: "http://webm.streaming.media.ccc.de:8000/#{@saal}.webm" }
 
 
 :javascript
