@@ -14,7 +14,7 @@
 %video{ id: "video-tag", width: "#{@vidwidth}", height: "#{@vidheight}", controls: true, preload: 'auto', autoplay: true }
   %source{ src: "rtmp://rtmp#{@hdpost}.streaming.media.ccc.de:1935/stream/#{@saal}_#{@quality}", title: "H264 (RTMP)", type: "video/rtmp",
            :data => { "plugin-type" => "flash" } }
-  %source{ src: "http://hls#{@hdpost}.streaming.media.ccc.de/hls/#{@saal}_#{@quality}/index.m3u8", type: "application/vnd.apple.mpegURL",
+  %source{ src: "http://hls#{@hdpost}.streaming.media.ccc.de/hls/#{@saal}_#{@quality}.m3u8", type: "application/vnd.apple.mpegURL",
            title: "H264 (HLS)", :data => { "plugin-type" => "native" } }
   - if "hd" != @quality
     %source{ src: "http://webm.streaming.media.ccc.de:8000/#{@saal}.webm", type: "video/ogg",
