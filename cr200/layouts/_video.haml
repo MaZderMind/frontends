@@ -16,9 +16,6 @@
            :data => { "plugin-type" => "flash" } }
   %source{ src: "http://hls#{@hdpost}.streaming.media.ccc.de/hls/#{@saal}_#{@quality}.m3u8", type: "application/vnd.apple.mpegURL",
            title: "H264 (HLS)", :data => { "plugin-type" => "native" } }
-  - if "hd" != @quality
-    %source{ src: "http://webm.streaming.media.ccc.de:8000/#{@saal}.webm", type: "video/ogg",
-           title: "WebM", :data => { "plugin-type" => "native" } }
   %object{ width: "#{@vidwidth}", height: "#{@vidheight}", type: 'application/x-shockwave-flash', data: '/static/flashmediaelement.swf' }
     %param{ name: 'allowFullScreen', value: 'true' }
     -#%param{ name: 'movie', value: '/static/flashmediaelement.swf' }
