@@ -1,11 +1,8 @@
-%section
-  %h3
-    Auf Wiedersehen!
+- ["Shack", "Degerloch"].each do |room|
+  - @roomslug = room.tr(" ", "-").downcase
+  %section
+    %h3
+      %a{ href: "/#{@roomslug}/"}
+        #{room}
 
-  Bis zum nächsten Jahr in Münster!
-
-%section
-  %h3
-    Videoaufzeichnungen
-
-  Videoaufzeichnungen fast aller Vorträge finden Sie im <a href="http://www.fossgis.de/wiki/Konferenz_2014/Videoaufzeichnung">FOSSGIS Wiki</a> oder auf <a href="http://youtube.com/fossgis">youtube.com/fossgis</a>
+    %a{ href: "#{@roomslug}/lq/"} Low

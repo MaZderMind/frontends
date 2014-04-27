@@ -10,21 +10,24 @@ $break-tablet: 992px;
 }
 
 body {
-  background-color: #fff;
+/*  background-color: #fff;
   padding: 0;
   margin: 0;
   font-family: 'Droid Sans','Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 17px;
   line-height: 1.5;
   color: #2d3841;
+*/
 }
 
 a {
+/*
   color: #2d3841;
+*/
 }
 
 h1 {
-  background: url(/img/logo.png) no-repeat 0 0;
+/*  background: url(/img/logo.png) no-repeat 0 0;
   margin: 0 10px 45px 0;
   padding-left: 225px;
   padding-top: 5px;
@@ -33,7 +36,7 @@ h1 {
   letter-spacing: -9px;
   color: rgba(123,145,153,0.1);
   min-height: 250px;
-
+*/
   @media screen and (max-width: $break-phone) {
     font-size: 1.9em;
     letter-spacing: -3px;
@@ -53,7 +56,8 @@ h1 {
   }
 
   span {
-    color: #7b9199;
+ /*   color: #7b9199; 
+ */
     margin-top: -15px;
     margin-left: 35 px;
     letter-spacing: -6px;

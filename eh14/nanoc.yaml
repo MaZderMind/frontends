@@ -19,7 +19,7 @@ index_filenames: [ 'index.html' ]
 # before and after the last site compilation.
 enable_output_diff: false
 
-rooms: ['Meising Saal', 'Saal H1', 'Saal H2', 'Saal H3' ]
+rooms: ['shack', 'degerloch' ]
 
 prune:
   # Whether to automatically remove files not managed by nanoc from the output
