@@ -1,0 +1,56 @@
+!!! 5
+%html{ html_attrs('de') }
+  /
+    Don't use the f*cking webplayer!!1!
+
+  %head
+    %title
+      FOSSGIS 2014 -
+      - if @item[:room]
+        = "#{@item[:room]} " + "#{@item[:quality]}".upcase
+      -else
+        = "Streams"
+
+    %meta{ charset: 'utf-8' }
+    %meta{ name: "viewport", content: "width=device-width, initial-scale=1"}
+    %link{ href: '/css/style.css', type: 'text/css', rel: 'stylesheet' }
+    %link{ href: '/css/mediaelementplayer.css', type: 'text/css', rel: 'stylesheet' }
+    %link{ href: 'https://fonts.googleapis.com/css?family=Droid+Sans:regular,bold', type: 'text/css', rel: 'stylesheet' }
+
+
+
+    %script{ type: "text/javascript", src: "/js/jquery.js" }
+    %script{ type: "text/javascript", src: "/js/avalon/mediaelement-and-player.min.js" }
+
+  %body
+    #container
+
+      %h1
+        FOSSGIS Konferenz 2014
+        %span.venue
+          Berlin
+        %br
+        %span.date
+          19. - 21. März 2014
+
+      %nav
+        - if @item[:room]
+          %a{ href: '/' }
+            = "Übersicht der Streams"
+          %span.hot
+            = "#{@item[:room]} " + "#{@item[:quality]}".upcase
+        -else
+          %span.hot
+            = "Übersicht der Streams"
+
+      %article
+        = yield
+
+      /%section.wide
+      /  %h3 Veranstaltungs-Chat
+      /  %iframe.chat{ src: "http://webchat.freenode.net?channels=%23fossgis", width: '100%', height: 400 }
+
+      %footer
+        %a{ href: 'http://www.fossgis.de/konferenz/2014/programm/' } Programm
+        |
+        %a{ href: 'https://twitter.com/fossgis2014' } Twitter
