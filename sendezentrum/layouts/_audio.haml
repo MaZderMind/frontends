@@ -1,0 +1,39 @@
+- @saal      = @item[:room].gsub(' ', '').downcase
+- @format    = @item[:format].downcase
+- @lang      = 'native'
+- @sellang   = @item[:lang]
+- @playwidth = "640"
+  
+.player.audio{ style: "max-width: #{@playwidth}px" }
+  %audio{ id: "#{@saal}_#{@format}", controls: true, preload: 'auto', width: @playwidth, autoplay: true }
+    - if @format == "audio"
+      %source{ src: "http://audio.streaming.media.ccc.de:8000/#{@saal}_#{@lang}.mp3", type: "audio/mp3"}
+      %source{ src: "http://audio.streaming.media.ccc.de:8000/#{@saal}_#{@lang}.opus", type: "audio/ogg"}
+    - else
+      %source{ src: "http://audio.streaming.media.ccc.de:8000/#{@saal}_#{@lang}.#{@format}", type: "audio/#{@format}"}
+
+  %div{ id: "chooser" }
+    %span{ id: "url" }
+      %a{ href: "#", onclick: "$('#URLS').css('display', 'block');$('#url').css('display', 'none'); return false;"} show URLs
+
+  %ul{ id: "URLS", style: "display: none" }
+    %li
+      %label{for: "mp3"} MP3:
+      %input#mp3{ value: "http://audio.streaming.media.ccc.de:8000/#{@saal}_#{@lang}.mp3" }
+    %li
+      %label{for: "opus"} OPUS:
+      %input#hls{ value: "http://audio.streaming.media.ccc.de:8000/#{@saal}_#{@lang}.opus" }
+
+  %span{ id: "player-mode" }
+
+  :javascript
+    $('audio').mediaelementplayer({
+      features: ['playpause','current','tracks','volume', 'formatchooser'],
+      enableAutosize: false,
+      pauseOtherPlayers: false,
+    });
+  - if @item[:room] != 'Lounge' && @item[:room] != 'Ambient'
+    :javascript
+      $("#chooser").appendTo(".mejs-controls");
+
+
