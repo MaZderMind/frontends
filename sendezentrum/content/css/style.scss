@@ -10,7 +10,7 @@ $break-tablet: 992px;
 }
 
 body {
-  background: url(/img/bkd-sz-484a4f.jpg) no-repeat left top; 
+  background: url(/img/bkd-sz-484a4f.jpg) no-repeat center top; 
   background-color: #494a4f;
   padding: 0;
   margin: 0;
@@ -18,6 +18,13 @@ body {
   font-size: 17px;
   line-height: 1.5;
   color: #2d3841;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  body {
+    background: url(/img/bkd-sz-484a4f@2x.jpg) no-repeat center top;
+    background-size: 2000px 1200px;
+  }
 }
 
 a {
@@ -48,7 +55,7 @@ nav {
 #container {
   max-width: $sidewidth;
   min-width: 300px;
-  margin: 100px auto 200px;
+  margin: 200px auto 50px;
 
   #logo {
     width: 367px;
@@ -144,8 +151,8 @@ article {
 }
 
 footer {
-  background-color: #eb7f00;
-  padding-left: 2%;
+  text-align: center;
+  font-size: 130%;
 
   &, a {
     color: white;

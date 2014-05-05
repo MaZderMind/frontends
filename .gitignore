@@ -5,3 +5,4 @@ tmp
 *.scssc
 mingraymono_regular*
 ramsey*
+Gemfile.lock
