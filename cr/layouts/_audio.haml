@@ -1,0 +1,22 @@
+- @saal   = @item[:room].gsub(' ', '').downcase
+- @format = @item[:format].downcase
+- @lang   = 'native'
+
+%audio{ id: "#{@saal}_#{@format}", controls: true, preload: 'auto', width: "640", autoplay: true }
+  - if @format == "audio"
+    %source{ src: "http://audio.streaming.media.ccc.de:8000/#{@saal}#{@lang}.mp3", type: "audio/mp3"}
+    %source{ src: "http://audio.streaming.media.ccc.de:8000/#{@saal}#{@lang}.opus", type: "audio/ogg"}
+  - else
+    %source{ src: "http://audio.streaming.media.ccc.de:8000/#{@saal}#{@lang}.#{@format}", type: "audio/#{@format}"}
+
+%span{ id: "player-mode" }
+
+:javascript
+  $('audio').mediaelementplayer({
+    features: ['playpause','current','tracks','volume', 'formatchooser'],
+    enableAutosize: false,
+    pauseOtherPlayers: false,
+  });
+- if @item[:room] != 'Lounge' && @item[:room] != 'Ambient'
+  :javascript
+    $("#chooser").appendTo(".mejs-controls");

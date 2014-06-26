@@ -1,0 +1,47 @@
+!!! 5
+%html{ html_attrs('en') }
+  /
+    Don't use the f*cking webplayer!!1!
+
+  %head
+    %title
+      Chaosradio 202 - Live aus dem CCCB in Berlin
+      = @item[:title]
+
+    %meta{ charset: 'utf-8' }
+    %meta{ name: "viewport", content: "width=340"}
+    %link{ href: '/css/style.css', type: 'text/css', rel: 'stylesheet' }
+    %link{ href: '/css/mediaelementplayer.css', type: 'text/css', rel: 'stylesheet' }
+
+
+    %script{ type: "text/javascript", src: "/js/jquery.js" }
+    %script{ type: "text/javascript", src: "/js/mediaelement-and-player.js" }
+
+  %body
+    #container
+      .rocket
+
+      #header
+        .logo
+          %a{ href: '/'}
+            %img{ src: '/img/chaosradio-logo-transparent-300.png' }
+
+        .headline
+          - if @item[:room]
+            = "#{@item[:room]} (" + "#{@item[:quality]}".upcase() + ") &mdash; Live"
+
+      #content
+        = yield
+
+        #footer.clearfix
+          .links
+            %a{ href: 'http://chaosradio.ccc.de', target: '_blank' } Chaosradio Homepage
+            |
+            %a{ href: 'http://pad.shownot.es/doc/chaosradio-202', target: '_blank' } Shownotes
+            |
+            %a{ href: 'http://webchat.freenode.net/?channels=chaosradio', target: '_blank' } Chat
+          .logos
+            .voc_logo
+              %a{ href: 'http://ccc.de'}
+                %img{ src: '/img/voc_logo.svg', alt: 'CCC Video Operations Center'}
+            %span.clearfix
