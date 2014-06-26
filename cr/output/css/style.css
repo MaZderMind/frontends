@@ -24,7 +24,7 @@ body {
     margin: 6px;
     color: #ffffff; }
   body #container {
-    max-width: 640px;
+    max-width: 1024px;
     min-width: 300px;
     margin: 0px auto; }
   body #content {
@@ -211,3 +211,6 @@ html[xmlns] .clearfix {
   padding: 2px;
   width: 70%;
   min-width: 295px; }
+
+
+.mejs-container { margin: 0 auto;}
