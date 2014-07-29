@@ -6,3 +6,4 @@ tmp
 mingraymono_regular*
 ramsey*
 Gemfile.lock
+**/output/**
