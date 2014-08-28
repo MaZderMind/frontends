@@ -39,10 +39,10 @@
 %ul{ id: "URLS", style: "display: none" }
   %li
     %label{for: "rtmp"} RTMP:
-    %input#rtmp{ value: "rtmp://rtmp#{@hdpost}.streaming.media.ccc.de:1935/stream/#{@saal}_#{@quality}" }
+    %input#rtmp{ value: "rtmp://rtmp#{@hdpost}.streaming.media.ccc.de:1935/stream/#{@saal}_#{@lang}_#{@quality}" }
   %li
     %label{for: "hls"} HLS:
-    %input#hls{ value: "http://hls#{@hdpost}.streaming.media.ccc.de/hls/#{@saal}_#{@quality}.m3u8" }
+    %input#hls{ value: "http://hls#{@hdpost}.streaming.media.ccc.de/hls/#{@saal}_#{@lang}_#{@quality}.m3u8" }
 
 
 :javascript
