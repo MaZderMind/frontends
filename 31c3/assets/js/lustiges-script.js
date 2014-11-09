@@ -179,3 +179,36 @@ $(function() {
 
 	updateSlideImage();
 });
+
+// upcoming-countdown
+$(function() {
+	var
+		targetDate = new Date('2014-11-11 22:15'),
+		updateInterval = 500;
+
+	function updateCountdown() {
+		var
+			ms = targetDate.getTime() - Date.now(),
+			hours_total = ms / 1000 / 60 / 60,
+			days = Math.floor(hours_total / 24),
+			hours = Math.floor(hours_total - days * 24);
+
+		$('.upcoming .countdown')
+			.find('.d')
+				.text(days)
+			.end()
+			.find('.dt')
+				.text(days == 1 ? 'day' : 'days')
+			.end()
+			.find('.h')
+				.text(hours)
+			.end()
+			.find('.ht')
+				.text(hours == 1 ? 'hour' : 'hours')
+			.end();
+
+		setTimeout(updateCountdown, 500);
+	}
+
+	updateCountdown();
+});

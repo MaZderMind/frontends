@@ -5751,4 +5751,20 @@ a.inverted {
 .program .room.highlight .block {
   background-color: #96d600; }
 
+.upcoming .countdown {
+  margin-top: 20px;
+  padding: 30px;
+  font-size: 40px;
+  line-height: 40px;
+  background-color: #555555;
+  color: #d87500; }
+  .upcoming .countdown span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal; }
+  .upcoming .countdown .i {
+    font-size: 25px;
+    color: white;
+    margin-right: 10px; }
+
 /*# sourceMappingURL=lustige-styles.css.map */

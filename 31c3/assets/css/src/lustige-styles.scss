@@ -647,3 +647,28 @@ a.inverted {
     background-color: $hightlight;
   }
 }
+
+
+.upcoming {
+  .countdown {
+    margin-top: 20px;
+    padding: 30px;
+    font-size: 40px;
+    line-height: 40px;
+
+    background-color: $gray;
+    color: $brand-primary;
+
+    span {
+      display: inline-block;
+      vertical-align: middle;
+      line-height: normal;
+    }
+
+    .i {
+      font-size: 25px;
+      color: white;
+      margin-right: 10px;
+    }
+  }
+}
