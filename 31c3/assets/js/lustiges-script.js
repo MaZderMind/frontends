@@ -183,8 +183,8 @@ $(function() {
 // upcoming-countdown
 $(function() {
 	var
-		targetDate = new Date('2014-11-11 22:15'),
-		updateInterval = 500;
+		targetDate = new Date('2014-12-26 16:00'),
+		updateInterval = 10000;
 
 	function updateCountdown() {
 		var
